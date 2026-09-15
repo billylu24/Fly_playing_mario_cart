@@ -1,0 +1,14 @@
+{
+  "models": {
+    "distill_seed0": 0,
+    "old_ce_seed0": 0,
+    "recovery_ce_seed0": 0,
+    "distill_seed1": 128,
+    "old_ce_seed1": 0,
+    "recovery_ce_seed1": 128,
+    "distill_seed2": 32,
+    "old_ce_seed2": 0,
+    "recovery_ce_seed2": 0
+  },
+  "all_selected_before_new_test_evaluation": true
+}

@@ -1,0 +1,10 @@
+{
+  "selected_step": 32,
+  "initial_trainable_hash": "0086fa65e9e9eaa2671c28e1e4ccbac954f644acb51a473c2b1da91b8f21e70c",
+  "presentations": [
+    13554,
+    12065
+  ],
+  "wall_seconds": 123.66663031299959,
+  "frozen_parameters_unchanged": true
+}

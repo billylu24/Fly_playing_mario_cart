@@ -1,0 +1,12 @@
+{
+  "matched_initial_parameters": true,
+  "matched_supervision_counts": true,
+  "step_zero_checkpoints_identical_to_sources": [
+    "distill_seed0",
+    "old_ce_seed0",
+    "recovery_ce_seed0",
+    "old_ce_seed1",
+    "old_ce_seed2",
+    "recovery_ce_seed2"
+  ]
+}

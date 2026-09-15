@@ -1,0 +1,50 @@
+{
+  "source": "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/distillation_replication_v1/seed0/joint_best.pt",
+  "groups": {
+    "original_train": {
+      "decisions": 2184,
+      "teacher_agreement": 0.8667582273483276,
+      "teacher_hard_label_ce": 0.3709254860877991,
+      "confusion_true_rows_pred_columns": [
+        [
+          216,
+          0,
+          5
+        ],
+        [
+          55,
+          1043,
+          129
+        ],
+        [
+          45,
+          57,
+          634
+        ]
+      ]
+    },
+    "recovery_train": {
+      "decisions": 3758,
+      "teacher_agreement": 0.740021288394928,
+      "teacher_hard_label_ce": 0.6542390584945679,
+      "confusion_true_rows_pred_columns": [
+        [
+          308,
+          66,
+          82
+        ],
+        [
+          157,
+          1506,
+          354
+        ],
+        [
+          149,
+          169,
+          967
+        ]
+      ]
+    }
+  },
+  "interpretation": "Post-hoc frozen-teacher target consistency, training-only. At exact CNN reconstruction, frozen head makes these errors on hard demonstration labels. This reveals objective mismatch, not proof of infeasibility: decoder can alter latent values. No model changes or new-test selection."
+}

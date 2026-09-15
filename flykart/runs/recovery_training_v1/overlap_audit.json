@@ -1,0 +1,10 @@
+{
+  "new_test_distinct_frames": 707,
+  "overlap": {
+    "train": 0,
+    "validation": 0,
+    "test": 0,
+    "recovery_training": 0
+  },
+  "caveat": "Pixel equality only, not scene or track independence. No action-label inspection and no outcome-based test filtering."
+}

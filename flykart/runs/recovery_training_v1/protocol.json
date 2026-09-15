@@ -1,0 +1,35 @@
+{
+  "kinds": [
+    "distill",
+    "old_ce",
+    "recovery_ce"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "updates": 128,
+  "warm_start": "Within each seed, all three arms start at identical archived joint_best; the three starts differ by prior minibatch order. Same CNN/teacher; no independent pretraining claim.",
+  "optimizer": "Reset Adam lr .0003 eps1e-5 clip1, 128 updates, batch8/BPTT32/burn64, gain/interface/decoder only.",
+  "objective": "Average of two equally weighted groups of 4 sequences. Group1 original data MSE+teacher KL for all arms. Group2: A distill original MSE+KL; B old_ce original MSE+action CE; C recovery_ce successful recovery MSE+action CE. All coefficients1, temperature1, unweighted CE. CNN/head frozen.",
+  "matching": "Group1 choices shared; A/B share group2 original full32 chunks. C uses recovery chunks. Original group2 loss mask is copied from paired recovery chunk, including ignored failed prefix and tail, so valid supervision counts match exactly. MSE and action losses use that same mask. Dynamics still process full actual observed history.",
+  "sampling": "Uniform chunks at t=0,32,... with >=1 supervised action; original group2 candidates require32 valid frames to cover any paired recovery mask. Original group1 uses all original chunks. Schedule fixed RNG13000+seed, original and recovery choices stored before training.",
+  "recovery": "All74 deduplicated successful recoveries from training-only starts; prefix actions -100. Pool collected from three archived seeds; shared across arms/seeds.",
+  "selection": "Minimum original validation normal hard-oracle action cross entropy at0/32/64/96/128; ties earlier. Same rule all arms, no new-test selection.",
+  "new_test": "prefix445/515/575/635 x perturb10/26 x center/left/right; oracle success+jumps0 accepted before training. Same-track new starts, not independent-track generalization.",
+  "evaluation": "All9 selected models +3 unchanged warm starts +common CNN, greedy and sampled8100/8101/8102, normal/frozen/clock. Every first-start sampled normal rollout checked against sequential implementation.",
+  "success_gate": "Recovery-data effect requires each seed C greedy normal>=B, aggregate C-B >=10 percentage points, each C normal-frozen>=20pp and normal-clock>=10pp, aggregate C sampled normal>B. Also report versus A and unchanged starts. Descriptive gate; shared starts are not independent samples.",
+  "sources": {
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/recovery_training.py": "c1e4c7e9168c125c50d58f072207fe4998871fee3244561c3df27d762c67976b",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/supervised.py": "61d7e49c81ee2f994615b2bb01ed5731101c51404e0e5521545b8fd5ff730cbd",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/action_distillation.py": "bb78d8238c05c731801460151252621d9b18ad0c771a9befb4bf6a7c409227e1",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/inhibition_reconstruction.py": "333b9941e78f8b95a259735b149806a8ea180e78a8ca295c6a684f8905b2834f",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/recovery_demonstrations_v1/training_manifest.json": "462a3b7e918393bb4d0fc5206dd4890bc6c5f280c74861b30883a8a15a4ed562",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/inhibition_reconstruction_v1/stats.pt": "45ba7cfe61025b8fe92f845cc49e46a6dff5cc3ade1f8f5d87a9f4555ed891bd",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/layer_probes_v1/k2_cnn_mlp32.pt": "5b2e8749110d25c4ad76ecf46b4c73e8ef358b03de81109269c25e6f4e7eeae2",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/distillation_replication_v1/seed0/joint_best.pt": "e74cbdb3012939a6ff3773d3222a6483d99f5c084dda9f45e0b6d925ae90494b",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/distillation_replication_v1/seed1/joint_best.pt": "861a9cfc7499cd7a01f092dbd3082a6f1b2e45bf457f184d2e33c5ff77dbf4d2",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/distillation_replication_v1/seed2/joint_best.pt": "7da3cb9f4a848a1a70eb25c0636906b765359268ea155ebfa7466241b5c073c7"
+  }
+}

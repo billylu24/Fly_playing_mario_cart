@@ -1,0 +1,19 @@
+{
+  "matched_valid_counts": [
+    [
+      86,
+      59
+    ],
+    [
+      86,
+      59
+    ],
+    [
+      86,
+      59
+    ]
+  ],
+  "context_matches_bptt": true,
+  "finite_nonzero_gradients": true,
+  "cnn_and_head_frozen": true
+}
