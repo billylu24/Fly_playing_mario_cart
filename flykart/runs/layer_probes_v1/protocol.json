@@ -1,0 +1,21 @@
+{
+  "seed": 0,
+  "backbones": [
+    "k1",
+    "k2",
+    "gru"
+  ],
+  "layers": "CNN64; random visual256; random nonvisual nonmotor256; motor256; full motor2129; GRU64",
+  "node_seed": 20260914,
+  "probe_types": [
+    "linear",
+    "mlp32"
+  ],
+  "updates": 600,
+  "selection_every": 25,
+  "selection": "validation normal balanced accuracy, tie CE; best graph and best GRU; evaluate only if BA >= .45 and normal-frozen >= .05",
+  "normalization": "training normal features only; std floor 1e-5",
+  "controls": "same trained probe on frozen first image for all history; separately trained time linear/MLP; constant majority",
+  "warning": "Seed0 exploratory diagnostic, reused same-track test starts. Random intermediate samples are not anatomically staged layers.",
+  "source_sha256": "9184758968e1b100da85d2fe94ed4e6d9844be82f369eeb51914cc793d5d6d45"
+}

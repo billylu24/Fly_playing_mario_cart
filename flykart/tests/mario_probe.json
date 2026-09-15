@@ -1,0 +1,420 @@
+{
+  "no_buttons": {
+    "samples": [
+      {
+        "step": 1,
+        "terminated": false,
+        "truncated": false,
+        "GameMode": 2,
+        "DrivingMode": 4,
+        "getGameMode": 28,
+        "lap": 127,
+        "current_checkpoint": 29,
+        "lapsize": 30,
+        "kart1_speed": 0,
+        "kart1_X": 3712,
+        "kart1_Y": 2288,
+        "surface": 64,
+        "isTurnedAround": 0,
+        "course": 7
+      },
+      {
+        "step": 120,
+        "terminated": false,
+        "truncated": false,
+        "GameMode": 2,
+        "DrivingMode": 6,
+        "getGameMode": 28,
+        "lap": 127,
+        "current_checkpoint": 29,
+        "lapsize": 30,
+        "kart1_speed": 0,
+        "kart1_X": 3712,
+        "kart1_Y": 2288,
+        "surface": 64,
+        "isTurnedAround": 0,
+        "course": 7
+      },
+      {
+        "step": 240,
+        "terminated": false,
+        "truncated": false,
+        "GameMode": 2,
+        "DrivingMode": 6,
+        "getGameMode": 28,
+        "lap": 127,
+        "current_checkpoint": 29,
+        "lapsize": 30,
+        "kart1_speed": 0,
+        "kart1_X": 3712,
+        "kart1_Y": 2288,
+        "surface": 64,
+        "isTurnedAround": 0,
+        "course": 7
+      },
+      {
+        "step": 360,
+        "terminated": false,
+        "truncated": false,
+        "GameMode": 2,
+        "DrivingMode": 6,
+        "getGameMode": 28,
+        "lap": 127,
+        "current_checkpoint": 29,
+        "lapsize": 30,
+        "kart1_speed": 0,
+        "kart1_X": 3712,
+        "kart1_Y": 2288,
+        "surface": 64,
+        "isTurnedAround": 0,
+        "course": 7
+      },
+      {
+        "step": 600,
+        "terminated": false,
+        "truncated": false,
+        "GameMode": 2,
+        "DrivingMode": 6,
+        "getGameMode": 28,
+        "lap": 127,
+        "current_checkpoint": 29,
+        "lapsize": 30,
+        "kart1_speed": 0,
+        "kart1_X": 3712,
+        "kart1_Y": 2288,
+        "surface": 64,
+        "isTurnedAround": 0,
+        "course": 7
+      }
+    ],
+    "ranges": {
+      "GameMode": [
+        2,
+        2
+      ],
+      "DrivingMode": [
+        4,
+        6
+      ],
+      "getGameMode": [
+        28,
+        28
+      ],
+      "lap": [
+        127,
+        127
+      ],
+      "current_checkpoint": [
+        29,
+        29
+      ],
+      "lapsize": [
+        30,
+        30
+      ],
+      "kart1_speed": [
+        0,
+        0
+      ],
+      "kart1_X": [
+        3712,
+        3712
+      ],
+      "kart1_Y": [
+        2288,
+        2288
+      ],
+      "surface": [
+        64,
+        64
+      ],
+      "isTurnedAround": [
+        0,
+        0
+      ],
+      "course": [
+        7,
+        7
+      ]
+    }
+  },
+  "accelerate": {
+    "samples": [
+      {
+        "step": 1,
+        "terminated": false,
+        "truncated": false,
+        "GameMode": 2,
+        "DrivingMode": 4,
+        "getGameMode": 28,
+        "lap": 127,
+        "current_checkpoint": 29,
+        "lapsize": 30,
+        "kart1_speed": 0,
+        "kart1_X": 3712,
+        "kart1_Y": 2288,
+        "surface": 64,
+        "isTurnedAround": 0,
+        "course": 7
+      },
+      {
+        "step": 120,
+        "terminated": false,
+        "truncated": false,
+        "GameMode": 2,
+        "DrivingMode": 6,
+        "getGameMode": 28,
+        "lap": 128,
+        "current_checkpoint": 0,
+        "lapsize": 30,
+        "kart1_speed": 234,
+        "kart1_X": 3712,
+        "kart1_Y": 2200,
+        "surface": 64,
+        "isTurnedAround": 0,
+        "course": 7
+      },
+      {
+        "step": 240,
+        "terminated": false,
+        "truncated": false,
+        "GameMode": 2,
+        "DrivingMode": 6,
+        "getGameMode": 28,
+        "lap": 128,
+        "current_checkpoint": 2,
+        "lapsize": 30,
+        "kart1_speed": 592,
+        "kart1_X": 3712,
+        "kart1_Y": 1136,
+        "surface": 84,
+        "isTurnedAround": 0,
+        "course": 7
+      },
+      {
+        "step": 360,
+        "terminated": false,
+        "truncated": false,
+        "GameMode": 2,
+        "DrivingMode": 6,
+        "getGameMode": 28,
+        "lap": 128,
+        "current_checkpoint": 2,
+        "lapsize": 30,
+        "kart1_speed": 111,
+        "kart1_X": 3753,
+        "kart1_Y": 686,
+        "surface": 84,
+        "isTurnedAround": 0,
+        "course": 7
+      },
+      {
+        "step": 400,
+        "terminated": true,
+        "truncated": false,
+        "GameMode": 2,
+        "DrivingMode": 6,
+        "getGameMode": 28,
+        "lap": 128,
+        "current_checkpoint": 2,
+        "lapsize": 30,
+        "kart1_speed": 151,
+        "kart1_X": 3755,
+        "kart1_Y": 643,
+        "surface": 128,
+        "isTurnedAround": 0,
+        "course": 7
+      }
+    ],
+    "ranges": {
+      "GameMode": [
+        2,
+        2
+      ],
+      "DrivingMode": [
+        4,
+        6
+      ],
+      "getGameMode": [
+        28,
+        28
+      ],
+      "lap": [
+        127,
+        128
+      ],
+      "current_checkpoint": [
+        0,
+        29
+      ],
+      "lapsize": [
+        30,
+        30
+      ],
+      "kart1_speed": [
+        0,
+        708
+      ],
+      "kart1_X": [
+        3711,
+        3755
+      ],
+      "kart1_Y": [
+        640,
+        2288
+      ],
+      "surface": [
+        64,
+        128
+      ],
+      "isTurnedAround": [
+        0,
+        0
+      ],
+      "course": [
+        7,
+        7
+      ]
+    }
+  },
+  "accelerate_right": {
+    "samples": [
+      {
+        "step": 1,
+        "terminated": false,
+        "truncated": false,
+        "GameMode": 2,
+        "DrivingMode": 4,
+        "getGameMode": 28,
+        "lap": 127,
+        "current_checkpoint": 29,
+        "lapsize": 30,
+        "kart1_speed": 0,
+        "kart1_X": 3712,
+        "kart1_Y": 2288,
+        "surface": 64,
+        "isTurnedAround": 0,
+        "course": 7
+      },
+      {
+        "step": 120,
+        "terminated": false,
+        "truncated": false,
+        "GameMode": 2,
+        "DrivingMode": 6,
+        "getGameMode": 28,
+        "lap": 128,
+        "current_checkpoint": 0,
+        "lapsize": 30,
+        "kart1_speed": 234,
+        "kart1_X": 3727,
+        "kart1_Y": 2202,
+        "surface": 64,
+        "isTurnedAround": 0,
+        "course": 7
+      },
+      {
+        "step": 240,
+        "terminated": false,
+        "truncated": false,
+        "GameMode": 2,
+        "DrivingMode": 6,
+        "getGameMode": 28,
+        "lap": 127,
+        "current_checkpoint": 29,
+        "lapsize": 30,
+        "kart1_speed": 581,
+        "kart1_X": 3964,
+        "kart1_Y": 2457,
+        "surface": 84,
+        "isTurnedAround": 16,
+        "course": 7
+      },
+      {
+        "step": 360,
+        "terminated": false,
+        "truncated": false,
+        "GameMode": 2,
+        "DrivingMode": 6,
+        "getGameMode": 28,
+        "lap": 128,
+        "current_checkpoint": 0,
+        "lapsize": 30,
+        "kart1_speed": 585,
+        "kart1_X": 3591,
+        "kart1_Y": 1944,
+        "surface": 64,
+        "isTurnedAround": 0,
+        "course": 7
+      },
+      {
+        "step": 600,
+        "terminated": false,
+        "truncated": false,
+        "GameMode": 2,
+        "DrivingMode": 6,
+        "getGameMode": 28,
+        "lap": 128,
+        "current_checkpoint": 0,
+        "lapsize": 30,
+        "kart1_speed": 667,
+        "kart1_X": 3838,
+        "kart1_Y": 1945,
+        "surface": 64,
+        "isTurnedAround": 0,
+        "course": 7
+      }
+    ],
+    "ranges": {
+      "GameMode": [
+        2,
+        2
+      ],
+      "DrivingMode": [
+        4,
+        6
+      ],
+      "getGameMode": [
+        28,
+        28
+      ],
+      "lap": [
+        127,
+        128
+      ],
+      "current_checkpoint": [
+        0,
+        29
+      ],
+      "lapsize": [
+        30,
+        30
+      ],
+      "kart1_speed": [
+        0,
+        679
+      ],
+      "kart1_X": [
+        3400,
+        4070
+      ],
+      "kart1_Y": [
+        1919,
+        2555
+      ],
+      "surface": [
+        64,
+        128
+      ],
+      "isTurnedAround": [
+        0,
+        16
+      ],
+      "course": [
+        7,
+        7
+      ]
+    }
+  },
+  "final_reset_restores_frame": true
+}

@@ -1,0 +1,80 @@
+{
+  "raw_motor_linear": {
+    "greedy_normal": {
+      "success": 5,
+      "total": 17
+    },
+    "greedy_frozen": {
+      "success": 0,
+      "total": 17
+    },
+    "greedy_clock": {
+      "success": 6,
+      "total": 17
+    },
+    "sampled_normal": {
+      "success": 8,
+      "total": 51
+    },
+    "sampled_frozen": {
+      "success": 5,
+      "total": 51
+    },
+    "sampled_clock": {
+      "success": 7,
+      "total": 51
+    }
+  },
+  "standard_motor_linear": {
+    "greedy_normal": {
+      "success": 3,
+      "total": 17
+    },
+    "greedy_frozen": {
+      "success": 2,
+      "total": 17
+    },
+    "greedy_clock": {
+      "success": 6,
+      "total": 17
+    },
+    "sampled_normal": {
+      "success": 6,
+      "total": 51
+    },
+    "sampled_frozen": {
+      "success": 3,
+      "total": 51
+    },
+    "sampled_clock": {
+      "success": 7,
+      "total": 51
+    }
+  },
+  "standard_motor256_mlp32": {
+    "greedy_normal": {
+      "success": 9,
+      "total": 17
+    },
+    "greedy_frozen": {
+      "success": 8,
+      "total": 17
+    },
+    "greedy_clock": {
+      "success": 6,
+      "total": 17
+    },
+    "sampled_normal": {
+      "success": 7,
+      "total": 51
+    },
+    "sampled_frozen": {
+      "success": 20,
+      "total": 51
+    },
+    "sampled_clock": {
+      "success": 7,
+      "total": 51
+    }
+  }
+}

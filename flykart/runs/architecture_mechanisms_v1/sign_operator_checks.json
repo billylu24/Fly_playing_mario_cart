@@ -1,0 +1,6 @@
+{
+  "sender_sign_forward_matches": true,
+  "backward_matches_signed_sparse_autograd": true,
+  "absolute_edge_weights_unchanged": true,
+  "maximum_gradient_error": 1.9073486328125e-06
+}

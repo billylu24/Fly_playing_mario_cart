@@ -1,0 +1,28 @@
+{
+  "candidates": [
+    "baseline",
+    "spatial",
+    "spatial_shuffle",
+    "gaba",
+    "gaba_shuffle",
+    "slower",
+    "gain1.2"
+  ],
+  "seed": 0,
+  "updates": 128,
+  "source_checkpoint": "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/neural_microsteps_v1/k2/graph_seed0/best.pt",
+  "source_sha256": "a8c8995c2a562a6d5e8c5661a5adf32a2a708873850bc8a4c4711cb086000e76",
+  "frozen": "CNN and critic; W absolute magnitudes/topology fixed",
+  "trainable": "gain and actor in all; spatial variants additionally 2048 zero-initialized projection weights",
+  "spatial": "add coordinate-sampled frozen CNN conv maps to 23720 hex nodes; paired shuffled columns within type x side; exact initial equivalence to baseline; does not isolate a pure remapping because conv representation is newly accessible",
+  "signs": "conservative GABA-negative vs within-superclass/side shuffled negative neurons, fixed absolute incoming sums",
+  "dynamics": "slower alpha .2 or recurrent multiplier1.2, one change each",
+  "selection": "validation normal BA at update64/128, tie CE. Mechanism gate >= baseline + .05 and >= frozen + .05. Spatial/GABA additionally >= paired shuffled BA + .03. Evaluate baseline plus gate-passing candidates and their shuffled controls; no replication in this pilot.",
+  "new_test": "18 predefined starts: prefix465/525/585, perturb20/40, center/left/right. Oracle feasibility retained independent of model output. New starts same track, not independent track generalization.",
+  "clock": "reuse archived validation-selected time-only linear probe",
+  "source_hashes": {
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/mechanism_experiment.py": "6f0da95854e351f14a082f38cfcda412666e6c4b7621e8fad868d0bc3ecb2bd1",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/supervised.py": "61d7e49c81ee2f994615b2bb01ed5731101c51404e0e5521545b8fd5ff730cbd",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/architecture_mechanisms_v1/metadata.npz": "3ca4c4ec73f67593a0a0d281abb6ebb870fc67e63a74d226da6b0e0a8ae4e897"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "training/supervised.py": "61d7e49c81ee2f994615b2bb01ed5731101c51404e0e5521545b8fd5ff730cbd",
+  "tests/test_supervised.py": "d09b823ba95e155c9d0b19b4ee6ca1d14b7dd9ee994c0f58897cbe156373ed1b",
+  "tests/summarize_supervised.py": "417f25b9ee023c95d567d68220f4255b2dbb5a27ddc41839df97a184050d7855",
+  "tests/report_supervised.py": "291e1e39e3b037c42ab01c04f02c46378deea1cf47aa977ae97e61e1bb1f631d",
+  "training/model.py": "a0e84f4083f2c8ec553dcd137761230f052ab9b1d00bea3295295fe464400540",
+  "training/task.py": "f639b5f77f3298007421938f83d60ec0f0b4193f59a33b4614e29436e8de3662",
+  "training/bend_task.py": "420bdf44f7f11659dced28a01a1a47308282b4966b948f40d172e4fb0bd25919"
+}

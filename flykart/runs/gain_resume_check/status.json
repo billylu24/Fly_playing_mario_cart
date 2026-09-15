@@ -1,0 +1,11 @@
+{
+  "state": "completed",
+  "decisions": 2560,
+  "frames": 10240,
+  "optimizer_steps": 20,
+  "wall_seconds": 4.018222144997708,
+  "evaluations": [],
+  "median_decisions_per_second": 241.9304397158882,
+  "max_allocated_mib": 1735.38916015625,
+  "fixed_w_unchanged": true
+}

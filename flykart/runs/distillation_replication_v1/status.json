@@ -1,0 +1,12 @@
+{
+  "state": "completed",
+  "sources_unchanged": true,
+  "new_test_accepted": 20,
+  "training_seeds": [
+    0,
+    1,
+    2
+  ],
+  "seed_scope": "minibatch order only, common warm start",
+  "all_models_evaluated": true
+}

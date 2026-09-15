@@ -1,0 +1,13 @@
+{
+  "backbone": "k2 seed0 best checkpoint, frozen",
+  "candidates": [
+    "raw_motor_linear",
+    "standard_motor_linear",
+    "standard_motor256_mlp32"
+  ],
+  "budget": "raw: 600 full-batch Adam lr .003, validation every25; standardized probes reused from layer_probes_v1, identical training budget and seed123",
+  "selection": "each checkpoint by validation normal BA, tie CE; evaluate all three prespecified heads, no closed-loop selection",
+  "controls": "same archived time probe for all candidates; frozen first image for entire history; same 17 test starts and greedy/8100/8101/8102 sampling",
+  "limits": "Exploratory reused test set, one backbone seed; frozen readout experiment does not test end-to-end normalization",
+  "source_sha256": "2aca053daf5026a06fbc1c43f37e6e269c0aa2287106c3b18cb253d5a8d25e89"
+}

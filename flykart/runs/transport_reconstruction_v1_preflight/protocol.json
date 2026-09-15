@@ -1,0 +1,26 @@
+{
+  "seed": 0,
+  "source": "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/neural_microsteps_v1/k2/graph_seed0/best.pt",
+  "source_sha256": "a8c8995c2a562a6d5e8c5661a5adf32a2a708873850bc8a4c4711cb086000e76",
+  "training_ids": [
+    "f450_center_p12",
+    "f480_left_p12",
+    "f540_right_p12"
+  ],
+  "training": "first24 observations of each trajectory, 72 fixed targets; full BPTT24 decisions/48 neural updates, reset at start; 400 full-batch updates Adam lr.003 eps1e-5 clip1",
+  "validation": "first24 of each of six original validation trajectories, whole trajectory held out; final checkpoint only, no validation tuning",
+  "targets": "frozen k2 CNN64 standardized on 72 training targets; reconstruct current frame representation",
+  "decoder": "linear2129->64; zero initialization; fixed training baseline motor standardization std floor1e-5",
+  "arms": [
+    "decoder_only",
+    "gain",
+    "interface",
+    "interface_edges"
+  ],
+  "interface": "fixed seeded random N x8 basis, trainable8x64 residual using standardized target features as INPUT representation; zero initial; visual nodes only",
+  "edges": "up to8 strongest existing visual->motor edges per recipient; each weight may change by +/-50% using tanh delta; no new edges",
+  "checks": "all arms identical initial outputs; CNN frozen and source unchanged; nonzero gradients may not imply useful learning",
+  "reference": "constant train mean and ridge linear fit to frozen motor states; ridge values chosen on training reconstruction only",
+  "fit_gate": "training normalized MSE <= .05 as practical small-set fit, not driving success",
+  "source_code_sha256": "f00550f0d7e6050b3f8f0a3e07889392f3a6b3e8ee2de658536a00db2ae5759b"
+}

@@ -1,0 +1,155 @@
+{
+  "diagnostics": {
+    "initial.pt": {
+      "pixel_frozen_mae": 0.05187131869221154,
+      "encoder_temporal_std": 0.005202236999240186,
+      "encoder_normal_rms": 0.0470221307542589,
+      "encoder_frozen_rms_diff": 0.008062736648652289,
+      "encoder_frozen_relative_rms": 0.17148839538254837,
+      "readout_normal_rms": 0.0038030776971330247,
+      "readout_frozen_rms_diff": 0.00044764137661938247,
+      "readout_frozen_relative_rms": 0.11217656593880586,
+      "frozen_action_tv_mean": 0.00011285203779860037,
+      "black_action_tv_mean": 0.0007314565979565183,
+      "encoder_saturated_fraction": 0.0
+    },
+    "best_validation.pt": {
+      "pixel_frozen_mae": 0.05187131869221154,
+      "encoder_temporal_std": 0.008063899146185981,
+      "encoder_normal_rms": 0.7757597698105706,
+      "encoder_frozen_rms_diff": 0.012581637543108728,
+      "encoder_frozen_relative_rms": 0.01621476485991757,
+      "readout_normal_rms": 0.10967915587955052,
+      "readout_frozen_rms_diff": 0.00023342209331329085,
+      "readout_frozen_relative_rms": 0.0020749444083984175,
+      "frozen_action_tv_mean": 0.00048443645937368274,
+      "black_action_tv_mean": 0.09895609401994282,
+      "encoder_saturated_fraction": 0.0
+    },
+    "last.pt": {
+      "pixel_frozen_mae": 0.05187131869221154,
+      "encoder_temporal_std": 0.008902369791434871,
+      "encoder_normal_rms": 0.6428243650330437,
+      "encoder_frozen_rms_diff": 0.013789695170190599,
+      "encoder_frozen_relative_rms": 0.021445852797654343,
+      "readout_normal_rms": 0.1025484444366561,
+      "readout_frozen_rms_diff": 0.0003330601931439661,
+      "readout_frozen_relative_rms": 0.0031606502292203112,
+      "frozen_action_tv_mean": 0.0003902259745195301,
+      "black_action_tv_mean": 0.054265631155835256,
+      "encoder_saturated_fraction": 0.0
+    }
+  },
+  "by_start": {
+    "f480_left_p36": {
+      "normal": 2,
+      "frozen": 2,
+      "midfreeze": 2,
+      "clock": 2
+    },
+    "f480_right_p36": {
+      "normal": 1,
+      "frozen": 1,
+      "midfreeze": 1,
+      "clock": 0
+    },
+    "f510_left_p36": {
+      "normal": 0,
+      "frozen": 0,
+      "midfreeze": 0,
+      "clock": 1
+    },
+    "f510_right_p36": {
+      "normal": 2,
+      "frozen": 2,
+      "midfreeze": 2,
+      "clock": 2
+    },
+    "f630_right_p36": {
+      "normal": 2,
+      "frozen": 2,
+      "midfreeze": 2,
+      "clock": 2
+    },
+    "f660_center_p36": {
+      "normal": 5,
+      "frozen": 5,
+      "midfreeze": 5,
+      "clock": 5
+    }
+  },
+  "paired": {
+    "frozen": {
+      "same_action_sequence": 28,
+      "same_outcome": 29,
+      "changed_success": 0,
+      "normal_only_success": 0,
+      "intervention_only_success": 0
+    },
+    "midfreeze": {
+      "same_action_sequence": 26,
+      "same_outcome": 28,
+      "changed_success": 0,
+      "normal_only_success": 0,
+      "intervention_only_success": 0,
+      "normal_episodes_reaching_freeze": 26
+    },
+    "clock": {
+      "same_action_sequence": 28,
+      "same_outcome": 28,
+      "changed_success": 2,
+      "normal_only_success": 1,
+      "intervention_only_success": 1
+    }
+  },
+  "controls": {
+    "oracle": {
+      "passed": 6,
+      "episodes": 6
+    },
+    "straight": {
+      "passed": 1,
+      "episodes": 6
+    },
+    "left": {
+      "passed": 3,
+      "episodes": 6
+    },
+    "right": {
+      "passed": 0,
+      "episodes": 6
+    },
+    "sequence": {
+      "passed": 1,
+      "episodes": 6
+    }
+  },
+  "checks": {
+    "normal_evaluator_regression_passed": true,
+    "checkpoint_hashes_unchanged": true
+  },
+  "normal": {
+    "passed": 12,
+    "episodes": 30,
+    "mean_advance": 2.8,
+    "mean_frames": 693.2333333333333
+  },
+  "frozen": {
+    "passed": 12,
+    "episodes": 30,
+    "mean_advance": 2.8,
+    "mean_frames": 693.8666666666667
+  },
+  "midfreeze": {
+    "passed": 12,
+    "episodes": 30,
+    "mean_advance": 2.9,
+    "mean_frames": 715.6666666666666
+  },
+  "clock": {
+    "passed": 12,
+    "episodes": 30,
+    "mean_advance": 2.8,
+    "mean_frames": 710.4
+  }
+}

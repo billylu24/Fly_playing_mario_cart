@@ -1,0 +1,14 @@
+{
+  "episodes": [
+    {
+      "seed": 1000,
+      "reason": "timeout",
+      "frames": 18000,
+      "progress": 2,
+      "one_lap": false,
+      "reward": -4.433333333333145,
+      "jumps": 0
+    }
+  ],
+  "seconds": 19.08692086800147
+}

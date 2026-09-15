@@ -1,0 +1,15 @@
+.venv/
+.venv-bench/
+runs/**
+!runs/**/
+!runs/**/*.json
+!runs/**/*.jsonl
+
+tests/track_validation/*.pt
+data/malecns/*.feather
+data/malecns/*.part
+data/malecns/*smoke_graph.npz
+tests/rl_smoke_runs/
+**/__pycache__/
+**/rom.sfc
+**/rom.smc

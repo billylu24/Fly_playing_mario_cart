@@ -1,0 +1,6 @@
+{
+  "source_hashes_unchanged": true,
+  "gradient_finite_differences_passed": true,
+  "all_four_initial_losses_equal": true,
+  "no_closed_loop_claim": true
+}

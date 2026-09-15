@@ -1,0 +1,416 @@
+{
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "cuda": "12.8",
+  "free_mib_start": 8394.3125,
+  "allocator_cap_fraction": 0.55,
+  "cases": [
+    {
+      "status": "ok",
+      "gradient_norms": {
+        "edges": 0.006018905434757471,
+        "encoder": 0.0008949967450462282
+      },
+      "runs": [
+        {
+          "forward_ms": 165.18564500074717,
+          "backward_ms": 150.1510239995696,
+          "update_checks_ms": 80.34350900015852,
+          "total_ms": 395.6801780004753,
+          "peak_allocated_mib": 2237.73486328125,
+          "peak_reserved_mib": 6158.0
+        },
+        {
+          "forward_ms": 5.758055998740019,
+          "backward_ms": 113.79508300160524,
+          "update_checks_ms": 0.7513549990108004,
+          "total_ms": 120.30449399935605,
+          "peak_allocated_mib": 2245.80712890625,
+          "peak_reserved_mib": 3006.0
+        },
+        {
+          "forward_ms": 5.452495999634266,
+          "backward_ms": 113.73081199963053,
+          "update_checks_ms": 0.5243840005277889,
+          "total_ms": 119.70769199979259,
+          "peak_allocated_mib": 2245.80712890625,
+          "peak_reserved_mib": 3006.0
+        },
+        {
+          "forward_ms": 5.225024999162997,
+          "backward_ms": 113.54475900043326,
+          "update_checks_ms": 0.8538689999113558,
+          "total_ms": 119.62365299950761,
+          "peak_allocated_mib": 2245.80712890625,
+          "peak_reserved_mib": 3006.0
+        }
+      ],
+      "median": {
+        "forward_ms": 5.452495999634266,
+        "backward_ms": 113.73081199963053,
+        "update_checks_ms": 0.7513549990108004,
+        "total_ms": 119.70769199979259,
+        "peak_allocated_mib": 2245.80712890625,
+        "peak_reserved_mib": 3006.0
+      },
+      "kind": "coo",
+      "n": 8192,
+      "edges": 1048576,
+      "degree": 128,
+      "batch": 4,
+      "steps": 32
+    },
+    {
+      "status": "ok",
+      "gradient_norms": {
+        "edges": 0.006018905434757471,
+        "encoder": 0.0008949967450462282
+      },
+      "runs": [
+        {
+          "forward_ms": 170.3338650004298,
+          "backward_ms": 99.30662799888523,
+          "update_checks_ms": 89.0124220004509,
+          "total_ms": 358.6529149997659,
+          "peak_allocated_mib": 449.861328125,
+          "peak_reserved_mib": 502.0
+        },
+        {
+          "forward_ms": 4.858070000409498,
+          "backward_ms": 34.90525999950478,
+          "update_checks_ms": 0.6271090005611768,
+          "total_ms": 40.39043900047545,
+          "peak_allocated_mib": 457.93359375,
+          "peak_reserved_mib": 502.0
+        },
+        {
+          "forward_ms": 4.668891000619624,
+          "backward_ms": 34.72004899958847,
+          "update_checks_ms": 0.6614939993596636,
+          "total_ms": 40.05043399956776,
+          "peak_allocated_mib": 457.93359375,
+          "peak_reserved_mib": 502.0
+        },
+        {
+          "forward_ms": 4.9782670012064045,
+          "backward_ms": 34.85615799945663,
+          "update_checks_ms": 0.6765220005036099,
+          "total_ms": 40.51094700116664,
+          "peak_allocated_mib": 457.93359375,
+          "peak_reserved_mib": 502.0
+        }
+      ],
+      "median": {
+        "forward_ms": 4.858070000409498,
+        "backward_ms": 34.85615799945663,
+        "update_checks_ms": 0.6614939993596636,
+        "total_ms": 40.39043900047545,
+        "peak_allocated_mib": 457.93359375,
+        "peak_reserved_mib": 502.0
+      },
+      "kind": "csr",
+      "n": 8192,
+      "edges": 1048576,
+      "degree": 128,
+      "batch": 4,
+      "steps": 32
+    },
+    {
+      "status": "ok",
+      "gradient_norms": {
+        "edges": 0.006018905434757471,
+        "encoder": 0.0008949967450462282
+      },
+      "runs": [
+        {
+          "forward_ms": 173.56745500001125,
+          "backward_ms": 76.85692900122376,
+          "update_checks_ms": 90.16699200037692,
+          "total_ms": 340.59137600161193,
+          "peak_allocated_mib": 81.74365234375,
+          "peak_reserved_mib": 110.0
+        },
+        {
+          "forward_ms": 5.764628000179073,
+          "backward_ms": 57.19825199957995,
+          "update_checks_ms": 0.6741279994457727,
+          "total_ms": 63.6370079992048,
+          "peak_allocated_mib": 89.81591796875,
+          "peak_reserved_mib": 110.0
+        },
+        {
+          "forward_ms": 5.521568000403931,
+          "backward_ms": 57.18418499964173,
+          "update_checks_ms": 0.6669640006293776,
+          "total_ms": 63.37271700067504,
+          "peak_allocated_mib": 89.81591796875,
+          "peak_reserved_mib": 110.0
+        },
+        {
+          "forward_ms": 5.654008000419708,
+          "backward_ms": 57.29656900075497,
+          "update_checks_ms": 0.7758909996482544,
+          "total_ms": 63.72646800082293,
+          "peak_allocated_mib": 89.81591796875,
+          "peak_reserved_mib": 110.0
+        }
+      ],
+      "median": {
+        "forward_ms": 5.654008000419708,
+        "backward_ms": 57.19825199957995,
+        "update_checks_ms": 0.6741279994457727,
+        "total_ms": 63.6370079992048,
+        "peak_allocated_mib": 89.81591796875,
+        "peak_reserved_mib": 110.0
+      },
+      "kind": "edge",
+      "n": 8192,
+      "edges": 1048576,
+      "degree": 128,
+      "batch": 4,
+      "steps": 32
+    },
+    {
+      "status": "error",
+      "error_type": "OutOfMemoryError",
+      "error": "CUDA out of memory. Tried to allocate 4.00 GiB. GPU 0 has a total capacity of 11.50 GiB of which 3.92 GiB is free. Process 8352 has 164.88 MiB memory in use. Process 13727 has 39.59 MiB memory in use. Process 39012 has 44.09 MiB memory in use. Process 48825 has 66.72 MiB memory in use. Process 59904 has 1.39 GiB memory in use. Process 61626 has 162.00 MiB memory in use. Including non-PyTorch memory, this process has 4.44 GiB memory in use. 6.32 GiB allowed; Of the allocated memory 323.71 MiB is allocated by PyTorch, and 3.91 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+      "kind": "coo",
+      "n": 32768,
+      "edges": 4194304,
+      "degree": 128,
+      "batch": 1,
+      "steps": 8
+    },
+    {
+      "status": "ok",
+      "gradient_norms": {
+        "edges": 0.020547261461615562,
+        "encoder": 0.005043569952249527
+      },
+      "runs": [
+        {
+          "forward_ms": 167.8343669991591,
+          "backward_ms": 102.49072300030093,
+          "update_checks_ms": 89.26226599942311,
+          "total_ms": 359.58735599888314,
+          "peak_allocated_mib": 5586.58056640625,
+          "peak_reserved_mib": 5710.0
+        },
+        {
+          "forward_ms": 1.366460001008818,
+          "backward_ms": 62.37864299873763,
+          "update_checks_ms": 0.7132520004233811,
+          "total_ms": 64.45835500016983,
+          "peak_allocated_mib": 5618.65283203125,
+          "peak_reserved_mib": 5710.0
+        },
+        {
+          "forward_ms": 1.2223670000821585,
+          "backward_ms": 62.47137799982738,
+          "update_checks_ms": 0.6835860003775451,
+          "total_ms": 64.37733100028709,
+          "peak_allocated_mib": 5618.65283203125,
+          "peak_reserved_mib": 5710.0
+        },
+        {
+          "forward_ms": 1.2454010011424543,
+          "backward_ms": 62.247542999102734,
+          "update_checks_ms": 0.6802000007155584,
+          "total_ms": 64.17314400096075,
+          "peak_allocated_mib": 5618.65283203125,
+          "peak_reserved_mib": 5710.0
+        }
+      ],
+      "median": {
+        "forward_ms": 1.2454010011424543,
+        "backward_ms": 62.37864299873763,
+        "update_checks_ms": 0.6835860003775451,
+        "total_ms": 64.37733100028709,
+        "peak_allocated_mib": 5618.65283203125,
+        "peak_reserved_mib": 5710.0
+      },
+      "kind": "csr",
+      "n": 32768,
+      "edges": 4194304,
+      "degree": 128,
+      "batch": 1,
+      "steps": 8
+    },
+    {
+      "status": "ok",
+      "gradient_norms": {
+        "edges": 0.020547261461615562,
+        "encoder": 0.005043569952249527
+      },
+      "runs": [
+        {
+          "forward_ms": 173.28878700027417,
+          "backward_ms": 17.41049600059341,
+          "update_checks_ms": 90.49357999901986,
+          "total_ms": 281.19286299988744,
+          "peak_allocated_mib": 242.15087890625,
+          "peak_reserved_mib": 396.0
+        },
+        {
+          "forward_ms": 1.666199001192581,
+          "backward_ms": 5.890005999390269,
+          "update_checks_ms": 0.70391400004155,
+          "total_ms": 8.2601190006244,
+          "peak_allocated_mib": 244.3173828125,
+          "peak_reserved_mib": 396.0
+        },
+        {
+          "forward_ms": 1.3850160012225388,
+          "backward_ms": 5.6827029984560795,
+          "update_checks_ms": 0.6933140011824435,
+          "total_ms": 7.761033000861062,
+          "peak_allocated_mib": 244.3173828125,
+          "peak_reserved_mib": 396.0
+        },
+        {
+          "forward_ms": 1.4071170007809997,
+          "backward_ms": 5.930201999944984,
+          "update_checks_ms": 0.6100669997977093,
+          "total_ms": 7.947386000523693,
+          "peak_allocated_mib": 244.3173828125,
+          "peak_reserved_mib": 396.0
+        }
+      ],
+      "median": {
+        "forward_ms": 1.4071170007809997,
+        "backward_ms": 5.890005999390269,
+        "update_checks_ms": 0.6933140011824435,
+        "total_ms": 7.947386000523693,
+        "peak_allocated_mib": 244.3173828125,
+        "peak_reserved_mib": 396.0
+      },
+      "kind": "edge",
+      "n": 32768,
+      "edges": 4194304,
+      "degree": 128,
+      "batch": 1,
+      "steps": 8
+    },
+    {
+      "status": "error",
+      "error_type": "OutOfMemoryError",
+      "error": "CUDA out of memory. Tried to allocate 4.00 GiB. GPU 0 has a total capacity of 11.50 GiB of which 3.83 GiB is free. Process 8352 has 164.88 MiB memory in use. Process 13727 has 39.59 MiB memory in use. Process 39012 has 44.09 MiB memory in use. Process 48825 has 66.72 MiB memory in use. Process 59904 has 1.39 GiB memory in use. Process 61626 has 162.00 MiB memory in use. Including non-PyTorch memory, this process has 4.46 GiB memory in use. 6.32 GiB allowed; Of the allocated memory 353.49 MiB is allocated by PyTorch, and 3.91 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+      "kind": "coo",
+      "n": 32768,
+      "edges": 4194304,
+      "degree": 128,
+      "batch": 4,
+      "steps": 32
+    },
+    {
+      "status": "ok",
+      "gradient_norms": {
+        "edges": 0.009601308032870293,
+        "encoder": 0.0015266940463334322
+      },
+      "runs": [
+        {
+          "forward_ms": 185.78523700125515,
+          "backward_ms": 269.0499029995408,
+          "update_checks_ms": 92.5073380003596,
+          "total_ms": 547.3424780011555,
+          "peak_allocated_mib": 5587.361328125,
+          "peak_reserved_mib": 5742.0
+        },
+        {
+          "forward_ms": 16.390761998991366,
+          "backward_ms": 201.60115900034725,
+          "update_checks_ms": 0.7491910000680946,
+          "total_ms": 218.7411119994067,
+          "peak_allocated_mib": 5619.43359375,
+          "peak_reserved_mib": 5742.0
+        },
+        {
+          "forward_ms": 17.161162999400403,
+          "backward_ms": 216.63285499926133,
+          "update_checks_ms": 1.2726029999612365,
+          "total_ms": 235.06662099862297,
+          "peak_allocated_mib": 5619.43359375,
+          "peak_reserved_mib": 5742.0
+        },
+        {
+          "forward_ms": 18.66526400044677,
+          "backward_ms": 202.83832399945823,
+          "update_checks_ms": 0.7967309993546223,
+          "total_ms": 222.30031899925962,
+          "peak_allocated_mib": 5619.43359375,
+          "peak_reserved_mib": 5742.0
+        }
+      ],
+      "median": {
+        "forward_ms": 17.161162999400403,
+        "backward_ms": 202.83832399945823,
+        "update_checks_ms": 0.7967309993546223,
+        "total_ms": 222.30031899925962,
+        "peak_allocated_mib": 5619.43359375,
+        "peak_reserved_mib": 5742.0
+      },
+      "kind": "csr",
+      "n": 32768,
+      "edges": 4194304,
+      "degree": 128,
+      "batch": 4,
+      "steps": 32
+    },
+    {
+      "status": "ok",
+      "gradient_norms": {
+        "edges": 0.009601307101547718,
+        "encoder": 0.0015266940463334322
+      },
+      "runs": [
+        {
+          "forward_ms": 184.83371300135332,
+          "backward_ms": 250.5317479990481,
+          "update_checks_ms": 87.14084399980493,
+          "total_ms": 522.5063050002063,
+          "peak_allocated_mib": 245.49365234375,
+          "peak_reserved_mib": 426.0
+        },
+        {
+          "forward_ms": 17.11271800013492,
+          "backward_ms": 251.03047699849412,
+          "update_checks_ms": 0.8064690009632614,
+          "total_ms": 268.9496639995923,
+          "peak_allocated_mib": 277.56591796875,
+          "peak_reserved_mib": 426.0
+        },
+        {
+          "forward_ms": 18.41084899933776,
+          "backward_ms": 255.02607099952002,
+          "update_checks_ms": 1.270619000933948,
+          "total_ms": 274.7075389997917,
+          "peak_allocated_mib": 277.56591796875,
+          "peak_reserved_mib": 426.0
+        },
+        {
+          "forward_ms": 18.29811400057224,
+          "backward_ms": 245.08520800009137,
+          "update_checks_ms": 0.7703110004513292,
+          "total_ms": 264.15363300111494,
+          "peak_allocated_mib": 277.56591796875,
+          "peak_reserved_mib": 426.0
+        }
+      ],
+      "median": {
+        "forward_ms": 18.29811400057224,
+        "backward_ms": 251.03047699849412,
+        "update_checks_ms": 0.8064690009632614,
+        "total_ms": 268.9496639995923,
+        "peak_allocated_mib": 277.56591796875,
+        "peak_reserved_mib": 426.0
+      },
+      "kind": "edge",
+      "n": 32768,
+      "edges": 4194304,
+      "degree": 128,
+      "batch": 4,
+      "steps": 32
+    }
+  ]
+}

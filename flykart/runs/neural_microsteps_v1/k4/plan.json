@@ -1,0 +1,60 @@
+{
+  "train_frames": [
+    450,
+    480,
+    540,
+    600
+  ],
+  "validation_frames": [
+    510,
+    570
+  ],
+  "test_frames": [
+    495,
+    555,
+    615
+  ],
+  "train_perturb": [
+    12,
+    24,
+    36,
+    48
+  ],
+  "validation_perturb": [
+    24
+  ],
+  "test_perturb": [
+    18,
+    30
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "updates": 256,
+  "batch": 8,
+  "bptt": 32,
+  "memory": 64,
+  "learning_rate": 0.0003,
+  "optimizer": "Adam eps1e-5, clip norm1.0",
+  "loss": "training-frequency inverse weighted cross entropy",
+  "select": "maximum validation normal balanced accuracy, then minimum normal cross entropy; every64 updates",
+  "evaluate": "selected checkpoint only; test untouched during training; greedy + seeds8100,8101,8102; normal/frozen/clock",
+  "selection": "retain successful, jumps0, repeatable oracle trajectories, independent of model outcomes",
+  "notes": "one track, disjoint prefix frames; trajectories may converge; same data/order/CNN initialization per paired seed",
+  "source_hashes": {
+    "supervised.py": "1cc1e4b7cb0d0bea754e8d4bf2e4a604051ee193aecfd0bb2c5803feaeaca05f",
+    "model.py": "a0e84f4083f2c8ec553dcd137761230f052ab9b1d00bea3295295fe464400540",
+    "bend_task.py": "420bdf44f7f11659dced28a01a1a47308282b4966b948f40d172e4fb0bd25919",
+    "task.py": "f639b5f77f3298007421938f83d60ec0f0b4193f59a33b4614e29436e8de3662"
+  },
+  "graph_sha256": "dd98812064bc8be1b6889659c196cedf19415fd76e5c63ceaea85a9b53d9667d",
+  "prefix_sha256": "dff318b2f127bf6fcc91b194b11d90c7e0460fbcd19653106494ccb3a75ee408",
+  "rom_sha256": "2ada8919688087be60a6a48cace8f877add60c45d2e5d09e2442faa55be62a49",
+  "internal_steps": 4,
+  "protocol_sha256": "16071883e5bea1fe9b83a0869175517e195cb7794eee2e49fb492b8237e5d315",
+  "sampling_unit": "game decision; BPTT32 decisions implies 32*k neural updates; burn-in64 decisions",
+  "source_sha256": "bc84b2e129e1fe974f037438536bd7bc157197dfc9597d98d36e32a1ca0c28f1",
+  "test_warning": "Internal updates also change contraction and gradient depth, not pure latency. Diagnostic test set reused."
+}

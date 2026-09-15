@@ -1,0 +1,42 @@
+{
+  "nodes": 165122,
+  "visual_nodes": 103270,
+  "hex_nodes": 23720,
+  "hex_fraction": 0.2296891643265227,
+  "hex_by_side": {
+    "R": 13267,
+    "L": 10453
+  },
+  "hex_shuffle_changed_fraction": 0.9987774030354132,
+  "nt_consensus": {
+    "acetylcholine": 103718,
+    "glutamate": 29296,
+    "gaba": 22055,
+    "histamine": 5910,
+    "unclear": 3100,
+    "missing": 502,
+    "dopamine": 392,
+    "octopamine": 101,
+    "serotonin": 48
+  },
+  "nt_missing_rows": 502,
+  "confidence_quantiles": {
+    "0.0": 0.1868583281637717,
+    "0.25": 0.8296084864481477,
+    "0.5": 0.9342867777549512,
+    "0.75": 0.9675879821302348,
+    "1.0": 0.9753679521334674
+  },
+  "high_confidence_consensus_gaba_nodes": 15914,
+  "inhibitory_outgoing_edges": 3931133,
+  "inhibitory_absolute_weight_fraction": 0.17809759080410004,
+  "sign_policy": "Only predicted GABA == consensus GABA and body confidence >= .8 is negative. All others preserve baseline positive signs. Conservative hypothesis, not a complete biological E/I model.",
+  "sign_shuffle": "within superclass x somaSide; neuron-level outgoing signs",
+  "spatial_policy": "normalize two assignedOlHex coordinates per side to [-1,1]; bilinear 9x9 CNN sampling; shuffled coordinate pairs within type x somaSide; unassigned nodes retain old mapping",
+  "spatial_limit": "Hex column labels are available, but no calibrated retinal screen transform or left/right orientation. Ordered artificial mapping only; 23% coverage.",
+  "sources": {
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/data/malecns/body-annotations-male-cns-v1.0-minconf-0.5.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/data/malecns/body-neurotransmitters-male-cns-v1.0.feather": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/data/malecns/traced_smoke_graph.npz": "dd98812064bc8be1b6889659c196cedf19415fd76e5c63ceaea85a9b53d9667d"
+  }
+}

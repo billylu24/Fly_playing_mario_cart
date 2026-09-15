@@ -1,0 +1,524 @@
+[
+  {
+    "config": {
+      "start_id": "f485_center_p22",
+      "perturb_frames": 22,
+      "start_specs": [
+        {
+          "id": "f485_center_p22",
+          "prefix_frame": 485,
+          "turn": "center"
+        }
+      ]
+    },
+    "filename": "f485_center_p22.npz",
+    "sha256": "61faee850b63f7953074e0ccba670aebe3ccc62925ad8232f280e8f916ad1cc7",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 458,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6333333333333333,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f485_center_p22",
+      "start_progress": 7,
+      "advance": 6
+    }
+  },
+  {
+    "config": {
+      "start_id": "f485_left_p22",
+      "perturb_frames": 22,
+      "start_specs": [
+        {
+          "id": "f485_left_p22",
+          "prefix_frame": 485,
+          "turn": "left"
+        }
+      ]
+    },
+    "filename": "f485_left_p22.npz",
+    "sha256": "74f4be6e704e4858b4515bcbeeca8635f2248539b8a972f2d0cd4373e6ba9267",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 559,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6333333333333333,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f485_left_p22",
+      "start_progress": 7,
+      "advance": 6
+    }
+  },
+  {
+    "config": {
+      "start_id": "f485_right_p22",
+      "perturb_frames": 22,
+      "start_specs": [
+        {
+          "id": "f485_right_p22",
+          "prefix_frame": 485,
+          "turn": "right"
+        }
+      ]
+    },
+    "filename": "f485_right_p22.npz",
+    "sha256": "c4249ccc61e3f9c331c0977f378ef872b9c83534410b0306e86c1cf2510f7a89",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 527,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6333333333333333,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f485_right_p22",
+      "start_progress": 7,
+      "advance": 6
+    }
+  },
+  {
+    "config": {
+      "start_id": "f485_center_p34",
+      "perturb_frames": 34,
+      "start_specs": [
+        {
+          "id": "f485_center_p34",
+          "prefix_frame": 485,
+          "turn": "center"
+        }
+      ]
+    },
+    "filename": "f485_center_p34.npz",
+    "sha256": "5839856096bdf2e44c2e5624e2c521bcc04b1d7f23d7f48c5de86501030c93bb",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 176,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6333333333333333,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f485_center_p34",
+      "start_progress": 7,
+      "advance": 6
+    }
+  },
+  {
+    "config": {
+      "start_id": "f485_left_p34",
+      "perturb_frames": 34,
+      "start_specs": [
+        {
+          "id": "f485_left_p34",
+          "prefix_frame": 485,
+          "turn": "left"
+        }
+      ]
+    },
+    "filename": "f485_left_p34.npz",
+    "sha256": "a0457d776378928fcf6579de714266affbc05560bc7a12a9e2e2db8a765f8097",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 230,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6333333333333333,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f485_left_p34",
+      "start_progress": 7,
+      "advance": 6
+    }
+  },
+  {
+    "config": {
+      "start_id": "f485_right_p34",
+      "perturb_frames": 34,
+      "start_specs": [
+        {
+          "id": "f485_right_p34",
+          "prefix_frame": 485,
+          "turn": "right"
+        }
+      ]
+    },
+    "filename": "f485_right_p34.npz",
+    "sha256": "66257d3c7374e0573fa5fda6fbd281be6ed137b6eead4324af4ae06efed0e57f",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 471,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6333333333333333,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f485_right_p34",
+      "start_progress": 7,
+      "advance": 6
+    }
+  },
+  {
+    "config": {
+      "start_id": "f545_center_p22",
+      "perturb_frames": 22,
+      "start_specs": [
+        {
+          "id": "f545_center_p22",
+          "prefix_frame": 545,
+          "turn": "center"
+        }
+      ]
+    },
+    "filename": "f545_center_p22.npz",
+    "sha256": "8d10fb1cc4e0773133acbca3ed22ac4b18288ec4b4ae56442702aa90b0cb022f",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 159,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f545_center_p22",
+      "start_progress": 8,
+      "advance": 5
+    }
+  },
+  {
+    "config": {
+      "start_id": "f545_left_p22",
+      "perturb_frames": 22,
+      "start_specs": [
+        {
+          "id": "f545_left_p22",
+          "prefix_frame": 545,
+          "turn": "left"
+        }
+      ]
+    },
+    "filename": "f545_left_p22.npz",
+    "sha256": "e1c34fc20d9b91640f0cba636d63c25ddd1f260283dfec217be76ac56d7d17d3",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 441,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f545_left_p22",
+      "start_progress": 8,
+      "advance": 5
+    }
+  },
+  {
+    "config": {
+      "start_id": "f545_right_p22",
+      "perturb_frames": 22,
+      "start_specs": [
+        {
+          "id": "f545_right_p22",
+          "prefix_frame": 545,
+          "turn": "right"
+        }
+      ]
+    },
+    "filename": "f545_right_p22.npz",
+    "sha256": "e3fdfcaad7591bc61cbc46f41b3dce707d97b6788fd9569623d7156b91faa7eb",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 538,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f545_right_p22",
+      "start_progress": 8,
+      "advance": 5
+    }
+  },
+  {
+    "config": {
+      "start_id": "f545_center_p34",
+      "perturb_frames": 34,
+      "start_specs": [
+        {
+          "id": "f545_center_p34",
+          "prefix_frame": 545,
+          "turn": "center"
+        }
+      ]
+    },
+    "filename": "f545_center_p34.npz",
+    "sha256": "cf3e83f678fb1b445def87bedd46727fbdccd5a3094b31eb60f75391e0def3c9",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 152,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f545_center_p34",
+      "start_progress": 8,
+      "advance": 5
+    }
+  },
+  {
+    "config": {
+      "start_id": "f545_left_p34",
+      "perturb_frames": 34,
+      "start_specs": [
+        {
+          "id": "f545_left_p34",
+          "prefix_frame": 545,
+          "turn": "left"
+        }
+      ]
+    },
+    "filename": "f545_left_p34.npz",
+    "sha256": "6c69a9a7a1f4dd9ec8c66dfc97a7d285b4aea3167a50813592ca8c22f987d221",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 218,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f545_left_p34",
+      "start_progress": 8,
+      "advance": 5
+    }
+  },
+  {
+    "config": {
+      "start_id": "f545_right_p34",
+      "perturb_frames": 34,
+      "start_specs": [
+        {
+          "id": "f545_right_p34",
+          "prefix_frame": 545,
+          "turn": "right"
+        }
+      ]
+    },
+    "filename": "f545_right_p34.npz",
+    "sha256": "e9e20c09c12e00cc9298cd2991d01d371605053b616f0d24df81fc44516bb2aa",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 248,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f545_right_p34",
+      "start_progress": 8,
+      "advance": 5
+    }
+  },
+  {
+    "config": {
+      "start_id": "f605_center_p22",
+      "perturb_frames": 22,
+      "start_specs": [
+        {
+          "id": "f605_center_p22",
+          "prefix_frame": 605,
+          "turn": "center"
+        }
+      ]
+    },
+    "filename": "f605_center_p22.npz",
+    "sha256": "f7b51f77217b1b7c3edec1ca92e060c4782a48c036e8c54316d009e43b7f4d89",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 744,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f605_center_p22",
+      "start_progress": 8,
+      "advance": 5
+    }
+  },
+  {
+    "config": {
+      "start_id": "f605_left_p22",
+      "perturb_frames": 22,
+      "start_specs": [
+        {
+          "id": "f605_left_p22",
+          "prefix_frame": 605,
+          "turn": "left"
+        }
+      ]
+    },
+    "filename": "f605_left_p22.npz",
+    "sha256": "8e068642717645eeec12374ced4382514dddb61fa0f8e28f1e4d3417b8a36e72",
+    "accepted": false,
+    "episode": {
+      "reason": "no_progress",
+      "frames": 662,
+      "progress": 12,
+      "one_lap": false,
+      "reward": 0.13333333333333333,
+      "jumps": 0,
+      "target_reached": false,
+      "target": 13,
+      "start_id": "f605_left_p22",
+      "start_progress": 8,
+      "advance": 4
+    }
+  },
+  {
+    "config": {
+      "start_id": "f605_right_p22",
+      "perturb_frames": 22,
+      "start_specs": [
+        {
+          "id": "f605_right_p22",
+          "prefix_frame": 605,
+          "turn": "right"
+        }
+      ]
+    },
+    "filename": "f605_right_p22.npz",
+    "sha256": "8029b3833cdfb3d6804e9e21f7aaf86d9372aefa360c06c070dceacc1fcb4221",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 662,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f605_right_p22",
+      "start_progress": 8,
+      "advance": 5
+    }
+  },
+  {
+    "config": {
+      "start_id": "f605_center_p34",
+      "perturb_frames": 34,
+      "start_specs": [
+        {
+          "id": "f605_center_p34",
+          "prefix_frame": 605,
+          "turn": "center"
+        }
+      ]
+    },
+    "filename": "f605_center_p34.npz",
+    "sha256": "2d32404ff7717f8d6c1abb5b6c93bac8968afd5a1bfd90d14abba6a445cff989",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 485,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.5666666666666667,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f605_center_p34",
+      "start_progress": 9,
+      "advance": 4
+    }
+  },
+  {
+    "config": {
+      "start_id": "f605_left_p34",
+      "perturb_frames": 34,
+      "start_specs": [
+        {
+          "id": "f605_left_p34",
+          "prefix_frame": 605,
+          "turn": "left"
+        }
+      ]
+    },
+    "filename": "f605_left_p34.npz",
+    "sha256": "c6ba0ab36e6fcce84d0e31cce3904a02a24c73b293f4b7ad44e8e11ffebb4d48",
+    "accepted": false,
+    "episode": {
+      "reason": "no_progress",
+      "frames": 650,
+      "progress": 12,
+      "one_lap": false,
+      "reward": 0.1,
+      "jumps": 0,
+      "target_reached": false,
+      "target": 13,
+      "start_id": "f605_left_p34",
+      "start_progress": 9,
+      "advance": 3
+    }
+  },
+  {
+    "config": {
+      "start_id": "f605_right_p34",
+      "perturb_frames": 34,
+      "start_specs": [
+        {
+          "id": "f605_right_p34",
+          "prefix_frame": 605,
+          "turn": "right"
+        }
+      ]
+    },
+    "filename": "f605_right_p34.npz",
+    "sha256": "9fda73f4be200eb37b7fe0db5b08ec33fdc7227f4bba5bdf9eaee7ffd3c2cf13",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 775,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.5666666666666667,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f605_right_p34",
+      "start_progress": 9,
+      "advance": 4
+    }
+  }
+]

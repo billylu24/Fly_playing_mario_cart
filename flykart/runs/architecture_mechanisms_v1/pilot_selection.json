@@ -1,0 +1,14 @@
+{
+  "gates": {
+    "spatial": false,
+    "gaba": false,
+    "slower": false,
+    "gain1.2": true
+  },
+  "selected": [
+    "baseline",
+    "gain1.2"
+  ],
+  "selected_before_new_test": true,
+  "matched_presentations": 27105
+}

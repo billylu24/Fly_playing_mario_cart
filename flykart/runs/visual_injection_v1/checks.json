@@ -1,0 +1,5 @@
+{
+  "shared_initial_tensors_identical": true,
+  "initial_forward_max_error": 1.862645149230957e-09,
+  "projection_gradient_norm": 0.003139495849609375
+}

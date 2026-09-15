@@ -1,0 +1,1142 @@
+{
+  "torch": "2.11.0+cu128",
+  "cuda_build": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "capability": [
+    12,
+    0
+  ],
+  "device_total_mib": 11771.25,
+  "free_mib_at_start": 8607.3125,
+  "dtype": "float32",
+  "memory_fraction_cap": 0.55,
+  "cases": [
+    {
+      "status": "ok",
+      "n": 2048,
+      "edges": 262144,
+      "degree": 128,
+      "batch": 1,
+      "steps": 8,
+      "mode": "frozen",
+      "trainable_parameters": 9352,
+      "gradient_present": {
+        "encoder": true,
+        "decoder": true,
+        "edges": false,
+        "gain": false
+      },
+      "last_gradient_norms": {
+        "encoder": 0.004000037908554077,
+        "decoder": 0.006549625191837549,
+        "edges": null,
+        "gain": null
+      },
+      "median": {
+        "forward_ms": 1.4446690001932438,
+        "backward_ms": 4.088600000613951,
+        "update_and_checks_ms": 0.5959800000709947,
+        "total_ms": 6.3547760000801645,
+        "peak_allocated_mib": 38.51123046875,
+        "peak_reserved_mib": 46.0
+      },
+      "max_peak_allocated_mib_including_warmup": 38.51123046875,
+      "runs": [
+        {
+          "forward_ms": 159.48414399827016,
+          "backward_ms": 25.349261000883416,
+          "update_and_checks_ms": 82.78363300087221,
+          "total_ms": 267.6170380000258,
+          "peak_allocated_mib": 38.43896484375,
+          "peak_reserved_mib": 46.0
+        },
+        {
+          "forward_ms": 1.6701959993952187,
+          "backward_ms": 4.088600000613951,
+          "update_and_checks_ms": 0.5959800000709947,
+          "total_ms": 6.3547760000801645,
+          "peak_allocated_mib": 38.51123046875,
+          "peak_reserved_mib": 46.0
+        },
+        {
+          "forward_ms": 1.4381660002982244,
+          "backward_ms": 4.614677000063239,
+          "update_and_checks_ms": 0.6566850006493041,
+          "total_ms": 6.709528001010767,
+          "peak_allocated_mib": 38.51123046875,
+          "peak_reserved_mib": 46.0
+        },
+        {
+          "forward_ms": 1.4446690001932438,
+          "backward_ms": 3.3508220003568567,
+          "update_and_checks_ms": 0.39441700027964544,
+          "total_ms": 5.189908000829746,
+          "peak_allocated_mib": 38.51123046875,
+          "peak_reserved_mib": 46.0
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "n": 2048,
+      "edges": 262144,
+      "degree": 128,
+      "batch": 1,
+      "steps": 8,
+      "mode": "gain",
+      "trainable_parameters": 11400,
+      "gradient_present": {
+        "encoder": true,
+        "decoder": true,
+        "edges": false,
+        "gain": true
+      },
+      "last_gradient_norms": {
+        "encoder": 0.0039993766695261,
+        "decoder": 0.006548617966473103,
+        "edges": null,
+        "gain": 0.00034093865542672575
+      },
+      "median": {
+        "forward_ms": 1.4436460005526897,
+        "backward_ms": 3.4994340003322577,
+        "update_and_checks_ms": 0.48506999883102253,
+        "total_ms": 5.425373999969452,
+        "peak_allocated_mib": 38.58154296875,
+        "peak_reserved_mib": 46.0
+      },
+      "max_peak_allocated_mib_including_warmup": 38.58154296875,
+      "runs": [
+        {
+          "forward_ms": 162.64699999919685,
+          "backward_ms": 23.879895999925793,
+          "update_and_checks_ms": 94.7893299999123,
+          "total_ms": 281.31622599903494,
+          "peak_allocated_mib": 38.49365234375,
+          "peak_reserved_mib": 46.0
+        },
+        {
+          "forward_ms": 1.7044910000549862,
+          "backward_ms": 3.627916999903391,
+          "update_and_checks_ms": 0.5513460000656778,
+          "total_ms": 5.883754000024055,
+          "peak_allocated_mib": 38.58154296875,
+          "peak_reserved_mib": 46.0
+        },
+        {
+          "forward_ms": 1.4436460005526897,
+          "backward_ms": 3.4994340003322577,
+          "update_and_checks_ms": 0.4822939990845043,
+          "total_ms": 5.425373999969452,
+          "peak_allocated_mib": 38.58154296875,
+          "peak_reserved_mib": 46.0
+        },
+        {
+          "forward_ms": 1.4011570001457585,
+          "backward_ms": 3.410043000258156,
+          "update_and_checks_ms": 0.48506999883102253,
+          "total_ms": 5.296269999234937,
+          "peak_allocated_mib": 38.58154296875,
+          "peak_reserved_mib": 46.0
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "n": 2048,
+      "edges": 262144,
+      "degree": 128,
+      "batch": 1,
+      "steps": 8,
+      "mode": "full",
+      "trainable_parameters": 271496,
+      "gradient_present": {
+        "encoder": true,
+        "decoder": true,
+        "edges": true,
+        "gain": false
+      },
+      "last_gradient_norms": {
+        "encoder": 0.0037198085337877274,
+        "decoder": 0.005945985205471516,
+        "edges": 0.01745922490954399,
+        "gain": null
+      },
+      "median": {
+        "forward_ms": 1.432135000868584,
+        "backward_ms": 5.396839998866199,
+        "update_and_checks_ms": 0.5268179993436206,
+        "total_ms": 7.415326001137146,
+        "peak_allocated_mib": 160.88525390625,
+        "peak_reserved_mib": 220.0
+      },
+      "max_peak_allocated_mib_including_warmup": 160.88525390625,
+      "runs": [
+        {
+          "forward_ms": 166.82824499912385,
+          "backward_ms": 57.62597500142874,
+          "update_and_checks_ms": 84.9206229995616,
+          "total_ms": 309.3748430001142,
+          "peak_allocated_mib": 158.81298828125,
+          "peak_reserved_mib": 218.0
+        },
+        {
+          "forward_ms": 1.6729019989725202,
+          "backward_ms": 5.6337390014959965,
+          "update_and_checks_ms": 0.5268179993436206,
+          "total_ms": 7.833458999812137,
+          "peak_allocated_mib": 160.88525390625,
+          "peak_reserved_mib": 220.0
+        },
+        {
+          "forward_ms": 1.4077079995331587,
+          "backward_ms": 5.339622000974487,
+          "update_and_checks_ms": 0.49740299982659053,
+          "total_ms": 7.244733000334236,
+          "peak_allocated_mib": 160.88525390625,
+          "peak_reserved_mib": 220.0
+        },
+        {
+          "forward_ms": 1.432135000868584,
+          "backward_ms": 5.396839998866199,
+          "update_and_checks_ms": 0.5863510014023632,
+          "total_ms": 7.415326001137146,
+          "peak_allocated_mib": 160.88525390625,
+          "peak_reserved_mib": 220.0
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "n": 8192,
+      "edges": 1048576,
+      "degree": 128,
+      "batch": 1,
+      "steps": 8,
+      "mode": "frozen",
+      "trainable_parameters": 9352,
+      "gradient_present": {
+        "encoder": true,
+        "decoder": true,
+        "edges": false,
+        "gain": false
+      },
+      "last_gradient_norms": {
+        "encoder": 0.002081599086523056,
+        "decoder": 0.003584881080314517,
+        "edges": null,
+        "gain": null
+      },
+      "median": {
+        "forward_ms": 1.5619109999533975,
+        "backward_ms": 7.419413999741664,
+        "update_and_checks_ms": 0.5769640010839794,
+        "total_ms": 9.869629000604618,
+        "peak_allocated_mib": 101.81689453125,
+        "peak_reserved_mib": 118.0
+      },
+      "max_peak_allocated_mib_including_warmup": 101.81689453125,
+      "runs": [
+        {
+          "forward_ms": 178.40786499982642,
+          "backward_ms": 29.702392999752192,
+          "update_and_checks_ms": 91.30696899956092,
+          "total_ms": 299.41722699913953,
+          "peak_allocated_mib": 101.74462890625,
+          "peak_reserved_mib": 118.0
+        },
+        {
+          "forward_ms": 1.7812570004025474,
+          "backward_ms": 7.419413999741664,
+          "update_and_checks_ms": 0.6689580004604068,
+          "total_ms": 9.869629000604618,
+          "peak_allocated_mib": 101.81689453125,
+          "peak_reserved_mib": 118.0
+        },
+        {
+          "forward_ms": 1.5619109999533975,
+          "backward_ms": 7.820494000043254,
+          "update_and_checks_ms": 0.49642100020719226,
+          "total_ms": 9.878826000203844,
+          "peak_allocated_mib": 101.81689453125,
+          "peak_reserved_mib": 118.0
+        },
+        {
+          "forward_ms": 1.4617010001529707,
+          "backward_ms": 7.155863999287249,
+          "update_and_checks_ms": 0.5769640010839794,
+          "total_ms": 9.194529000524199,
+          "peak_allocated_mib": 101.81689453125,
+          "peak_reserved_mib": 118.0
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "n": 8192,
+      "edges": 1048576,
+      "degree": 128,
+      "batch": 1,
+      "steps": 8,
+      "mode": "gain",
+      "trainable_parameters": 17544,
+      "gradient_present": {
+        "encoder": true,
+        "decoder": true,
+        "edges": false,
+        "gain": true
+      },
+      "last_gradient_norms": {
+        "encoder": 0.0020808917470276356,
+        "decoder": 0.0035839600022882223,
+        "edges": null,
+        "gain": 0.0001677355176070705
+      },
+      "median": {
+        "forward_ms": 1.4702369990118314,
+        "backward_ms": 7.912679000583012,
+        "update_and_checks_ms": 0.5836159998580115,
+        "total_ms": 10.044018999906257,
+        "peak_allocated_mib": 102.12939453125,
+        "peak_reserved_mib": 118.0
+      },
+      "max_peak_allocated_mib_including_warmup": 102.12939453125,
+      "runs": [
+        {
+          "forward_ms": 162.2099710002658,
+          "backward_ms": 29.06410299874551,
+          "update_and_checks_ms": 82.09032900049351,
+          "total_ms": 273.3644029995048,
+          "peak_allocated_mib": 101.99462890625,
+          "peak_reserved_mib": 118.0
+        },
+        {
+          "forward_ms": 1.7261920002056286,
+          "backward_ms": 7.912679000583012,
+          "update_and_checks_ms": 0.5952979990979657,
+          "total_ms": 10.234168999886606,
+          "peak_allocated_mib": 102.12939453125,
+          "peak_reserved_mib": 118.0
+        },
+        {
+          "forward_ms": 1.4702369990118314,
+          "backward_ms": 7.006071000432712,
+          "update_and_checks_ms": 0.5371980005293153,
+          "total_ms": 9.013505999973859,
+          "peak_allocated_mib": 102.12939453125,
+          "peak_reserved_mib": 118.0
+        },
+        {
+          "forward_ms": 1.4565309993486153,
+          "backward_ms": 8.00387200069963,
+          "update_and_checks_ms": 0.5836159998580115,
+          "total_ms": 10.044018999906257,
+          "peak_allocated_mib": 102.12939453125,
+          "peak_reserved_mib": 118.0
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "n": 8192,
+      "edges": 1048576,
+      "degree": 128,
+      "batch": 1,
+      "steps": 8,
+      "mode": "full",
+      "trainable_parameters": 1057928,
+      "gradient_present": {
+        "encoder": true,
+        "decoder": true,
+        "edges": true,
+        "gain": false
+      },
+      "last_gradient_norms": {
+        "encoder": 0.0017480209935456514,
+        "decoder": 0.0031012448016554117,
+        "edges": 0.00805699173361063,
+        "gain": null
+      },
+      "median": {
+        "forward_ms": 1.6764280007919297,
+        "backward_ms": 22.482296999442042,
+        "update_and_checks_ms": 1.1378969993529608,
+        "total_ms": 25.399326001206646,
+        "peak_allocated_mib": 591.28857421875,
+        "peak_reserved_mib": 872.0
+      },
+      "max_peak_allocated_mib_including_warmup": 591.28857421875,
+      "runs": [
+        {
+          "forward_ms": 164.68171700034873,
+          "backward_ms": 69.1731320002873,
+          "update_and_checks_ms": 83.62143100021058,
+          "total_ms": 317.4762800008466,
+          "peak_allocated_mib": 583.21630859375,
+          "peak_reserved_mib": 872.0
+        },
+        {
+          "forward_ms": 1.6764280007919297,
+          "backward_ms": 22.482296999442042,
+          "update_and_checks_ms": 1.2406010009726742,
+          "total_ms": 25.399326001206646,
+          "peak_allocated_mib": 591.28857421875,
+          "peak_reserved_mib": 872.0
+        },
+        {
+          "forward_ms": 1.7035189994203392,
+          "backward_ms": 23.279638000531122,
+          "update_and_checks_ms": 0.6842869988759048,
+          "total_ms": 25.667443998827366,
+          "peak_allocated_mib": 591.28857421875,
+          "peak_reserved_mib": 872.0
+        },
+        {
+          "forward_ms": 1.5773710001667496,
+          "backward_ms": 22.362329000316095,
+          "update_and_checks_ms": 1.1378969993529608,
+          "total_ms": 25.077596999835805,
+          "peak_allocated_mib": 591.28857421875,
+          "peak_reserved_mib": 872.0
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "n": 8192,
+      "edges": 1048576,
+      "degree": 128,
+      "batch": 1,
+      "steps": 32,
+      "mode": "frozen",
+      "trainable_parameters": 9352,
+      "gradient_present": {
+        "encoder": true,
+        "decoder": true,
+        "edges": false,
+        "gain": false
+      },
+      "last_gradient_norms": {
+        "encoder": 0.0017845657421275973,
+        "decoder": 0.003736768616363406,
+        "edges": null,
+        "gain": null
+      },
+      "median": {
+        "forward_ms": 5.56483800028218,
+        "backward_ms": 31.594519999998738,
+        "update_and_checks_ms": 0.5734869992011227,
+        "total_ms": 38.028495999242296,
+        "peak_allocated_mib": 102.60791015625,
+        "peak_reserved_mib": 120.0
+      },
+      "max_peak_allocated_mib_including_warmup": 102.60791015625,
+      "runs": [
+        {
+          "forward_ms": 168.61940099988715,
+          "backward_ms": 52.42996500055597,
+          "update_and_checks_ms": 82.14206599950558,
+          "total_ms": 303.1914319999487,
+          "peak_allocated_mib": 102.53564453125,
+          "peak_reserved_mib": 120.0
+        },
+        {
+          "forward_ms": 5.860489000042435,
+          "backward_ms": 31.594519999998738,
+          "update_and_checks_ms": 0.5734869992011227,
+          "total_ms": 38.028495999242296,
+          "peak_allocated_mib": 102.60791015625,
+          "peak_reserved_mib": 120.0
+        },
+        {
+          "forward_ms": 5.56483800028218,
+          "backward_ms": 31.012796998766134,
+          "update_and_checks_ms": 0.5715740007872228,
+          "total_ms": 37.14920899983554,
+          "peak_allocated_mib": 102.60791015625,
+          "peak_reserved_mib": 120.0
+        },
+        {
+          "forward_ms": 5.4598290007561445,
+          "backward_ms": 32.23522499865794,
+          "update_and_checks_ms": 0.6237120014702668,
+          "total_ms": 38.31876600088435,
+          "peak_allocated_mib": 102.60791015625,
+          "peak_reserved_mib": 120.0
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "n": 8192,
+      "edges": 1048576,
+      "degree": 128,
+      "batch": 1,
+      "steps": 32,
+      "mode": "gain",
+      "trainable_parameters": 17544,
+      "gradient_present": {
+        "encoder": true,
+        "decoder": true,
+        "edges": false,
+        "gain": true
+      },
+      "last_gradient_norms": {
+        "encoder": 0.0017839556094259024,
+        "decoder": 0.003735713427886367,
+        "edges": null,
+        "gain": 0.0001716549595585093
+      },
+      "median": {
+        "forward_ms": 5.851772999449167,
+        "backward_ms": 31.500700999458786,
+        "update_and_checks_ms": 0.7202750002761604,
+        "total_ms": 38.48068299885199,
+        "peak_allocated_mib": 103.67041015625,
+        "peak_reserved_mib": 120.0
+      },
+      "max_peak_allocated_mib_including_warmup": 103.67041015625,
+      "runs": [
+        {
+          "forward_ms": 173.1343689989444,
+          "backward_ms": 52.75634300051024,
+          "update_and_checks_ms": 82.27226300004986,
+          "total_ms": 308.1629749995045,
+          "peak_allocated_mib": 103.53564453125,
+          "peak_reserved_mib": 120.0
+        },
+        {
+          "forward_ms": 5.851772999449167,
+          "backward_ms": 32.172465000257944,
+          "update_and_checks_ms": 0.6718130007357104,
+          "total_ms": 38.69605100044282,
+          "peak_allocated_mib": 103.67041015625,
+          "peak_reserved_mib": 120.0
+        },
+        {
+          "forward_ms": 5.587560999629204,
+          "backward_ms": 31.398088000059943,
+          "update_and_checks_ms": 0.7202750002761604,
+          "total_ms": 37.70592399996531,
+          "peak_allocated_mib": 103.67041015625,
+          "peak_reserved_mib": 120.0
+        },
+        {
+          "forward_ms": 6.088521999117802,
+          "backward_ms": 31.500700999458786,
+          "update_and_checks_ms": 0.8914600002754014,
+          "total_ms": 38.48068299885199,
+          "peak_allocated_mib": 103.67041015625,
+          "peak_reserved_mib": 120.0
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "n": 8192,
+      "edges": 1048576,
+      "degree": 128,
+      "batch": 1,
+      "steps": 32,
+      "mode": "full",
+      "trainable_parameters": 1057928,
+      "gradient_present": {
+        "encoder": true,
+        "decoder": true,
+        "edges": true,
+        "gain": false
+      },
+      "last_gradient_norms": {
+        "encoder": 0.0015530141536146402,
+        "decoder": 0.0033021296840161085,
+        "edges": 0.00832116138190031,
+        "gain": null
+      },
+      "median": {
+        "forward_ms": 5.5979009994189255,
+        "backward_ms": 116.96897300134879,
+        "update_and_checks_ms": 0.6688369994662935,
+        "total_ms": 123.09278099928633,
+        "peak_allocated_mib": 2229.5,
+        "peak_reserved_mib": 2966.0
+      },
+      "max_peak_allocated_mib_including_warmup": 2229.5,
+      "runs": [
+        {
+          "forward_ms": 170.68380399905436,
+          "backward_ms": 171.0182379993057,
+          "update_and_checks_ms": 86.24267900086124,
+          "total_ms": 427.9447209992213,
+          "peak_allocated_mib": 2221.427734375,
+          "peak_reserved_mib": 6134.0
+        },
+        {
+          "forward_ms": 6.107637000241084,
+          "backward_ms": 119.89069199989899,
+          "update_and_checks_ms": 0.9607909996702801,
+          "total_ms": 126.95911999981035,
+          "peak_allocated_mib": 2229.5,
+          "peak_reserved_mib": 2966.0
+        },
+        {
+          "forward_ms": 5.5979009994189255,
+          "backward_ms": 116.82604300040111,
+          "update_and_checks_ms": 0.6688369994662935,
+          "total_ms": 123.09278099928633,
+          "peak_allocated_mib": 2229.5,
+          "peak_reserved_mib": 2966.0
+        },
+        {
+          "forward_ms": 5.387522000091849,
+          "backward_ms": 116.96897300134879,
+          "update_and_checks_ms": 0.6309769996732939,
+          "total_ms": 122.98747200111393,
+          "peak_allocated_mib": 2229.5,
+          "peak_reserved_mib": 2966.0
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "n": 8192,
+      "edges": 1048576,
+      "degree": 128,
+      "batch": 4,
+      "steps": 32,
+      "mode": "frozen",
+      "trainable_parameters": 9352,
+      "gradient_present": {
+        "encoder": true,
+        "decoder": true,
+        "edges": false,
+        "gain": false
+      },
+      "last_gradient_norms": {
+        "encoder": 0.00097757822368294,
+        "decoder": 0.002236440312117338,
+        "edges": null,
+        "gain": null
+      },
+      "median": {
+        "forward_ms": 6.332683999062283,
+        "backward_ms": 32.6022200006264,
+        "update_and_checks_ms": 0.662104999719304,
+        "total_ms": 39.62190600032045,
+        "peak_allocated_mib": 106.19384765625,
+        "peak_reserved_mib": 124.0
+      },
+      "max_peak_allocated_mib_including_warmup": 106.19384765625,
+      "runs": [
+        {
+          "forward_ms": 162.27401200012537,
+          "backward_ms": 61.37737500102958,
+          "update_and_checks_ms": 82.62120499966841,
+          "total_ms": 306.27259200082335,
+          "peak_allocated_mib": 106.12158203125,
+          "peak_reserved_mib": 124.0
+        },
+        {
+          "forward_ms": 6.032776000211015,
+          "backward_ms": 33.739145001163706,
+          "update_and_checks_ms": 0.6704909992549801,
+          "total_ms": 40.4424120006297,
+          "peak_allocated_mib": 106.19384765625,
+          "peak_reserved_mib": 124.0
+        },
+        {
+          "forward_ms": 6.434928000089712,
+          "backward_ms": 32.524873000511434,
+          "update_and_checks_ms": 0.662104999719304,
+          "total_ms": 39.62190600032045,
+          "peak_allocated_mib": 106.19384765625,
+          "peak_reserved_mib": 124.0
+        },
+        {
+          "forward_ms": 6.332683999062283,
+          "backward_ms": 32.6022200006264,
+          "update_and_checks_ms": 0.6527170007757377,
+          "total_ms": 39.587621000464424,
+          "peak_allocated_mib": 106.19384765625,
+          "peak_reserved_mib": 124.0
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "n": 8192,
+      "edges": 1048576,
+      "degree": 128,
+      "batch": 4,
+      "steps": 32,
+      "mode": "gain",
+      "trainable_parameters": 17544,
+      "gradient_present": {
+        "encoder": true,
+        "decoder": true,
+        "edges": false,
+        "gain": true
+      },
+      "last_gradient_norms": {
+        "encoder": 0.0009773309575393796,
+        "decoder": 0.002235865220427513,
+        "edges": null,
+        "gain": 0.00012178364704595879
+      },
+      "median": {
+        "forward_ms": 6.137985001259949,
+        "backward_ms": 32.534492000195314,
+        "update_and_checks_ms": 0.7245739998325007,
+        "total_ms": 39.59059699991485,
+        "peak_allocated_mib": 110.16259765625,
+        "peak_reserved_mib": 128.0
+      },
+      "max_peak_allocated_mib_including_warmup": 110.16259765625,
+      "runs": [
+        {
+          "forward_ms": 161.94238400021277,
+          "backward_ms": 63.2221230007417,
+          "update_and_checks_ms": 81.2221119995229,
+          "total_ms": 306.38661900047737,
+          "peak_allocated_mib": 110.02783203125,
+          "peak_reserved_mib": 126.0
+        },
+        {
+          "forward_ms": 6.137985001259949,
+          "backward_ms": 32.43132599891396,
+          "update_and_checks_ms": 0.7241330004035262,
+          "total_ms": 39.29344400057744,
+          "peak_allocated_mib": 110.16259765625,
+          "peak_reserved_mib": 128.0
+        },
+        {
+          "forward_ms": 5.848455999512225,
+          "backward_ms": 33.38898100082588,
+          "update_and_checks_ms": 0.7245739998325007,
+          "total_ms": 39.962011000170605,
+          "peak_allocated_mib": 110.16259765625,
+          "peak_reserved_mib": 128.0
+        },
+        {
+          "forward_ms": 6.320561000393354,
+          "backward_ms": 32.534492000195314,
+          "update_and_checks_ms": 0.7355439993261825,
+          "total_ms": 39.59059699991485,
+          "peak_allocated_mib": 110.16259765625,
+          "peak_reserved_mib": 128.0
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "n": 8192,
+      "edges": 1048576,
+      "degree": 128,
+      "batch": 4,
+      "steps": 32,
+      "mode": "full",
+      "trainable_parameters": 1057928,
+      "gradient_present": {
+        "encoder": true,
+        "decoder": true,
+        "edges": true,
+        "gain": false
+      },
+      "last_gradient_norms": {
+        "encoder": 0.0008949967450462282,
+        "decoder": 0.0020443915855139494,
+        "edges": 0.006018905434757471,
+        "gain": null
+      },
+      "median": {
+        "forward_ms": 9.0396960004,
+        "backward_ms": 118.08474800091062,
+        "update_and_checks_ms": 1.1850959999719635,
+        "total_ms": 128.4763670009852,
+        "peak_allocated_mib": 2229.71240234375,
+        "peak_reserved_mib": 2970.0
+      },
+      "max_peak_allocated_mib_including_warmup": 2229.71240234375,
+      "runs": [
+        {
+          "forward_ms": 257.1810360004747,
+          "backward_ms": 222.70279000076698,
+          "update_and_checks_ms": 122.55558299875702,
+          "total_ms": 602.4394089999987,
+          "peak_allocated_mib": 2221.64013671875,
+          "peak_reserved_mib": 6142.0
+        },
+        {
+          "forward_ms": 10.132396000699373,
+          "backward_ms": 118.91815899980429,
+          "update_and_checks_ms": 1.1396700010664063,
+          "total_ms": 130.19022500157007,
+          "peak_allocated_mib": 2229.71240234375,
+          "peak_reserved_mib": 2970.0
+        },
+        {
+          "forward_ms": 8.934726000006776,
+          "backward_ms": 117.67972099914914,
+          "update_and_checks_ms": 1.1850959999719635,
+          "total_ms": 127.79954299912788,
+          "peak_allocated_mib": 2229.71240234375,
+          "peak_reserved_mib": 2970.0
+        },
+        {
+          "forward_ms": 9.0396960004,
+          "backward_ms": 118.08474800091062,
+          "update_and_checks_ms": 1.3519229996745707,
+          "total_ms": 128.4763670009852,
+          "peak_allocated_mib": 2229.71240234375,
+          "peak_reserved_mib": 2970.0
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "n": 32768,
+      "edges": 4194304,
+      "degree": 128,
+      "batch": 1,
+      "steps": 8,
+      "mode": "frozen",
+      "trainable_parameters": 9352,
+      "gradient_present": {
+        "encoder": true,
+        "decoder": true,
+        "edges": false,
+        "gain": false
+      },
+      "last_gradient_norms": {
+        "encoder": 0.005716047249734402,
+        "decoder": 0.007893623784184456,
+        "edges": null,
+        "gain": null
+      },
+      "median": {
+        "forward_ms": 1.7755450007825857,
+        "backward_ms": 55.82781600060116,
+        "update_and_checks_ms": 0.8082929998636246,
+        "total_ms": 58.24408599983144,
+        "peak_allocated_mib": 355.12939453125,
+        "peak_reserved_mib": 392.0
+      },
+      "max_peak_allocated_mib_including_warmup": 355.12939453125,
+      "runs": [
+        {
+          "forward_ms": 160.3772669986938,
+          "backward_ms": 72.31192200015357,
+          "update_and_checks_ms": 81.52952599994023,
+          "total_ms": 314.2187149987876,
+          "peak_allocated_mib": 355.05712890625,
+          "peak_reserved_mib": 392.0
+        },
+        {
+          "forward_ms": 1.7755450007825857,
+          "backward_ms": 54.078188999483245,
+          "update_and_checks_ms": 0.8082929998636246,
+          "total_ms": 56.662027000129456,
+          "peak_allocated_mib": 355.12939453125,
+          "peak_reserved_mib": 392.0
+        },
+        {
+          "forward_ms": 1.792827999452129,
+          "backward_ms": 55.82781600060116,
+          "update_and_checks_ms": 0.8219179999287007,
+          "total_ms": 58.44256199998199,
+          "peak_allocated_mib": 355.12939453125,
+          "peak_reserved_mib": 392.0
+        },
+        {
+          "forward_ms": 1.6392569996241946,
+          "backward_ms": 55.869785999675514,
+          "update_and_checks_ms": 0.7350430005317321,
+          "total_ms": 58.24408599983144,
+          "peak_allocated_mib": 355.12939453125,
+          "peak_reserved_mib": 392.0
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "n": 32768,
+      "edges": 4194304,
+      "degree": 128,
+      "batch": 1,
+      "steps": 8,
+      "mode": "gain",
+      "trainable_parameters": 42120,
+      "gradient_present": {
+        "encoder": true,
+        "decoder": true,
+        "edges": false,
+        "gain": true
+      },
+      "last_gradient_norms": {
+        "encoder": 0.005714547820389271,
+        "decoder": 0.007891908288002014,
+        "edges": null,
+        "gain": 0.0003879911091644317
+      },
+      "median": {
+        "forward_ms": 1.7065149986592587,
+        "backward_ms": 55.65482800011523,
+        "update_and_checks_ms": 0.8047559986152919,
+        "total_ms": 58.15225200058194,
+        "peak_allocated_mib": 356.37939453125,
+        "peak_reserved_mib": 394.0
+      },
+      "max_peak_allocated_mib_including_warmup": 356.37939453125,
+      "runs": [
+        {
+          "forward_ms": 161.03440299957583,
+          "backward_ms": 73.92614200034586,
+          "update_and_checks_ms": 81.99774300010176,
+          "total_ms": 316.95828800002346,
+          "peak_allocated_mib": 356.05712890625,
+          "peak_reserved_mib": 394.0
+        },
+        {
+          "forward_ms": 1.8763469997793436,
+          "backward_ms": 55.210665999766206,
+          "update_and_checks_ms": 1.0652390010363888,
+          "total_ms": 58.15225200058194,
+          "peak_allocated_mib": 356.37939453125,
+          "peak_reserved_mib": 394.0
+        },
+        {
+          "forward_ms": 1.7065149986592587,
+          "backward_ms": 56.01579200083506,
+          "update_and_checks_ms": 0.6570059995283373,
+          "total_ms": 58.37931299902266,
+          "peak_allocated_mib": 356.37939453125,
+          "peak_reserved_mib": 394.0
+        },
+        {
+          "forward_ms": 1.6686529997969046,
+          "backward_ms": 55.65482800011523,
+          "update_and_checks_ms": 0.8047559986152919,
+          "total_ms": 58.12823699852743,
+          "peak_allocated_mib": 356.37939453125,
+          "peak_reserved_mib": 394.0
+        }
+      ]
+    },
+    {
+      "status": "error",
+      "error_type": "OutOfMemoryError",
+      "error": "CUDA out of memory. Tried to allocate 4.00 GiB. GPU 0 has a total capacity of 11.50 GiB of which 4.03 GiB is free. Process 8352 has 164.88 MiB memory in use. Process 13727 has 39.59 MiB memory in use. Process 39012 has 44.09 MiB memory in use. Process 48825 has 66.72 MiB memory in use. Process 53389 has 1.39 GiB memory in use. Process 57009 has 162.00 MiB memory in use. Including non-PyTorch memory, this process has 4.37 GiB memory in use. 6.32 GiB allowed; Of the allocated memory 259.34 MiB is allocated by PyTorch, and 3.91 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+      "n": 32768,
+      "edges": 4194304,
+      "degree": 128,
+      "batch": 1,
+      "steps": 8,
+      "mode": "full"
+    },
+    {
+      "status": "ok",
+      "n": 32768,
+      "edges": 4194304,
+      "degree": 128,
+      "batch": 1,
+      "steps": 32,
+      "mode": "frozen",
+      "trainable_parameters": 9352,
+      "gradient_present": {
+        "encoder": true,
+        "decoder": true,
+        "edges": false,
+        "gain": false
+      },
+      "last_gradient_norms": {
+        "encoder": 0.002658103359863162,
+        "decoder": 0.003989845048636198,
+        "edges": null,
+        "gain": null
+      },
+      "median": {
+        "forward_ms": 6.251099001019611,
+        "backward_ms": 244.28626299959433,
+        "update_and_checks_ms": 0.6078319984226255,
+        "total_ms": 251.12901399916154,
+        "peak_allocated_mib": 358.17041015625,
+        "peak_reserved_mib": 396.0
+      },
+      "max_peak_allocated_mib_including_warmup": 358.17041015625,
+      "runs": [
+        {
+          "forward_ms": 168.71243700006744,
+          "backward_ms": 255.55236900072487,
+          "update_and_checks_ms": 82.30704899870034,
+          "total_ms": 506.57185499949264,
+          "peak_allocated_mib": 358.09814453125,
+          "peak_reserved_mib": 396.0
+        },
+        {
+          "forward_ms": 6.251099001019611,
+          "backward_ms": 247.88546600029804,
+          "update_and_checks_ms": 0.5966609987808624,
+          "total_ms": 254.7332260000985,
+          "peak_allocated_mib": 358.17041015625,
+          "peak_reserved_mib": 396.0
+        },
+        {
+          "forward_ms": 7.539551999798277,
+          "backward_ms": 240.0996270007454,
+          "update_and_checks_ms": 0.6078319984226255,
+          "total_ms": 248.2470109989663,
+          "peak_allocated_mib": 358.17041015625,
+          "peak_reserved_mib": 396.0
+        },
+        {
+          "forward_ms": 6.181557999298093,
+          "backward_ms": 244.28626299959433,
+          "update_and_checks_ms": 0.6611930002691224,
+          "total_ms": 251.12901399916154,
+          "peak_allocated_mib": 358.17041015625,
+          "peak_reserved_mib": 396.0
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "n": 32768,
+      "edges": 4194304,
+      "degree": 128,
+      "batch": 1,
+      "steps": 32,
+      "mode": "gain",
+      "trainable_parameters": 42120,
+      "gradient_present": {
+        "encoder": true,
+        "decoder": true,
+        "edges": false,
+        "gain": true
+      },
+      "last_gradient_norms": {
+        "encoder": 0.002657657489180565,
+        "decoder": 0.003989244811236858,
+        "edges": null,
+        "gain": 0.00020766635134350508
+      },
+      "median": {
+        "forward_ms": 6.519216998640331,
+        "backward_ms": 237.12333500043314,
+        "update_and_checks_ms": 0.7914899997558678,
+        "total_ms": 244.3674359983561,
+        "peak_allocated_mib": 362.42041015625,
+        "peak_reserved_mib": 400.0
+      },
+      "max_peak_allocated_mib_including_warmup": 362.42041015625,
+      "runs": [
+        {
+          "forward_ms": 175.06611099997826,
+          "backward_ms": 254.78267899961793,
+          "update_and_checks_ms": 81.46922099876974,
+          "total_ms": 511.31801099836593,
+          "peak_allocated_mib": 362.09814453125,
+          "peak_reserved_mib": 400.0
+        },
+        {
+          "forward_ms": 6.270986999879824,
+          "backward_ms": 238.19498699958785,
+          "update_and_checks_ms": 0.9432780007045949,
+          "total_ms": 245.40925200017227,
+          "peak_allocated_mib": 362.42041015625,
+          "peak_reserved_mib": 400.0
+        },
+        {
+          "forward_ms": 6.628674998864881,
+          "backward_ms": 236.39272000036726,
+          "update_and_checks_ms": 0.7914899997558678,
+          "total_ms": 243.812884998988,
+          "peak_allocated_mib": 362.42041015625,
+          "peak_reserved_mib": 400.0
+        },
+        {
+          "forward_ms": 6.519216998640331,
+          "backward_ms": 237.12333500043314,
+          "update_and_checks_ms": 0.7248839992826106,
+          "total_ms": 244.3674359983561,
+          "peak_allocated_mib": 362.42041015625,
+          "peak_reserved_mib": 400.0
+        }
+      ]
+    },
+    {
+      "status": "error",
+      "error_type": "OutOfMemoryError",
+      "error": "CUDA out of memory. Tried to allocate 4.00 GiB. GPU 0 has a total capacity of 11.50 GiB of which 4.07 GiB is free. Process 8352 has 164.88 MiB memory in use. Process 13727 has 39.59 MiB memory in use. Process 39012 has 44.09 MiB memory in use. Process 48825 has 66.72 MiB memory in use. Process 53389 has 1.39 GiB memory in use. Process 57009 has 162.00 MiB memory in use. Including non-PyTorch memory, this process has 4.38 GiB memory in use. 6.32 GiB allowed; Of the allocated memory 265.38 MiB is allocated by PyTorch, and 3.91 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+      "n": 32768,
+      "edges": 4194304,
+      "degree": 128,
+      "batch": 1,
+      "steps": 32,
+      "mode": "full"
+    },
+    {
+      "status": "ok",
+      "n": 8192,
+      "edges": 1048576,
+      "degree": 128,
+      "batch": 4,
+      "steps": 32,
+      "mode": "detach",
+      "trainable_parameters": 9352,
+      "gradient_present": {
+        "encoder": false,
+        "decoder": true,
+        "edges": false,
+        "gain": false
+      },
+      "last_gradient_norms": {
+        "encoder": null,
+        "decoder": 0.0022639597300440073,
+        "edges": null,
+        "gain": null
+      },
+      "median": {
+        "forward_ms": 5.687511000360246,
+        "backward_ms": 2.2828370001661824,
+        "update_and_checks_ms": 0.3876249993481906,
+        "total_ms": 8.461460000035004,
+        "peak_allocated_mib": 42.1103515625,
+        "peak_reserved_mib": 100.0
+      },
+      "max_peak_allocated_mib_including_warmup": 42.1103515625,
+      "runs": [
+        {
+          "forward_ms": 157.87821000049007,
+          "backward_ms": 14.528228999552084,
+          "update_and_checks_ms": 80.94979599991348,
+          "total_ms": 253.35623499995563,
+          "peak_allocated_mib": 37.689453125,
+          "peak_reserved_mib": 100.0
+        },
+        {
+          "forward_ms": 5.81658599912771,
+          "backward_ms": 2.2828370001661824,
+          "update_and_checks_ms": 0.3620370007411111,
+          "total_ms": 8.461460000035004,
+          "peak_allocated_mib": 42.1103515625,
+          "peak_reserved_mib": 100.0
+        },
+        {
+          "forward_ms": 5.5360539990942925,
+          "backward_ms": 2.134707001459901,
+          "update_and_checks_ms": 0.3876249993481906,
+          "total_ms": 8.058385999902384,
+          "peak_allocated_mib": 42.1103515625,
+          "peak_reserved_mib": 100.0
+        },
+        {
+          "forward_ms": 5.687511000360246,
+          "backward_ms": 2.761114001259557,
+          "update_and_checks_ms": 0.7761109991406556,
+          "total_ms": 9.224736000760458,
+          "peak_allocated_mib": 42.1103515625,
+          "peak_reserved_mib": 100.0
+        }
+      ]
+    }
+  ]
+}

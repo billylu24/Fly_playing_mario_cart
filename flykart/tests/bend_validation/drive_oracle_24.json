@@ -1,0 +1,191 @@
+[
+  {
+    "reason": "target_reached",
+    "frames": 164,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f540_center",
+    "start_progress": 8,
+    "advance": 5,
+    "start_info": {
+      "kart1_X": 1282,
+      "kart1_Y": 601,
+      "kart1_direction": 206,
+      "kart1_speed": 615,
+      "surface": 64
+    },
+    "perturb_frames": 24
+  },
+  {
+    "reason": "target_reached",
+    "frames": 309,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f540_left",
+    "start_progress": 8,
+    "advance": 5,
+    "start_info": {
+      "kart1_X": 1283,
+      "kart1_Y": 598,
+      "kart1_direction": 199,
+      "kart1_speed": 615,
+      "surface": 64
+    },
+    "perturb_frames": 24
+  },
+  {
+    "reason": "target_reached",
+    "frames": 478,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f540_right",
+    "start_progress": 8,
+    "advance": 5,
+    "start_info": {
+      "kart1_X": 1292,
+      "kart1_Y": 581,
+      "kart1_direction": 226,
+      "kart1_speed": 615,
+      "surface": 64
+    },
+    "perturb_frames": 24
+  },
+  {
+    "reason": "target_reached",
+    "frames": 499,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f570_center",
+    "start_progress": 8,
+    "advance": 5,
+    "start_info": {
+      "kart1_X": 1114,
+      "kart1_Y": 477,
+      "kart1_direction": 212,
+      "kart1_speed": 610,
+      "surface": 64
+    },
+    "perturb_frames": 24
+  },
+  {
+    "reason": "target_reached",
+    "frames": 487,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f570_left",
+    "start_progress": 8,
+    "advance": 5,
+    "start_info": {
+      "kart1_X": 1102,
+      "kart1_Y": 512,
+      "kart1_direction": 192,
+      "kart1_speed": 610,
+      "surface": 64
+    },
+    "perturb_frames": 24
+  },
+  {
+    "reason": "target_reached",
+    "frames": 393,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f570_right",
+    "start_progress": 8,
+    "advance": 5,
+    "start_info": {
+      "kart1_X": 1118,
+      "kart1_Y": 470,
+      "kart1_direction": 219,
+      "kart1_speed": 610,
+      "surface": 64
+    },
+    "perturb_frames": 24
+  },
+  {
+    "reason": "target_reached",
+    "frames": 512,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f600_center",
+    "start_progress": 8,
+    "advance": 5,
+    "start_info": {
+      "kart1_X": 921,
+      "kart1_Y": 384,
+      "kart1_direction": 211,
+      "kart1_speed": 615,
+      "surface": 64
+    },
+    "perturb_frames": 24
+  },
+  {
+    "reason": "no_progress",
+    "frames": 659,
+    "progress": 12,
+    "one_lap": false,
+    "reward": 0.13333333333333333,
+    "jumps": 0,
+    "target_reached": false,
+    "target": 13,
+    "start_id": "f600_left",
+    "start_progress": 8,
+    "advance": 4,
+    "start_info": {
+      "kart1_X": 913,
+      "kart1_Y": 403,
+      "kart1_direction": 198,
+      "kart1_speed": 615,
+      "surface": 64
+    },
+    "perturb_frames": 24
+  },
+  {
+    "reason": "target_reached",
+    "frames": 704,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f600_right",
+    "start_progress": 8,
+    "advance": 5,
+    "start_info": {
+      "kart1_X": 931,
+      "kart1_Y": 367,
+      "kart1_direction": 224,
+      "kart1_speed": 615,
+      "surface": 64
+    },
+    "perturb_frames": 24
+  }
+]

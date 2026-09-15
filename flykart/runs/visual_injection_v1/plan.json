@@ -1,0 +1,65 @@
+{
+  "train_frames": [
+    450,
+    480,
+    540,
+    600
+  ],
+  "validation_frames": [
+    510,
+    570
+  ],
+  "test_frames": [
+    495,
+    555,
+    615
+  ],
+  "train_perturb": [
+    12,
+    24,
+    36,
+    48
+  ],
+  "validation_perturb": [
+    24
+  ],
+  "test_perturb": [
+    18,
+    30
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "updates": 256,
+  "batch": 8,
+  "bptt": 32,
+  "memory": 64,
+  "learning_rate": 0.0003,
+  "optimizer": "Adam eps1e-5, clip norm1.0",
+  "loss": "training-frequency inverse weighted cross entropy",
+  "select": "maximum validation normal balanced accuracy, then minimum normal cross entropy; every64 updates",
+  "evaluate": "selected checkpoint only; test untouched during training; greedy + seeds8100,8101,8102; normal/frozen/clock",
+  "selection": "retain successful, jumps0, repeatable oracle trajectories, independent of model outcomes",
+  "notes": "one track, disjoint prefix frames; trajectories may converge; same data/order/CNN initialization per paired seed",
+  "source_hashes": {
+    "supervised.py": "1cc1e4b7cb0d0bea754e8d4bf2e4a604051ee193aecfd0bb2c5803feaeaca05f",
+    "model.py": "a0e84f4083f2c8ec553dcd137761230f052ab9b1d00bea3295295fe464400540",
+    "bend_task.py": "420bdf44f7f11659dced28a01a1a47308282b4966b948f40d172e4fb0bd25919",
+    "task.py": "f639b5f77f3298007421938f83d60ec0f0b4193f59a33b4614e29436e8de3662"
+  },
+  "graph_sha256": "dd98812064bc8be1b6889659c196cedf19415fd76e5c63ceaea85a9b53d9667d",
+  "prefix_sha256": "dff318b2f127bf6fcc91b194b11d90c7e0460fbcd19653106494ccb3a75ee408",
+  "rom_sha256": "2ada8919688087be60a6a48cace8f877add60c45d2e5d09e2442faa55be62a49",
+  "experiment": "group-specific identity-initialized visual projection; original tensors paired",
+  "groups": 11,
+  "added_parameters": 45056,
+  "grouping": "visual superclass x somaSide; original channel slot within each group",
+  "baseline": "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/supervised_architecture_v1",
+  "reuse_test_warning": "same diagnostic test as previous experiment, not a new independent test",
+  "new_source_sha256": "ef1516ab27945ef9a868934299d7c548aa8796a7f1baad4fa067173126a14d0e",
+  "training_source_sha256": "61d7e49c81ee2f994615b2bb01ed5731101c51404e0e5521545b8fd5ff730cbd",
+  "annotations_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+  "groups_sha256": "610a7b882cddf5d83d9f1d77ae842506578077b739f799aa3b8d2f8d6211c2d9"
+}

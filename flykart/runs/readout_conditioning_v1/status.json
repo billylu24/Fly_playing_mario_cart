@@ -1,0 +1,12 @@
+{
+  "state": "completed",
+  "backbone_unchanged": true,
+  "no_backbone_gradients": true,
+  "source_checkpoints_unchanged": true,
+  "source_hashes": {
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/neural_microsteps_v1/k2/graph_seed0/best.pt": "a8c8995c2a562a6d5e8c5661a5adf32a2a708873850bc8a4c4711cb086000e76",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/layer_probes_v1/k2_motor_linear.pt": "93cd818b52ae0fd5cde32beee2fbd3092cd2eca119f1c66eaa4ada2869a2306a",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/layer_probes_v1/k2_motor256_mlp32.pt": "db8105606c6683639de90068412094b4ba84a1293ef87aee874fbf8455c0702d",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/layer_probes_v1/time_probe.pt": "ea227cc04ba39f6b3befeba5a611fa0325ed4275ae02bd7032b413e7e2938c0c"
+  }
+}

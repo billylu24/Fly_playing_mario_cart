@@ -1,0 +1,14 @@
+{
+  "architecture": "graph",
+  "seed": 0,
+  "encoder_initial_sha256": "bdd99160444f7f4a5b24d98c2980a1de982807e93b2f018e58d25b3a3cbaf2f0",
+  "plan_sha256": "c39a3d27dd4ba109344fdc3adc4ce0075921f53e7bdfd5627c07ab6573bb16e4",
+  "manifest_sha256": "75daf02e54f1d8768d7455a36f476b437bc6519b2af4f1005003c99bdb3f93d1",
+  "trainable_parameters": 173560,
+  "class_weights": [
+    3.2941176891326904,
+    0.5933170318603516,
+    0.989130437374115
+  ],
+  "initial_model_sha256": "ba91218e67f1bcedb09a47b641cca737be4eed6be64286f321b4cdbbeb7a2db7"
+}

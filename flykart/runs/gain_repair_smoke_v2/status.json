@@ -1,0 +1,43 @@
+{
+  "state": "completed",
+  "decisions": 4096,
+  "frames": 32517,
+  "optimizer_steps": 128,
+  "wall_seconds": 100.99402633600039,
+  "evaluations": [
+    {
+      "decisions": 4096,
+      "wall_seconds": 1.2249230599991279,
+      "episodes": [
+        {
+          "seed": 1000,
+          "reason": "no_progress",
+          "frames": 811,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -0.13608333333333344,
+          "jumps": 4,
+          "target_reached": false,
+          "target": 3
+        },
+        {
+          "seed": 1001,
+          "reason": "target_reached",
+          "frames": 263,
+          "progress": 3,
+          "one_lap": false,
+          "reward": 0.13424999999999998,
+          "jumps": 0,
+          "target_reached": true,
+          "target": 3
+        }
+      ],
+      "success_rate": 0.0,
+      "one_lap_rate": 0.0,
+      "target_reached_rate": 0.5
+    }
+  ],
+  "median_decisions_per_second": 41.11782992836773,
+  "max_allocated_mib": 934.04345703125,
+  "fixed_w_unchanged": true
+}

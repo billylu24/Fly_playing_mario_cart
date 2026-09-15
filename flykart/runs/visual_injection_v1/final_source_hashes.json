@@ -1,0 +1,7 @@
+{
+  "training/injection_experiment.py": "ef1516ab27945ef9a868934299d7c548aa8796a7f1baad4fa067173126a14d0e",
+  "training/supervised.py": "61d7e49c81ee2f994615b2bb01ed5731101c51404e0e5521545b8fd5ff730cbd",
+  "training/model.py": "a0e84f4083f2c8ec553dcd137761230f052ab9b1d00bea3295295fe464400540",
+  "tests/summarize_injection.py": "7d2b4312be6d58aa17083f9a4cf851fd39920d8f4019570b7d133cb61c54d175",
+  "tests/report_injection.py": "a34d3d103c3b44c1f88cc944d4f2bf7731b35eadb018e0423904f9877a76002a"
+}

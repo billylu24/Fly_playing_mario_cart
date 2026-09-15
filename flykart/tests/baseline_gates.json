@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "race_frames": 8462,
+  "race_progress": 150,
+  "race_reward": 7.884500000000151,
+  "gain_gradient_norm": 5.380104994401336e-06,
+  "trainable_parameters": 357378,
+  "reset_pixels": true,
+  "hidden_reset": true,
+  "fixed_w_unchanged": true,
+  "checkpoint_roundtrip": true,
+  "braking": {
+    "coast": {
+      "before": 592,
+      "after": 460
+    },
+    "brake": {
+      "before": 592,
+      "after": 443
+    }
+  }
+}

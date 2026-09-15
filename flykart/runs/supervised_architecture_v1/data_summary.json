@@ -1,0 +1,38 @@
+{
+  "train": {
+    "accepted": 43,
+    "candidates": 48,
+    "decisions": 2184,
+    "action_counts": [
+      221,
+      1227,
+      736
+    ]
+  },
+  "validation": {
+    "accepted": 6,
+    "candidates": 6,
+    "decisions": 251,
+    "action_counts": [
+      34,
+      119,
+      98
+    ]
+  },
+  "test": {
+    "accepted": 17,
+    "candidates": 18,
+    "decisions": 795,
+    "action_counts": [
+      76,
+      488,
+      231
+    ]
+  },
+  "exact_frame_overlap": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "wall_seconds": 109.37873817600007
+}

@@ -1,0 +1,11 @@
+{
+  "state": "completed",
+  "source_checkpoint_unchanged": true,
+  "all_encoder_checks_passed": true,
+  "training_fit_gate": {
+    "decoder_only": false,
+    "gain": false,
+    "interface": true,
+    "interface_edges": true
+  }
+}

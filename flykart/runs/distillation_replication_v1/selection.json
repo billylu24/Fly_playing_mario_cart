@@ -1,0 +1,11 @@
+{
+  "checkpoints": {
+    "reconstruction_seed0": 256,
+    "joint_seed0": 256,
+    "reconstruction_seed1": 128,
+    "joint_seed1": 256,
+    "reconstruction_seed2": 64,
+    "joint_seed2": 256
+  },
+  "all_selected_before_new_test": true
+}

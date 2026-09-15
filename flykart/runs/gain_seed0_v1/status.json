@@ -1,0 +1,796 @@
+{
+  "state": "completed",
+  "decisions": 200000,
+  "frames": 800000,
+  "optimizer_steps": 1564,
+  "wall_seconds": 2140.0124019649993,
+  "evaluations": [
+    {
+      "decisions": 25088,
+      "wall_seconds": 176.4125905619985,
+      "episodes": [
+        {
+          "seed": 1000,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1001,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1002,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1003,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1004,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1005,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1006,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1007,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1008,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1009,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        }
+      ],
+      "success_rate": 0.0,
+      "one_lap_rate": 0.0
+    },
+    {
+      "decisions": 50176,
+      "wall_seconds": 177.43142725899816,
+      "episodes": [
+        {
+          "seed": 1000,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 3,
+          "one_lap": false,
+          "reward": -4.399999999999797,
+          "jumps": 4
+        },
+        {
+          "seed": 1001,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333142,
+          "jumps": 0
+        },
+        {
+          "seed": 1002,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 7,
+          "one_lap": false,
+          "reward": -4.266666666666401,
+          "jumps": 0
+        },
+        {
+          "seed": 1003,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333145,
+          "jumps": 0
+        },
+        {
+          "seed": 1004,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333142,
+          "jumps": 0
+        },
+        {
+          "seed": 1005,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333143,
+          "jumps": 0
+        },
+        {
+          "seed": 1006,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333145,
+          "jumps": 0
+        },
+        {
+          "seed": 1007,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333145,
+          "jumps": 0
+        },
+        {
+          "seed": 1008,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333147,
+          "jumps": 0
+        },
+        {
+          "seed": 1009,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333144,
+          "jumps": 0
+        }
+      ],
+      "success_rate": 0.0,
+      "one_lap_rate": 0.0
+    },
+    {
+      "decisions": 75264,
+      "wall_seconds": 179.06792279399815,
+      "episodes": [
+        {
+          "seed": 1000,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 16,
+          "one_lap": false,
+          "reward": -3.966666666666291,
+          "jumps": 34
+        },
+        {
+          "seed": 1001,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 3,
+          "one_lap": false,
+          "reward": -4.399999999999804,
+          "jumps": 51
+        },
+        {
+          "seed": 1002,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333149,
+          "jumps": 51
+        },
+        {
+          "seed": 1003,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 4,
+          "one_lap": false,
+          "reward": -4.366666666666459,
+          "jumps": 70
+        },
+        {
+          "seed": 1004,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 34,
+          "one_lap": true,
+          "reward": -3.3666666666663327,
+          "jumps": 0
+        },
+        {
+          "seed": 1005,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 8,
+          "one_lap": false,
+          "reward": -4.233333333333068,
+          "jumps": 0
+        },
+        {
+          "seed": 1006,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 8,
+          "one_lap": false,
+          "reward": -4.233333333333075,
+          "jumps": 0
+        },
+        {
+          "seed": 1007,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333149,
+          "jumps": 89
+        },
+        {
+          "seed": 1008,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333149,
+          "jumps": 78
+        },
+        {
+          "seed": 1009,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 18,
+          "one_lap": false,
+          "reward": -3.8999999999996464,
+          "jumps": 15
+        }
+      ],
+      "success_rate": 0.0,
+      "one_lap_rate": 0.1
+    },
+    {
+      "decisions": 100352,
+      "wall_seconds": 178.18174760799957,
+      "episodes": [
+        {
+          "seed": 1000,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 4,
+          "one_lap": false,
+          "reward": -4.366666666666459,
+          "jumps": 28
+        },
+        {
+          "seed": 1001,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 16,
+          "one_lap": false,
+          "reward": -3.96666666666632,
+          "jumps": 1
+        },
+        {
+          "seed": 1002,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333149,
+          "jumps": 9
+        },
+        {
+          "seed": 1003,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333149,
+          "jumps": 0
+        },
+        {
+          "seed": 1004,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 5,
+          "one_lap": false,
+          "reward": -4.333333333333115,
+          "jumps": 50
+        },
+        {
+          "seed": 1005,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 16,
+          "one_lap": false,
+          "reward": -3.966666666666327,
+          "jumps": 37
+        },
+        {
+          "seed": 1006,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 17,
+          "one_lap": false,
+          "reward": -3.933333333333008,
+          "jumps": 0
+        },
+        {
+          "seed": 1007,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333149,
+          "jumps": 19
+        },
+        {
+          "seed": 1008,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333149,
+          "jumps": 33
+        },
+        {
+          "seed": 1009,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333149,
+          "jumps": 28
+        }
+      ],
+      "success_rate": 0.0,
+      "one_lap_rate": 0.0
+    },
+    {
+      "decisions": 125440,
+      "wall_seconds": 178.1180979180026,
+      "episodes": [
+        {
+          "seed": 1000,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 3,
+          "one_lap": false,
+          "reward": -4.399999999999804,
+          "jumps": 9
+        },
+        {
+          "seed": 1001,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 12,
+          "one_lap": false,
+          "reward": -4.0999999999997,
+          "jumps": 0
+        },
+        {
+          "seed": 1002,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333149,
+          "jumps": 15
+        },
+        {
+          "seed": 1003,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333149,
+          "jumps": 7
+        },
+        {
+          "seed": 1004,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 8,
+          "one_lap": false,
+          "reward": -4.233333333333082,
+          "jumps": 0
+        },
+        {
+          "seed": 1005,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 4,
+          "one_lap": false,
+          "reward": -4.366666666666459,
+          "jumps": 20
+        },
+        {
+          "seed": 1006,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333149,
+          "jumps": 0
+        },
+        {
+          "seed": 1007,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333149,
+          "jumps": 4
+        },
+        {
+          "seed": 1008,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333149,
+          "jumps": 7
+        },
+        {
+          "seed": 1009,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333149,
+          "jumps": 7
+        }
+      ],
+      "success_rate": 0.0,
+      "one_lap_rate": 0.0
+    },
+    {
+      "decisions": 150016,
+      "wall_seconds": 176.5075480910018,
+      "episodes": [
+        {
+          "seed": 1000,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 0,
+          "one_lap": false,
+          "reward": -4.4999999999998375,
+          "jumps": 0
+        },
+        {
+          "seed": 1001,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 0,
+          "one_lap": false,
+          "reward": -4.4999999999998375,
+          "jumps": 0
+        },
+        {
+          "seed": 1002,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 0,
+          "one_lap": false,
+          "reward": -4.4999999999998375,
+          "jumps": 0
+        },
+        {
+          "seed": 1003,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 0,
+          "one_lap": false,
+          "reward": -4.4999999999998375,
+          "jumps": 0
+        },
+        {
+          "seed": 1004,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 0,
+          "one_lap": false,
+          "reward": -4.4999999999998375,
+          "jumps": 0
+        },
+        {
+          "seed": 1005,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 0,
+          "one_lap": false,
+          "reward": -4.4999999999998375,
+          "jumps": 0
+        },
+        {
+          "seed": 1006,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 0,
+          "one_lap": false,
+          "reward": -4.4999999999998375,
+          "jumps": 0
+        },
+        {
+          "seed": 1007,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 0,
+          "one_lap": false,
+          "reward": -4.4999999999998375,
+          "jumps": 0
+        },
+        {
+          "seed": 1008,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 0,
+          "one_lap": false,
+          "reward": -4.4999999999998375,
+          "jumps": 0
+        },
+        {
+          "seed": 1009,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 0,
+          "one_lap": false,
+          "reward": -4.4999999999998375,
+          "jumps": 0
+        }
+      ],
+      "success_rate": 0.0,
+      "one_lap_rate": 0.0
+    },
+    {
+      "decisions": 175104,
+      "wall_seconds": 176.61174397900322,
+      "episodes": [
+        {
+          "seed": 1000,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1001,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1002,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1003,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1004,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1005,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1006,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1007,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1008,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        },
+        {
+          "seed": 1009,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 1,
+          "one_lap": false,
+          "reward": -4.466666666666489,
+          "jumps": 0
+        }
+      ],
+      "success_rate": 0.0,
+      "one_lap_rate": 0.0
+    },
+    {
+      "decisions": 200000,
+      "wall_seconds": 177.8256423899984,
+      "episodes": [
+        {
+          "seed": 1000,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333145,
+          "jumps": 0
+        },
+        {
+          "seed": 1001,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333145,
+          "jumps": 0
+        },
+        {
+          "seed": 1002,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.4333333333331435,
+          "jumps": 0
+        },
+        {
+          "seed": 1003,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333145,
+          "jumps": 0
+        },
+        {
+          "seed": 1004,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333142,
+          "jumps": 0
+        },
+        {
+          "seed": 1005,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333142,
+          "jumps": 0
+        },
+        {
+          "seed": 1006,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333145,
+          "jumps": 0
+        },
+        {
+          "seed": 1007,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333145,
+          "jumps": 0
+        },
+        {
+          "seed": 1008,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333145,
+          "jumps": 0
+        },
+        {
+          "seed": 1009,
+          "reason": "timeout",
+          "frames": 18000,
+          "progress": 2,
+          "one_lap": false,
+          "reward": -4.433333333333142,
+          "jumps": 0
+        }
+      ],
+      "success_rate": 0.0,
+      "one_lap_rate": 0.0
+    }
+  ],
+  "median_decisions_per_second": 281.6010423278558,
+  "max_allocated_mib": 1907.83251953125,
+  "fixed_w_unchanged": true
+}

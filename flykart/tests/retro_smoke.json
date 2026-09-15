@@ -1,0 +1,15 @@
+{
+  "game": "Airstriker-Genesis-v0",
+  "headless": true,
+  "observation_shape": [224, 320, 3],
+  "observation_dtype": "uint8",
+  "action_space": "MultiBinary(12)",
+  "buttons": ["B", "A", "MODE", "START", "UP", "DOWN", "LEFT", "RIGHT", "C", "Y", "X", "Z"],
+  "initial_info": {},
+  "steps": 5000,
+  "resets": 6,
+  "changed_frames": 5000,
+  "elapsed_seconds": 1.68,
+  "final_info": {},
+  "reset_restores_initial_frame": true
+}

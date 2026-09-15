@@ -1,0 +1,11 @@
+{
+  "trigger": "Initial Adam lr .003 decoder update increased reconstruction MSE from .986 to34.90; isolate step-size before interpreting trainability.",
+  "rates": [
+    0.003,
+    0.0003,
+    3e-05
+  ],
+  "updates": 400,
+  "rule": "same zero decoder initialization, frozen motor features, normalization, optimizer eps1e-5 and clip1; report all rates, do not select by validation",
+  "purpose": "attribute finite-budget fitting difficulty, not claim to fix graph or driving"
+}

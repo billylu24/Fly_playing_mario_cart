@@ -1,0 +1,714 @@
+{
+  "task": {
+    "target": 3,
+    "stall_limit": 600,
+    "repeat": 8,
+    "action_set": "drive"
+  },
+  "episodes": {
+    "random": [
+      {
+        "seed": 2000,
+        "reason": "no_progress",
+        "frames": 808,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.13533333333333344,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2001,
+        "reason": "no_progress",
+        "frames": 857,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.14758333333333348,
+        "jumps": 2,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2002,
+        "reason": "no_progress",
+        "frames": 843,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.14408333333333348,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2003,
+        "reason": "no_progress",
+        "frames": 844,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.14433333333333348,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2004,
+        "reason": "no_progress",
+        "frames": 806,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.13483333333333344,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2005,
+        "reason": "no_progress",
+        "frames": 819,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.13808333333333345,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2006,
+        "reason": "no_progress",
+        "frames": 866,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.14983333333333348,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2007,
+        "reason": "no_progress",
+        "frames": 826,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.13983333333333348,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2008,
+        "reason": "no_progress",
+        "frames": 1053,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.19658333333333353,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2009,
+        "reason": "no_progress",
+        "frames": 898,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.1578333333333335,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      }
+    ],
+    "straight": [
+      {
+        "seed": 2000,
+        "reason": "no_progress",
+        "frames": 818,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.13783333333333345,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2001,
+        "reason": "no_progress",
+        "frames": 818,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.13783333333333345,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2002,
+        "reason": "no_progress",
+        "frames": 818,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.13783333333333345,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2003,
+        "reason": "no_progress",
+        "frames": 818,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.13783333333333345,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2004,
+        "reason": "no_progress",
+        "frames": 818,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.13783333333333345,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2005,
+        "reason": "no_progress",
+        "frames": 818,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.13783333333333345,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2006,
+        "reason": "no_progress",
+        "frames": 818,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.13783333333333345,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2007,
+        "reason": "no_progress",
+        "frames": 818,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.13783333333333345,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2008,
+        "reason": "no_progress",
+        "frames": 818,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.13783333333333345,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2009,
+        "reason": "no_progress",
+        "frames": 818,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.13783333333333345,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      }
+    ],
+    "left": [
+      {
+        "seed": 2000,
+        "reason": "no_progress",
+        "frames": 963,
+        "progress": 1,
+        "one_lap": false,
+        "reward": -0.20741666666666686,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2001,
+        "reason": "no_progress",
+        "frames": 963,
+        "progress": 1,
+        "one_lap": false,
+        "reward": -0.20741666666666686,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2002,
+        "reason": "no_progress",
+        "frames": 963,
+        "progress": 1,
+        "one_lap": false,
+        "reward": -0.20741666666666686,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2003,
+        "reason": "no_progress",
+        "frames": 963,
+        "progress": 1,
+        "one_lap": false,
+        "reward": -0.20741666666666686,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2004,
+        "reason": "no_progress",
+        "frames": 963,
+        "progress": 1,
+        "one_lap": false,
+        "reward": -0.20741666666666686,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2005,
+        "reason": "no_progress",
+        "frames": 963,
+        "progress": 1,
+        "one_lap": false,
+        "reward": -0.20741666666666686,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2006,
+        "reason": "no_progress",
+        "frames": 963,
+        "progress": 1,
+        "one_lap": false,
+        "reward": -0.20741666666666686,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2007,
+        "reason": "no_progress",
+        "frames": 963,
+        "progress": 1,
+        "one_lap": false,
+        "reward": -0.20741666666666686,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2008,
+        "reason": "no_progress",
+        "frames": 963,
+        "progress": 1,
+        "one_lap": false,
+        "reward": -0.20741666666666686,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2009,
+        "reason": "no_progress",
+        "frames": 963,
+        "progress": 1,
+        "one_lap": false,
+        "reward": -0.20741666666666686,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      }
+    ],
+    "right": [
+      {
+        "seed": 2000,
+        "reason": "no_progress",
+        "frames": 600,
+        "progress": 0,
+        "one_lap": false,
+        "reward": -0.1500000000000001,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2001,
+        "reason": "no_progress",
+        "frames": 600,
+        "progress": 0,
+        "one_lap": false,
+        "reward": -0.1500000000000001,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2002,
+        "reason": "no_progress",
+        "frames": 600,
+        "progress": 0,
+        "one_lap": false,
+        "reward": -0.1500000000000001,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2003,
+        "reason": "no_progress",
+        "frames": 600,
+        "progress": 0,
+        "one_lap": false,
+        "reward": -0.1500000000000001,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2004,
+        "reason": "no_progress",
+        "frames": 600,
+        "progress": 0,
+        "one_lap": false,
+        "reward": -0.1500000000000001,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2005,
+        "reason": "no_progress",
+        "frames": 600,
+        "progress": 0,
+        "one_lap": false,
+        "reward": -0.1500000000000001,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2006,
+        "reason": "no_progress",
+        "frames": 600,
+        "progress": 0,
+        "one_lap": false,
+        "reward": -0.1500000000000001,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2007,
+        "reason": "no_progress",
+        "frames": 600,
+        "progress": 0,
+        "one_lap": false,
+        "reward": -0.1500000000000001,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2008,
+        "reason": "no_progress",
+        "frames": 600,
+        "progress": 0,
+        "one_lap": false,
+        "reward": -0.1500000000000001,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2009,
+        "reason": "no_progress",
+        "frames": 600,
+        "progress": 0,
+        "one_lap": false,
+        "reward": -0.1500000000000001,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      }
+    ],
+    "initial": [
+      {
+        "seed": 2000,
+        "reason": "no_progress",
+        "frames": 934,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.1668333333333335,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2001,
+        "reason": "no_progress",
+        "frames": 857,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.14758333333333348,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2002,
+        "reason": "no_progress",
+        "frames": 1050,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.19583333333333353,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2003,
+        "reason": "target_reached",
+        "frames": 230,
+        "progress": 3,
+        "one_lap": false,
+        "reward": 0.14249999999999996,
+        "jumps": 0,
+        "target_reached": true,
+        "target": 3
+      },
+      {
+        "seed": 2004,
+        "reason": "no_progress",
+        "frames": 1238,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.2428333333333336,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2005,
+        "reason": "target_reached",
+        "frames": 224,
+        "progress": 3,
+        "one_lap": false,
+        "reward": 0.14399999999999996,
+        "jumps": 0,
+        "target_reached": true,
+        "target": 3
+      },
+      {
+        "seed": 2006,
+        "reason": "no_progress",
+        "frames": 829,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.14058333333333348,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2007,
+        "reason": "no_progress",
+        "frames": 780,
+        "progress": 1,
+        "one_lap": false,
+        "reward": -0.16166666666666682,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2008,
+        "reason": "target_reached",
+        "frames": 399,
+        "progress": 3,
+        "one_lap": false,
+        "reward": 0.10024999999999995,
+        "jumps": 0,
+        "target_reached": true,
+        "target": 3
+      },
+      {
+        "seed": 2009,
+        "reason": "no_progress",
+        "frames": 1159,
+        "progress": 2,
+        "one_lap": false,
+        "reward": -0.22308333333333358,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      }
+    ],
+    "last": [
+      {
+        "seed": 2000,
+        "reason": "no_progress",
+        "frames": 600,
+        "progress": 0,
+        "one_lap": false,
+        "reward": -0.1500000000000001,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2001,
+        "reason": "target_reached",
+        "frames": 239,
+        "progress": 3,
+        "one_lap": false,
+        "reward": 0.14024999999999996,
+        "jumps": 0,
+        "target_reached": true,
+        "target": 3
+      },
+      {
+        "seed": 2002,
+        "reason": "target_reached",
+        "frames": 211,
+        "progress": 3,
+        "one_lap": false,
+        "reward": 0.14724999999999996,
+        "jumps": 0,
+        "target_reached": true,
+        "target": 3
+      },
+      {
+        "seed": 2003,
+        "reason": "target_reached",
+        "frames": 262,
+        "progress": 3,
+        "one_lap": false,
+        "reward": 0.13449999999999998,
+        "jumps": 0,
+        "target_reached": true,
+        "target": 3
+      },
+      {
+        "seed": 2004,
+        "reason": "target_reached",
+        "frames": 247,
+        "progress": 3,
+        "one_lap": false,
+        "reward": 0.13824999999999998,
+        "jumps": 0,
+        "target_reached": true,
+        "target": 3
+      },
+      {
+        "seed": 2005,
+        "reason": "target_reached",
+        "frames": 221,
+        "progress": 3,
+        "one_lap": false,
+        "reward": 0.14474999999999996,
+        "jumps": 0,
+        "target_reached": true,
+        "target": 3
+      },
+      {
+        "seed": 2006,
+        "reason": "target_reached",
+        "frames": 239,
+        "progress": 3,
+        "one_lap": false,
+        "reward": 0.14024999999999996,
+        "jumps": 0,
+        "target_reached": true,
+        "target": 3
+      },
+      {
+        "seed": 2007,
+        "reason": "no_progress",
+        "frames": 785,
+        "progress": 1,
+        "one_lap": false,
+        "reward": -0.16291666666666682,
+        "jumps": 0,
+        "target_reached": false,
+        "target": 3
+      },
+      {
+        "seed": 2008,
+        "reason": "target_reached",
+        "frames": 263,
+        "progress": 3,
+        "one_lap": false,
+        "reward": 0.13424999999999998,
+        "jumps": 0,
+        "target_reached": true,
+        "target": 3
+      },
+      {
+        "seed": 2009,
+        "reason": "target_reached",
+        "frames": 579,
+        "progress": 3,
+        "one_lap": false,
+        "reward": 0.05524999999999991,
+        "jumps": 0,
+        "target_reached": true,
+        "target": 3
+      }
+    ]
+  },
+  "summary": {
+    "random": {
+      "mean_progress": 2.0,
+      "target_rate": 0.0,
+      "mean_frames": 862.0
+    },
+    "straight": {
+      "mean_progress": 2.0,
+      "target_rate": 0.0,
+      "mean_frames": 818.0
+    },
+    "left": {
+      "mean_progress": 1.0,
+      "target_rate": 0.0,
+      "mean_frames": 963.0
+    },
+    "right": {
+      "mean_progress": 0.0,
+      "target_rate": 0.0,
+      "mean_frames": 600.0
+    },
+    "initial": {
+      "mean_progress": 2.2,
+      "target_rate": 0.3,
+      "mean_frames": 770.0
+    },
+    "last": {
+      "mean_progress": 2.5,
+      "target_rate": 0.8,
+      "mean_frames": 364.6
+    }
+  }
+}

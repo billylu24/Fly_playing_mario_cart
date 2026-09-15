@@ -1,0 +1,32 @@
+{
+  "game": "SuperMarioKart-Snes",
+  "headless": true,
+  "observation_shape": [
+    224,
+    256,
+    3
+  ],
+  "observation_dtype": "uint8",
+  "action_space": "MultiBinary(12)",
+  "buttons": [
+    "B",
+    "Y",
+    "SELECT",
+    "START",
+    "UP",
+    "DOWN",
+    "LEFT",
+    "RIGHT",
+    "A",
+    "X",
+    "L",
+    "R"
+  ],
+  "initial_info": {},
+  "steps": 5000,
+  "resets": 6,
+  "changed_frames": 4960,
+  "elapsed_seconds": 3.71,
+  "final_info": {},
+  "reset_restores_initial_frame": true
+}

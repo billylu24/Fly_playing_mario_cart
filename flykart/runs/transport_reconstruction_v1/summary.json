@@ -1,0 +1,58 @@
+{
+  "decoder_only": {
+    "train": {
+      "normalized_mse": 0.2896042466163635,
+      "r2_global": 0.7063168287277222
+    },
+    "validation": {
+      "normalized_mse": 0.2639871835708618,
+      "r2_global": 0.5201056003570557
+    },
+    "frozen": {
+      "normalized_mse": 1.4628090858459473,
+      "r2_global": -1.6591970920562744
+    }
+  },
+  "gain": {
+    "train": {
+      "normalized_mse": 0.21275250613689423,
+      "r2_global": 0.7842509746551514
+    },
+    "validation": {
+      "normalized_mse": 0.21437476575374603,
+      "r2_global": 0.6102944612503052
+    },
+    "frozen": {
+      "normalized_mse": 1.240198016166687,
+      "r2_global": -1.254518985748291
+    }
+  },
+  "interface": {
+    "train": {
+      "normalized_mse": 0.022517004981637,
+      "r2_global": 0.9771658778190613
+    },
+    "validation": {
+      "normalized_mse": 0.12478495389223099,
+      "r2_global": 0.7731571197509766
+    },
+    "frozen": {
+      "normalized_mse": 1.414418339729309,
+      "r2_global": -1.5712289810180664
+    }
+  },
+  "interface_edges": {
+    "train": {
+      "normalized_mse": 0.023713888600468636,
+      "r2_global": 0.9759520888328552
+    },
+    "validation": {
+      "normalized_mse": 0.13013628125190735,
+      "r2_global": 0.7634291052818298
+    },
+    "frozen": {
+      "normalized_mse": 1.5491979122161865,
+      "r2_global": -1.8162407875061035
+    }
+  }
+}

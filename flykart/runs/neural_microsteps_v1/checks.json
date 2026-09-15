@@ -1,0 +1,17 @@
+{
+  "1": {
+    "forward_matches_repeated_reference": true,
+    "context_matches": true,
+    "current_frame_logit_gradient_norm": 0.0
+  },
+  "2": {
+    "forward_matches_repeated_reference": true,
+    "context_matches": true,
+    "current_frame_logit_gradient_norm": 1.5136396314119338e-06
+  },
+  "4": {
+    "forward_matches_repeated_reference": true,
+    "context_matches": true,
+    "current_frame_logit_gradient_norm": 4.365327185951173e-06
+  }
+}

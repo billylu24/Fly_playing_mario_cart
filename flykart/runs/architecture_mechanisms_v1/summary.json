@@ -1,0 +1,129 @@
+{
+  "decay": {
+    "k1": [
+      0.4975113212943438,
+      0.2957443835083416,
+      0.10743417466396982,
+      0.01549130069142603
+    ],
+    "k2": [
+      0.31465624703366407,
+      0.11967246067685504,
+      0.017335476540121613,
+      0.0004379751372192101
+    ],
+    "k4": [
+      0.12814896913686297,
+      0.019822739410942498,
+      0.00044909880006805287,
+      5.212381616388728e-07
+    ],
+    "slower": [
+      0.5684984176334698,
+      0.37555741888359867,
+      0.16809549102429175,
+      0.03616590508318529
+    ],
+    "gain1.2": [
+      0.5353129098028032,
+      0.33311290793812204,
+      0.1396203450122121,
+      0.03710730313804469
+    ]
+  },
+  "closed_loop": {
+    "baseline": {
+      "greedy_normal": {
+        "success": 4,
+        "total": 16
+      },
+      "greedy_frozen": {
+        "success": 2,
+        "total": 16
+      },
+      "greedy_clock": {
+        "success": 6,
+        "total": 16
+      },
+      "sampled_normal": {
+        "success": 11,
+        "total": 48
+      },
+      "sampled_frozen": {
+        "success": 9,
+        "total": 48
+      },
+      "sampled_clock": {
+        "success": 10,
+        "total": 48
+      }
+    },
+    "gain1.2": {
+      "greedy_normal": {
+        "success": 1,
+        "total": 16
+      },
+      "greedy_frozen": {
+        "success": 1,
+        "total": 16
+      },
+      "greedy_clock": {
+        "success": 6,
+        "total": 16
+      },
+      "sampled_normal": {
+        "success": 8,
+        "total": 48
+      },
+      "sampled_frozen": {
+        "success": 13,
+        "total": 48
+      },
+      "sampled_clock": {
+        "success": 10,
+        "total": 48
+      }
+    },
+    "cnn": {
+      "greedy_normal": {
+        "success": 15,
+        "total": 16
+      },
+      "greedy_frozen": {
+        "success": 1,
+        "total": 16
+      },
+      "greedy_clock": {
+        "success": 6,
+        "total": 16
+      },
+      "sampled_normal": {
+        "success": 38,
+        "total": 48
+      },
+      "sampled_frozen": {
+        "success": 2,
+        "total": 48
+      },
+      "sampled_clock": {
+        "success": 10,
+        "total": 48
+      }
+    }
+  },
+  "new_old_exact_frame_overlap": 0,
+  "selection": {
+    "gates": {
+      "spatial": false,
+      "gaba": false,
+      "slower": false,
+      "gain1.2": true
+    },
+    "selected": [
+      "baseline",
+      "gain1.2"
+    ],
+    "selected_before_new_test": true,
+    "matched_presentations": 27105
+  }
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "kind": "csr",
+    "n": 4096,
+    "events": [
+      {
+        "name": "aten::sparse_sampled_addmm",
+        "input_shapes": [
+          [
+            4096,
+            4096
+          ],
+          [
+            4096,
+            4
+          ],
+          [
+            4,
+            4096
+          ],
+          [],
+          []
+        ],
+        "device_memory_bytes": 6324736
+      },
+      {
+        "name": "aten::mm",
+        "input_shapes": [
+          [
+            4096,
+            4096
+          ],
+          [
+            4096,
+            4
+          ]
+        ],
+        "device_memory_bytes": 10584576
+      },
+      {
+        "name": "aten::to_dense",
+        "input_shapes": [
+          [
+            4096,
+            4096
+          ],
+          [],
+          []
+        ],
+        "device_memory_bytes": 67108864
+      },
+      {
+        "name": "aten::_to_dense",
+        "input_shapes": [
+          [
+            4096,
+            4096
+          ],
+          [],
+          []
+        ],
+        "device_memory_bytes": 67108864
+      },
+      {
+        "name": "aten::to_dense",
+        "input_shapes": [
+          [
+            4096,
+            4096
+          ],
+          [],
+          []
+        ],
+        "device_memory_bytes": 16777216
+      },
+      {
+        "name": "aten::_to_dense",
+        "input_shapes": [
+          [
+            4096,
+            4096
+          ],
+          [],
+          []
+        ],
+        "device_memory_bytes": 16777216
+      }
+    ]
+  },
+  {
+    "kind": "edge",
+    "n": 4096,
+    "events": []
+  },
+  {
+    "kind": "edge_triton",
+    "n": 4096,
+    "events": []
+  }
+]

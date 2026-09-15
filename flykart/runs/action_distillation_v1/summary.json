@@ -1,0 +1,82 @@
+{
+  "closed_loop": {
+    "reconstruction": {
+      "greedy_normal": {
+        "success": 12,
+        "total": 16
+      },
+      "greedy_frozen": {
+        "success": 6,
+        "total": 16
+      },
+      "greedy_clock": {
+        "success": 7,
+        "total": 16
+      },
+      "sampled_normal": {
+        "success": 27,
+        "total": 48
+      },
+      "sampled_frozen": {
+        "success": 16,
+        "total": 48
+      },
+      "sampled_clock": {
+        "success": 10,
+        "total": 48
+      }
+    },
+    "joint": {
+      "greedy_normal": {
+        "success": 11,
+        "total": 16
+      },
+      "greedy_frozen": {
+        "success": 0,
+        "total": 16
+      },
+      "greedy_clock": {
+        "success": 7,
+        "total": 16
+      },
+      "sampled_normal": {
+        "success": 27,
+        "total": 48
+      },
+      "sampled_frozen": {
+        "success": 11,
+        "total": 48
+      },
+      "sampled_clock": {
+        "success": 10,
+        "total": 48
+      }
+    },
+    "cnn": {
+      "greedy_normal": {
+        "success": 11,
+        "total": 16
+      },
+      "greedy_frozen": {
+        "success": 2,
+        "total": 16
+      },
+      "greedy_clock": {
+        "success": 7,
+        "total": 16
+      },
+      "sampled_normal": {
+        "success": 34,
+        "total": 48
+      },
+      "sampled_frozen": {
+        "success": 15,
+        "total": 48
+      },
+      "sampled_clock": {
+        "success": 10,
+        "total": 48
+      }
+    }
+  }
+}

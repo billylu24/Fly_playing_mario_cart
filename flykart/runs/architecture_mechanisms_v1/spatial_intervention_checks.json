@@ -1,0 +1,8 @@
+{
+  "injection_coordinate_swap_rms": 0.0034816644620150328,
+  "injection_coordinate_swap_max": 0.022434605285525322,
+  "logit_swap_rms": 0.00024661122006364167,
+  "logit_swap_max": 0.00047370418906211853,
+  "sampled_observations": 16,
+  "identical_weights_used": true
+}

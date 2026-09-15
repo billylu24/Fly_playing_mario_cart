@@ -1,0 +1,9 @@
+{
+  "state": "completed",
+  "backbone_checkpoint_hashes": {
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/supervised_architecture_v1/graph_seed0/best.pt": "76129de9506c0d76fba2a6daca926a4d971d4046b440752db2e2322b7da3c81a",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/neural_microsteps_v1/k2/graph_seed0/best.pt": "a8c8995c2a562a6d5e8c5661a5adf32a2a708873850bc8a4c4711cb086000e76",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/supervised_architecture_v1/gru_seed0/best.pt": "3cb9e9c835c33e3c4cac89e4e504d7e139f022c66d3b9eb7214cf18c57a09aa0"
+  },
+  "checkpoints_unchanged": true
+}

@@ -1,0 +1,2900 @@
+{
+  "history": [
+    {
+      "step": 0,
+      "train": {
+        "normalized_mse": 0.9861111044883728,
+        "r2_global": 0.0
+      },
+      "validation": {
+        "normalized_mse": 0.5556287169456482,
+        "r2_global": -0.010060906410217285
+      }
+    },
+    {
+      "step": 1,
+      "train": {
+        "normalized_mse": 34.902103424072266,
+        "r2_global": -34.393680572509766
+      },
+      "validation": {
+        "normalized_mse": 21.981569290161133,
+        "r2_global": -38.95964050292969
+      }
+    },
+    {
+      "step": 25,
+      "train": {
+        "normalized_mse": 0.6229365468025208,
+        "r2_global": 0.36828964948654175
+      },
+      "validation": {
+        "normalized_mse": 0.46928998827934265,
+        "r2_global": 0.14689171314239502
+      }
+    },
+    {
+      "step": 100,
+      "train": {
+        "normalized_mse": 0.32862165570259094,
+        "r2_global": 0.6667498350143433
+      },
+      "validation": {
+        "normalized_mse": 0.3214496672153473,
+        "r2_global": 0.4156462550163269
+      }
+    },
+    {
+      "step": 200,
+      "train": {
+        "normalized_mse": 0.3891249895095825,
+        "r2_global": 0.6053943634033203
+      },
+      "validation": {
+        "normalized_mse": 0.3223196864128113,
+        "r2_global": 0.4140646457672119
+      }
+    },
+    {
+      "step": 400,
+      "train": {
+        "normalized_mse": 0.2896042466163635,
+        "r2_global": 0.7063168287277222
+      },
+      "validation": {
+        "normalized_mse": 0.2639871835708618,
+        "r2_global": 0.5201056003570557
+      }
+    }
+  ],
+  "gradient_audits": {
+    "0": {
+      "final_decision_loss": 0.43483132123947144,
+      "state_gradients": [
+        {
+          "neural_step": 1,
+          "lag_from_final": 47,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 2,
+          "lag_from_final": 46,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 3,
+          "lag_from_final": 45,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 4,
+          "lag_from_final": 44,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 5,
+          "lag_from_final": 43,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 6,
+          "lag_from_final": 42,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 7,
+          "lag_from_final": 41,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 8,
+          "lag_from_final": 40,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 9,
+          "lag_from_final": 39,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 10,
+          "lag_from_final": 38,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 11,
+          "lag_from_final": 37,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 12,
+          "lag_from_final": 36,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 13,
+          "lag_from_final": 35,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 14,
+          "lag_from_final": 34,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 15,
+          "lag_from_final": 33,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 16,
+          "lag_from_final": 32,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 17,
+          "lag_from_final": 31,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 18,
+          "lag_from_final": 30,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 19,
+          "lag_from_final": 29,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 20,
+          "lag_from_final": 28,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 21,
+          "lag_from_final": 27,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 22,
+          "lag_from_final": 26,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 23,
+          "lag_from_final": 25,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 24,
+          "lag_from_final": 24,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 25,
+          "lag_from_final": 23,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 26,
+          "lag_from_final": 22,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 27,
+          "lag_from_final": 21,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 28,
+          "lag_from_final": 20,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 29,
+          "lag_from_final": 19,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 30,
+          "lag_from_final": 18,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 31,
+          "lag_from_final": 17,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 32,
+          "lag_from_final": 16,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 33,
+          "lag_from_final": 15,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 34,
+          "lag_from_final": 14,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 35,
+          "lag_from_final": 13,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 36,
+          "lag_from_final": 12,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 37,
+          "lag_from_final": 11,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 38,
+          "lag_from_final": 10,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 39,
+          "lag_from_final": 9,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 40,
+          "lag_from_final": 8,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 41,
+          "lag_from_final": 7,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 42,
+          "lag_from_final": 6,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 43,
+          "lag_from_final": 5,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 44,
+          "lag_from_final": 4,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 45,
+          "lag_from_final": 3,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 46,
+          "lag_from_final": 2,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 47,
+          "lag_from_final": 1,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        },
+        {
+          "neural_step": 48,
+          "lag_from_final": 0,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.0,
+            "intermediate": 0.0
+          }
+        }
+      ],
+      "injection_gradient_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parameter_gradient_norm": {
+        "decoder.weight": 4.05629301071167,
+        "decoder.bias": 0.13881705701351166
+      }
+    },
+    "1": {
+      "final_decision_loss": 153.05433654785156,
+      "state_gradients": [
+        {
+          "neural_step": 1,
+          "lag_from_final": 47,
+          "gradient_rms": {
+            "visual": 0.0007675947272218764,
+            "motor": 0.009810138493776321,
+            "intermediate": 0.005876788403838873
+          }
+        },
+        {
+          "neural_step": 2,
+          "lag_from_final": 46,
+          "gradient_rms": {
+            "visual": 0.0008373711025342345,
+            "motor": 0.010987351648509502,
+            "intermediate": 0.006556136999279261
+          }
+        },
+        {
+          "neural_step": 3,
+          "lag_from_final": 45,
+          "gradient_rms": {
+            "visual": 0.0009128443198278546,
+            "motor": 0.012306896969676018,
+            "intermediate": 0.007315222639590502
+          }
+        },
+        {
+          "neural_step": 4,
+          "lag_from_final": 44,
+          "gradient_rms": {
+            "visual": 0.000994576490484178,
+            "motor": 0.013786175288259983,
+            "intermediate": 0.008163560181856155
+          }
+        },
+        {
+          "neural_step": 5,
+          "lag_from_final": 43,
+          "gradient_rms": {
+            "visual": 0.0010827368823811412,
+            "motor": 0.01544473972171545,
+            "intermediate": 0.009111816063523293
+          }
+        },
+        {
+          "neural_step": 6,
+          "lag_from_final": 42,
+          "gradient_rms": {
+            "visual": 0.0011780266650021076,
+            "motor": 0.017304586246609688,
+            "intermediate": 0.010171940550208092
+          }
+        },
+        {
+          "neural_step": 7,
+          "lag_from_final": 41,
+          "gradient_rms": {
+            "visual": 0.0012810848420485854,
+            "motor": 0.019390471279621124,
+            "intermediate": 0.011357331648468971
+          }
+        },
+        {
+          "neural_step": 8,
+          "lag_from_final": 40,
+          "gradient_rms": {
+            "visual": 0.0013925135135650635,
+            "motor": 0.02173025719821453,
+            "intermediate": 0.012682993896305561
+          }
+        },
+        {
+          "neural_step": 9,
+          "lag_from_final": 39,
+          "gradient_rms": {
+            "visual": 0.001513113733381033,
+            "motor": 0.024355342611670494,
+            "intermediate": 0.014165742322802544
+          }
+        },
+        {
+          "neural_step": 10,
+          "lag_from_final": 38,
+          "gradient_rms": {
+            "visual": 0.0016435841098427773,
+            "motor": 0.02730111964046955,
+            "intermediate": 0.015824398025870323
+          }
+        },
+        {
+          "neural_step": 11,
+          "lag_from_final": 37,
+          "gradient_rms": {
+            "visual": 0.0017851684242486954,
+            "motor": 0.03060753643512726,
+            "intermediate": 0.017680030316114426
+          }
+        },
+        {
+          "neural_step": 12,
+          "lag_from_final": 36,
+          "gradient_rms": {
+            "visual": 0.0019385780906304717,
+            "motor": 0.034319695085287094,
+            "intermediate": 0.01975620724260807
+          }
+        },
+        {
+          "neural_step": 13,
+          "lag_from_final": 35,
+          "gradient_rms": {
+            "visual": 0.00210204953327775,
+            "motor": 0.038488563150167465,
+            "intermediate": 0.022079234942793846
+          }
+        },
+        {
+          "neural_step": 14,
+          "lag_from_final": 34,
+          "gradient_rms": {
+            "visual": 0.0022774820681661367,
+            "motor": 0.04317197948694229,
+            "intermediate": 0.0246785469353199
+          }
+        },
+        {
+          "neural_step": 15,
+          "lag_from_final": 33,
+          "gradient_rms": {
+            "visual": 0.002464283723384142,
+            "motor": 0.04843548685312271,
+            "intermediate": 0.027586940675973892
+          }
+        },
+        {
+          "neural_step": 16,
+          "lag_from_final": 32,
+          "gradient_rms": {
+            "visual": 0.0026639581192284822,
+            "motor": 0.054353587329387665,
+            "intermediate": 0.030840963125228882
+          }
+        },
+        {
+          "neural_step": 17,
+          "lag_from_final": 31,
+          "gradient_rms": {
+            "visual": 0.002876934828236699,
+            "motor": 0.06101110577583313,
+            "intermediate": 0.0344812385737896
+          }
+        },
+        {
+          "neural_step": 18,
+          "lag_from_final": 30,
+          "gradient_rms": {
+            "visual": 0.0031045000068843365,
+            "motor": 0.06850484758615494,
+            "intermediate": 0.03855285793542862
+          }
+        },
+        {
+          "neural_step": 19,
+          "lag_from_final": 29,
+          "gradient_rms": {
+            "visual": 0.003351664636284113,
+            "motor": 0.0769457295536995,
+            "intermediate": 0.04310578480362892
+          }
+        },
+        {
+          "neural_step": 20,
+          "lag_from_final": 28,
+          "gradient_rms": {
+            "visual": 0.0036184692289680243,
+            "motor": 0.08646082133054733,
+            "intermediate": 0.048195067793130875
+          }
+        },
+        {
+          "neural_step": 21,
+          "lag_from_final": 27,
+          "gradient_rms": {
+            "visual": 0.003909406717866659,
+            "motor": 0.09719673544168472,
+            "intermediate": 0.053881365805864334
+          }
+        },
+        {
+          "neural_step": 22,
+          "lag_from_final": 26,
+          "gradient_rms": {
+            "visual": 0.004225679207593203,
+            "motor": 0.1093229129910469,
+            "intermediate": 0.06023101136088371
+          }
+        },
+        {
+          "neural_step": 23,
+          "lag_from_final": 25,
+          "gradient_rms": {
+            "visual": 0.004553757142275572,
+            "motor": 0.12303588539361954,
+            "intermediate": 0.06731614470481873
+          }
+        },
+        {
+          "neural_step": 24,
+          "lag_from_final": 24,
+          "gradient_rms": {
+            "visual": 0.004902023356407881,
+            "motor": 0.1385660618543625,
+            "intermediate": 0.07521524280309677
+          }
+        },
+        {
+          "neural_step": 25,
+          "lag_from_final": 23,
+          "gradient_rms": {
+            "visual": 0.005265366286039352,
+            "motor": 0.15618327260017395,
+            "intermediate": 0.0840124860405922
+          }
+        },
+        {
+          "neural_step": 26,
+          "lag_from_final": 22,
+          "gradient_rms": {
+            "visual": 0.005648677237331867,
+            "motor": 0.17620612680912018,
+            "intermediate": 0.0937977209687233
+          }
+        },
+        {
+          "neural_step": 27,
+          "lag_from_final": 21,
+          "gradient_rms": {
+            "visual": 0.006055461708456278,
+            "motor": 0.19901242852210999,
+            "intermediate": 0.10466573387384415
+          }
+        },
+        {
+          "neural_step": 28,
+          "lag_from_final": 20,
+          "gradient_rms": {
+            "visual": 0.0064844912849366665,
+            "motor": 0.2250525802373886,
+            "intermediate": 0.11671523004770279
+          }
+        },
+        {
+          "neural_step": 29,
+          "lag_from_final": 19,
+          "gradient_rms": {
+            "visual": 0.006938620936125517,
+            "motor": 0.25486665964126587,
+            "intermediate": 0.13004758954048157
+          }
+        },
+        {
+          "neural_step": 30,
+          "lag_from_final": 18,
+          "gradient_rms": {
+            "visual": 0.007415839936584234,
+            "motor": 0.2891044020652771,
+            "intermediate": 0.1447649598121643
+          }
+        },
+        {
+          "neural_step": 31,
+          "lag_from_final": 17,
+          "gradient_rms": {
+            "visual": 0.007919148541986942,
+            "motor": 0.3285512328147888,
+            "intermediate": 0.16096843779087067
+          }
+        },
+        {
+          "neural_step": 32,
+          "lag_from_final": 16,
+          "gradient_rms": {
+            "visual": 0.00844474509358406,
+            "motor": 0.37415802478790283,
+            "intermediate": 0.17875584959983826
+          }
+        },
+        {
+          "neural_step": 33,
+          "lag_from_final": 15,
+          "gradient_rms": {
+            "visual": 0.008996263146400452,
+            "motor": 0.4270786941051483,
+            "intermediate": 0.19822071492671967
+          }
+        },
+        {
+          "neural_step": 34,
+          "lag_from_final": 14,
+          "gradient_rms": {
+            "visual": 0.00956658460199833,
+            "motor": 0.48871251940727234,
+            "intermediate": 0.21945223212242126
+          }
+        },
+        {
+          "neural_step": 35,
+          "lag_from_final": 13,
+          "gradient_rms": {
+            "visual": 0.01015439722687006,
+            "motor": 0.5607577562332153,
+            "intermediate": 0.24254007637500763
+          }
+        },
+        {
+          "neural_step": 36,
+          "lag_from_final": 12,
+          "gradient_rms": {
+            "visual": 0.01074886042624712,
+            "motor": 0.6452755928039551,
+            "intermediate": 0.267585426568985
+          }
+        },
+        {
+          "neural_step": 37,
+          "lag_from_final": 11,
+          "gradient_rms": {
+            "visual": 0.011336643248796463,
+            "motor": 0.7447816729545593,
+            "intermediate": 0.29472482204437256
+          }
+        },
+        {
+          "neural_step": 38,
+          "lag_from_final": 10,
+          "gradient_rms": {
+            "visual": 0.011901413090527058,
+            "motor": 0.8623950481414795,
+            "intermediate": 0.3241725564002991
+          }
+        },
+        {
+          "neural_step": 39,
+          "lag_from_final": 9,
+          "gradient_rms": {
+            "visual": 0.012421445921063423,
+            "motor": 1.0021305084228516,
+            "intermediate": 0.3562883734703064
+          }
+        },
+        {
+          "neural_step": 40,
+          "lag_from_final": 8,
+          "gradient_rms": {
+            "visual": 0.012864511460065842,
+            "motor": 1.1695525646209717,
+            "intermediate": 0.3916698396205902
+          }
+        },
+        {
+          "neural_step": 41,
+          "lag_from_final": 7,
+          "gradient_rms": {
+            "visual": 0.013180109672248363,
+            "motor": 1.373348355293274,
+            "intermediate": 0.4312419891357422
+          }
+        },
+        {
+          "neural_step": 42,
+          "lag_from_final": 6,
+          "gradient_rms": {
+            "visual": 0.013310655951499939,
+            "motor": 1.6292701959609985,
+            "intermediate": 0.4762324392795563
+          }
+        },
+        {
+          "neural_step": 43,
+          "lag_from_final": 5,
+          "gradient_rms": {
+            "visual": 0.01316283643245697,
+            "motor": 1.9702016115188599,
+            "intermediate": 0.5276827812194824
+          }
+        },
+        {
+          "neural_step": 44,
+          "lag_from_final": 4,
+          "gradient_rms": {
+            "visual": 0.01261541061103344,
+            "motor": 2.4716672897338867,
+            "intermediate": 0.5845364928245544
+          }
+        },
+        {
+          "neural_step": 45,
+          "lag_from_final": 3,
+          "gradient_rms": {
+            "visual": 0.011485082097351551,
+            "motor": 3.312501907348633,
+            "intermediate": 0.6377606987953186
+          }
+        },
+        {
+          "neural_step": 46,
+          "lag_from_final": 2,
+          "gradient_rms": {
+            "visual": 0.009497019462287426,
+            "motor": 4.901173114776611,
+            "intermediate": 0.6540557146072388
+          }
+        },
+        {
+          "neural_step": 47,
+          "lag_from_final": 1,
+          "gradient_rms": {
+            "visual": 0.006135358475148678,
+            "motor": 8.107461929321289,
+            "intermediate": 0.5331887602806091
+          }
+        },
+        {
+          "neural_step": 48,
+          "lag_from_final": 0,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 14.70625114440918,
+            "intermediate": 0.0
+          }
+        }
+      ],
+      "injection_gradient_rms": [
+        0.003971461672335863,
+        0.004942228086292744,
+        0.006154503207653761,
+        0.007669464219361544,
+        0.009564176201820374,
+        0.011935362592339516,
+        0.01490467693656683,
+        0.0186229906976223,
+        0.023279231041669846,
+        0.02910785935819149,
+        0.03639949485659599,
+        0.04550975561141968,
+        0.05686086043715477,
+        0.07095835357904434,
+        0.0883939117193222,
+        0.10984691977500916,
+        0.13610346615314484,
+        0.16813550889492035,
+        0.20736832916736603,
+        0.25646117329597473,
+        0.3214135766029358,
+        0.41773512959480286,
+        0.6036347150802612,
+        1.299111247062683
+      ],
+      "parameter_gradient_norm": {
+        "decoder.weight": 278.9977111816406,
+        "decoder.bias": 0.4179909825325012
+      }
+    },
+    "25": {
+      "final_decision_loss": 0.7643495798110962,
+      "state_gradients": [
+        {
+          "neural_step": 1,
+          "lag_from_final": 47,
+          "gradient_rms": {
+            "visual": 5.61758042749716e-06,
+            "motor": 0.00011134074884466827,
+            "intermediate": 7.492394070141017e-05
+          }
+        },
+        {
+          "neural_step": 2,
+          "lag_from_final": 46,
+          "gradient_rms": {
+            "visual": 6.079283593862783e-06,
+            "motor": 0.00012493827671278268,
+            "intermediate": 8.40815991978161e-05
+          }
+        },
+        {
+          "neural_step": 3,
+          "lag_from_final": 45,
+          "gradient_rms": {
+            "visual": 6.572730399057036e-06,
+            "motor": 0.00014023881522007287,
+            "intermediate": 9.439486893825233e-05
+          }
+        },
+        {
+          "neural_step": 4,
+          "lag_from_final": 44,
+          "gradient_rms": {
+            "visual": 7.100697530404432e-06,
+            "motor": 0.00015746598364785314,
+            "intermediate": 0.0001060143913491629
+          }
+        },
+        {
+          "neural_step": 5,
+          "lag_from_final": 43,
+          "gradient_rms": {
+            "visual": 7.662798452656716e-06,
+            "motor": 0.00017687537183519453,
+            "intermediate": 0.00011911084584426135
+          }
+        },
+        {
+          "neural_step": 6,
+          "lag_from_final": 42,
+          "gradient_rms": {
+            "visual": 8.262433766503818e-06,
+            "motor": 0.0001987599825952202,
+            "intermediate": 0.00013387772196438164
+          }
+        },
+        {
+          "neural_step": 7,
+          "lag_from_final": 41,
+          "gradient_rms": {
+            "visual": 8.902325134840794e-06,
+            "motor": 0.00022345645993482322,
+            "intermediate": 0.00015053438255563378
+          }
+        },
+        {
+          "neural_step": 8,
+          "lag_from_final": 40,
+          "gradient_rms": {
+            "visual": 9.584613508195616e-06,
+            "motor": 0.00025135287432931364,
+            "intermediate": 0.00016932949074544013
+          }
+        },
+        {
+          "neural_step": 9,
+          "lag_from_final": 39,
+          "gradient_rms": {
+            "visual": 1.0312423000868876e-05,
+            "motor": 0.00028289805050008,
+            "intermediate": 0.0001905448007164523
+          }
+        },
+        {
+          "neural_step": 10,
+          "lag_from_final": 38,
+          "gradient_rms": {
+            "visual": 1.1087924576713704e-05,
+            "motor": 0.0003186129033565521,
+            "intermediate": 0.00021449962514452636
+          }
+        },
+        {
+          "neural_step": 11,
+          "lag_from_final": 37,
+          "gradient_rms": {
+            "visual": 1.1916289622604381e-05,
+            "motor": 0.0003591046261135489,
+            "intermediate": 0.00024155559367500246
+          }
+        },
+        {
+          "neural_step": 12,
+          "lag_from_final": 36,
+          "gradient_rms": {
+            "visual": 1.2798982425010763e-05,
+            "motor": 0.0004050836432725191,
+            "intermediate": 0.00027212221175432205
+          }
+        },
+        {
+          "neural_step": 13,
+          "lag_from_final": 35,
+          "gradient_rms": {
+            "visual": 1.3722225958190393e-05,
+            "motor": 0.0004573849437292665,
+            "intermediate": 0.00030666260863654315
+          }
+        },
+        {
+          "neural_step": 14,
+          "lag_from_final": 34,
+          "gradient_rms": {
+            "visual": 1.4694043784402311e-05,
+            "motor": 0.0005169956712052226,
+            "intermediate": 0.0003457007696852088
+          }
+        },
+        {
+          "neural_step": 15,
+          "lag_from_final": 33,
+          "gradient_rms": {
+            "visual": 1.570701897435356e-05,
+            "motor": 0.0005850871093571186,
+            "intermediate": 0.0003898286377079785
+          }
+        },
+        {
+          "neural_step": 16,
+          "lag_from_final": 32,
+          "gradient_rms": {
+            "visual": 1.67654416145524e-05,
+            "motor": 0.0006630568532273173,
+            "intermediate": 0.00043971429113298655
+          }
+        },
+        {
+          "neural_step": 17,
+          "lag_from_final": 31,
+          "gradient_rms": {
+            "visual": 1.7866614143713377e-05,
+            "motor": 0.0007525802939198911,
+            "intermediate": 0.0004961109370924532
+          }
+        },
+        {
+          "neural_step": 18,
+          "lag_from_final": 30,
+          "gradient_rms": {
+            "visual": 1.9011222320841625e-05,
+            "motor": 0.0008556759566999972,
+            "intermediate": 0.000559866486582905
+          }
+        },
+        {
+          "neural_step": 19,
+          "lag_from_final": 29,
+          "gradient_rms": {
+            "visual": 2.0217883502482437e-05,
+            "motor": 0.0009747877484187484,
+            "intermediate": 0.0006319344975054264
+          }
+        },
+        {
+          "neural_step": 20,
+          "lag_from_final": 28,
+          "gradient_rms": {
+            "visual": 2.147748091374524e-05,
+            "motor": 0.001112885307520628,
+            "intermediate": 0.0007133842445909977
+          }
+        },
+        {
+          "neural_step": 21,
+          "lag_from_final": 27,
+          "gradient_rms": {
+            "visual": 2.280127773701679e-05,
+            "motor": 0.0012735938653349876,
+            "intermediate": 0.0008054135250858963
+          }
+        },
+        {
+          "neural_step": 22,
+          "lag_from_final": 26,
+          "gradient_rms": {
+            "visual": 2.4182747438317165e-05,
+            "motor": 0.0014613524544984102,
+            "intermediate": 0.0009093600674532354
+          }
+        },
+        {
+          "neural_step": 23,
+          "lag_from_final": 25,
+          "gradient_rms": {
+            "visual": 2.554251295805443e-05,
+            "motor": 0.0016816112911328673,
+            "intermediate": 0.0010267141042277217
+          }
+        },
+        {
+          "neural_step": 24,
+          "lag_from_final": 24,
+          "gradient_rms": {
+            "visual": 2.6904206606559455e-05,
+            "motor": 0.0019410838140174747,
+            "intermediate": 0.0011591322254389524
+          }
+        },
+        {
+          "neural_step": 25,
+          "lag_from_final": 23,
+          "gradient_rms": {
+            "visual": 2.822508213284891e-05,
+            "motor": 0.002248045289888978,
+            "intermediate": 0.00130844849627465
+          }
+        },
+        {
+          "neural_step": 26,
+          "lag_from_final": 22,
+          "gradient_rms": {
+            "visual": 2.9505132260965183e-05,
+            "motor": 0.0026127106975764036,
+            "intermediate": 0.0014766891254112124
+          }
+        },
+        {
+          "neural_step": 27,
+          "lag_from_final": 21,
+          "gradient_rms": {
+            "visual": 3.0734878237126395e-05,
+            "motor": 0.0030476953834295273,
+            "intermediate": 0.0016660840483382344
+          }
+        },
+        {
+          "neural_step": 28,
+          "lag_from_final": 20,
+          "gradient_rms": {
+            "visual": 3.188227492501028e-05,
+            "motor": 0.0035685787443071604,
+            "intermediate": 0.001879082410596311
+          }
+        },
+        {
+          "neural_step": 29,
+          "lag_from_final": 19,
+          "gradient_rms": {
+            "visual": 3.293159534223378e-05,
+            "motor": 0.004194596316665411,
+            "intermediate": 0.0021183707285672426
+          }
+        },
+        {
+          "neural_step": 30,
+          "lag_from_final": 18,
+          "gradient_rms": {
+            "visual": 3.384905357961543e-05,
+            "motor": 0.004949479829519987,
+            "intermediate": 0.0023868985008448362
+          }
+        },
+        {
+          "neural_step": 31,
+          "lag_from_final": 17,
+          "gradient_rms": {
+            "visual": 3.4627293644007295e-05,
+            "motor": 0.005862490274012089,
+            "intermediate": 0.0026879245415329933
+          }
+        },
+        {
+          "neural_step": 32,
+          "lag_from_final": 16,
+          "gradient_rms": {
+            "visual": 3.524624844430946e-05,
+            "motor": 0.006969667971134186,
+            "intermediate": 0.0030250942800194025
+          }
+        },
+        {
+          "neural_step": 33,
+          "lag_from_final": 15,
+          "gradient_rms": {
+            "visual": 3.574198126443662e-05,
+            "motor": 0.00831537414342165,
+            "intermediate": 0.0034025839995592833
+          }
+        },
+        {
+          "neural_step": 34,
+          "lag_from_final": 14,
+          "gradient_rms": {
+            "visual": 3.615604146034457e-05,
+            "motor": 0.009954184293746948,
+            "intermediate": 0.0038253632374107838
+          }
+        },
+        {
+          "neural_step": 35,
+          "lag_from_final": 13,
+          "gradient_rms": {
+            "visual": 3.6627508961828426e-05,
+            "motor": 0.011953257955610752,
+            "intermediate": 0.004299659747630358
+          }
+        },
+        {
+          "neural_step": 36,
+          "lag_from_final": 12,
+          "gradient_rms": {
+            "visual": 3.73732291336637e-05,
+            "motor": 0.01439535990357399,
+            "intermediate": 0.004833767656236887
+          }
+        },
+        {
+          "neural_step": 37,
+          "lag_from_final": 11,
+          "gradient_rms": {
+            "visual": 3.874909452861175e-05,
+            "motor": 0.017382914200425148,
+            "intermediate": 0.005439394153654575
+          }
+        },
+        {
+          "neural_step": 38,
+          "lag_from_final": 10,
+          "gradient_rms": {
+            "visual": 4.128117143409327e-05,
+            "motor": 0.021043844521045685,
+            "intermediate": 0.006133794318884611
+          }
+        },
+        {
+          "neural_step": 39,
+          "lag_from_final": 9,
+          "gradient_rms": {
+            "visual": 4.567299401969649e-05,
+            "motor": 0.025541016831994057,
+            "intermediate": 0.006942883599549532
+          }
+        },
+        {
+          "neural_step": 40,
+          "lag_from_final": 8,
+          "gradient_rms": {
+            "visual": 5.284464714350179e-05,
+            "motor": 0.031089961528778076,
+            "intermediate": 0.007905181497335434
+          }
+        },
+        {
+          "neural_step": 41,
+          "lag_from_final": 7,
+          "gradient_rms": {
+            "visual": 6.405777094187215e-05,
+            "motor": 0.03799756243824959,
+            "intermediate": 0.009075291454792023
+          }
+        },
+        {
+          "neural_step": 42,
+          "lag_from_final": 6,
+          "gradient_rms": {
+            "visual": 8.125841850414872e-05,
+            "motor": 0.04675763100385666,
+            "intermediate": 0.010522795841097832
+          }
+        },
+        {
+          "neural_step": 43,
+          "lag_from_final": 5,
+          "gradient_rms": {
+            "visual": 0.00010673946962924674,
+            "motor": 0.058305710554122925,
+            "intermediate": 0.012315487489104271
+          }
+        },
+        {
+          "neural_step": 44,
+          "lag_from_final": 4,
+          "gradient_rms": {
+            "visual": 0.00014206378546077758,
+            "motor": 0.07471060007810593,
+            "intermediate": 0.014458416029810905
+          }
+        },
+        {
+          "neural_step": 45,
+          "lag_from_final": 3,
+          "gradient_rms": {
+            "visual": 0.00018424970039632171,
+            "motor": 0.10094932466745377,
+            "intermediate": 0.01671292819082737
+          }
+        },
+        {
+          "neural_step": 46,
+          "lag_from_final": 2,
+          "gradient_rms": {
+            "visual": 0.00021774914057459682,
+            "motor": 0.14883944392204285,
+            "intermediate": 0.018090687692165375
+          }
+        },
+        {
+          "neural_step": 47,
+          "lag_from_final": 1,
+          "gradient_rms": {
+            "visual": 0.00019609389710240066,
+            "motor": 0.24420638382434845,
+            "intermediate": 0.015478627756237984
+          }
+        },
+        {
+          "neural_step": 48,
+          "lag_from_final": 0,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.4393545389175415,
+            "intermediate": 0.0
+          }
+        }
+      ],
+      "injection_gradient_rms": [
+        4.9872491217684e-05,
+        6.281968671828508e-05,
+        7.92548744357191e-05,
+        0.00010015336738433689,
+        0.0001267721818294376,
+        0.00016073088045231998,
+        0.000204118259716779,
+        0.0002596222620923072,
+        0.0003307096194475889,
+        0.000421847274992615,
+        0.0005387956043705344,
+        0.0006889873184263706,
+        0.0008820304065011442,
+        0.0011304664658382535,
+        0.0014509056927636266,
+        0.0018659682245925069,
+        0.0024079771246761084,
+        0.0031266063451766968,
+        0.004105452913790941,
+        0.005497551988810301,
+        0.007597795687615871,
+        0.011010970920324326,
+        0.017536047846078873,
+        0.03892113268375397
+      ],
+      "parameter_gradient_norm": {
+        "decoder.weight": 18.812829971313477,
+        "decoder.bias": 0.05622521787881851
+      }
+    },
+    "100": {
+      "final_decision_loss": 0.37177667021751404,
+      "state_gradients": [
+        {
+          "neural_step": 1,
+          "lag_from_final": 47,
+          "gradient_rms": {
+            "visual": 4.80704056826653e-06,
+            "motor": 9.658546332502738e-05,
+            "intermediate": 5.210821109358221e-05
+          }
+        },
+        {
+          "neural_step": 2,
+          "lag_from_final": 46,
+          "gradient_rms": {
+            "visual": 5.207664344197838e-06,
+            "motor": 0.00010867180390050635,
+            "intermediate": 5.872587644262239e-05
+          }
+        },
+        {
+          "neural_step": 3,
+          "lag_from_final": 45,
+          "gradient_rms": {
+            "visual": 5.63706407774589e-06,
+            "motor": 0.0001222833088831976,
+            "intermediate": 6.621844659093767e-05
+          }
+        },
+        {
+          "neural_step": 4,
+          "lag_from_final": 44,
+          "gradient_rms": {
+            "visual": 6.097453024267452e-06,
+            "motor": 0.00013761335867457092,
+            "intermediate": 7.470656419172883e-05
+          }
+        },
+        {
+          "neural_step": 5,
+          "lag_from_final": 43,
+          "gradient_rms": {
+            "visual": 6.5896279011212755e-06,
+            "motor": 0.0001548798754811287,
+            "intermediate": 8.432820322923362e-05
+          }
+        },
+        {
+          "neural_step": 6,
+          "lag_from_final": 42,
+          "gradient_rms": {
+            "visual": 7.116331744327908e-06,
+            "motor": 0.0001743283646646887,
+            "intermediate": 9.524114284431562e-05
+          }
+        },
+        {
+          "neural_step": 7,
+          "lag_from_final": 41,
+          "gradient_rms": {
+            "visual": 7.679830559936818e-06,
+            "motor": 0.00019623547268565744,
+            "intermediate": 0.00010762595047708601
+          }
+        },
+        {
+          "neural_step": 8,
+          "lag_from_final": 40,
+          "gradient_rms": {
+            "visual": 8.282299859274644e-06,
+            "motor": 0.0002209129452239722,
+            "intermediate": 0.00012168934335932136
+          }
+        },
+        {
+          "neural_step": 9,
+          "lag_from_final": 39,
+          "gradient_rms": {
+            "visual": 8.926271220843773e-06,
+            "motor": 0.00024871216737665236,
+            "intermediate": 0.00013766800111625344
+          }
+        },
+        {
+          "neural_step": 10,
+          "lag_from_final": 38,
+          "gradient_rms": {
+            "visual": 9.61409205046948e-06,
+            "motor": 0.00028002943145111203,
+            "intermediate": 0.0001558330695843324
+          }
+        },
+        {
+          "neural_step": 11,
+          "lag_from_final": 37,
+          "gradient_rms": {
+            "visual": 1.034739580063615e-05,
+            "motor": 0.000315311859594658,
+            "intermediate": 0.0001764951302902773
+          }
+        },
+        {
+          "neural_step": 12,
+          "lag_from_final": 36,
+          "gradient_rms": {
+            "visual": 1.1128988262498751e-05,
+            "motor": 0.0003550645778886974,
+            "intermediate": 0.00020001006487291306
+          }
+        },
+        {
+          "neural_step": 13,
+          "lag_from_final": 35,
+          "gradient_rms": {
+            "visual": 1.1943326171603985e-05,
+            "motor": 0.0003998586325906217,
+            "intermediate": 0.00022678547247778624
+          }
+        },
+        {
+          "neural_step": 14,
+          "lag_from_final": 34,
+          "gradient_rms": {
+            "visual": 1.279988373426022e-05,
+            "motor": 0.00045034216600470245,
+            "intermediate": 0.0002572886587586254
+          }
+        },
+        {
+          "neural_step": 15,
+          "lag_from_final": 33,
+          "gradient_rms": {
+            "visual": 1.3692618267668877e-05,
+            "motor": 0.0005072514759376645,
+            "intermediate": 0.00029205463943071663
+          }
+        },
+        {
+          "neural_step": 16,
+          "lag_from_final": 32,
+          "gradient_rms": {
+            "visual": 1.4626450138166547e-05,
+            "motor": 0.0005714272265322506,
+            "intermediate": 0.00033169626840390265
+          }
+        },
+        {
+          "neural_step": 17,
+          "lag_from_final": 31,
+          "gradient_rms": {
+            "visual": 1.5600018741679378e-05,
+            "motor": 0.0006438337150029838,
+            "intermediate": 0.0003769149770960212
+          }
+        },
+        {
+          "neural_step": 18,
+          "lag_from_final": 30,
+          "gradient_rms": {
+            "visual": 1.6615613276371732e-05,
+            "motor": 0.0007255849195644259,
+            "intermediate": 0.0004285131872165948
+          }
+        },
+        {
+          "neural_step": 19,
+          "lag_from_final": 29,
+          "gradient_rms": {
+            "visual": 1.768973197613377e-05,
+            "motor": 0.0008179801516234875,
+            "intermediate": 0.0004874083970207721
+          }
+        },
+        {
+          "neural_step": 20,
+          "lag_from_final": 28,
+          "gradient_rms": {
+            "visual": 1.881677599158138e-05,
+            "motor": 0.000922549341339618,
+            "intermediate": 0.00055464799515903
+          }
+        },
+        {
+          "neural_step": 21,
+          "lag_from_final": 27,
+          "gradient_rms": {
+            "visual": 2.0007275452371687e-05,
+            "motor": 0.0010411218972876668,
+            "intermediate": 0.0006314276251941919
+          }
+        },
+        {
+          "neural_step": 22,
+          "lag_from_final": 26,
+          "gradient_rms": {
+            "visual": 2.1257861590129323e-05,
+            "motor": 0.0011759180342778563,
+            "intermediate": 0.0007191093172878027
+          }
+        },
+        {
+          "neural_step": 23,
+          "lag_from_final": 25,
+          "gradient_rms": {
+            "visual": 2.2513135263579898e-05,
+            "motor": 0.001329680671915412,
+            "intermediate": 0.0008192429668270051
+          }
+        },
+        {
+          "neural_step": 24,
+          "lag_from_final": 24,
+          "gradient_rms": {
+            "visual": 2.3795928427716717e-05,
+            "motor": 0.0015058688586577773,
+            "intermediate": 0.000933591858483851
+          }
+        },
+        {
+          "neural_step": 25,
+          "lag_from_final": 23,
+          "gradient_rms": {
+            "visual": 2.5084700610022992e-05,
+            "motor": 0.0017089220928028226,
+            "intermediate": 0.0010641585104167461
+          }
+        },
+        {
+          "neural_step": 26,
+          "lag_from_final": 22,
+          "gradient_rms": {
+            "visual": 2.6390440325485542e-05,
+            "motor": 0.0019446448422968388,
+            "intermediate": 0.0012132180854678154
+          }
+        },
+        {
+          "neural_step": 27,
+          "lag_from_final": 21,
+          "gradient_rms": {
+            "visual": 2.772640436887741e-05,
+            "motor": 0.0022207426372915506,
+            "intermediate": 0.0013833573320880532
+          }
+        },
+        {
+          "neural_step": 28,
+          "lag_from_final": 20,
+          "gradient_rms": {
+            "visual": 2.910499824793078e-05,
+            "motor": 0.0025475642178207636,
+            "intermediate": 0.0015775259817019105
+          }
+        },
+        {
+          "neural_step": 29,
+          "lag_from_final": 19,
+          "gradient_rms": {
+            "visual": 3.0574487027479336e-05,
+            "motor": 0.0029391131829470396,
+            "intermediate": 0.0017991100903600454
+          }
+        },
+        {
+          "neural_step": 30,
+          "lag_from_final": 18,
+          "gradient_rms": {
+            "visual": 3.221745282644406e-05,
+            "motor": 0.0034143829252570868,
+            "intermediate": 0.0020520389080047607
+          }
+        },
+        {
+          "neural_step": 31,
+          "lag_from_final": 17,
+          "gradient_rms": {
+            "visual": 3.419896529521793e-05,
+            "motor": 0.003999087493866682,
+            "intermediate": 0.002340956823900342
+          }
+        },
+        {
+          "neural_step": 32,
+          "lag_from_final": 16,
+          "gradient_rms": {
+            "visual": 3.6793429899262264e-05,
+            "motor": 0.004727837163954973,
+            "intermediate": 0.0026715032290667295
+          }
+        },
+        {
+          "neural_step": 33,
+          "lag_from_final": 15,
+          "gradient_rms": {
+            "visual": 4.043909575557336e-05,
+            "motor": 0.0056468406692147255,
+            "intermediate": 0.0030507794581353664
+          }
+        },
+        {
+          "neural_step": 34,
+          "lag_from_final": 14,
+          "gradient_rms": {
+            "visual": 4.574731065076776e-05,
+            "motor": 0.006817237939685583,
+            "intermediate": 0.0034881304018199444
+          }
+        },
+        {
+          "neural_step": 35,
+          "lag_from_final": 13,
+          "gradient_rms": {
+            "visual": 5.3485789976548404e-05,
+            "motor": 0.008319327607750893,
+            "intermediate": 0.0039964355528354645
+          }
+        },
+        {
+          "neural_step": 36,
+          "lag_from_final": 12,
+          "gradient_rms": {
+            "visual": 6.448268686654046e-05,
+            "motor": 0.010258190333843231,
+            "intermediate": 0.0045942021533846855
+          }
+        },
+        {
+          "neural_step": 37,
+          "lag_from_final": 11,
+          "gradient_rms": {
+            "visual": 7.952616579132155e-05,
+            "motor": 0.012771804817020893,
+            "intermediate": 0.005308817140758038
+          }
+        },
+        {
+          "neural_step": 38,
+          "lag_from_final": 10,
+          "gradient_rms": {
+            "visual": 9.926292113959789e-05,
+            "motor": 0.016044020652770996,
+            "intermediate": 0.0061813294887542725
+          }
+        },
+        {
+          "neural_step": 39,
+          "lag_from_final": 9,
+          "gradient_rms": {
+            "visual": 0.00012410849740263075,
+            "motor": 0.020327843725681305,
+            "intermediate": 0.0072728656232357025
+          }
+        },
+        {
+          "neural_step": 40,
+          "lag_from_final": 8,
+          "gradient_rms": {
+            "visual": 0.0001541771343909204,
+            "motor": 0.02599233202636242,
+            "intermediate": 0.008671991527080536
+          }
+        },
+        {
+          "neural_step": 41,
+          "lag_from_final": 7,
+          "gradient_rms": {
+            "visual": 0.00018935115076601505,
+            "motor": 0.03362661972641945,
+            "intermediate": 0.010500557720661163
+          }
+        },
+        {
+          "neural_step": 42,
+          "lag_from_final": 6,
+          "gradient_rms": {
+            "visual": 0.00022999987413641065,
+            "motor": 0.0442856103181839,
+            "intermediate": 0.012911573983728886
+          }
+        },
+        {
+          "neural_step": 43,
+          "lag_from_final": 5,
+          "gradient_rms": {
+            "visual": 0.000278446328593418,
+            "motor": 0.060082267969846725,
+            "intermediate": 0.016062432900071144
+          }
+        },
+        {
+          "neural_step": 44,
+          "lag_from_final": 4,
+          "gradient_rms": {
+            "visual": 0.00034091208362951875,
+            "motor": 0.08557122200727463,
+            "intermediate": 0.020016983151435852
+          }
+        },
+        {
+          "neural_step": 45,
+          "lag_from_final": 3,
+          "gradient_rms": {
+            "visual": 0.0004229606129229069,
+            "motor": 0.1307234764099121,
+            "intermediate": 0.02444411814212799
+          }
+        },
+        {
+          "neural_step": 46,
+          "lag_from_final": 2,
+          "gradient_rms": {
+            "visual": 0.0005052086198702455,
+            "motor": 0.21675196290016174,
+            "intermediate": 0.0277487114071846
+          }
+        },
+        {
+          "neural_step": 47,
+          "lag_from_final": 1,
+          "gradient_rms": {
+            "visual": 0.0004786944482475519,
+            "motor": 0.387297123670578,
+            "intermediate": 0.024679824709892273
+          }
+        },
+        {
+          "neural_step": 48,
+          "lag_from_final": 0,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.7312191724777222,
+            "intermediate": 0.0
+          }
+        }
+      ],
+      "injection_gradient_rms": [
+        3.5526340070646256e-05,
+        4.510889993980527e-05,
+        5.739358311984688e-05,
+        7.31776308384724e-05,
+        9.350330947199836e-05,
+        0.00011973458458669484,
+        0.0001536588097224012,
+        0.00019761455769184977,
+        0.00025467202067375183,
+        0.0003288559673819691,
+        0.00042544645839370787,
+        0.0005513732903636992,
+        0.0007157522486522794,
+        0.0009307343862019479,
+        0.0012129457900300622,
+        0.0015863953158259392,
+        0.00208907388150692,
+        0.0027886705938726664,
+        0.003819257952272892,
+        0.005460516083985567,
+        0.00829673744738102,
+        0.01359752006828785,
+        0.02509984001517296,
+        0.06375280022621155
+      ],
+      "parameter_gradient_norm": {
+        "decoder.weight": 12.990598678588867,
+        "decoder.bias": 0.044214535504579544
+      }
+    },
+    "200": {
+      "final_decision_loss": 0.7349462509155273,
+      "state_gradients": [
+        {
+          "neural_step": 1,
+          "lag_from_final": 47,
+          "gradient_rms": {
+            "visual": 3.291768507551751e-06,
+            "motor": 4.2264295188942924e-05,
+            "intermediate": 2.8492675482993945e-05
+          }
+        },
+        {
+          "neural_step": 2,
+          "lag_from_final": 46,
+          "gradient_rms": {
+            "visual": 3.5975390346720815e-06,
+            "motor": 4.759819421451539e-05,
+            "intermediate": 3.2181331334868446e-05
+          }
+        },
+        {
+          "neural_step": 3,
+          "lag_from_final": 45,
+          "gradient_rms": {
+            "visual": 3.929087597498437e-06,
+            "motor": 5.3623472922481596e-05,
+            "intermediate": 3.636878318502568e-05
+          }
+        },
+        {
+          "neural_step": 4,
+          "lag_from_final": 44,
+          "gradient_rms": {
+            "visual": 4.288924628781388e-06,
+            "motor": 6.043344546924345e-05,
+            "intermediate": 4.112517854082398e-05
+          }
+        },
+        {
+          "neural_step": 5,
+          "lag_from_final": 43,
+          "gradient_rms": {
+            "visual": 4.678104232880287e-06,
+            "motor": 6.813496293034405e-05,
+            "intermediate": 4.653081123251468e-05
+          }
+        },
+        {
+          "neural_step": 6,
+          "lag_from_final": 42,
+          "gradient_rms": {
+            "visual": 5.099754162074532e-06,
+            "motor": 7.685063610551879e-05,
+            "intermediate": 5.2677605708595365e-05
+          }
+        },
+        {
+          "neural_step": 7,
+          "lag_from_final": 41,
+          "gradient_rms": {
+            "visual": 5.55677070224192e-06,
+            "motor": 8.672157127875835e-05,
+            "intermediate": 5.96708596276585e-05
+          }
+        },
+        {
+          "neural_step": 8,
+          "lag_from_final": 40,
+          "gradient_rms": {
+            "visual": 6.051972377463244e-06,
+            "motor": 9.791061165742576e-05,
+            "intermediate": 6.763114652130753e-05
+          }
+        },
+        {
+          "neural_step": 9,
+          "lag_from_final": 39,
+          "gradient_rms": {
+            "visual": 6.589037184312474e-06,
+            "motor": 0.00011060650285799056,
+            "intermediate": 7.669663318665698e-05
+          }
+        },
+        {
+          "neural_step": 10,
+          "lag_from_final": 38,
+          "gradient_rms": {
+            "visual": 7.171243396442151e-06,
+            "motor": 0.00012502878962550312,
+            "intermediate": 8.702558989170939e-05
+          }
+        },
+        {
+          "neural_step": 11,
+          "lag_from_final": 37,
+          "gradient_rms": {
+            "visual": 7.803959306329489e-06,
+            "motor": 0.00014143426960799843,
+            "intermediate": 9.879941353574395e-05
+          }
+        },
+        {
+          "neural_step": 12,
+          "lag_from_final": 36,
+          "gradient_rms": {
+            "visual": 8.490610525768716e-06,
+            "motor": 0.00016012474952731282,
+            "intermediate": 0.00011222590546822175
+          }
+        },
+        {
+          "neural_step": 13,
+          "lag_from_final": 35,
+          "gradient_rms": {
+            "visual": 9.223096640198492e-06,
+            "motor": 0.00018145720241591334,
+            "intermediate": 0.00012754315685015172
+          }
+        },
+        {
+          "neural_step": 14,
+          "lag_from_final": 34,
+          "gradient_rms": {
+            "visual": 1.001012060442008e-05,
+            "motor": 0.0002058573008980602,
+            "intermediate": 0.00014502413978334516
+          }
+        },
+        {
+          "neural_step": 15,
+          "lag_from_final": 33,
+          "gradient_rms": {
+            "visual": 1.0849180398508906e-05,
+            "motor": 0.00023383565712720156,
+            "intermediate": 0.00016498155309818685
+          }
+        },
+        {
+          "neural_step": 16,
+          "lag_from_final": 32,
+          "gradient_rms": {
+            "visual": 1.1747016287699807e-05,
+            "motor": 0.00026600988348945975,
+            "intermediate": 0.00018777372315526009
+          }
+        },
+        {
+          "neural_step": 17,
+          "lag_from_final": 31,
+          "gradient_rms": {
+            "visual": 1.2705520020972472e-05,
+            "motor": 0.00030313312890939415,
+            "intermediate": 0.00021381108672358096
+          }
+        },
+        {
+          "neural_step": 18,
+          "lag_from_final": 30,
+          "gradient_rms": {
+            "visual": 1.3730574210057966e-05,
+            "motor": 0.00034613130264915526,
+            "intermediate": 0.0002435637725284323
+          }
+        },
+        {
+          "neural_step": 19,
+          "lag_from_final": 29,
+          "gradient_rms": {
+            "visual": 1.4845044461253565e-05,
+            "motor": 0.0003961524926126003,
+            "intermediate": 0.00027757027419283986
+          }
+        },
+        {
+          "neural_step": 20,
+          "lag_from_final": 28,
+          "gradient_rms": {
+            "visual": 1.604905992280692e-05,
+            "motor": 0.0004546296549960971,
+            "intermediate": 0.00031644682167097926
+          }
+        },
+        {
+          "neural_step": 21,
+          "lag_from_final": 27,
+          "gradient_rms": {
+            "visual": 1.7363607184961438e-05,
+            "motor": 0.0005233659758232534,
+            "intermediate": 0.00036089890636503696
+          }
+        },
+        {
+          "neural_step": 22,
+          "lag_from_final": 26,
+          "gradient_rms": {
+            "visual": 1.8793651179294102e-05,
+            "motor": 0.0006046427879482508,
+            "intermediate": 0.00041173340287059546
+          }
+        },
+        {
+          "neural_step": 23,
+          "lag_from_final": 25,
+          "gradient_rms": {
+            "visual": 2.0276795112295076e-05,
+            "motor": 0.0007013608701527119,
+            "intermediate": 0.00046987272799015045
+          }
+        },
+        {
+          "neural_step": 24,
+          "lag_from_final": 24,
+          "gradient_rms": {
+            "visual": 2.1850781195098534e-05,
+            "motor": 0.0008172279340215027,
+            "intermediate": 0.0005363730015233159
+          }
+        },
+        {
+          "neural_step": 25,
+          "lag_from_final": 23,
+          "gradient_rms": {
+            "visual": 2.3491025785915554e-05,
+            "motor": 0.000956989882979542,
+            "intermediate": 0.0006124411593191326
+          }
+        },
+        {
+          "neural_step": 26,
+          "lag_from_final": 22,
+          "gradient_rms": {
+            "visual": 2.5217934307875112e-05,
+            "motor": 0.0011267351219430566,
+            "intermediate": 0.0006994588184170425
+          }
+        },
+        {
+          "neural_step": 27,
+          "lag_from_final": 21,
+          "gradient_rms": {
+            "visual": 2.7044987291446887e-05,
+            "motor": 0.0013342791935428977,
+            "intermediate": 0.0007990088779479265
+          }
+        },
+        {
+          "neural_step": 28,
+          "lag_from_final": 20,
+          "gradient_rms": {
+            "visual": 2.8961898351553828e-05,
+            "motor": 0.001589656574651599,
+            "intermediate": 0.0009129091631621122
+          }
+        },
+        {
+          "neural_step": 29,
+          "lag_from_final": 19,
+          "gradient_rms": {
+            "visual": 3.097544322372414e-05,
+            "motor": 0.0019057478057220578,
+            "intermediate": 0.001043257536366582
+          }
+        },
+        {
+          "neural_step": 30,
+          "lag_from_final": 18,
+          "gradient_rms": {
+            "visual": 3.306815051473677e-05,
+            "motor": 0.0022990775760263205,
+            "intermediate": 0.0011924930149689317
+          }
+        },
+        {
+          "neural_step": 31,
+          "lag_from_final": 17,
+          "gradient_rms": {
+            "visual": 3.52420647686813e-05,
+            "motor": 0.0027908373158425093,
+            "intermediate": 0.0013634869828820229
+          }
+        },
+        {
+          "neural_step": 32,
+          "lag_from_final": 16,
+          "gradient_rms": {
+            "visual": 3.746982110897079e-05,
+            "motor": 0.003408194985240698,
+            "intermediate": 0.0015596832381561399
+          }
+        },
+        {
+          "neural_step": 33,
+          "lag_from_final": 15,
+          "gradient_rms": {
+            "visual": 3.975885556428693e-05,
+            "motor": 0.004185979254543781,
+            "intermediate": 0.0017853232566267252
+          }
+        },
+        {
+          "neural_step": 34,
+          "lag_from_final": 14,
+          "gradient_rms": {
+            "visual": 4.207941310596652e-05,
+            "motor": 0.005168858915567398,
+            "intermediate": 0.0020458155777305365
+          }
+        },
+        {
+          "neural_step": 35,
+          "lag_from_final": 13,
+          "gradient_rms": {
+            "visual": 4.4450243876781315e-05,
+            "motor": 0.006414176896214485,
+            "intermediate": 0.0023483450058847666
+          }
+        },
+        {
+          "neural_step": 36,
+          "lag_from_final": 12,
+          "gradient_rms": {
+            "visual": 4.689540946856141e-05,
+            "motor": 0.007995701394975185,
+            "intermediate": 0.0027028676122426987
+          }
+        },
+        {
+          "neural_step": 37,
+          "lag_from_final": 11,
+          "gradient_rms": {
+            "visual": 4.9509773816680536e-05,
+            "motor": 0.010008718818426132,
+            "intermediate": 0.0031236959621310234
+          }
+        },
+        {
+          "neural_step": 38,
+          "lag_from_final": 10,
+          "gradient_rms": {
+            "visual": 5.2505769417621195e-05,
+            "motor": 0.012577327899634838,
+            "intermediate": 0.0036319014616310596
+          }
+        },
+        {
+          "neural_step": 39,
+          "lag_from_final": 9,
+          "gradient_rms": {
+            "visual": 5.623916513286531e-05,
+            "motor": 0.015865851193666458,
+            "intermediate": 0.004258693661540747
+          }
+        },
+        {
+          "neural_step": 40,
+          "lag_from_final": 8,
+          "gradient_rms": {
+            "visual": 6.116675649536774e-05,
+            "motor": 0.020099103450775146,
+            "intermediate": 0.005049550905823708
+          }
+        },
+        {
+          "neural_step": 41,
+          "lag_from_final": 7,
+          "gradient_rms": {
+            "visual": 6.772967026336119e-05,
+            "motor": 0.025604115799069405,
+            "intermediate": 0.006067922804504633
+          }
+        },
+        {
+          "neural_step": 42,
+          "lag_from_final": 6,
+          "gradient_rms": {
+            "visual": 7.62746567488648e-05,
+            "motor": 0.03290756791830063,
+            "intermediate": 0.007394973188638687
+          }
+        },
+        {
+          "neural_step": 43,
+          "lag_from_final": 5,
+          "gradient_rms": {
+            "visual": 8.700572652742267e-05,
+            "motor": 0.042981889098882675,
+            "intermediate": 0.009115990251302719
+          }
+        },
+        {
+          "neural_step": 44,
+          "lag_from_final": 4,
+          "gradient_rms": {
+            "visual": 0.00010043348447652534,
+            "motor": 0.05787702277302742,
+            "intermediate": 0.011267662979662418
+          }
+        },
+        {
+          "neural_step": 45,
+          "lag_from_final": 3,
+          "gradient_rms": {
+            "visual": 0.00011722856288542971,
+            "motor": 0.08225549757480621,
+            "intermediate": 0.013673171401023865
+          }
+        },
+        {
+          "neural_step": 46,
+          "lag_from_final": 2,
+          "gradient_rms": {
+            "visual": 0.00013380520977079868,
+            "motor": 0.1266869306564331,
+            "intermediate": 0.015462114475667477
+          }
+        },
+        {
+          "neural_step": 47,
+          "lag_from_final": 1,
+          "gradient_rms": {
+            "visual": 0.00012495987175498158,
+            "motor": 0.21384494006633759,
+            "intermediate": 0.013735798187553883
+          }
+        },
+        {
+          "neural_step": 48,
+          "lag_from_final": 0,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 0.39010125398635864,
+            "intermediate": 0.0
+          }
+        }
+      ],
+      "injection_gradient_rms": [
+        1.913831329147797e-05,
+        2.4401433620369062e-05,
+        3.118581298622303e-05,
+        3.995134466094896e-05,
+        5.1302464271429926e-05,
+        6.603396468563005e-05,
+        8.519385301042348e-05,
+        0.00011016077769454569,
+        0.0001427623792551458,
+        0.0001854257279774174,
+        0.00024139518791344017,
+        0.00031503450009040534,
+        0.0004122584650758654,
+        0.0005412729224190116,
+        0.0007137656793929636,
+        0.000947089574765414,
+        0.0012686075642704964,
+        0.0017248251242563128,
+        0.002400922356173396,
+        0.0034611737355589867,
+        0.005228682886809111,
+        0.008366306312382221,
+        0.014681084081530571,
+        0.03441494703292847
+      ],
+      "parameter_gradient_norm": {
+        "decoder.weight": 18.914363861083984,
+        "decoder.bias": 0.04832908511161804
+      }
+    },
+    "400": {
+      "final_decision_loss": 0.5515729784965515,
+      "state_gradients": [
+        {
+          "neural_step": 1,
+          "lag_from_final": 47,
+          "gradient_rms": {
+            "visual": 1.4574192164218402e-06,
+            "motor": 0.00011233798431931064,
+            "intermediate": 0.0001270827924599871
+          }
+        },
+        {
+          "neural_step": 2,
+          "lag_from_final": 46,
+          "gradient_rms": {
+            "visual": 1.6435227507827221e-06,
+            "motor": 0.00012881611473858356,
+            "intermediate": 0.0001450604322599247
+          }
+        },
+        {
+          "neural_step": 3,
+          "lag_from_final": 45,
+          "gradient_rms": {
+            "visual": 1.8548462321632542e-06,
+            "motor": 0.00014787144027650356,
+            "intermediate": 0.00016565028636250645
+          }
+        },
+        {
+          "neural_step": 4,
+          "lag_from_final": 44,
+          "gradient_rms": {
+            "visual": 2.094284809572855e-06,
+            "motor": 0.0001699392159935087,
+            "intermediate": 0.00018923803872894496
+          }
+        },
+        {
+          "neural_step": 5,
+          "lag_from_final": 43,
+          "gradient_rms": {
+            "visual": 2.3643851818633266e-06,
+            "motor": 0.0001955358893610537,
+            "intermediate": 0.0002162665914511308
+          }
+        },
+        {
+          "neural_step": 6,
+          "lag_from_final": 42,
+          "gradient_rms": {
+            "visual": 2.6685179363994393e-06,
+            "motor": 0.00022527622058987617,
+            "intermediate": 0.0002472445776220411
+          }
+        },
+        {
+          "neural_step": 7,
+          "lag_from_final": 41,
+          "gradient_rms": {
+            "visual": 3.010237833223073e-06,
+            "motor": 0.0002598944120109081,
+            "intermediate": 0.00028275608201511204
+          }
+        },
+        {
+          "neural_step": 8,
+          "lag_from_final": 40,
+          "gradient_rms": {
+            "visual": 3.3932981295947684e-06,
+            "motor": 0.00030027053435333073,
+            "intermediate": 0.00032347184605896473
+          }
+        },
+        {
+          "neural_step": 9,
+          "lag_from_final": 39,
+          "gradient_rms": {
+            "visual": 3.822020062216325e-06,
+            "motor": 0.00034746326855383813,
+            "intermediate": 0.0003701618406921625
+          }
+        },
+        {
+          "neural_step": 10,
+          "lag_from_final": 38,
+          "gradient_rms": {
+            "visual": 4.30099134973716e-06,
+            "motor": 0.00040275126229971647,
+            "intermediate": 0.00042371003655716777
+          }
+        },
+        {
+          "neural_step": 11,
+          "lag_from_final": 37,
+          "gradient_rms": {
+            "visual": 4.836030711885542e-06,
+            "motor": 0.00046768441097810864,
+            "intermediate": 0.0004851310222875327
+          }
+        },
+        {
+          "neural_step": 12,
+          "lag_from_final": 36,
+          "gradient_rms": {
+            "visual": 5.432766101876041e-06,
+            "motor": 0.0005441487883217633,
+            "intermediate": 0.0005555893294513226
+          }
+        },
+        {
+          "neural_step": 13,
+          "lag_from_final": 35,
+          "gradient_rms": {
+            "visual": 6.0905053942406084e-06,
+            "motor": 0.0006344482535496354,
+            "intermediate": 0.0006364209693856537
+          }
+        },
+        {
+          "neural_step": 14,
+          "lag_from_final": 34,
+          "gradient_rms": {
+            "visual": 6.8184199335519224e-06,
+            "motor": 0.0007414072751998901,
+            "intermediate": 0.0007291586371138692
+          }
+        },
+        {
+          "neural_step": 15,
+          "lag_from_final": 33,
+          "gradient_rms": {
+            "visual": 7.619956704729702e-06,
+            "motor": 0.0008685003849677742,
+            "intermediate": 0.0008355603786185384
+          }
+        },
+        {
+          "neural_step": 16,
+          "lag_from_final": 32,
+          "gradient_rms": {
+            "visual": 8.505524419888388e-06,
+            "motor": 0.0010200163815170527,
+            "intermediate": 0.0009576419251970947
+          }
+        },
+        {
+          "neural_step": 17,
+          "lag_from_final": 31,
+          "gradient_rms": {
+            "visual": 9.484238034929149e-06,
+            "motor": 0.0012012646766379476,
+            "intermediate": 0.0010977142956107855
+          }
+        },
+        {
+          "neural_step": 18,
+          "lag_from_final": 30,
+          "gradient_rms": {
+            "visual": 1.0569879123067949e-05,
+            "motor": 0.0014188358327373862,
+            "intermediate": 0.0012584261130541563
+          }
+        },
+        {
+          "neural_step": 19,
+          "lag_from_final": 29,
+          "gradient_rms": {
+            "visual": 1.1789832569775172e-05,
+            "motor": 0.0016809323569759727,
+            "intermediate": 0.0014428120339289308
+          }
+        },
+        {
+          "neural_step": 20,
+          "lag_from_final": 28,
+          "gradient_rms": {
+            "visual": 1.3160593880456872e-05,
+            "motor": 0.001997784012928605,
+            "intermediate": 0.0016543486854061484
+          }
+        },
+        {
+          "neural_step": 21,
+          "lag_from_final": 27,
+          "gradient_rms": {
+            "visual": 1.4714544704474974e-05,
+            "motor": 0.0023821734357625246,
+            "intermediate": 0.0018970167730003595
+          }
+        },
+        {
+          "neural_step": 22,
+          "lag_from_final": 26,
+          "gradient_rms": {
+            "visual": 1.647894714551512e-05,
+            "motor": 0.002850102260708809,
+            "intermediate": 0.0021753753535449505
+          }
+        },
+        {
+          "neural_step": 23,
+          "lag_from_final": 25,
+          "gradient_rms": {
+            "visual": 1.843731661210768e-05,
+            "motor": 0.0034216290805488825,
+            "intermediate": 0.0024946427438408136
+          }
+        },
+        {
+          "neural_step": 24,
+          "lag_from_final": 24,
+          "gradient_rms": {
+            "visual": 2.0647403289331123e-05,
+            "motor": 0.004121936392039061,
+            "intermediate": 0.0028607952408492565
+          }
+        },
+        {
+          "neural_step": 25,
+          "lag_from_final": 23,
+          "gradient_rms": {
+            "visual": 2.3128477550926618e-05,
+            "motor": 0.004982678219676018,
+            "intermediate": 0.0032806757371872663
+          }
+        },
+        {
+          "neural_step": 26,
+          "lag_from_final": 22,
+          "gradient_rms": {
+            "visual": 2.593572935438715e-05,
+            "motor": 0.006043689791113138,
+            "intermediate": 0.003762129694223404
+          }
+        },
+        {
+          "neural_step": 27,
+          "lag_from_final": 21,
+          "gradient_rms": {
+            "visual": 2.9124226784915663e-05,
+            "motor": 0.00735516007989645,
+            "intermediate": 0.00431416230276227
+          }
+        },
+        {
+          "neural_step": 28,
+          "lag_from_final": 20,
+          "gradient_rms": {
+            "visual": 3.273850597906858e-05,
+            "motor": 0.008980401791632175,
+            "intermediate": 0.004947140347212553
+          }
+        },
+        {
+          "neural_step": 29,
+          "lag_from_final": 19,
+          "gradient_rms": {
+            "visual": 3.684457624331117e-05,
+            "motor": 0.010999367572367191,
+            "intermediate": 0.005673051346093416
+          }
+        },
+        {
+          "neural_step": 30,
+          "lag_from_final": 18,
+          "gradient_rms": {
+            "visual": 4.1507275454932824e-05,
+            "motor": 0.013513145036995411,
+            "intermediate": 0.006505862344056368
+          }
+        },
+        {
+          "neural_step": 31,
+          "lag_from_final": 17,
+          "gradient_rms": {
+            "visual": 4.683438965003006e-05,
+            "motor": 0.016649698838591576,
+            "intermediate": 0.007462033536285162
+          }
+        },
+        {
+          "neural_step": 32,
+          "lag_from_final": 16,
+          "gradient_rms": {
+            "visual": 5.297033931128681e-05,
+            "motor": 0.020571216940879822,
+            "intermediate": 0.008561301045119762
+          }
+        },
+        {
+          "neural_step": 33,
+          "lag_from_final": 15,
+          "gradient_rms": {
+            "visual": 6.0177208069944754e-05,
+            "motor": 0.025483522564172745,
+            "intermediate": 0.00982790905982256
+          }
+        },
+        {
+          "neural_step": 34,
+          "lag_from_final": 14,
+          "gradient_rms": {
+            "visual": 6.886395567562431e-05,
+            "motor": 0.031648192554712296,
+            "intermediate": 0.01129260566085577
+          }
+        },
+        {
+          "neural_step": 35,
+          "lag_from_final": 13,
+          "gradient_rms": {
+            "visual": 7.972007006173953e-05,
+            "motor": 0.03939821571111679,
+            "intermediate": 0.01299589965492487
+          }
+        },
+        {
+          "neural_step": 36,
+          "lag_from_final": 12,
+          "gradient_rms": {
+            "visual": 9.378112008562312e-05,
+            "motor": 0.0491584837436676,
+            "intermediate": 0.014993337914347649
+          }
+        },
+        {
+          "neural_step": 37,
+          "lag_from_final": 11,
+          "gradient_rms": {
+            "visual": 0.00011249478120589629,
+            "motor": 0.06147322803735733,
+            "intermediate": 0.017363879829645157
+          }
+        },
+        {
+          "neural_step": 38,
+          "lag_from_final": 10,
+          "gradient_rms": {
+            "visual": 0.0001376208965666592,
+            "motor": 0.07704437524080276,
+            "intermediate": 0.020222609862685204
+          }
+        },
+        {
+          "neural_step": 39,
+          "lag_from_final": 9,
+          "gradient_rms": {
+            "visual": 0.00017093702626880258,
+            "motor": 0.09679002314805984,
+            "intermediate": 0.023738646879792213
+          }
+        },
+        {
+          "neural_step": 40,
+          "lag_from_final": 8,
+          "gradient_rms": {
+            "visual": 0.00021374128118623048,
+            "motor": 0.12194564193487167,
+            "intermediate": 0.028157245367765427
+          }
+        },
+        {
+          "neural_step": 41,
+          "lag_from_final": 7,
+          "gradient_rms": {
+            "visual": 0.00026614422677084804,
+            "motor": 0.1542702615261078,
+            "intermediate": 0.0338200144469738
+          }
+        },
+        {
+          "neural_step": 42,
+          "lag_from_final": 6,
+          "gradient_rms": {
+            "visual": 0.00032664783066138625,
+            "motor": 0.19653189182281494,
+            "intermediate": 0.041164472699165344
+          }
+        },
+        {
+          "neural_step": 43,
+          "lag_from_final": 5,
+          "gradient_rms": {
+            "visual": 0.0003921477182302624,
+            "motor": 0.25376155972480774,
+            "intermediate": 0.05065204203128815
+          }
+        },
+        {
+          "neural_step": 44,
+          "lag_from_final": 4,
+          "gradient_rms": {
+            "visual": 0.0004603810957632959,
+            "motor": 0.33657336235046387,
+            "intermediate": 0.062482621520757675
+          }
+        },
+        {
+          "neural_step": 45,
+          "lag_from_final": 3,
+          "gradient_rms": {
+            "visual": 0.0005323492805473506,
+            "motor": 0.46951690316200256,
+            "intermediate": 0.07569202780723572
+          }
+        },
+        {
+          "neural_step": 46,
+          "lag_from_final": 2,
+          "gradient_rms": {
+            "visual": 0.0005991403595544398,
+            "motor": 0.7095176577568054,
+            "intermediate": 0.0855058878660202
+          }
+        },
+        {
+          "neural_step": 47,
+          "lag_from_final": 1,
+          "gradient_rms": {
+            "visual": 0.0005608426290564239,
+            "motor": 1.1805280447006226,
+            "intermediate": 0.07594610750675201
+          }
+        },
+        {
+          "neural_step": 48,
+          "lag_from_final": 0,
+          "gradient_rms": {
+            "visual": 0.0,
+            "motor": 2.1363325119018555,
+            "intermediate": 0.0
+          }
+        }
+      ],
+      "injection_gradient_rms": [
+        8.297813474200666e-05,
+        0.00010823865159181878,
+        0.00014142200234346092,
+        0.00018506022752262652,
+        0.0002425044949632138,
+        0.0003181941283401102,
+        0.0004180176183581352,
+        0.0005497998790815473,
+        0.0007239686092361808,
+        0.0009544770000502467,
+        0.0012601083144545555,
+        0.0016663704300299287,
+        0.0022083427757024765,
+        0.0029351648408919573,
+        0.003917491529136896,
+        0.005260711070150137,
+        0.007130002602934837,
+        0.009800621308386326,
+        0.013761574402451515,
+        0.01992582343518734,
+        0.03004303015768528,
+        0.047640543431043625,
+        0.08226817101240158,
+        0.18897266685962677
+      ],
+      "parameter_gradient_norm": {
+        "decoder.weight": 16.293758392333984,
+        "decoder.bias": 0.04416844993829727
+      }
+    }
+  },
+  "parameter_updates": {
+    "decoder.weight": {
+      "update_l2": 5.5767822265625,
+      "initial_l2": 0.0,
+      "final_l2": 5.5767822265625
+    },
+    "decoder.bias": {
+      "update_l2": 1.8216948092231178e-06,
+      "initial_l2": 0.0,
+      "final_l2": 1.8216948092231178e-06
+    }
+  },
+  "interventions": {
+    "train_frozen": {
+      "normalized_mse": 1.7383252382278442,
+      "r2_global": -0.7628086805343628
+    },
+    "validation_frozen": {
+      "normalized_mse": 1.4628090858459473,
+      "r2_global": -1.6591970920562744
+    }
+  },
+  "wall_seconds": 79.77305200899718,
+  "trainable_parameters": 136320,
+  "encoder_unchanged": true,
+  "encoder_gradient_none": true
+}

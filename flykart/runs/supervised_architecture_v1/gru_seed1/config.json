@@ -1,0 +1,14 @@
+{
+  "architecture": "gru",
+  "seed": 1,
+  "encoder_initial_sha256": "ca15d424b3d21f6bf129e3c2083755eb56adf6bc8f67cadf5e0ac33c5101858f",
+  "plan_sha256": "cacc104b292262bb01c107018cb1426d814e6e462c7b0d82f917745c3b1a15b6",
+  "manifest_sha256": "75daf02e54f1d8768d7455a36f476b437bc6519b2af4f1005003c99bdb3f93d1",
+  "trainable_parameters": 200371,
+  "class_weights": [
+    3.2941176891326904,
+    0.5933170318603516,
+    0.989130437374115
+  ],
+  "initial_model_sha256": "b3f20d748eeff0a6d7e6b46f11b656210c087c0fb03c127606e7b7492b41bea0"
+}

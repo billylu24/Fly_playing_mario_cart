@@ -1,0 +1,6 @@
+{
+  "initial_positive_dynamics_match": true,
+  "context_and_padding_match": true,
+  "interface_and_gain_gradients_nonzero": true,
+  "encoder_gradients_none": true
+}

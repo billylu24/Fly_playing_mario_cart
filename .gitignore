@@ -1,0 +1,26 @@
+.idea/
+**/__pycache__/
+**/.venv*/
+.env
+.env.*
+*.pem
+*.key
+# Local game assets, emulator memory, and binary datasets/checkpoints.
+*.sfc
+*.smc
+*.state
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.webm
+*.npz
+*.npy
+*.pt
+*.pth
+*.feather
+*.part
+
+# Upstream notes quote another project without a separate license notice.
+flykart/mario_kart/SuperMarioKart-Snes/Notes.txt

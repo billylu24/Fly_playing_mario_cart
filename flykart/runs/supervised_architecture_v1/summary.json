@@ -1,0 +1,2663 @@
+{
+  "data": {
+    "train": {
+      "accepted": 43,
+      "candidates": 48,
+      "decisions": 2184,
+      "action_counts": [
+        221,
+        1227,
+        736
+      ]
+    },
+    "validation": {
+      "accepted": 6,
+      "candidates": 6,
+      "decisions": 251,
+      "action_counts": [
+        34,
+        119,
+        98
+      ]
+    },
+    "test": {
+      "accepted": 17,
+      "candidates": 18,
+      "decisions": 795,
+      "action_counts": [
+        76,
+        488,
+        231
+      ]
+    },
+    "exact_frame_overlap": {
+      "train_validation": 0,
+      "train_test": 0,
+      "validation_test": 0
+    },
+    "wall_seconds": 109.37873817600007
+  },
+  "runs": {
+    "graph_seed0": {
+      "seed": 0,
+      "architecture": "graph",
+      "selected_step": 128,
+      "offline": {
+        "train": {
+          "normal": {
+            "accuracy": 0.2664835164835165,
+            "balanced_accuracy": 0.3559700602703623,
+            "recall": [
+              0.7239819004524887,
+              0.3439282803585982,
+              0.0
+            ],
+            "confusion_matrix": [
+              [
+                160,
+                61,
+                0
+              ],
+              [
+                805,
+                422,
+                0
+              ],
+              [
+                316,
+                420,
+                0
+              ]
+            ],
+            "cross_entropy": 1.0984169244766235
+          },
+          "frozen": {
+            "accuracy": 0.24862637362637363,
+            "balanced_accuracy": 0.3515582648331102,
+            "recall": [
+              0.746606334841629,
+              0.3080684596577017,
+              0.0
+            ],
+            "confusion_matrix": [
+              [
+                165,
+                56,
+                0
+              ],
+              [
+                849,
+                378,
+                0
+              ],
+              [
+                345,
+                391,
+                0
+              ]
+            ],
+            "cross_entropy": 1.098525047302246
+          }
+        },
+        "test": {
+          "normal": {
+            "accuracy": 0.3069182389937107,
+            "balanced_accuracy": 0.3407031924072476,
+            "recall": [
+              0.618421052631579,
+              0.4036885245901639,
+              0.0
+            ],
+            "confusion_matrix": [
+              [
+                47,
+                29,
+                0
+              ],
+              [
+                291,
+                197,
+                0
+              ],
+              [
+                109,
+                122,
+                0
+              ]
+            ],
+            "cross_entropy": 1.0978304147720337
+          },
+          "frozen": {
+            "accuracy": 0.2893081761006289,
+            "balanced_accuracy": 0.3422490652861663,
+            "recall": [
+              0.6578947368421053,
+              0.36885245901639346,
+              0.0
+            ],
+            "confusion_matrix": [
+              [
+                50,
+                26,
+                0
+              ],
+              [
+                308,
+                180,
+                0
+              ],
+              [
+                124,
+                107,
+                0
+              ]
+            ],
+            "cross_entropy": 1.097899079322815
+          }
+        }
+      },
+      "status": {
+        "state": "completed",
+        "updates": 256,
+        "valid_presentations": 53846,
+        "wall_seconds": 124.41277777099981,
+        "peak_allocated_mib": 1044.99072265625,
+        "fixed_w_unchanged": true
+      },
+      "closed_loop": {
+        "normal": {
+          "greedy": {
+            "passed": 1,
+            "episodes": 17,
+            "mean_advance": 2.0588235294117645,
+            "mean_frames": 645.6470588235294
+          },
+          "sampled": {
+            "passed": 4,
+            "episodes": 51,
+            "mean_advance": 1.7058823529411764,
+            "mean_frames": 724.5882352941177
+          }
+        },
+        "frozen": {
+          "greedy": {
+            "passed": 2,
+            "episodes": 17,
+            "mean_advance": 2.1176470588235294,
+            "mean_frames": 644.0588235294117
+          },
+          "sampled": {
+            "passed": 4,
+            "episodes": 51,
+            "mean_advance": 1.7058823529411764,
+            "mean_frames": 724.5882352941177
+          }
+        },
+        "clock": {
+          "greedy": {
+            "passed": 3,
+            "episodes": 17,
+            "mean_advance": 2.176470588235294,
+            "mean_frames": 604.7058823529412
+          },
+          "sampled": {
+            "passed": 4,
+            "episodes": 51,
+            "mean_advance": 1.7058823529411764,
+            "mean_frames": 724.5882352941177
+          }
+        }
+      },
+      "by_start": {
+        "f495_center_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_center_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_left_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_left_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 1
+          }
+        },
+        "f495_right_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_right_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_center_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        },
+        "f555_center_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_left_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_left_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 2
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 2
+          }
+        },
+        "f555_right_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_right_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f615_center_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f615_center_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f615_left_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 1
+          }
+        },
+        "f615_right_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        },
+        "f615_right_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        }
+      }
+    },
+    "gru_seed0": {
+      "seed": 0,
+      "architecture": "gru",
+      "selected_step": 256,
+      "offline": {
+        "train": {
+          "normal": {
+            "accuracy": 0.7632783882783882,
+            "balanced_accuracy": 0.7253741350522378,
+            "recall": [
+              0.6244343891402715,
+              0.7881010594947025,
+              0.7635869565217391
+            ],
+            "confusion_matrix": [
+              [
+                138,
+                44,
+                39
+              ],
+              [
+                104,
+                967,
+                156
+              ],
+              [
+                86,
+                88,
+                562
+              ]
+            ],
+            "cross_entropy": 0.6066160202026367
+          },
+          "frozen": {
+            "accuracy": 0.33882783882783885,
+            "balanced_accuracy": 0.29713814820943274,
+            "recall": [
+              0.248868778280543,
+              0.4319478402607987,
+              0.2105978260869565
+            ],
+            "confusion_matrix": [
+              [
+                55,
+                98,
+                68
+              ],
+              [
+                450,
+                530,
+                247
+              ],
+              [
+                231,
+                350,
+                155
+              ]
+            ],
+            "cross_entropy": 1.3902560472488403
+          }
+        },
+        "test": {
+          "normal": {
+            "accuracy": 0.720754716981132,
+            "balanced_accuracy": 0.6406931075826675,
+            "recall": [
+              0.40789473684210525,
+              0.7479508196721312,
+              0.7662337662337663
+            ],
+            "confusion_matrix": [
+              [
+                31,
+                17,
+                28
+              ],
+              [
+                42,
+                365,
+                81
+              ],
+              [
+                26,
+                28,
+                177
+              ]
+            ],
+            "cross_entropy": 0.6781741976737976
+          },
+          "frozen": {
+            "accuracy": 0.3534591194968553,
+            "balanced_accuracy": 0.3541367078899434,
+            "recall": [
+              0.3684210526315789,
+              0.36065573770491804,
+              0.3333333333333333
+            ],
+            "confusion_matrix": [
+              [
+                28,
+                31,
+                17
+              ],
+              [
+                251,
+                176,
+                61
+              ],
+              [
+                66,
+                88,
+                77
+              ]
+            ],
+            "cross_entropy": 1.2230744361877441
+          }
+        }
+      },
+      "status": {
+        "state": "completed",
+        "updates": 256,
+        "valid_presentations": 53846,
+        "wall_seconds": 8.760795041000165,
+        "peak_allocated_mib": 54.11279296875,
+        "fixed_w_unchanged": null
+      },
+      "closed_loop": {
+        "normal": {
+          "greedy": {
+            "passed": 14,
+            "episodes": 17,
+            "mean_advance": 4.529411764705882,
+            "mean_frames": 482.5882352941176
+          },
+          "sampled": {
+            "passed": 34,
+            "episodes": 51,
+            "mean_advance": 3.549019607843137,
+            "mean_frames": 497.5098039215686
+          }
+        },
+        "frozen": {
+          "greedy": {
+            "passed": 3,
+            "episodes": 17,
+            "mean_advance": 2.176470588235294,
+            "mean_frames": 657
+          },
+          "sampled": {
+            "passed": 15,
+            "episodes": 51,
+            "mean_advance": 2.7450980392156863,
+            "mean_frames": 758.3529411764706
+          }
+        },
+        "clock": {
+          "greedy": {
+            "passed": 3,
+            "episodes": 17,
+            "mean_advance": 2.176470588235294,
+            "mean_frames": 733.6470588235294
+          },
+          "sampled": {
+            "passed": 19,
+            "episodes": 51,
+            "mean_advance": 2.9215686274509802,
+            "mean_frames": 749.8235294117648
+          }
+        }
+      },
+      "by_start": {
+        "f495_center_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 2
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 1
+          }
+        },
+        "f495_center_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 2
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_left_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 2
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 2
+          }
+        },
+        "f495_left_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 3
+          }
+        },
+        "f495_right_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 1
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 2
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 1
+          }
+        },
+        "f495_right_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_center_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_center_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_left_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 1
+          }
+        },
+        "f555_left_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 3
+          }
+        },
+        "f555_right_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_right_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f615_center_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 1
+          }
+        },
+        "f615_center_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 1
+          }
+        },
+        "f615_left_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 3
+          }
+        },
+        "f615_right_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 2
+          }
+        },
+        "f615_right_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 1
+          }
+        }
+      }
+    },
+    "graph_seed1": {
+      "seed": 1,
+      "architecture": "graph",
+      "selected_step": 128,
+      "offline": {
+        "train": {
+          "normal": {
+            "accuracy": 0.5787545787545788,
+            "balanced_accuracy": 0.37220103528105547,
+            "recall": [
+              0.0,
+              0.9005704971475142,
+              0.21603260869565216
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                201,
+                20
+              ],
+              [
+                0,
+                1105,
+                122
+              ],
+              [
+                0,
+                577,
+                159
+              ]
+            ],
+            "cross_entropy": 1.0862839221954346
+          },
+          "frozen": {
+            "accuracy": 0.5787545787545788,
+            "balanced_accuracy": 0.3725635017658245,
+            "recall": [
+              0.0,
+              0.8989405052974735,
+              0.21875
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                201,
+                20
+              ],
+              [
+                0,
+                1103,
+                124
+              ],
+              [
+                0,
+                575,
+                161
+              ]
+            ],
+            "cross_entropy": 1.086499571800232
+          }
+        },
+        "test": {
+          "normal": {
+            "accuracy": 0.6012578616352201,
+            "balanced_accuracy": 0.3644997989260284,
+            "recall": [
+              0.0,
+              0.8770491803278688,
+              0.21645021645021645
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                67,
+                9
+              ],
+              [
+                0,
+                428,
+                60
+              ],
+              [
+                0,
+                181,
+                50
+              ]
+            ],
+            "cross_entropy": 1.0850775241851807
+          },
+          "frozen": {
+            "accuracy": 0.6012578616352201,
+            "balanced_accuracy": 0.3644997989260284,
+            "recall": [
+              0.0,
+              0.8770491803278688,
+              0.21645021645021645
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                66,
+                10
+              ],
+              [
+                0,
+                428,
+                60
+              ],
+              [
+                0,
+                181,
+                50
+              ]
+            ],
+            "cross_entropy": 1.0851246118545532
+          }
+        }
+      },
+      "status": {
+        "state": "completed",
+        "updates": 256,
+        "valid_presentations": 54490,
+        "wall_seconds": 153.09343997400015,
+        "peak_allocated_mib": 1044.99072265625,
+        "fixed_w_unchanged": true
+      },
+      "closed_loop": {
+        "normal": {
+          "greedy": {
+            "passed": 5,
+            "episodes": 17,
+            "mean_advance": 2.176470588235294,
+            "mean_frames": 832.4117647058823
+          },
+          "sampled": {
+            "passed": 5,
+            "episodes": 51,
+            "mean_advance": 1.8627450980392157,
+            "mean_frames": 750.0196078431372
+          }
+        },
+        "frozen": {
+          "greedy": {
+            "passed": 5,
+            "episodes": 17,
+            "mean_advance": 2.235294117647059,
+            "mean_frames": 854.4117647058823
+          },
+          "sampled": {
+            "passed": 5,
+            "episodes": 51,
+            "mean_advance": 1.8627450980392157,
+            "mean_frames": 750.0196078431372
+          }
+        },
+        "clock": {
+          "greedy": {
+            "passed": 5,
+            "episodes": 17,
+            "mean_advance": 2.176470588235294,
+            "mean_frames": 832.4117647058823
+          },
+          "sampled": {
+            "passed": 5,
+            "episodes": 51,
+            "mean_advance": 1.8627450980392157,
+            "mean_frames": 750.0196078431372
+          }
+        }
+      },
+      "by_start": {
+        "f495_center_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 1
+          }
+        },
+        "f495_center_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_left_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_left_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 1
+          }
+        },
+        "f495_right_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_right_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_center_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        },
+        "f555_center_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_left_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_left_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 2
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 2
+          }
+        },
+        "f555_right_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_right_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f615_center_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        },
+        "f615_center_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        },
+        "f615_left_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 1
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 1
+          }
+        },
+        "f615_right_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        },
+        "f615_right_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        }
+      }
+    },
+    "gru_seed1": {
+      "seed": 1,
+      "architecture": "gru",
+      "selected_step": 256,
+      "offline": {
+        "train": {
+          "normal": {
+            "accuracy": 0.6556776556776557,
+            "balanced_accuracy": 0.6862973963234485,
+            "recall": [
+              0.7104072398190046,
+              0.5753871230643847,
+              0.7730978260869565
+            ],
+            "confusion_matrix": [
+              [
+                157,
+                18,
+                46
+              ],
+              [
+                256,
+                706,
+                265
+              ],
+              [
+                119,
+                48,
+                569
+              ]
+            ],
+            "cross_entropy": 0.8314351439476013
+          },
+          "frozen": {
+            "accuracy": 0.3017399267399267,
+            "balanced_accuracy": 0.28795803503194434,
+            "recall": [
+              0.28054298642533937,
+              0.3414832925835371,
+              0.2418478260869565
+            ],
+            "confusion_matrix": [
+              [
+                62,
+                77,
+                82
+              ],
+              [
+                518,
+                419,
+                290
+              ],
+              [
+                273,
+                285,
+                178
+              ]
+            ],
+            "cross_entropy": 1.4378933906555176
+          }
+        },
+        "test": {
+          "normal": {
+            "accuracy": 0.610062893081761,
+            "balanced_accuracy": 0.6116301371909655,
+            "recall": [
+              0.5263157894736842,
+              0.555327868852459,
+              0.7532467532467533
+            ],
+            "confusion_matrix": [
+              [
+                40,
+                2,
+                34
+              ],
+              [
+                94,
+                271,
+                123
+              ],
+              [
+                45,
+                12,
+                174
+              ]
+            ],
+            "cross_entropy": 0.9354535341262817
+          },
+          "frozen": {
+            "accuracy": 0.28679245283018867,
+            "balanced_accuracy": 0.35313880827254424,
+            "recall": [
+              0.6447368421052632,
+              0.3237704918032787,
+              0.09090909090909091
+            ],
+            "confusion_matrix": [
+              [
+                49,
+                26,
+                1
+              ],
+              [
+                311,
+                158,
+                19
+              ],
+              [
+                110,
+                100,
+                21
+              ]
+            ],
+            "cross_entropy": 1.3634754419326782
+          }
+        }
+      },
+      "status": {
+        "state": "completed",
+        "updates": 256,
+        "valid_presentations": 54490,
+        "wall_seconds": 9.187217640999961,
+        "peak_allocated_mib": 54.11279296875,
+        "fixed_w_unchanged": null
+      },
+      "closed_loop": {
+        "normal": {
+          "greedy": {
+            "passed": 17,
+            "episodes": 17,
+            "mean_advance": 5.0588235294117645,
+            "mean_frames": 306.88235294117646
+          },
+          "sampled": {
+            "passed": 31,
+            "episodes": 51,
+            "mean_advance": 3.6470588235294117,
+            "mean_frames": 588.6862745098039
+          }
+        },
+        "frozen": {
+          "greedy": {
+            "passed": 3,
+            "episodes": 17,
+            "mean_advance": 2.4705882352941178,
+            "mean_frames": 698.9411764705883
+          },
+          "sampled": {
+            "passed": 14,
+            "episodes": 51,
+            "mean_advance": 2.9607843137254903,
+            "mean_frames": 877.1764705882352
+          }
+        },
+        "clock": {
+          "greedy": {
+            "passed": 0,
+            "episodes": 17,
+            "mean_advance": 0.7058823529411765,
+            "mean_frames": 683.7058823529412
+          },
+          "sampled": {
+            "passed": 0,
+            "episodes": 51,
+            "mean_advance": 0.9803921568627451,
+            "mean_frames": 714.4313725490196
+          }
+        }
+      },
+      "by_start": {
+        "f495_center_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_center_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_left_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_left_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_right_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 3
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_right_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_center_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_center_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_left_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_left_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_right_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_right_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f615_center_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 1
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f615_center_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 1
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f615_left_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f615_right_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 3
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f615_right_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 1
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        }
+      }
+    },
+    "graph_seed2": {
+      "seed": 2,
+      "architecture": "graph",
+      "selected_step": 256,
+      "offline": {
+        "train": {
+          "normal": {
+            "accuracy": 0.3498168498168498,
+            "balanced_accuracy": 0.46111643799320845,
+            "recall": [
+              0.5610859728506787,
+              0.07090464547677261,
+              0.751358695652174
+            ],
+            "confusion_matrix": [
+              [
+                124,
+                10,
+                87
+              ],
+              [
+                271,
+                87,
+                869
+              ],
+              [
+                106,
+                77,
+                553
+              ]
+            ],
+            "cross_entropy": 1.0446499586105347
+          },
+          "frozen": {
+            "accuracy": 0.2522893772893773,
+            "balanced_accuracy": 0.3136911846344434,
+            "recall": [
+              0.4117647058823529,
+              0.14343928280358598,
+              0.3858695652173913
+            ],
+            "confusion_matrix": [
+              [
+                91,
+                16,
+                114
+              ],
+              [
+                630,
+                176,
+                421
+              ],
+              [
+                351,
+                101,
+                284
+              ]
+            ],
+            "cross_entropy": 1.1457555294036865
+          }
+        },
+        "test": {
+          "normal": {
+            "accuracy": 0.28553459119496855,
+            "balanced_accuracy": 0.3797602550838099,
+            "recall": [
+              0.34210526315789475,
+              0.06557377049180328,
+              0.7316017316017316
+            ],
+            "confusion_matrix": [
+              [
+                26,
+                8,
+                42
+              ],
+              [
+                99,
+                32,
+                357
+              ],
+              [
+                27,
+                35,
+                169
+              ]
+            ],
+            "cross_entropy": 1.0635778903961182
+          },
+          "frozen": {
+            "accuracy": 0.189937106918239,
+            "balanced_accuracy": 0.3469819294884006,
+            "recall": [
+              0.7368421052631579,
+              0.09631147540983606,
+              0.2077922077922078
+            ],
+            "confusion_matrix": [
+              [
+                56,
+                8,
+                12
+              ],
+              [
+                360,
+                47,
+                81
+              ],
+              [
+                134,
+                49,
+                48
+              ]
+            ],
+            "cross_entropy": 1.1747610569000244
+          }
+        }
+      },
+      "status": {
+        "state": "completed",
+        "updates": 256,
+        "valid_presentations": 54105,
+        "wall_seconds": 136.36701559099993,
+        "peak_allocated_mib": 1044.99072265625,
+        "fixed_w_unchanged": true
+      },
+      "closed_loop": {
+        "normal": {
+          "greedy": {
+            "passed": 1,
+            "episodes": 17,
+            "mean_advance": 2,
+            "mean_frames": 769.6470588235294
+          },
+          "sampled": {
+            "passed": 3,
+            "episodes": 51,
+            "mean_advance": 1.6862745098039216,
+            "mean_frames": 731.3921568627451
+          }
+        },
+        "frozen": {
+          "greedy": {
+            "passed": 5,
+            "episodes": 17,
+            "mean_advance": 2.5294117647058822,
+            "mean_frames": 669.3529411764706
+          },
+          "sampled": {
+            "passed": 7,
+            "episodes": 51,
+            "mean_advance": 1.8431372549019607,
+            "mean_frames": 710.7843137254902
+          }
+        },
+        "clock": {
+          "greedy": {
+            "passed": 11,
+            "episodes": 17,
+            "mean_advance": 3.5294117647058822,
+            "mean_frames": 446.7647058823529
+          },
+          "sampled": {
+            "passed": 5,
+            "episodes": 51,
+            "mean_advance": 1.8431372549019607,
+            "mean_frames": 745.9803921568628
+          }
+        }
+      },
+      "by_start": {
+        "f495_center_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 1
+          }
+        },
+        "f495_center_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_left_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_left_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 1
+          }
+        },
+        "f495_right_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        },
+        "f495_right_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        },
+        "f555_center_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        },
+        "f555_center_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        },
+        "f555_left_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        },
+        "f555_left_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 2
+          }
+        },
+        "f555_right_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        },
+        "f555_right_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        },
+        "f615_center_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        },
+        "f615_center_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        },
+        "f615_left_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 1
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 1
+          }
+        },
+        "f615_right_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": true,
+            "sampled": 0
+          }
+        },
+        "f615_right_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        }
+      }
+    },
+    "gru_seed2": {
+      "seed": 2,
+      "architecture": "gru",
+      "selected_step": 256,
+      "offline": {
+        "train": {
+          "normal": {
+            "accuracy": 0.7293956043956044,
+            "balanced_accuracy": 0.7360694316909261,
+            "recall": [
+              0.7285067873303167,
+              0.6984515077424613,
+              0.78125
+            ],
+            "confusion_matrix": [
+              [
+                161,
+                25,
+                35
+              ],
+              [
+                233,
+                857,
+                137
+              ],
+              [
+                102,
+                59,
+                575
+              ]
+            ],
+            "cross_entropy": 0.6614840626716614
+          },
+          "frozen": {
+            "accuracy": 0.31959706959706957,
+            "balanced_accuracy": 0.34344492100782004,
+            "recall": [
+              0.416289592760181,
+              0.31377343113284434,
+              0.30027173913043476
+            ],
+            "confusion_matrix": [
+              [
+                92,
+                77,
+                52
+              ],
+              [
+                509,
+                385,
+                333
+              ],
+              [
+                260,
+                255,
+                221
+              ]
+            ],
+            "cross_entropy": 1.4256144762039185
+          }
+        },
+        "test": {
+          "normal": {
+            "accuracy": 0.70062893081761,
+            "balanced_accuracy": 0.6593873842579624,
+            "recall": [
+              0.5131578947368421,
+              0.6987704918032787,
+              0.7662337662337663
+            ],
+            "confusion_matrix": [
+              [
+                39,
+                12,
+                25
+              ],
+              [
+                80,
+                341,
+                67
+              ],
+              [
+                31,
+                23,
+                177
+              ]
+            ],
+            "cross_entropy": 0.7418959736824036
+          },
+          "frozen": {
+            "accuracy": 0.2779874213836478,
+            "balanced_accuracy": 0.3201717034762764,
+            "recall": [
+              0.4473684210526316,
+              0.26639344262295084,
+              0.24675324675324675
+            ],
+            "confusion_matrix": [
+              [
+                34,
+                26,
+                16
+              ],
+              [
+                272,
+                130,
+                86
+              ],
+              [
+                95,
+                79,
+                57
+              ]
+            ],
+            "cross_entropy": 1.3892908096313477
+          }
+        }
+      },
+      "status": {
+        "state": "completed",
+        "updates": 256,
+        "valid_presentations": 54105,
+        "wall_seconds": 9.01441140199995,
+        "peak_allocated_mib": 54.11279296875,
+        "fixed_w_unchanged": null
+      },
+      "closed_loop": {
+        "normal": {
+          "greedy": {
+            "passed": 13,
+            "episodes": 17,
+            "mean_advance": 4.294117647058823,
+            "mean_frames": 445.88235294117646
+          },
+          "sampled": {
+            "passed": 32,
+            "episodes": 51,
+            "mean_advance": 3.7450980392156863,
+            "mean_frames": 577.3921568627451
+          }
+        },
+        "frozen": {
+          "greedy": {
+            "passed": 3,
+            "episodes": 17,
+            "mean_advance": 2.235294117647059,
+            "mean_frames": 723.1764705882352
+          },
+          "sampled": {
+            "passed": 13,
+            "episodes": 51,
+            "mean_advance": 2.372549019607843,
+            "mean_frames": 728.9019607843137
+          }
+        },
+        "clock": {
+          "greedy": {
+            "passed": 0,
+            "episodes": 17,
+            "mean_advance": 0.7058823529411765,
+            "mean_frames": 683.7058823529412
+          },
+          "sampled": {
+            "passed": 1,
+            "episodes": 51,
+            "mean_advance": 0.7843137254901961,
+            "mean_frames": 677.8627450980392
+          }
+        }
+      },
+      "by_start": {
+        "f495_center_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 2
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_center_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_left_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 1
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 2
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_left_p30": {
+          "normal": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_right_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f495_right_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_center_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 1
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_center_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_left_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 2
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_left_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_right_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f555_right_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f615_center_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 1
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f615_center_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 1
+          }
+        },
+        "f615_left_p18": {
+          "normal": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "frozen": {
+            "greedy": true,
+            "sampled": 3
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f615_right_p18": {
+          "normal": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        },
+        "f615_right_p30": {
+          "normal": {
+            "greedy": true,
+            "sampled": 2
+          },
+          "frozen": {
+            "greedy": false,
+            "sampled": 0
+          },
+          "clock": {
+            "greedy": false,
+            "sampled": 0
+          }
+        }
+      }
+    }
+  },
+  "paired_initialization": {
+    "0": "272c212ad1df8eab803271a7d79c5301dfe930e2d6bbcc2b5eb4574c78620309",
+    "1": "ca15d424b3d21f6bf129e3c2083755eb56adf6bc8f67cadf5e0ac33c5101858f",
+    "2": "a5876dcb810d4fec4d775f446868de9d11a7f75d836b90fd5b4a59d662447745"
+  },
+  "aggregates": {
+    "graph": {
+      "normal_test_balanced_accuracy": {
+        "mean": 0.361654415472362,
+        "sample_std": 0.019683386179187454,
+        "per_seed": [
+          0.3407031924072476,
+          0.3644997989260284,
+          0.3797602550838099
+        ]
+      },
+      "frozen_test_balanced_accuracy": {
+        "mean": 0.35124359790019843,
+        "sample_std": 0.011721567732906274,
+        "per_seed": [
+          0.3422490652861663,
+          0.3644997989260284,
+          0.3469819294884006
+        ]
+      },
+      "normal_greedy": {
+        "passed": 7,
+        "episodes": 51,
+        "per_seed": [
+          1,
+          5,
+          1
+        ]
+      },
+      "normal_sampled": {
+        "passed": 12,
+        "episodes": 153,
+        "per_seed": [
+          4,
+          5,
+          3
+        ]
+      },
+      "frozen_greedy": {
+        "passed": 12,
+        "episodes": 51,
+        "per_seed": [
+          2,
+          5,
+          5
+        ]
+      },
+      "frozen_sampled": {
+        "passed": 16,
+        "episodes": 153,
+        "per_seed": [
+          4,
+          5,
+          7
+        ]
+      },
+      "clock_greedy": {
+        "passed": 19,
+        "episodes": 51,
+        "per_seed": [
+          3,
+          5,
+          11
+        ]
+      },
+      "clock_sampled": {
+        "passed": 14,
+        "episodes": 153,
+        "per_seed": [
+          4,
+          5,
+          5
+        ]
+      }
+    },
+    "gru": {
+      "normal_test_balanced_accuracy": {
+        "mean": 0.6372368763438652,
+        "sample_std": 0.024065490076800873,
+        "per_seed": [
+          0.6406931075826675,
+          0.6116301371909655,
+          0.6593873842579624
+        ]
+      },
+      "frozen_test_balanced_accuracy": {
+        "mean": 0.34248240654625467,
+        "sample_std": 0.019328076844817108,
+        "per_seed": [
+          0.3541367078899434,
+          0.35313880827254424,
+          0.3201717034762764
+        ]
+      },
+      "normal_greedy": {
+        "passed": 44,
+        "episodes": 51,
+        "per_seed": [
+          14,
+          17,
+          13
+        ]
+      },
+      "normal_sampled": {
+        "passed": 97,
+        "episodes": 153,
+        "per_seed": [
+          34,
+          31,
+          32
+        ]
+      },
+      "frozen_greedy": {
+        "passed": 9,
+        "episodes": 51,
+        "per_seed": [
+          3,
+          3,
+          3
+        ]
+      },
+      "frozen_sampled": {
+        "passed": 42,
+        "episodes": 153,
+        "per_seed": [
+          15,
+          14,
+          13
+        ]
+      },
+      "clock_greedy": {
+        "passed": 3,
+        "episodes": 51,
+        "per_seed": [
+          3,
+          0,
+          0
+        ]
+      },
+      "clock_sampled": {
+        "passed": 20,
+        "episodes": 153,
+        "per_seed": [
+          19,
+          0,
+          1
+        ]
+      }
+    }
+  }
+}

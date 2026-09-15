@@ -1,0 +1,339 @@
+{
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "cuda": "12.8",
+  "free_mib_start": 8654.75,
+  "allocator_cap_fraction": 0.55,
+  "cases": [
+    {
+      "status": "ok",
+      "gradient_norms": {
+        "edges": 0.006018905434757471,
+        "encoder": 0.0008949967450462282
+      },
+      "runs": [
+        {
+          "forward_ms": 180.15331700007664,
+          "backward_ms": 332.132929999716,
+          "update_checks_ms": 95.54300600029819,
+          "total_ms": 607.8292530000908,
+          "peak_allocated_mib": 74.3271484375,
+          "peak_reserved_mib": 110.0
+        },
+        {
+          "forward_ms": 6.484953000835958,
+          "backward_ms": 9.38399799997569,
+          "update_checks_ms": 1.0147630000574281,
+          "total_ms": 16.883714000869077,
+          "peak_allocated_mib": 82.3994140625,
+          "peak_reserved_mib": 110.0
+        },
+        {
+          "forward_ms": 5.575839000812266,
+          "backward_ms": 9.408203999555553,
+          "update_checks_ms": 0.5780649989901576,
+          "total_ms": 15.562107999357977,
+          "peak_allocated_mib": 82.3994140625,
+          "peak_reserved_mib": 110.0
+        },
+        {
+          "forward_ms": 5.895615000554244,
+          "backward_ms": 10.716693999711424,
+          "update_checks_ms": 0.7494000001315726,
+          "total_ms": 17.36170900039724,
+          "peak_allocated_mib": 82.3994140625,
+          "peak_reserved_mib": 110.0
+        }
+      ],
+      "median": {
+        "forward_ms": 5.895615000554244,
+        "backward_ms": 9.408203999555553,
+        "update_checks_ms": 0.7494000001315726,
+        "total_ms": 16.883714000869077,
+        "peak_allocated_mib": 82.3994140625,
+        "peak_reserved_mib": 110.0
+      },
+      "kind": "edge_triton",
+      "n": 8192,
+      "edges": 1048576,
+      "degree": 128,
+      "batch": 4,
+      "steps": 32
+    },
+    {
+      "status": "ok",
+      "gradient_norms": {
+        "edges": 0.009601307101547718,
+        "encoder": 0.0015266940463334322
+      },
+      "runs": [
+        {
+          "forward_ms": 206.9737769998028,
+          "backward_ms": 336.6213080007583,
+          "update_checks_ms": 90.48304399948393,
+          "total_ms": 634.078129000045,
+          "peak_allocated_mib": 245.49365234375,
+          "peak_reserved_mib": 426.0
+        },
+        {
+          "forward_ms": 18.264850999912596,
+          "backward_ms": 29.3656239991833,
+          "update_checks_ms": 0.9426770011486951,
+          "total_ms": 48.57315200024459,
+          "peak_allocated_mib": 277.56591796875,
+          "peak_reserved_mib": 426.0
+        },
+        {
+          "forward_ms": 18.759419001071365,
+          "backward_ms": 28.997665998758748,
+          "update_checks_ms": 0.8010180008568568,
+          "total_ms": 48.55810300068697,
+          "peak_allocated_mib": 277.56591796875,
+          "peak_reserved_mib": 426.0
+        },
+        {
+          "forward_ms": 18.141398000807385,
+          "backward_ms": 28.131794999353588,
+          "update_checks_ms": 0.8619630007160595,
+          "total_ms": 47.13515600087703,
+          "peak_allocated_mib": 277.56591796875,
+          "peak_reserved_mib": 426.0
+        }
+      ],
+      "median": {
+        "forward_ms": 18.264850999912596,
+        "backward_ms": 28.997665998758748,
+        "update_checks_ms": 0.8619630007160595,
+        "total_ms": 48.55810300068697,
+        "peak_allocated_mib": 277.56591796875,
+        "peak_reserved_mib": 426.0
+      },
+      "kind": "edge_triton",
+      "n": 32768,
+      "edges": 4194304,
+      "degree": 128,
+      "batch": 4,
+      "steps": 32
+    },
+    {
+      "status": "ok",
+      "gradient_norms": {
+        "edges": 0.01709253154695034,
+        "encoder": 0.004636192694306374
+      },
+      "runs": [
+        {
+          "forward_ms": 193.07479999952193,
+          "backward_ms": 35.30522300025041,
+          "update_checks_ms": 94.5163490014238,
+          "total_ms": 322.89637200119614,
+          "peak_allocated_mib": 1153.9208984375,
+          "peak_reserved_mib": 1988.0
+        },
+        {
+          "forward_ms": 3.744858999198186,
+          "backward_ms": 23.51875000022119,
+          "update_checks_ms": 3.8505289994645864,
+          "total_ms": 31.11413799888396,
+          "peak_allocated_mib": 1164.8046875,
+          "peak_reserved_mib": 1988.0
+        },
+        {
+          "forward_ms": 3.7017860013293102,
+          "backward_ms": 23.110166999686044,
+          "update_checks_ms": 3.7980289998813532,
+          "total_ms": 30.609982000896707,
+          "peak_allocated_mib": 1164.8046875,
+          "peak_reserved_mib": 1988.0
+        },
+        {
+          "forward_ms": 4.2664969987527,
+          "backward_ms": 22.378199000741006,
+          "update_checks_ms": 3.7598670005536405,
+          "total_ms": 30.404563000047347,
+          "peak_allocated_mib": 1164.8046875,
+          "peak_reserved_mib": 1988.0
+        }
+      ],
+      "median": {
+        "forward_ms": 3.744858999198186,
+        "backward_ms": 23.110166999686044,
+        "update_checks_ms": 3.7980289998813532,
+        "total_ms": 30.609982000896707,
+        "peak_allocated_mib": 1164.8046875,
+        "peak_reserved_mib": 1988.0
+      },
+      "kind": "edge",
+      "n": 165122,
+      "edges": 21135616,
+      "degree": 128,
+      "batch": 1,
+      "steps": 8
+    },
+    {
+      "status": "ok",
+      "gradient_norms": {
+        "edges": 0.01709253154695034,
+        "encoder": 0.004636192694306374
+      },
+      "runs": [
+        {
+          "forward_ms": 190.89291499949468,
+          "backward_ms": 307.1774860000005,
+          "update_checks_ms": 93.90681299919379,
+          "total_ms": 591.977213998689,
+          "peak_allocated_mib": 1153.9208984375,
+          "peak_reserved_mib": 1984.0
+        },
+        {
+          "forward_ms": 3.5246309998910874,
+          "backward_ms": 15.991391999705229,
+          "update_checks_ms": 4.650875998777337,
+          "total_ms": 24.166898998373654,
+          "peak_allocated_mib": 1164.8046875,
+          "peak_reserved_mib": 1984.0
+        },
+        {
+          "forward_ms": 3.624599999966449,
+          "backward_ms": 15.623564999259543,
+          "update_checks_ms": 3.726894999999786,
+          "total_ms": 22.975059999225778,
+          "peak_allocated_mib": 1164.8046875,
+          "peak_reserved_mib": 1984.0
+        },
+        {
+          "forward_ms": 3.3702279997669393,
+          "backward_ms": 16.675990000294405,
+          "update_checks_ms": 3.900514000633848,
+          "total_ms": 23.946732000695192,
+          "peak_allocated_mib": 1164.8046875,
+          "peak_reserved_mib": 1984.0
+        }
+      ],
+      "median": {
+        "forward_ms": 3.5246309998910874,
+        "backward_ms": 15.991391999705229,
+        "update_checks_ms": 3.900514000633848,
+        "total_ms": 23.946732000695192,
+        "peak_allocated_mib": 1164.8046875,
+        "peak_reserved_mib": 1984.0
+      },
+      "kind": "edge_triton",
+      "n": 165122,
+      "edges": 21135616,
+      "degree": 128,
+      "batch": 1,
+      "steps": 8
+    },
+    {
+      "status": "ok",
+      "gradient_norms": {
+        "edges": 0.008684308268129826,
+        "encoder": 0.0016256935195997357
+      },
+      "runs": [
+        {
+          "forward_ms": 265.6066170002305,
+          "backward_ms": 1275.7198939998489,
+          "update_checks_ms": 92.3885660013184,
+          "total_ms": 1633.7150770013977,
+          "peak_allocated_mib": 1166.83349609375,
+          "peak_reserved_mib": 1972.0
+        },
+        {
+          "forward_ms": 82.59046300008777,
+          "backward_ms": 1176.0217619994364,
+          "update_checks_ms": 3.9041300005919766,
+          "total_ms": 1262.5163550001162,
+          "peak_allocated_mib": 1329.07421875,
+          "peak_reserved_mib": 1972.0
+        },
+        {
+          "forward_ms": 82.89422900088539,
+          "backward_ms": 1207.862577999549,
+          "update_checks_ms": 3.9038599988998612,
+          "total_ms": 1294.6606669993344,
+          "peak_allocated_mib": 1329.07421875,
+          "peak_reserved_mib": 1972.0
+        },
+        {
+          "forward_ms": 83.03149000130361,
+          "backward_ms": 1176.1519279989443,
+          "update_checks_ms": 3.938997000659583,
+          "total_ms": 1263.1224150009075,
+          "peak_allocated_mib": 1329.07421875,
+          "peak_reserved_mib": 1972.0
+        }
+      ],
+      "median": {
+        "forward_ms": 82.89422900088539,
+        "backward_ms": 1176.1519279989443,
+        "update_checks_ms": 3.9041300005919766,
+        "total_ms": 1263.1224150009075,
+        "peak_allocated_mib": 1329.07421875,
+        "peak_reserved_mib": 1972.0
+      },
+      "kind": "edge",
+      "n": 165122,
+      "edges": 21135616,
+      "degree": 128,
+      "batch": 4,
+      "steps": 32
+    },
+    {
+      "status": "ok",
+      "gradient_norms": {
+        "edges": 0.008684308268129826,
+        "encoder": 0.0016256935195997357
+      },
+      "runs": [
+        {
+          "forward_ms": 264.8070809991623,
+          "backward_ms": 439.64418200084765,
+          "update_checks_ms": 92.37557099913829,
+          "total_ms": 796.8268339991482,
+          "peak_allocated_mib": 1166.83349609375,
+          "peak_reserved_mib": 1970.0
+        },
+        {
+          "forward_ms": 82.69290699900012,
+          "backward_ms": 135.37189199996646,
+          "update_checks_ms": 3.8851450008223765,
+          "total_ms": 221.94994399978896,
+          "peak_allocated_mib": 1329.07421875,
+          "peak_reserved_mib": 1970.0
+        },
+        {
+          "forward_ms": 84.55218199924275,
+          "backward_ms": 139.12844300102734,
+          "update_checks_ms": 3.9067649995558895,
+          "total_ms": 227.58738999982597,
+          "peak_allocated_mib": 1329.07421875,
+          "peak_reserved_mib": 1970.0
+        },
+        {
+          "forward_ms": 87.36107599906973,
+          "backward_ms": 138.9217510004528,
+          "update_checks_ms": 3.9167640006780857,
+          "total_ms": 230.1995910002006,
+          "peak_allocated_mib": 1329.07421875,
+          "peak_reserved_mib": 1970.0
+        }
+      ],
+      "median": {
+        "forward_ms": 84.55218199924275,
+        "backward_ms": 138.9217510004528,
+        "update_checks_ms": 3.9067649995558895,
+        "total_ms": 227.58738999982597,
+        "peak_allocated_mib": 1329.07421875,
+        "peak_reserved_mib": 1970.0
+      },
+      "kind": "edge_triton",
+      "n": 165122,
+      "edges": 21135616,
+      "degree": 128,
+      "batch": 4,
+      "steps": 32
+    }
+  ]
+}

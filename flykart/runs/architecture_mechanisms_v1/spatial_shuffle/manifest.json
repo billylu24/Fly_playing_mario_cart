@@ -1,0 +1,3026 @@
+[
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f450_center_p12",
+      "perturb_frames": 12,
+      "start_specs": [
+        {
+          "id": "f450_center_p12",
+          "prefix_frame": 450,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f450_center_p12.npz",
+    "sha256": "68a626450e1a1d38ad98094ad11619a32d1730c39048e75a7397e27b0fcfd3bc",
+    "decisions": 29,
+    "action_counts": [
+      4,
+      16,
+      9
+    ],
+    "start_info": {
+      "kart1_X": 1939,
+      "kart1_Y": 917,
+      "kart1_direction": 196,
+      "kart1_speed": 542,
+      "surface": 64,
+      "current_checkpoint": 6
+    },
+    "reason": "target_reached",
+    "frames": 229,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6666666666666666,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f450_center_p12",
+    "start_progress": 6,
+    "advance": 7
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f450_left_p12",
+      "perturb_frames": 12,
+      "start_specs": [
+        {
+          "id": "f450_left_p12",
+          "prefix_frame": 450,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f450_left_p12.npz",
+    "sha256": "0d2a316736c0027ad60c31f191eeccbbf74195c45601cc744422883ba500715a",
+    "decisions": 47,
+    "action_counts": [
+      3,
+      24,
+      20
+    ],
+    "start_info": {
+      "kart1_X": 1938,
+      "kart1_Y": 920,
+      "kart1_direction": 191,
+      "kart1_speed": 542,
+      "surface": 64,
+      "current_checkpoint": 6
+    },
+    "reason": "target_reached",
+    "frames": 376,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6666666666666666,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f450_left_p12",
+    "start_progress": 6,
+    "advance": 7
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f450_right_p12",
+      "perturb_frames": 12,
+      "start_specs": [
+        {
+          "id": "f450_right_p12",
+          "prefix_frame": 450,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f450_right_p12.npz",
+    "sha256": "0ed594caa5d5f5e1bc35c4e0efb2ed896c7e912f3c30bd8079db2fe58cf80548",
+    "decisions": 28,
+    "action_counts": [
+      3,
+      16,
+      9
+    ],
+    "start_info": {
+      "kart1_X": 1939,
+      "kart1_Y": 916,
+      "kart1_direction": 197,
+      "kart1_speed": 542,
+      "surface": 64,
+      "current_checkpoint": 6
+    },
+    "reason": "target_reached",
+    "frames": 220,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6666666666666666,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f450_right_p12",
+    "start_progress": 6,
+    "advance": 7
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f450_center_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f450_center_p24",
+          "prefix_frame": 450,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f450_center_p24.npz",
+    "sha256": "1b73a76930b22588f0b61113d39ff9c29eb1b1d1109b407b74b32d7242d0b4bc",
+    "decisions": 28,
+    "action_counts": [
+      8,
+      15,
+      5
+    ],
+    "start_info": {
+      "kart1_X": 1831,
+      "kart1_Y": 907,
+      "kart1_direction": 196,
+      "kart1_speed": 590,
+      "surface": 84,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 220,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f450_center_p24",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f450_left_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f450_left_p24",
+          "prefix_frame": 450,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f450_left_p24.npz",
+    "sha256": "54e76cb03c3dec21a17947437fcbbcd43ccbf03a8d30ff0964959ebf4bea761a",
+    "decisions": 55,
+    "action_counts": [
+      4,
+      28,
+      23
+    ],
+    "start_info": {
+      "kart1_X": 1833,
+      "kart1_Y": 939,
+      "kart1_direction": 178,
+      "kart1_speed": 590,
+      "surface": 84,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 439,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f450_left_p24",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f450_right_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f450_right_p24",
+          "prefix_frame": 450,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f450_right_p24.npz",
+    "sha256": "8df21536cd39ae1aa9a869bfd5fbfc6daf28a1f4326ae2470c1f90fc73bc6e5e",
+    "decisions": 65,
+    "action_counts": [
+      2,
+      49,
+      14
+    ],
+    "start_info": {
+      "kart1_X": 1833,
+      "kart1_Y": 895,
+      "kart1_direction": 205,
+      "kart1_speed": 590,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 516,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f450_right_p24",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f450_center_p36",
+      "perturb_frames": 36,
+      "start_specs": [
+        {
+          "id": "f450_center_p36",
+          "prefix_frame": 450,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f450_center_p36.npz",
+    "sha256": "d88ac7306583c349aee606b941a34a1a697897a95295edf7c2e8ed1002c22c33",
+    "decisions": 30,
+    "action_counts": [
+      2,
+      19,
+      9
+    ],
+    "start_info": {
+      "kart1_X": 1722,
+      "kart1_Y": 897,
+      "kart1_direction": 196,
+      "kart1_speed": 578,
+      "surface": 84,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 234,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f450_center_p36",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f450_left_p36",
+      "perturb_frames": 36,
+      "start_specs": [
+        {
+          "id": "f450_left_p36",
+          "prefix_frame": 450,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f450_left_p36.npz",
+    "sha256": "671fd654a5d6ad3a3acf0db75f8e0a62ed27d887175038f21117390c782ad611",
+    "decisions": 45,
+    "action_counts": [
+      9,
+      19,
+      17
+    ],
+    "start_info": {
+      "kart1_X": 1738,
+      "kart1_Y": 994,
+      "kart1_direction": 163,
+      "kart1_speed": 578,
+      "surface": 84,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 360,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f450_left_p36",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f450_right_p36",
+      "perturb_frames": 36,
+      "start_specs": [
+        {
+          "id": "f450_right_p36",
+          "prefix_frame": 450,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f450_right_p36.npz",
+    "sha256": "57140494e47f11f7f27820905771415e94eba95f0adf0b96bb8ebb7d8962713e",
+    "decisions": 25,
+    "action_counts": [
+      3,
+      16,
+      6
+    ],
+    "start_info": {
+      "kart1_X": 1735,
+      "kart1_Y": 846,
+      "kart1_direction": 219,
+      "kart1_speed": 578,
+      "surface": 84,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 196,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f450_right_p36",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f450_center_p48",
+      "perturb_frames": 48,
+      "start_specs": [
+        {
+          "id": "f450_center_p48",
+          "prefix_frame": 450,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f450_center_p48.npz",
+    "sha256": "6683e2b19818c97d577ad7f03a3559f1760b028bee6ad2a3aa4663a9fa655e5d",
+    "decisions": 26,
+    "action_counts": [
+      5,
+      15,
+      6
+    ],
+    "start_info": {
+      "kart1_X": 1612,
+      "kart1_Y": 887,
+      "kart1_direction": 196,
+      "kart1_speed": 586,
+      "surface": 84,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 203,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f450_center_p48",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f450_left_p48",
+      "perturb_frames": 48,
+      "start_specs": [
+        {
+          "id": "f450_left_p48",
+          "prefix_frame": 450,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f450_left_p48.npz",
+    "sha256": "ea89b0fa5b9c8e278d934f08202b41ca10f5558cf2ba955dd142ef569395e030",
+    "decisions": 46,
+    "action_counts": [
+      7,
+      19,
+      20
+    ],
+    "start_info": {
+      "kart1_X": 1668,
+      "kart1_Y": 1078,
+      "kart1_direction": 149,
+      "kart1_speed": 586,
+      "surface": 84,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 368,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f450_left_p48",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f450_right_p48",
+      "perturb_frames": 48,
+      "start_specs": [
+        {
+          "id": "f450_right_p48",
+          "prefix_frame": 450,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f450_right_p48.npz",
+    "sha256": "4846e86e16f9331a044e70b3354cc7405fb3933c9873e4d7895fff078fdc5d21",
+    "decisions": 61,
+    "action_counts": [
+      3,
+      50,
+      8
+    ],
+    "start_info": {
+      "kart1_X": 1659,
+      "kart1_Y": 766,
+      "kart1_direction": 233,
+      "kart1_speed": 606,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 482,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f450_right_p48",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f480_center_p12",
+      "perturb_frames": 12,
+      "start_specs": [
+        {
+          "id": "f480_center_p12",
+          "prefix_frame": 480,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f480_center_p12.npz",
+    "sha256": "594d542c39033d196977b3445099c6415d28130a44d031afb06eaf782809cc40",
+    "decisions": 62,
+    "action_counts": [
+      1,
+      48,
+      13
+    ],
+    "start_info": {
+      "kart1_X": 1752,
+      "kart1_Y": 823,
+      "kart1_direction": 225,
+      "kart1_speed": 555,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 493,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f480_center_p12",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f480_left_p12",
+      "perturb_frames": 12,
+      "start_specs": [
+        {
+          "id": "f480_left_p12",
+          "prefix_frame": 480,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f480_left_p12.npz",
+    "sha256": "2b4da7fb52818176a237696c6510deb411e81ed28de5c08260d8079084781437",
+    "decisions": 51,
+    "action_counts": [
+      2,
+      30,
+      19
+    ],
+    "start_info": {
+      "kart1_X": 1755,
+      "kart1_Y": 820,
+      "kart1_direction": 224,
+      "kart1_speed": 555,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 403,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f480_left_p12",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f480_right_p12",
+      "perturb_frames": 12,
+      "start_specs": [
+        {
+          "id": "f480_right_p12",
+          "prefix_frame": 480,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f480_right_p12.npz",
+    "sha256": "d5a31b1e0419e9415952df7690ad54084d304547c3929f1a4ff4f2382598b720",
+    "decisions": 73,
+    "action_counts": [
+      10,
+      51,
+      12
+    ],
+    "start_info": {
+      "kart1_X": 1752,
+      "kart1_Y": 823,
+      "kart1_direction": 228,
+      "kart1_speed": 555,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 584,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f480_right_p12",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f480_center_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f480_center_p24",
+          "prefix_frame": 480,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f480_center_p24.npz",
+    "sha256": "65aea4d65ab3361d782afbd91799f73d509a63bbd19d8ca1bc6b59735b604d0e",
+    "decisions": 61,
+    "action_counts": [
+      1,
+      47,
+      13
+    ],
+    "start_info": {
+      "kart1_X": 1679,
+      "kart1_Y": 741,
+      "kart1_direction": 228,
+      "kart1_speed": 615,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 488,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f480_center_p24",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f480_left_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f480_left_p24",
+          "prefix_frame": 480,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f480_left_p24.npz",
+    "sha256": "251d2cd7ee775d28293838ea27f4e6320cbea5fed0f8a609e7de6e8320ab08b7",
+    "decisions": 63,
+    "action_counts": [
+      1,
+      48,
+      14
+    ],
+    "start_info": {
+      "kart1_X": 1687,
+      "kart1_Y": 734,
+      "kart1_direction": 223,
+      "kart1_speed": 615,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 500,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f480_left_p24",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f480_right_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f480_right_p24",
+          "prefix_frame": 480,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f480_right_p24.npz",
+    "sha256": "06cdf42bbe0fdac98875b3735d510b71d0766f705a089431e8292d3c1e67bff2",
+    "decisions": 59,
+    "action_counts": [
+      6,
+      32,
+      21
+    ],
+    "start_info": {
+      "kart1_X": 1686,
+      "kart1_Y": 735,
+      "kart1_direction": 243,
+      "kart1_speed": 615,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 471,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f480_right_p24",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f480_center_p36",
+      "perturb_frames": 36,
+      "start_specs": [
+        {
+          "id": "f480_center_p36",
+          "prefix_frame": 480,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f480_center_p36.npz",
+    "sha256": "5c7792aefa1d0a73cf7940a6b67e11e5d56dd373b4055651c3cc684c37c01e1d",
+    "decisions": 27,
+    "action_counts": [
+      6,
+      16,
+      5
+    ],
+    "start_info": {
+      "kart1_X": 1601,
+      "kart1_Y": 650,
+      "kart1_direction": 228,
+      "kart1_speed": 653,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 210,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f480_center_p36",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f480_left_p36",
+      "perturb_frames": 36,
+      "start_specs": [
+        {
+          "id": "f480_left_p36",
+          "prefix_frame": 480,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f480_left_p36.npz",
+    "sha256": "d7e0bcf51b00396fb67b93f8791d8803306c2cf88a4721ba3885bc0fbf343a89",
+    "decisions": 48,
+    "action_counts": [
+      2,
+      27,
+      19
+    ],
+    "start_info": {
+      "kart1_X": 1610,
+      "kart1_Y": 643,
+      "kart1_direction": 215,
+      "kart1_speed": 653,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 379,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f480_left_p36",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f480_right_p36",
+      "perturb_frames": 36,
+      "start_specs": [
+        {
+          "id": "f480_right_p36",
+          "prefix_frame": 480,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f480_right_p36.npz",
+    "sha256": "a03e130d0544924124deda1cad392bb735dc39f50e2ee21e4e0b18283378ef85",
+    "decisions": 55,
+    "action_counts": [
+      7,
+      32,
+      16
+    ],
+    "start_info": {
+      "kart1_X": 1645,
+      "kart1_Y": 624,
+      "kart1_direction": 1,
+      "kart1_speed": 653,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 437,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f480_right_p36",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f480_center_p48",
+      "perturb_frames": 48,
+      "start_specs": [
+        {
+          "id": "f480_center_p48",
+          "prefix_frame": 480,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f480_center_p48.npz",
+    "sha256": "531c07c5ff9d6963b65c7f269caa95a15bde0960c2f3ec2bac59c51ba30b2452",
+    "decisions": 20,
+    "action_counts": [
+      4,
+      13,
+      3
+    ],
+    "start_info": {
+      "kart1_X": 1520,
+      "kart1_Y": 556,
+      "kart1_direction": 228,
+      "kart1_speed": 677,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 156,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f480_center_p48",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f480_left_p48",
+      "perturb_frames": 48,
+      "start_specs": [
+        {
+          "id": "f480_left_p48",
+          "prefix_frame": 480,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f480_left_p48.npz",
+    "sha256": "0c166dac843730405f8fbea23efa9a04e7e592abe6c35e181dfd5d2ed5f737e4",
+    "decisions": 60,
+    "action_counts": [
+      1,
+      45,
+      14
+    ],
+    "start_info": {
+      "kart1_X": 1512,
+      "kart1_Y": 566,
+      "kart1_direction": 201,
+      "kart1_speed": 677,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 476,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f480_left_p48",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f480_right_p48",
+      "perturb_frames": 48,
+      "start_specs": [
+        {
+          "id": "f480_right_p48",
+          "prefix_frame": 480,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f480_right_p48.npz",
+    "sha256": "19a5df9c9c9a188440894e6705a7ab6487b44b2066ecbd1808ab3a580b5e242a",
+    "decisions": 52,
+    "action_counts": [
+      6,
+      31,
+      15
+    ],
+    "start_info": {
+      "kart1_X": 1635,
+      "kart1_Y": 500,
+      "kart1_direction": 15,
+      "kart1_speed": 677,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 409,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f480_right_p48",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f540_center_p12",
+      "perturb_frames": 12,
+      "start_specs": [
+        {
+          "id": "f540_center_p12",
+          "prefix_frame": 540,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f540_center_p12.npz",
+    "sha256": "fea03183d65be5c8fab570ad4558e3cfb7fa6579d3082bab6440ca257ac7456d",
+    "decisions": 20,
+    "action_counts": [
+      7,
+      10,
+      3
+    ],
+    "start_info": {
+      "kart1_X": 1386,
+      "kart1_Y": 637,
+      "kart1_direction": 206,
+      "kart1_speed": 555,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 158,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f540_center_p12",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f540_left_p12",
+      "perturb_frames": 12,
+      "start_specs": [
+        {
+          "id": "f540_left_p12",
+          "prefix_frame": 540,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f540_left_p12.npz",
+    "sha256": "0915ee309b71ee8b7a4f8fe7dbc7fdcfa0012e284e06d867ad394f5346523c42",
+    "decisions": 69,
+    "action_counts": [
+      6,
+      40,
+      23
+    ],
+    "start_info": {
+      "kart1_X": 1386,
+      "kart1_Y": 636,
+      "kart1_direction": 205,
+      "kart1_speed": 555,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 551,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f540_left_p12",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f540_right_p12",
+      "perturb_frames": 12,
+      "start_specs": [
+        {
+          "id": "f540_right_p12",
+          "prefix_frame": 540,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f540_right_p12.npz",
+    "sha256": "b9a174003c04a56f48074448afe6fc17e98c286489cbd8b491cc428bea5e6433",
+    "decisions": 25,
+    "action_counts": [
+      6,
+      14,
+      5
+    ],
+    "start_info": {
+      "kart1_X": 1386,
+      "kart1_Y": 637,
+      "kart1_direction": 212,
+      "kart1_speed": 555,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 200,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f540_right_p12",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f540_center_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f540_center_p24",
+          "prefix_frame": 540,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f540_center_p24.npz",
+    "sha256": "ef86f29ee9f398f50e68feeed1d0d6cbe722dfb7d48e330f0efbc9d20ea22c97",
+    "decisions": 21,
+    "action_counts": [
+      2,
+      12,
+      7
+    ],
+    "start_info": {
+      "kart1_X": 1282,
+      "kart1_Y": 601,
+      "kart1_direction": 206,
+      "kart1_speed": 615,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 164,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f540_center_p24",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f540_left_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f540_left_p24",
+          "prefix_frame": 540,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f540_left_p24.npz",
+    "sha256": "9d38ef9e5adbb6c90184239f959256978d27825fe4a3650914861c6813f162fe",
+    "decisions": 39,
+    "action_counts": [
+      3,
+      22,
+      14
+    ],
+    "start_info": {
+      "kart1_X": 1283,
+      "kart1_Y": 598,
+      "kart1_direction": 199,
+      "kart1_speed": 615,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 309,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f540_left_p24",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f540_right_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f540_right_p24",
+          "prefix_frame": 540,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f540_right_p24.npz",
+    "sha256": "74b53811be73c76e9024d34090bda770d3d8c17eb74db1d7f29c1b6460304b3b",
+    "decisions": 60,
+    "action_counts": [
+      2,
+      50,
+      8
+    ],
+    "start_info": {
+      "kart1_X": 1292,
+      "kart1_Y": 581,
+      "kart1_direction": 226,
+      "kart1_speed": 615,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 478,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f540_right_p24",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f540_center_p36",
+      "perturb_frames": 36,
+      "start_specs": [
+        {
+          "id": "f540_center_p36",
+          "prefix_frame": 540,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f540_center_p36.npz",
+    "sha256": "3c3ab5c3a5282cae4d0dd51028b3ebb70e0a2985d443eca0d0d592aef6b5649b",
+    "decisions": 56,
+    "action_counts": [
+      34,
+      15,
+      7
+    ],
+    "start_info": {
+      "kart1_X": 1170,
+      "kart1_Y": 561,
+      "kart1_direction": 206,
+      "kart1_speed": 653,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 448,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f540_center_p36",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f540_left_p36",
+      "perturb_frames": 36,
+      "start_specs": [
+        {
+          "id": "f540_left_p36",
+          "prefix_frame": 540,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f540_left_p36.npz",
+    "sha256": "350382efe2a72de1b301f1660a430fa923a4862f8815f21e0f69b210b13ed19b",
+    "decisions": 47,
+    "action_counts": [
+      2,
+      10,
+      35
+    ],
+    "start_info": {
+      "kart1_X": 1166,
+      "kart1_Y": 575,
+      "kart1_direction": 186,
+      "kart1_speed": 653,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 369,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f540_left_p36",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f540_right_p36",
+      "perturb_frames": 36,
+      "start_specs": [
+        {
+          "id": "f540_right_p36",
+          "prefix_frame": 540,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f540_right_p36.npz",
+    "sha256": "7aa13ec5830ab53de128df4cb9c530b6ee6d265a2c07293a6aa85805e8c71e45",
+    "decisions": 36,
+    "action_counts": [
+      3,
+      22,
+      11
+    ],
+    "start_info": {
+      "kart1_X": 1210,
+      "kart1_Y": 495,
+      "kart1_direction": 240,
+      "kart1_speed": 653,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 285,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f540_right_p36",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f540_center_p48",
+      "perturb_frames": 48,
+      "start_specs": [
+        {
+          "id": "f540_center_p48",
+          "prefix_frame": 540,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f540_center_p48.npz",
+    "sha256": "6a6731f521d1d6744fd2507873410c91112fa789c1c78f529344365945c2e5d9",
+    "decisions": 106,
+    "action_counts": [
+      14,
+      45,
+      47
+    ],
+    "start_info": {
+      "kart1_X": 1059,
+      "kart1_Y": 522,
+      "kart1_direction": 206,
+      "kart1_speed": 577,
+      "surface": 84,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 842,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f540_center_p48",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f540_left_p48",
+      "perturb_frames": 48,
+      "start_specs": [
+        {
+          "id": "f540_left_p48",
+          "prefix_frame": 540,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f540_left_p48.npz",
+    "sha256": "e189885d39920bea5d8b25b328fc170ca9faeb3288ae7f66ee0797b4b6b8c80e",
+    "decisions": 58,
+    "action_counts": [
+      4,
+      43,
+      11
+    ],
+    "start_info": {
+      "kart1_X": 1052,
+      "kart1_Y": 581,
+      "kart1_direction": 171,
+      "kart1_speed": 577,
+      "surface": 84,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 464,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f540_left_p48",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f540_right_p48",
+      "perturb_frames": 48,
+      "start_specs": [
+        {
+          "id": "f540_right_p48",
+          "prefix_frame": 540,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f540_right_p48.npz",
+    "sha256": "88df21b9263552dc33fcb0b1bca2e4a2d657ac19ecd0ab787040bd5cdd3171d9",
+    "decisions": 46,
+    "action_counts": [
+      3,
+      17,
+      26
+    ],
+    "start_info": {
+      "kart1_X": 1153,
+      "kart1_Y": 385,
+      "kart1_direction": 255,
+      "kart1_speed": 677,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 367,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f540_right_p48",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f600_center_p12",
+      "perturb_frames": 12,
+      "start_specs": [
+        {
+          "id": "f600_center_p12",
+          "prefix_frame": 600,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f600_center_p12.npz",
+    "sha256": "24daaf2bcc05cde4013a0aa7b0cd333305008fb2d0652422ba72f091d733f649",
+    "decisions": 55,
+    "action_counts": [
+      7,
+      16,
+      32
+    ],
+    "start_info": {
+      "kart1_X": 1019,
+      "kart1_Y": 433,
+      "kart1_direction": 211,
+      "kart1_speed": 555,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 436,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f600_center_p12",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f600_left_p12",
+      "perturb_frames": 12,
+      "start_specs": [
+        {
+          "id": "f600_left_p12",
+          "prefix_frame": 600,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": false,
+    "filename": "f600_left_p12.npz",
+    "sha256": "b05731a0f49909e7eca32024b03d8dabbbfaf25b4441424ee1678bb73fe152ba",
+    "decisions": 84,
+    "action_counts": [
+      30,
+      47,
+      7
+    ],
+    "start_info": {
+      "kart1_X": 1019,
+      "kart1_Y": 434,
+      "kart1_direction": 208,
+      "kart1_speed": 555,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "no_progress",
+    "frames": 671,
+    "progress": 12,
+    "one_lap": false,
+    "reward": 0.13333333333333333,
+    "jumps": 0,
+    "target_reached": false,
+    "target": 13,
+    "start_id": "f600_left_p12",
+    "start_progress": 8,
+    "advance": 4
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f600_right_p12",
+      "perturb_frames": 12,
+      "start_specs": [
+        {
+          "id": "f600_right_p12",
+          "prefix_frame": 600,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f600_right_p12.npz",
+    "sha256": "4335a40aab2ed36f01006540d0d9ff31eb504b7a54998beeb0aeb50c87bd290d",
+    "decisions": 61,
+    "action_counts": [
+      5,
+      21,
+      35
+    ],
+    "start_info": {
+      "kart1_X": 1020,
+      "kart1_Y": 431,
+      "kart1_direction": 214,
+      "kart1_speed": 555,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 481,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f600_right_p12",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f600_center_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f600_center_p24",
+          "prefix_frame": 600,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f600_center_p24.npz",
+    "sha256": "3f6bb3101e7d1140ca572b844843e5c644a051e8874aac1ec644d7a0346b7d0b",
+    "decisions": 64,
+    "action_counts": [
+      8,
+      32,
+      24
+    ],
+    "start_info": {
+      "kart1_X": 921,
+      "kart1_Y": 384,
+      "kart1_direction": 211,
+      "kart1_speed": 615,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 512,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f600_center_p24",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f600_left_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f600_left_p24",
+          "prefix_frame": 600,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": false,
+    "filename": "f600_left_p24.npz",
+    "sha256": "01c6c79edd41e4d920aa1611a77ae598afc3ee2effb35185229a80dd236d143e",
+    "decisions": 83,
+    "action_counts": [
+      29,
+      44,
+      10
+    ],
+    "start_info": {
+      "kart1_X": 913,
+      "kart1_Y": 403,
+      "kart1_direction": 198,
+      "kart1_speed": 615,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "no_progress",
+    "frames": 659,
+    "progress": 12,
+    "one_lap": false,
+    "reward": 0.13333333333333333,
+    "jumps": 0,
+    "target_reached": false,
+    "target": 13,
+    "start_id": "f600_left_p24",
+    "start_progress": 8,
+    "advance": 4
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f600_right_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f600_right_p24",
+          "prefix_frame": 600,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f600_right_p24.npz",
+    "sha256": "d12ec864c688d66f574c533e1ba9dea96b7fee869f85151813b937f77b6cb203",
+    "decisions": 88,
+    "action_counts": [
+      2,
+      45,
+      41
+    ],
+    "start_info": {
+      "kart1_X": 931,
+      "kart1_Y": 367,
+      "kart1_direction": 224,
+      "kart1_speed": 615,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 704,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f600_right_p24",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f600_center_p36",
+      "perturb_frames": 36,
+      "start_specs": [
+        {
+          "id": "f600_center_p36",
+          "prefix_frame": 600,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": false,
+    "filename": "f600_center_p36.npz",
+    "sha256": "4f9f8c852869febb0fd89f66d19e2d1ff7f1a0a35962857e9a77dd5eba7a3267",
+    "decisions": 78,
+    "action_counts": [
+      14,
+      18,
+      46
+    ],
+    "start_info": {
+      "kart1_X": 814,
+      "kart1_Y": 331,
+      "kart1_direction": 211,
+      "kart1_speed": 653,
+      "surface": 64,
+      "current_checkpoint": 9
+    },
+    "reason": "no_progress",
+    "frames": 620,
+    "progress": 10,
+    "one_lap": false,
+    "reward": 0.03333333333333333,
+    "jumps": 0,
+    "target_reached": false,
+    "target": 13,
+    "start_id": "f600_center_p36",
+    "start_progress": 9,
+    "advance": 1
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f600_left_p36",
+      "perturb_frames": 36,
+      "start_specs": [
+        {
+          "id": "f600_left_p36",
+          "prefix_frame": 600,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": false,
+    "filename": "f600_left_p36.npz",
+    "sha256": "8b0eb52f2998ec389ea6d683d75e1c808eb8b3984fc66bc09ab1841e4a3f16b3",
+    "decisions": 81,
+    "action_counts": [
+      30,
+      44,
+      7
+    ],
+    "start_info": {
+      "kart1_X": 795,
+      "kart1_Y": 405,
+      "kart1_direction": 184,
+      "kart1_speed": 653,
+      "surface": 64,
+      "current_checkpoint": 9
+    },
+    "reason": "no_progress",
+    "frames": 647,
+    "progress": 12,
+    "one_lap": false,
+    "reward": 0.1,
+    "jumps": 0,
+    "target_reached": false,
+    "target": 13,
+    "start_id": "f600_left_p36",
+    "start_progress": 9,
+    "advance": 3
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f600_right_p36",
+      "perturb_frames": 36,
+      "start_specs": [
+        {
+          "id": "f600_right_p36",
+          "prefix_frame": 600,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f600_right_p36.npz",
+    "sha256": "cf86b14749d6acf3c555a07e75def13b7d73e77a94571b618dfb69e666223ed5",
+    "decisions": 58,
+    "action_counts": [
+      5,
+      21,
+      32
+    ],
+    "start_info": {
+      "kart1_X": 862,
+      "kart1_Y": 271,
+      "kart1_direction": 238,
+      "kart1_speed": 653,
+      "surface": 64,
+      "current_checkpoint": 9
+    },
+    "reason": "target_reached",
+    "frames": 457,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.5666666666666667,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f600_right_p36",
+    "start_progress": 9,
+    "advance": 4
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f600_center_p48",
+      "perturb_frames": 48,
+      "start_specs": [
+        {
+          "id": "f600_center_p48",
+          "prefix_frame": 600,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f600_center_p48.npz",
+    "sha256": "06e5176a391ade4f88414e7a3029c5a681e1aa4b7bd320defa4af4c7ea364107",
+    "decisions": 74,
+    "action_counts": [
+      6,
+      41,
+      27
+    ],
+    "start_info": {
+      "kart1_X": 703,
+      "kart1_Y": 275,
+      "kart1_direction": 211,
+      "kart1_speed": 677,
+      "surface": 64,
+      "current_checkpoint": 9
+    },
+    "reason": "target_reached",
+    "frames": 586,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.5666666666666667,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f600_center_p48",
+    "start_progress": 9,
+    "advance": 4
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f600_left_p48",
+      "perturb_frames": 48,
+      "start_specs": [
+        {
+          "id": "f600_left_p48",
+          "prefix_frame": 600,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": false,
+    "filename": "f600_left_p48.npz",
+    "sha256": "478fecb1c11e4e9d44ab7545c64d9e3eccc13cfd5dce8e1d76c1acfab0c85a62",
+    "decisions": 80,
+    "action_counts": [
+      29,
+      41,
+      10
+    ],
+    "start_info": {
+      "kart1_X": 679,
+      "kart1_Y": 449,
+      "kart1_direction": 169,
+      "kart1_speed": 677,
+      "surface": 64,
+      "current_checkpoint": 9
+    },
+    "reason": "no_progress",
+    "frames": 635,
+    "progress": 12,
+    "one_lap": false,
+    "reward": 0.1,
+    "jumps": 0,
+    "target_reached": false,
+    "target": 13,
+    "start_id": "f600_left_p48",
+    "start_progress": 9,
+    "advance": 3
+  },
+  {
+    "split": "train",
+    "config": {
+      "start_id": "f600_right_p48",
+      "perturb_frames": 48,
+      "start_specs": [
+        {
+          "id": "f600_right_p48",
+          "prefix_frame": 600,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f600_right_p48.npz",
+    "sha256": "42e998abacc1c243ebd327596fda69f0c80472fcbd54c4fdc17f3b87b3f2a9f9",
+    "decisions": 85,
+    "action_counts": [
+      2,
+      45,
+      38
+    ],
+    "start_info": {
+      "kart1_X": 827,
+      "kart1_Y": 152,
+      "kart1_direction": 253,
+      "kart1_speed": 677,
+      "surface": 64,
+      "current_checkpoint": 9
+    },
+    "reason": "target_reached",
+    "frames": 680,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.5666666666666667,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f600_right_p48",
+    "start_progress": 9,
+    "advance": 4
+  },
+  {
+    "split": "validation",
+    "config": {
+      "start_id": "f510_center_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f510_center_p24",
+          "prefix_frame": 510,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f510_center_p24.npz",
+    "sha256": "f52294e518c3343bb1caea3e6f2de1d0c574a4f9e8189ce9d6bcfb5363ce7ea0",
+    "decisions": 23,
+    "action_counts": [
+      8,
+      11,
+      4
+    ],
+    "start_info": {
+      "kart1_X": 1494,
+      "kart1_Y": 647,
+      "kart1_direction": 211,
+      "kart1_speed": 610,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 181,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f510_center_p24",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "validation",
+    "config": {
+      "start_id": "f510_left_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f510_left_p24",
+          "prefix_frame": 510,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f510_left_p24.npz",
+    "sha256": "b8f87f2cc25a200cd073badf7eef0ded92b93718628129184c855b44de801d11",
+    "decisions": 33,
+    "action_counts": [
+      9,
+      15,
+      9
+    ],
+    "start_info": {
+      "kart1_X": 1488,
+      "kart1_Y": 663,
+      "kart1_direction": 192,
+      "kart1_speed": 610,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 258,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f510_left_p24",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "validation",
+    "config": {
+      "start_id": "f510_right_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f510_right_p24",
+          "prefix_frame": 510,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f510_right_p24.npz",
+    "sha256": "fa064a409bea865b200cb6efdd18a5b522abad2247b4ef18f651ac0c4dfdd8c0",
+    "decisions": 21,
+    "action_counts": [
+      3,
+      13,
+      5
+    ],
+    "start_info": {
+      "kart1_X": 1492,
+      "kart1_Y": 650,
+      "kart1_direction": 216,
+      "kart1_speed": 610,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 165,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f510_right_p24",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "validation",
+    "config": {
+      "start_id": "f570_center_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f570_center_p24",
+          "prefix_frame": 570,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f570_center_p24.npz",
+    "sha256": "4adab67e9ee65584bb9c6464333290531170250ab9ed217aa646416824017a2d",
+    "decisions": 63,
+    "action_counts": [
+      6,
+      19,
+      38
+    ],
+    "start_info": {
+      "kart1_X": 1114,
+      "kart1_Y": 477,
+      "kart1_direction": 212,
+      "kart1_speed": 610,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 499,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f570_center_p24",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "validation",
+    "config": {
+      "start_id": "f570_left_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f570_left_p24",
+          "prefix_frame": 570,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f570_left_p24.npz",
+    "sha256": "336ebf288300804156a7a4bc8c2ab46f046e758069cfb001cbb49251ccdb375f",
+    "decisions": 61,
+    "action_counts": [
+      4,
+      46,
+      11
+    ],
+    "start_info": {
+      "kart1_X": 1102,
+      "kart1_Y": 512,
+      "kart1_direction": 192,
+      "kart1_speed": 610,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 487,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f570_left_p24",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "validation",
+    "config": {
+      "start_id": "f570_right_p24",
+      "perturb_frames": 24,
+      "start_specs": [
+        {
+          "id": "f570_right_p24",
+          "prefix_frame": 570,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f570_right_p24.npz",
+    "sha256": "7d7bfb5e7e3f7db622f3923de64fa9e0d6b0be7e61c7da1c3e3a219899aa8454",
+    "decisions": 50,
+    "action_counts": [
+      4,
+      15,
+      31
+    ],
+    "start_info": {
+      "kart1_X": 1118,
+      "kart1_Y": 470,
+      "kart1_direction": 219,
+      "kart1_speed": 610,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 393,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f570_right_p24",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f495_center_p18",
+      "perturb_frames": 18,
+      "start_specs": [
+        {
+          "id": "f495_center_p18",
+          "prefix_frame": 495,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f495_center_p18.npz",
+    "sha256": "ce2000e8af69c872a2245e79dc4cde2bb6cdc9aca5dec7b1d8de615507bbe22d",
+    "decisions": 57,
+    "action_counts": [
+      1,
+      46,
+      10
+    ],
+    "start_info": {
+      "kart1_X": 1646,
+      "kart1_Y": 715,
+      "kart1_direction": 225,
+      "kart1_speed": 578,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 456,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f495_center_p18",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f495_left_p18",
+      "perturb_frames": 18,
+      "start_specs": [
+        {
+          "id": "f495_left_p18",
+          "prefix_frame": 495,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f495_left_p18.npz",
+    "sha256": "87abf01e7e805df6152bf6a7427b89c0944209423671b6b7b4fdded1f772f90e",
+    "decisions": 31,
+    "action_counts": [
+      3,
+      19,
+      9
+    ],
+    "start_info": {
+      "kart1_X": 1641,
+      "kart1_Y": 720,
+      "kart1_direction": 218,
+      "kart1_speed": 578,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 246,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f495_left_p18",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f495_right_p18",
+      "perturb_frames": 18,
+      "start_specs": [
+        {
+          "id": "f495_right_p18",
+          "prefix_frame": 495,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f495_right_p18.npz",
+    "sha256": "d6f7bd111ab07e7a741b5550fc0f56c5bc0df44413a886431a38e8c295fc0ec6",
+    "decisions": 95,
+    "action_counts": [
+      2,
+      78,
+      15
+    ],
+    "start_info": {
+      "kart1_X": 1652,
+      "kart1_Y": 710,
+      "kart1_direction": 232,
+      "kart1_speed": 578,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 755,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f495_right_p18",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f495_center_p30",
+      "perturb_frames": 30,
+      "start_specs": [
+        {
+          "id": "f495_center_p30",
+          "prefix_frame": 495,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f495_center_p30.npz",
+    "sha256": "264b93af182a71f68a5b3fb46f1e4a1286d7d13f49ffebaadfd565b9bce618cf",
+    "decisions": 22,
+    "action_counts": [
+      3,
+      14,
+      5
+    ],
+    "start_info": {
+      "kart1_X": 1567,
+      "kart1_Y": 635,
+      "kart1_direction": 225,
+      "kart1_speed": 626,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 173,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f495_center_p30",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f495_left_p30",
+      "perturb_frames": 30,
+      "start_specs": [
+        {
+          "id": "f495_left_p30",
+          "prefix_frame": 495,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f495_left_p30.npz",
+    "sha256": "4593fa34672f746e6062b5cd8377ed0c4d3287b913988353f10fd9d39bd173e9",
+    "decisions": 39,
+    "action_counts": [
+      1,
+      19,
+      19
+    ],
+    "start_info": {
+      "kart1_X": 1541,
+      "kart1_Y": 669,
+      "kart1_direction": 204,
+      "kart1_speed": 626,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 307,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f495_left_p30",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f495_right_p30",
+      "perturb_frames": 30,
+      "start_specs": [
+        {
+          "id": "f495_right_p30",
+          "prefix_frame": 495,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f495_right_p30.npz",
+    "sha256": "7d281c9dffa7a39a9919a13bbb00e7cb1a378a7fa4740753b4009a60596dfac7",
+    "decisions": 61,
+    "action_counts": [
+      3,
+      49,
+      9
+    ],
+    "start_info": {
+      "kart1_X": 1602,
+      "kart1_Y": 610,
+      "kart1_direction": 245,
+      "kart1_speed": 626,
+      "surface": 64,
+      "current_checkpoint": 7
+    },
+    "reason": "target_reached",
+    "frames": 481,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6333333333333333,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f495_right_p30",
+    "start_progress": 7,
+    "advance": 6
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f555_center_p18",
+      "perturb_frames": 18,
+      "start_specs": [
+        {
+          "id": "f555_center_p18",
+          "prefix_frame": 555,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f555_center_p18.npz",
+    "sha256": "eb6aa159b85652c67b38d7a0d9c7bc9f74885389c5839488aa8b660a52363c40",
+    "decisions": 19,
+    "action_counts": [
+      3,
+      12,
+      4
+    ],
+    "start_info": {
+      "kart1_X": 1261,
+      "kart1_Y": 550,
+      "kart1_direction": 217,
+      "kart1_speed": 578,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 147,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f555_center_p18",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f555_left_p18",
+      "perturb_frames": 18,
+      "start_specs": [
+        {
+          "id": "f555_left_p18",
+          "prefix_frame": 555,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f555_left_p18.npz",
+    "sha256": "405c9670073ce10131a91636532beee8af19f509bc1b72cd4b24dfff4e4747e9",
+    "decisions": 19,
+    "action_counts": [
+      5,
+      10,
+      4
+    ],
+    "start_info": {
+      "kart1_X": 1259,
+      "kart1_Y": 553,
+      "kart1_direction": 213,
+      "kart1_speed": 578,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 151,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f555_left_p18",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f555_right_p18",
+      "perturb_frames": 18,
+      "start_specs": [
+        {
+          "id": "f555_right_p18",
+          "prefix_frame": 555,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f555_right_p18.npz",
+    "sha256": "c4d0f9063f82be3aeff0bf58b2d274332c8de7578482ce7514c2d3cc09a1c766",
+    "decisions": 65,
+    "action_counts": [
+      5,
+      54,
+      6
+    ],
+    "start_info": {
+      "kart1_X": 1270,
+      "kart1_Y": 539,
+      "kart1_direction": 229,
+      "kart1_speed": 578,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 518,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f555_right_p18",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f555_center_p30",
+      "perturb_frames": 30,
+      "start_specs": [
+        {
+          "id": "f555_center_p30",
+          "prefix_frame": 555,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f555_center_p30.npz",
+    "sha256": "62a6f9aa39ed75ed4bceda02a03b49fd53bdbbf5451b8b13bacc0610d3fee7e7",
+    "decisions": 16,
+    "action_counts": [
+      6,
+      9,
+      1
+    ],
+    "start_info": {
+      "kart1_X": 1168,
+      "kart1_Y": 487,
+      "kart1_direction": 217,
+      "kart1_speed": 626,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 125,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f555_center_p30",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f555_left_p30",
+      "perturb_frames": 30,
+      "start_specs": [
+        {
+          "id": "f555_left_p30",
+          "prefix_frame": 555,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f555_left_p30.npz",
+    "sha256": "81dba005a3459ac16357f1ada99db81fd262affc6102922e4601783e6c67e8b5",
+    "decisions": 26,
+    "action_counts": [
+      0,
+      14,
+      12
+    ],
+    "start_info": {
+      "kart1_X": 1156,
+      "kart1_Y": 508,
+      "kart1_direction": 203,
+      "kart1_speed": 626,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 207,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f555_left_p30",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f555_right_p30",
+      "perturb_frames": 30,
+      "start_specs": [
+        {
+          "id": "f555_right_p30",
+          "prefix_frame": 555,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f555_right_p30.npz",
+    "sha256": "6e8e1079c27d786914683fb8bee2a7746a32d60a2a159cc1a92c470fc9f72d1d",
+    "decisions": 37,
+    "action_counts": [
+      3,
+      22,
+      12
+    ],
+    "start_info": {
+      "kart1_X": 1215,
+      "kart1_Y": 442,
+      "kart1_direction": 243,
+      "kart1_speed": 626,
+      "surface": 64,
+      "current_checkpoint": 8
+    },
+    "reason": "target_reached",
+    "frames": 290,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.6,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f555_right_p30",
+    "start_progress": 8,
+    "advance": 5
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f615_center_p18",
+      "perturb_frames": 18,
+      "start_specs": [
+        {
+          "id": "f615_center_p18",
+          "prefix_frame": 615,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f615_center_p18.npz",
+    "sha256": "16f6f538ae3e95bc22037d6679d85f8c30ad43ac99f692b9301e6e92d953a10c",
+    "decisions": 62,
+    "action_counts": [
+      5,
+      32,
+      25
+    ],
+    "start_info": {
+      "kart1_X": 884,
+      "kart1_Y": 365,
+      "kart1_direction": 211,
+      "kart1_speed": 578,
+      "surface": 64,
+      "current_checkpoint": 9
+    },
+    "reason": "target_reached",
+    "frames": 489,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.5666666666666667,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f615_center_p18",
+    "start_progress": 9,
+    "advance": 4
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f615_left_p18",
+      "perturb_frames": 18,
+      "start_specs": [
+        {
+          "id": "f615_left_p18",
+          "prefix_frame": 615,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f615_left_p18.npz",
+    "sha256": "c695d3e97030a9dfda329cde53821681e97342faa60b63064fa6af8f412e49a6",
+    "decisions": 81,
+    "action_counts": [
+      15,
+      47,
+      19
+    ],
+    "start_info": {
+      "kart1_X": 881,
+      "kart1_Y": 372,
+      "kart1_direction": 204,
+      "kart1_speed": 578,
+      "surface": 64,
+      "current_checkpoint": 9
+    },
+    "reason": "target_reached",
+    "frames": 648,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.5666666666666667,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f615_left_p18",
+    "start_progress": 9,
+    "advance": 4
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f615_right_p18",
+      "perturb_frames": 18,
+      "start_specs": [
+        {
+          "id": "f615_right_p18",
+          "prefix_frame": 615,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f615_right_p18.npz",
+    "sha256": "61db8404f86ae6e9b0ab1b74d7c9cc3dfdb405adeef199f9809a7e8dc3020b14",
+    "decisions": 53,
+    "action_counts": [
+      10,
+      15,
+      28
+    ],
+    "start_info": {
+      "kart1_X": 887,
+      "kart1_Y": 359,
+      "kart1_direction": 218,
+      "kart1_speed": 578,
+      "surface": 64,
+      "current_checkpoint": 9
+    },
+    "reason": "target_reached",
+    "frames": 422,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.5666666666666667,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f615_right_p18",
+    "start_progress": 9,
+    "advance": 4
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f615_center_p30",
+      "perturb_frames": 30,
+      "start_specs": [
+        {
+          "id": "f615_center_p30",
+          "prefix_frame": 615,
+          "turn": "center"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f615_center_p30.npz",
+    "sha256": "0d08075f4f4a53f604645ef8ae1331318614398545dfa2cc047bf9de09e2640a",
+    "decisions": 61,
+    "action_counts": [
+      5,
+      32,
+      24
+    ],
+    "start_info": {
+      "kart1_X": 783,
+      "kart1_Y": 315,
+      "kart1_direction": 211,
+      "kart1_speed": 626,
+      "surface": 64,
+      "current_checkpoint": 9
+    },
+    "reason": "target_reached",
+    "frames": 488,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.5666666666666667,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f615_center_p30",
+    "start_progress": 9,
+    "advance": 4
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f615_left_p30",
+      "perturb_frames": 30,
+      "start_specs": [
+        {
+          "id": "f615_left_p30",
+          "prefix_frame": 615,
+          "turn": "left"
+        }
+      ]
+    },
+    "accepted": false,
+    "filename": "f615_left_p30.npz",
+    "sha256": "dcf721eea16e583beac3cdcecb91262b65e2aff4594614e24c04844544e6f52c",
+    "decisions": 83,
+    "action_counts": [
+      15,
+      48,
+      20
+    ],
+    "start_info": {
+      "kart1_X": 770,
+      "kart1_Y": 355,
+      "kart1_direction": 191,
+      "kart1_speed": 626,
+      "surface": 64,
+      "current_checkpoint": 9
+    },
+    "reason": "no_progress",
+    "frames": 657,
+    "progress": 12,
+    "one_lap": false,
+    "reward": 0.1,
+    "jumps": 0,
+    "target_reached": false,
+    "target": 13,
+    "start_id": "f615_left_p30",
+    "start_progress": 9,
+    "advance": 3
+  },
+  {
+    "split": "test",
+    "config": {
+      "start_id": "f615_right_p30",
+      "perturb_frames": 30,
+      "start_specs": [
+        {
+          "id": "f615_right_p30",
+          "prefix_frame": 615,
+          "turn": "right"
+        }
+      ]
+    },
+    "accepted": true,
+    "filename": "f615_right_p30.npz",
+    "sha256": "cff46b71c1e8abd34ea520795ae9d843476d4b51a5feceb8b243f3ba08a8188c",
+    "decisions": 51,
+    "action_counts": [
+      6,
+      16,
+      29
+    ],
+    "start_info": {
+      "kart1_X": 807,
+      "kart1_Y": 281,
+      "kart1_direction": 231,
+      "kart1_speed": 626,
+      "surface": 64,
+      "current_checkpoint": 9
+    },
+    "reason": "target_reached",
+    "frames": 402,
+    "progress": 13,
+    "one_lap": false,
+    "reward": 0.5666666666666667,
+    "jumps": 0,
+    "target_reached": true,
+    "target": 13,
+    "start_id": "f615_right_p30",
+    "start_progress": 9,
+    "advance": 4
+  }
+]

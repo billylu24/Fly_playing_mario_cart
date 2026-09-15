@@ -1,0 +1,35 @@
+{
+  "torch": "2.11.0+cu128",
+  "n": 4096,
+  "edges": 524288,
+  "events": [
+    {
+      "op": "aten::mm",
+      "input_shapes": [
+        [
+          4096,
+          1
+        ],
+        [
+          1,
+          4096
+        ]
+      ],
+      "device_memory_bytes": 75628544
+    },
+    {
+      "op": "aten::mm",
+      "input_shapes": [
+        [
+          4096,
+          4096
+        ],
+        [
+          4096,
+          1
+        ]
+      ],
+      "device_memory_bytes": 16384
+    }
+  ]
+}

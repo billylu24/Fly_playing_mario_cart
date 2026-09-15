@@ -1,0 +1,14 @@
+{
+  "raw_motor_linear": {
+    "deployment_matches_extraction": true,
+    "batched_sequential_match": true
+  },
+  "standard_motor_linear": {
+    "deployment_matches_extraction": true,
+    "batched_sequential_match": true
+  },
+  "standard_motor256_mlp32": {
+    "deployment_matches_extraction": true,
+    "batched_sequential_match": true
+  }
+}

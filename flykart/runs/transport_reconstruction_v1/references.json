@@ -1,0 +1,30 @@
+{
+  "ridge": {
+    "1e-08": {
+      "train_mse": 7.745965183368603e-10,
+      "validation_mse": 1.80148749735185
+    },
+    "1e-05": {
+      "train_mse": 0.00025375562721974526,
+      "validation_mse": 1.1041545675700877
+    },
+    "0.001": {
+      "train_mse": 0.007118421455869932,
+      "validation_mse": 0.20845933662183191
+    },
+    "0.1": {
+      "train_mse": 0.050023816867065474,
+      "validation_mse": 0.1017856323031385
+    },
+    "1.0": {
+      "train_mse": 0.10366194012663617,
+      "validation_mse": 0.13831369649358885
+    }
+  },
+  "selected_by_training_only": 1e-08,
+  "constant_train_mse": 0.9861111044883728,
+  "constant_validation_mse": 0.5556287169456482,
+  "edge_count": 6092,
+  "training_points": 72,
+  "validation_points": 126
+}

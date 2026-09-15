@@ -1,0 +1,27 @@
+{
+  "kinds": [
+    "positive",
+    "gaba",
+    "shuffled"
+  ],
+  "seed": 0,
+  "updates": 384,
+  "batch": 8,
+  "bptt": 32,
+  "burn_in": 64,
+  "optimizer": "Adam lr .0003 eps1e-5 clip1",
+  "data": "all43 training trajectories/2184 decisions, all6 validation trajectories/251 decisions; no random frame split",
+  "initialization": "same frozen trained CNN; a=0, residual interface=0, decoder=0. No previously trained graph gains/readout.",
+  "normalization": "CNN stats from all training decisions; common motor stats from positive zero-gain-initial graph on all training decisions with Context semantics, fixed for all groups",
+  "only_difference": "presynaptic sign vector; W absolute magnitudes identical; interface/decoder/gain initial tensors, latent samples and optimizer matched",
+  "sign_definition": "high confidence >=.8 body GABA agreeing with consensus negative; other neurons positive. Matched shuffle within superclass x side. Not a full biological E/I model.",
+  "selection": "best validation normal reconstruction MSE at0/64/.../384; tie earlier. Closed loop positive and best signed variant by validation MSE; if signed qualifies, also its paired signed control. Qualification: MSE <= .9*positive and normal downstream BA >= frozen BA+.10. No replication within this pilot.",
+  "positive_control": "archived direct CNN head, always evaluate on new starts",
+  "new_test": "prefix475/535/595 x perturb16/32 x center/left/right; oracle accepted before model evaluation",
+  "sources": {
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/inhibition_reconstruction.py": "333b9941e78f8b95a259735b149806a8ea180e78a8ca295c6a684f8905b2834f",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/neural_microsteps_v1/k2/graph_seed0/best.pt": "a8c8995c2a562a6d5e8c5661a5adf32a2a708873850bc8a4c4711cb086000e76",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/architecture_mechanisms_v1/metadata.npz": "3ca4c4ec73f67593a0a0d281abb6ebb870fc67e63a74d226da6b0e0a8ae4e897",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/layer_probes_v1/k2_cnn_mlp32.pt": "5b2e8749110d25c4ad76ecf46b4c73e8ef358b03de81109269c25e6f4e7eeae2"
+  }
+}

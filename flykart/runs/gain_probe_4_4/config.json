@@ -1,0 +1,28 @@
+{
+  "run": "runs/gain_probe_4_4",
+  "budget": 2048,
+  "envs": 4,
+  "sequences": 4,
+  "seed": 0,
+  "eval_every": 0,
+  "graph_sha256": "dd98812064bc8be1b6889659c196cedf19415fd76e5c63ceaea85a9b53d9667d",
+  "rom_sha256": "2ada8919688087be60a6a48cace8f877add60c45d2e5d09e2442faa55be62a49",
+  "state_sha256": "11d1f45a585984477317171b253e9f45f0e8e528200ba0f4e1d716f8bb29990d",
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "source_hashes": {
+    "train_gain.py": "5a83cfb51eb772f6f681af3a1c12a0619d6ee7daac943e06411bea37bae6e513",
+    "__init__.py": "ef7ce5573f02574a62ebea36063be581b808176ef23216e871f418754d96d7f3",
+    "model.py": "d4459c2b45aa2e2f1478d77d4a4f53389b75be6c226667a6f46e49fef0c788fe",
+    "task.py": "baea0bd0eeb8ef4f7f2a1176281f198796f4504105cd66401b0e2d8313ac0ead"
+  },
+  "reward": "frontier/30 +5 success -0.00025/frame",
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "learning_rate": 0.0001,
+  "clip": 0.2,
+  "epochs": 4,
+  "target_kl": 0.02,
+  "burn_in": 16,
+  "unroll": 32
+}

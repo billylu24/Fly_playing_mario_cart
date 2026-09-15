@@ -1,0 +1,20 @@
+{
+  "candidates": [
+    2,
+    4
+  ],
+  "baseline": 1,
+  "pilot_seed": 0,
+  "updates": 256,
+  "replication_seeds": [
+    1,
+    2
+  ],
+  "selection": "Best selected-checkpoint validation normal balanced accuracy; tie fewer internal steps.",
+  "gate": "Replicate only if pilot validation normal BA >= archived baseline seed0 best BA + .05 AND normal BA >= frozen BA + .05.",
+  "rule": "Gate and candidate selection before any test evaluation; no budget extensions if gate fails.",
+  "control": "same source data, old input mapping, original initial model tensors, sample order, optimizer and game repeat8",
+  "warning": "Internal updates also change contraction and gradient depth, not pure latency. Diagnostic test set reused.",
+  "source_sha256": "bc84b2e129e1fe974f037438536bd7bc157197dfc9597d98d36e32a1ca0c28f1",
+  "training_source_sha256": "61d7e49c81ee2f994615b2bb01ed5731101c51404e0e5521545b8fd5ff730cbd"
+}

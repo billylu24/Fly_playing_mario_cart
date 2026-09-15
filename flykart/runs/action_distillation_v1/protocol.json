@@ -1,0 +1,26 @@
+{
+  "kinds": [
+    "reconstruction",
+    "joint"
+  ],
+  "seed": 0,
+  "updates": 256,
+  "batch": 8,
+  "lr": 0.0003,
+  "optimizer": "Adam eps1e-5 clip1",
+  "initialization": "both warm-start identical inhibition_reconstruction_v1/positive_best; reset optimizer for both",
+  "trainable": "gain, visual interface512, reconstruction decoder; CNN and teacher action head frozen",
+  "objectives": "reconstruction: standardized latent MSE; joint: MSE + KL(teacher_action || student_action), coefficient1 temperature1",
+  "teacher": "existing frozen CNN + archived cnn_mlp32; no expert action labels in objective except padding mask",
+  "selection": "both by minimum normal validation teacher KL at0/64/128/192/256; ties earlier; all models evaluated regardless of result",
+  "new_starts": "prefix485/545/605 x perturb22/34 x center/left/right; oracle feasibility before training; held out from tuning",
+  "evaluation": "all selected graph heads plus archived direct CNN; greedy and seeds8100/8101/8102 x normal/frozen/time",
+  "limits": "single seed; current short track task; teacher errors can be inherited",
+  "sources": {
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/action_distillation.py": "bb78d8238c05c731801460151252621d9b18ad0c771a9befb4bf6a7c409227e1",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/inhibition_reconstruction.py": "333b9941e78f8b95a259735b149806a8ea180e78a8ca295c6a684f8905b2834f",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/inhibition_reconstruction_v1/positive_best.pt": "3712358a8d725eff16e0da1eb1cdea4e8075c8e6d04ce2ab4672a4db1c6135e5",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/inhibition_reconstruction_v1/stats.pt": "45ba7cfe61025b8fe92f845cc49e46a6dff5cc3ade1f8f5d87a9f4555ed891bd",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/layer_probes_v1/k2_cnn_mlp32.pt": "5b2e8749110d25c4ad76ecf46b4c73e8ef358b03de81109269c25e6f4e7eeae2"
+  }
+}

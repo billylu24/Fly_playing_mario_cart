@@ -1,0 +1,44 @@
+{
+  "baseline": {
+    "finite_output": true,
+    "encoder_frozen": true,
+    "actor_gradient_norm": 0.017092660069465637,
+    "projection_gradient_norm": null
+  },
+  "spatial": {
+    "finite_output": true,
+    "encoder_frozen": true,
+    "actor_gradient_norm": 0.017092660069465637,
+    "projection_gradient_norm": 2.3526638415205525e-06
+  },
+  "spatial_shuffle": {
+    "finite_output": true,
+    "encoder_frozen": true,
+    "actor_gradient_norm": 0.017092658206820488,
+    "projection_gradient_norm": 2.732515895331744e-06
+  },
+  "gaba": {
+    "finite_output": true,
+    "encoder_frozen": true,
+    "actor_gradient_norm": 0.016343360766768456,
+    "projection_gradient_norm": null
+  },
+  "gaba_shuffle": {
+    "finite_output": true,
+    "encoder_frozen": true,
+    "actor_gradient_norm": 0.01595975086092949,
+    "projection_gradient_norm": null
+  },
+  "slower": {
+    "finite_output": true,
+    "encoder_frozen": true,
+    "actor_gradient_norm": 0.04717685282230377,
+    "projection_gradient_norm": null
+  },
+  "gain1.2": {
+    "finite_output": true,
+    "encoder_frozen": true,
+    "actor_gradient_norm": 0.01808476448059082,
+    "projection_gradient_norm": null
+  }
+}

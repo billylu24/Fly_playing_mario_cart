@@ -1,0 +1,30 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "seed_semantics": "minibatch schedule RNG12000+seed; same frozen teacher/CNN and identical warm-start graph checkpoint. This is optimizer-order robustness, not independently pretrained backbones.",
+  "kinds": [
+    "reconstruction",
+    "joint"
+  ],
+  "reuse": "seed0 selected checkpoints from action_distillation_v1; new seeds1/2 each objective 256 updates",
+  "training": "same lr.0003 Adam eps1e-5 clip1 batch8 BPTT32 burn-in64; reconstruction MSE or MSE+KL coefficient1 temperature1; no modifications",
+  "selection": "same minimum normal validation teacher KL at0/64/128/192/256, ties earlier. All six selected graph models evaluated; no test-driven selection.",
+  "test": "prefix455/505/565/625 x perturb14/38 x center/left/right =24 prespecified candidates; oracle accepted independent of policies",
+  "success_rule": "For each objective: all three seeds greedy normal >=.60, normal-frozen >=.20, normal-clock >=.10; and each seed sampled normal strictly exceeds both controls. Report full counts even if gate fails. Shared test starts and teacher mean aggregate episodes not independent evidence.",
+  "evaluate": "greedy and sampling8100/8101/8102 x normal/frozen/clock; same new starts for all models including seed0 and one common direct-CNN control",
+  "sources": {
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/distillation_replication.py": "628c07b569c9da2016ce71f752f61421c7ec5ad552c4dcb88f53bb4e4712a69a",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/action_distillation.py": "bb78d8238c05c731801460151252621d9b18ad0c771a9befb4bf6a7c409227e1",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/inhibition_reconstruction.py": "333b9941e78f8b95a259735b149806a8ea180e78a8ca295c6a684f8905b2834f",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/inhibition_reconstruction_v1/positive_best.pt": "3712358a8d725eff16e0da1eb1cdea4e8075c8e6d04ce2ab4672a4db1c6135e5",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/inhibition_reconstruction_v1/stats.pt": "45ba7cfe61025b8fe92f845cc49e46a6dff5cc3ade1f8f5d87a9f4555ed891bd",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/layer_probes_v1/k2_cnn_mlp32.pt": "5b2e8749110d25c4ad76ecf46b4c73e8ef358b03de81109269c25e6f4e7eeae2",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/action_distillation_v1/reconstruction_best.pt": "cf2ff4007bf0f9993c444db7dd68eeb517b4b4b8c0877dea750c9a8120c044fb",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/action_distillation_v1/reconstruction_results.json": "8421e072629435d8a9c8e819d715f1fb1ff90d876024e9f7e75aff875e69b941",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/action_distillation_v1/joint_best.pt": "e74cbdb3012939a6ff3773d3222a6483d99f5c084dda9f45e0b6d925ae90494b",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/action_distillation_v1/joint_results.json": "02d1244fb1506518075c0fe94005887bd33e5fd265920d1e9b2af913b3ff60dc"
+  }
+}

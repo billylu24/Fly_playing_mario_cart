@@ -1,0 +1,6 @@
+{
+  "training/microsteps_experiment.py": "bc84b2e129e1fe974f037438536bd7bc157197dfc9597d98d36e32a1ca0c28f1",
+  "training/supervised.py": "61d7e49c81ee2f994615b2bb01ed5731101c51404e0e5521545b8fd5ff730cbd",
+  "training/model.py": "a0e84f4083f2c8ec553dcd137761230f052ab9b1d00bea3295295fe464400540",
+  "tests/summarize_microsteps.py": "4923a42cef593c59296b10a16b84c0f9c6f690373bc35707f01942439d88997a"
+}

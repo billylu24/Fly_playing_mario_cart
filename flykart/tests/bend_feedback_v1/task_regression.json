@@ -1,0 +1,5 @@
+{
+  "default_reset_matches_prior_artifact": true,
+  "explicit_specs_match_default": true,
+  "invalid_specs_rejected": true
+}

@@ -1,0 +1,296 @@
+{
+  "closed_loop": {
+    "reconstruction": {
+      "0": {
+        "greedy_normal": {
+          "success": 14,
+          "total": 20
+        },
+        "greedy_frozen": {
+          "success": 5,
+          "total": 20
+        },
+        "greedy_clock": {
+          "success": 3,
+          "total": 20
+        },
+        "sampled_normal": {
+          "success": 34,
+          "total": 60
+        },
+        "sampled_frozen": {
+          "success": 12,
+          "total": 60
+        },
+        "sampled_clock": {
+          "success": 13,
+          "total": 60
+        }
+      },
+      "1": {
+        "greedy_normal": {
+          "success": 6,
+          "total": 20
+        },
+        "greedy_frozen": {
+          "success": 2,
+          "total": 20
+        },
+        "greedy_clock": {
+          "success": 3,
+          "total": 20
+        },
+        "sampled_normal": {
+          "success": 23,
+          "total": 60
+        },
+        "sampled_frozen": {
+          "success": 9,
+          "total": 60
+        },
+        "sampled_clock": {
+          "success": 13,
+          "total": 60
+        }
+      },
+      "2": {
+        "greedy_normal": {
+          "success": 10,
+          "total": 20
+        },
+        "greedy_frozen": {
+          "success": 3,
+          "total": 20
+        },
+        "greedy_clock": {
+          "success": 3,
+          "total": 20
+        },
+        "sampled_normal": {
+          "success": 29,
+          "total": 60
+        },
+        "sampled_frozen": {
+          "success": 14,
+          "total": 60
+        },
+        "sampled_clock": {
+          "success": 13,
+          "total": 60
+        }
+      }
+    },
+    "joint": {
+      "0": {
+        "greedy_normal": {
+          "success": 15,
+          "total": 20
+        },
+        "greedy_frozen": {
+          "success": 2,
+          "total": 20
+        },
+        "greedy_clock": {
+          "success": 3,
+          "total": 20
+        },
+        "sampled_normal": {
+          "success": 37,
+          "total": 60
+        },
+        "sampled_frozen": {
+          "success": 4,
+          "total": 60
+        },
+        "sampled_clock": {
+          "success": 13,
+          "total": 60
+        }
+      },
+      "1": {
+        "greedy_normal": {
+          "success": 13,
+          "total": 20
+        },
+        "greedy_frozen": {
+          "success": 5,
+          "total": 20
+        },
+        "greedy_clock": {
+          "success": 3,
+          "total": 20
+        },
+        "sampled_normal": {
+          "success": 26,
+          "total": 60
+        },
+        "sampled_frozen": {
+          "success": 16,
+          "total": 60
+        },
+        "sampled_clock": {
+          "success": 13,
+          "total": 60
+        }
+      },
+      "2": {
+        "greedy_normal": {
+          "success": 11,
+          "total": 20
+        },
+        "greedy_frozen": {
+          "success": 4,
+          "total": 20
+        },
+        "greedy_clock": {
+          "success": 3,
+          "total": 20
+        },
+        "sampled_normal": {
+          "success": 28,
+          "total": 60
+        },
+        "sampled_frozen": {
+          "success": 16,
+          "total": 60
+        },
+        "sampled_clock": {
+          "success": 13,
+          "total": 60
+        }
+      }
+    },
+    "cnn": {
+      "0": {
+        "greedy_normal": {
+          "success": 16,
+          "total": 20
+        },
+        "greedy_frozen": {
+          "success": 1,
+          "total": 20
+        },
+        "greedy_clock": {
+          "success": 3,
+          "total": 20
+        },
+        "sampled_normal": {
+          "success": 46,
+          "total": 60
+        },
+        "sampled_frozen": {
+          "success": 13,
+          "total": 60
+        },
+        "sampled_clock": {
+          "success": 13,
+          "total": 60
+        }
+      }
+    }
+  },
+  "stability_gates": {
+    "reconstruction": {
+      "per_seed": [
+        true,
+        false,
+        false
+      ],
+      "all_pass": false
+    },
+    "joint": {
+      "per_seed": [
+        true,
+        true,
+        false
+      ],
+      "all_pass": false
+    }
+  },
+  "paired_greedy": {
+    "reconstruction_seed0": {
+      "frozen": {
+        "normal_only": 9,
+        "control_only": 0,
+        "both": 5,
+        "neither": 6
+      },
+      "clock": {
+        "normal_only": 11,
+        "control_only": 0,
+        "both": 3,
+        "neither": 6
+      }
+    },
+    "reconstruction_seed1": {
+      "frozen": {
+        "normal_only": 5,
+        "control_only": 1,
+        "both": 1,
+        "neither": 13
+      },
+      "clock": {
+        "normal_only": 5,
+        "control_only": 2,
+        "both": 1,
+        "neither": 12
+      }
+    },
+    "reconstruction_seed2": {
+      "frozen": {
+        "normal_only": 7,
+        "control_only": 0,
+        "both": 3,
+        "neither": 10
+      },
+      "clock": {
+        "normal_only": 8,
+        "control_only": 1,
+        "both": 2,
+        "neither": 9
+      }
+    },
+    "joint_seed0": {
+      "frozen": {
+        "normal_only": 13,
+        "control_only": 0,
+        "both": 2,
+        "neither": 5
+      },
+      "clock": {
+        "normal_only": 12,
+        "control_only": 0,
+        "both": 3,
+        "neither": 5
+      }
+    },
+    "joint_seed1": {
+      "frozen": {
+        "normal_only": 8,
+        "control_only": 0,
+        "both": 5,
+        "neither": 7
+      },
+      "clock": {
+        "normal_only": 11,
+        "control_only": 1,
+        "both": 2,
+        "neither": 6
+      }
+    },
+    "joint_seed2": {
+      "frozen": {
+        "normal_only": 7,
+        "control_only": 0,
+        "both": 4,
+        "neither": 9
+      },
+      "clock": {
+        "normal_only": 8,
+        "control_only": 0,
+        "both": 3,
+        "neither": 9
+      }
+    }
+  }
+}

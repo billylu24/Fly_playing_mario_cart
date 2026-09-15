@@ -1,0 +1,6 @@
+{
+  "candidate": "archived frozen k2 CNN + cnn_mlp32 from layer_probes_v1",
+  "rule": "Evaluate on all accepted new starts irrespective of pilot results. No new tuning.",
+  "purpose": "Check that new starts retain a usable pixel-policy positive control.",
+  "checkpoint": "runs/layer_probes_v1/k2_cnn_mlp32.pt"
+}

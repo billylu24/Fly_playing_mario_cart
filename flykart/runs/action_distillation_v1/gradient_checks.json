@@ -1,0 +1,9 @@
+{
+  "distillation_reaches_interface_gain_decoder": [
+    1.0479193925857544,
+    0.00775570422410965,
+    21.944665908813477
+  ],
+  "teacher_weights_frozen": true,
+  "cnn_weights_frozen": true
+}

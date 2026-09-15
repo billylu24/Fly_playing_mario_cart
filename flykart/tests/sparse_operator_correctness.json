@@ -1,0 +1,284 @@
+{
+  "status": "passed",
+  "comparisons": [
+    {
+      "kind": "coo",
+      "dtype": "torch.float64",
+      "batch": 1,
+      "max_abs_errors": [
+        0.0,
+        0.0,
+        5.551115123125783e-17
+      ]
+    },
+    {
+      "kind": "csr",
+      "dtype": "torch.float64",
+      "batch": 1,
+      "max_abs_errors": [
+        0.0,
+        0.0,
+        5.551115123125783e-17
+      ]
+    },
+    {
+      "kind": "edge",
+      "dtype": "torch.float64",
+      "batch": 1,
+      "max_abs_errors": [
+        0.0,
+        0.0,
+        5.551115123125783e-17
+      ]
+    },
+    {
+      "kind": "edge_triton",
+      "dtype": "torch.float64",
+      "batch": 1,
+      "max_abs_errors": [
+        0.0,
+        0.0,
+        5.551115123125783e-17
+      ]
+    },
+    {
+      "kind": "coo",
+      "dtype": "torch.float64",
+      "batch": 3,
+      "max_abs_errors": [
+        2.220446049250313e-16,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "csr",
+      "dtype": "torch.float64",
+      "batch": 3,
+      "max_abs_errors": [
+        0.0,
+        4.163336342344337e-17,
+        0.0
+      ]
+    },
+    {
+      "kind": "edge",
+      "dtype": "torch.float64",
+      "batch": 3,
+      "max_abs_errors": [
+        0.0,
+        4.440892098500626e-16,
+        0.0
+      ]
+    },
+    {
+      "kind": "edge_triton",
+      "dtype": "torch.float64",
+      "batch": 3,
+      "max_abs_errors": [
+        0.0,
+        2.220446049250313e-16,
+        0.0
+      ]
+    },
+    {
+      "kind": "coo",
+      "dtype": "torch.float64",
+      "batch": 4,
+      "max_abs_errors": [
+        4.440892098500626e-16,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "csr",
+      "dtype": "torch.float64",
+      "batch": 4,
+      "max_abs_errors": [
+        0.0,
+        4.440892098500626e-16,
+        0.0
+      ]
+    },
+    {
+      "kind": "edge",
+      "dtype": "torch.float64",
+      "batch": 4,
+      "max_abs_errors": [
+        0.0,
+        2.220446049250313e-16,
+        0.0
+      ]
+    },
+    {
+      "kind": "edge_triton",
+      "dtype": "torch.float64",
+      "batch": 4,
+      "max_abs_errors": [
+        0.0,
+        4.440892098500626e-16,
+        0.0
+      ]
+    },
+    {
+      "kind": "csr",
+      "dtype": "torch.float64",
+      "recurrent_steps": 5,
+      "passed": true
+    },
+    {
+      "kind": "edge",
+      "dtype": "torch.float64",
+      "recurrent_steps": 5,
+      "passed": true
+    },
+    {
+      "kind": "edge_triton",
+      "dtype": "torch.float64",
+      "recurrent_steps": 5,
+      "passed": true
+    },
+    {
+      "kind": "coo",
+      "dtype": "torch.float32",
+      "batch": 1,
+      "max_abs_errors": [
+        2.384185791015625e-07,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "csr",
+      "dtype": "torch.float32",
+      "batch": 1,
+      "max_abs_errors": [
+        2.384185791015625e-07,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "edge",
+      "dtype": "torch.float32",
+      "batch": 1,
+      "max_abs_errors": [
+        2.384185791015625e-07,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "edge_triton",
+      "dtype": "torch.float32",
+      "batch": 1,
+      "max_abs_errors": [
+        2.384185791015625e-07,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "coo",
+      "dtype": "torch.float32",
+      "batch": 3,
+      "max_abs_errors": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "csr",
+      "dtype": "torch.float32",
+      "batch": 3,
+      "max_abs_errors": [
+        4.76837158203125e-07,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "edge",
+      "dtype": "torch.float32",
+      "batch": 3,
+      "max_abs_errors": [
+        4.76837158203125e-07,
+        2.384185791015625e-07,
+        0.0
+      ]
+    },
+    {
+      "kind": "edge_triton",
+      "dtype": "torch.float32",
+      "batch": 3,
+      "max_abs_errors": [
+        4.76837158203125e-07,
+        2.384185791015625e-07,
+        0.0
+      ]
+    },
+    {
+      "kind": "coo",
+      "dtype": "torch.float32",
+      "batch": 4,
+      "max_abs_errors": [
+        0.0,
+        0.0,
+        1.1920928955078125e-07
+      ]
+    },
+    {
+      "kind": "csr",
+      "dtype": "torch.float32",
+      "batch": 4,
+      "max_abs_errors": [
+        2.384185791015625e-07,
+        5.960464477539063e-08,
+        0.0
+      ]
+    },
+    {
+      "kind": "edge",
+      "dtype": "torch.float32",
+      "batch": 4,
+      "max_abs_errors": [
+        2.384185791015625e-07,
+        2.9802322387695312e-08,
+        0.0
+      ]
+    },
+    {
+      "kind": "edge_triton",
+      "dtype": "torch.float32",
+      "batch": 4,
+      "max_abs_errors": [
+        2.384185791015625e-07,
+        2.384185791015625e-07,
+        0.0
+      ]
+    },
+    {
+      "kind": "csr",
+      "dtype": "torch.float32",
+      "recurrent_steps": 5,
+      "passed": true
+    },
+    {
+      "kind": "edge",
+      "dtype": "torch.float32",
+      "recurrent_steps": 5,
+      "passed": true
+    },
+    {
+      "kind": "edge_triton",
+      "dtype": "torch.float32",
+      "recurrent_steps": 5,
+      "passed": true
+    }
+  ],
+  "finite_difference_gradcheck": true,
+  "optional_gradient_paths": true,
+  "torch": "2.11.0+cu128"
+}

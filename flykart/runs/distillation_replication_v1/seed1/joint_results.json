@@ -1,0 +1,132 @@
+{
+  "seed": 1,
+  "selected_step": 256,
+  "validation": {
+    "normal": {
+      "normalized_mse": 0.2858474850654602,
+      "r2_global": 0.7357080449110466,
+      "action_scores": {
+        "accuracy": 0.5896414342629482,
+        "balanced_accuracy": 0.58203281312525,
+        "recall": [
+          0.5294117647058824,
+          0.5126050420168067,
+          0.7040816326530612
+        ],
+        "confusion_matrix": [
+          [
+            18,
+            8,
+            8
+          ],
+          [
+            17,
+            61,
+            41
+          ],
+          [
+            8,
+            21,
+            69
+          ]
+        ],
+        "cross_entropy": 0.9718254208564758
+      },
+      "direct_cnn_scores": {
+        "accuracy": 0.8167330677290837,
+        "balanced_accuracy": 0.8323329331732694,
+        "recall": [
+          0.8823529411764706,
+          0.7983193277310925,
+          0.8163265306122449
+        ],
+        "confusion_matrix": [
+          [
+            30,
+            2,
+            2
+          ],
+          [
+            8,
+            95,
+            16
+          ],
+          [
+            9,
+            9,
+            80
+          ]
+        ],
+        "cross_entropy": 0.5355064868927002
+      },
+      "agreement_with_cnn": 0.629482090473175,
+      "mean_state_saturation": 0.0026716934517025948,
+      "teacher_kl": 0.5163804888725281
+    },
+    "frozen": {
+      "normalized_mse": 2.0820717811584473,
+      "r2_global": -0.9250644152139051,
+      "action_scores": {
+        "accuracy": 0.30278884462151395,
+        "balanced_accuracy": 0.2883153261304522,
+        "recall": [
+          0.29411764705882354,
+          0.4789915966386555,
+          0.09183673469387756
+        ],
+        "confusion_matrix": [
+          [
+            10,
+            15,
+            9
+          ],
+          [
+            34,
+            57,
+            28
+          ],
+          [
+            66,
+            23,
+            9
+          ]
+        ],
+        "cross_entropy": 2.0790092945098877
+      },
+      "direct_cnn_scores": {
+        "accuracy": 0.8167330677290837,
+        "balanced_accuracy": 0.8323329331732694,
+        "recall": [
+          0.8823529411764706,
+          0.7983193277310925,
+          0.8163265306122449
+        ],
+        "confusion_matrix": [
+          [
+            30,
+            2,
+            2
+          ],
+          [
+            8,
+            95,
+            16
+          ],
+          [
+            9,
+            9,
+            80
+          ]
+        ],
+        "cross_entropy": 0.5355064868927002
+      },
+      "agreement_with_cnn": 0.32270917296409607,
+      "mean_state_saturation": 0.0011419540969654918,
+      "teacher_kl": 1.4818928241729736
+    }
+  },
+  "initial_trainable_hash": "33bab7d0a2462ba6a318e652b6ea4e253f4d40c85c9ec6993026a02a7f365994",
+  "valid_presentations": 54046,
+  "wall_seconds": 268.2540099470061,
+  "cnn_and_teacher_unchanged": true
+}

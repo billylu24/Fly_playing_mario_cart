@@ -1,0 +1,18 @@
+{
+  "selection": "status == Traced; retain edges with both endpoints in selected IDs",
+  "nodes": 165122,
+  "edges": 25563197,
+  "raw_weight_sum": 124025046.0,
+  "visual_injection_nodes": 103270,
+  "readout_nodes": 2129,
+  "isolated_nodes": 535,
+  "initialization": "positive count weights normalized per incoming row to sum 0.8; no NT sign assignment",
+  "input_mapping": "64 CNN features cyclically assigned to visual/ol nodes; smoke-only mapping",
+  "readout_superclasses": [
+    "descending_neuron",
+    "vnc_motor",
+    "cb_motor"
+  ],
+  "elapsed_seconds": 10.028127541998401,
+  "artifact_bytes": 308262996
+}

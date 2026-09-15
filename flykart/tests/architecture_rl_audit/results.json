@@ -1,0 +1,500 @@
+{
+  "transport": {
+    "nodes": 165122,
+    "edges": 25563197,
+    "visual_nodes": 103270,
+    "readout_nodes": 2129,
+    "visual_readout_overlap": 0,
+    "minimum_hops_histogram": {
+      "1": 1098,
+      "2": 1022,
+      "3": 9
+    },
+    "maximum_row_sum": 0.8000003099441528,
+    "one_hop_nonzero_readouts": 1098,
+    "one_hop_channel_entropy_mean": 1.68253755569458,
+    "maximum_channel_entropy": 4.1588830833596715,
+    "one_hop_singular_energy_top1": 0.2004925161600113,
+    "one_hop_singular_energy_top4": 0.41411638259887695,
+    "one_hop_singular_energy_top16": 0.7739081382751465
+  },
+  "checkpoints": {
+    "best_validation.pt": "98cbccfcd55347731cf77e1ac9dd817f9f3c0d712e714d4cc04228ff46e6ca8c",
+    "last.pt": "44334561ac3d5c52e84bd59dfaddd72a45c50ab801b63e71acd3daae3add7b8a"
+  },
+  "gradients": [
+    {
+      "checkpoint": "best_validation.pt",
+      "seed": 7200,
+      "decisions": 128,
+      "completed_episodes": [],
+      "positive_reward_fraction": 0.1015625,
+      "replay_error": 1.1920928955078125e-07,
+      "raw_advantage_std": 0.059068091213703156,
+      "losses": {
+        "actor": -5.029141902923584e-08,
+        "critic": 0.0010018503526225686,
+        "entropy": -0.009563611820340157
+      },
+      "modules": {
+        "encoder": {
+          "gradient_norms": {
+            "actor": 0.04033790901303291,
+            "critic": 0.0008327130344696343,
+            "entropy": 0.0015864771557971835
+          },
+          "actor_critic_cosine": -0.9929196834564209,
+          "combined_norm": 0.04109618812799454
+        },
+        "a": {
+          "gradient_norms": {
+            "actor": 0.0010412894189357758,
+            "critic": 2.820784538926091e-05,
+            "entropy": 5.526829409063794e-05
+          },
+          "actor_critic_cosine": -0.027710746973752975,
+          "combined_norm": 0.0010931340511888266
+        },
+        "actor": {
+          "gradient_norms": {
+            "actor": 0.3117014467716217,
+            "critic": 0.0,
+            "entropy": 0.014208866283297539
+          },
+          "actor_critic_cosine": 0.0,
+          "combined_norm": 0.32438305020332336
+        },
+        "critic": {
+          "gradient_norms": {
+            "actor": 0.0,
+            "critic": 0.014281779527664185,
+            "entropy": 0.0
+          },
+          "actor_critic_cosine": 0.0,
+          "combined_norm": 0.014281779527664185
+        }
+      },
+      "global_gradient_norm": 0.3272895111463152,
+      "global_clip_scale": 1,
+      "action_histogram": [
+        22,
+        71,
+        35
+      ]
+    },
+    {
+      "checkpoint": "best_validation.pt",
+      "seed": 7201,
+      "decisions": 128,
+      "completed_episodes": [
+        {
+          "reason": "target_reached",
+          "frames": 203,
+          "progress": 13,
+          "one_lap": false,
+          "reward": 0.6,
+          "jumps": 0,
+          "target_reached": true,
+          "target": 13,
+          "start_id": "f540_left",
+          "start_progress": 8,
+          "advance": 5
+        }
+      ],
+      "positive_reward_fraction": 0.1171875,
+      "replay_error": 2.384185791015625e-07,
+      "raw_advantage_std": 0.08969641476869583,
+      "losses": {
+        "actor": -1.4901161193847656e-08,
+        "critic": 0.0027519867289811373,
+        "entropy": -0.009660345502197742
+      },
+      "modules": {
+        "encoder": {
+          "gradient_norms": {
+            "actor": 0.0014610326616093516,
+            "critic": 0.0022039602044969797,
+            "entropy": 0.0015261630760505795
+          },
+          "actor_critic_cosine": -0.9436487555503845,
+          "combined_norm": 0.0008958014077506959
+        },
+        "a": {
+          "gradient_norms": {
+            "actor": 0.0005729541881009936,
+            "critic": 0.00021365005522966385,
+            "entropy": 5.172981400392018e-05
+          },
+          "actor_critic_cosine": -0.08076324313879013,
+          "combined_norm": 0.0005859863595105708
+        },
+        "actor": {
+          "gradient_norms": {
+            "actor": 0.19594122469425201,
+            "critic": 0.0,
+            "entropy": 0.013330092653632164
+          },
+          "actor_critic_cosine": 0.0,
+          "combined_norm": 0.19446392357349396
+        },
+        "critic": {
+          "gradient_norms": {
+            "actor": 0.0,
+            "critic": 0.07501096278429031,
+            "entropy": 0.0
+          },
+          "actor_critic_cosine": 0.0,
+          "combined_norm": 0.07501096278429031
+        }
+      },
+      "global_gradient_norm": 0.2084322622570689,
+      "global_clip_scale": 1,
+      "action_histogram": [
+        28,
+        66,
+        34
+      ]
+    },
+    {
+      "checkpoint": "best_validation.pt",
+      "seed": 7202,
+      "decisions": 128,
+      "completed_episodes": [
+        {
+          "reason": "target_reached",
+          "frames": 251,
+          "progress": 13,
+          "one_lap": false,
+          "reward": 0.6,
+          "jumps": 0,
+          "target_reached": true,
+          "target": 13,
+          "start_id": "f540_left",
+          "start_progress": 8,
+          "advance": 5
+        }
+      ],
+      "positive_reward_fraction": 0.09375,
+      "replay_error": 1.7881393432617188e-07,
+      "raw_advantage_std": 0.08116204291582108,
+      "losses": {
+        "actor": 9.313225746154785e-09,
+        "critic": 0.002226643729954958,
+        "entropy": -0.009564071893692017
+      },
+      "modules": {
+        "encoder": {
+          "gradient_norms": {
+            "actor": 0.022904790937900543,
+            "critic": 0.0019385050982236862,
+            "entropy": 0.0015896594850346446
+          },
+          "actor_critic_cosine": -0.9927658438682556,
+          "combined_norm": 0.02257082797586918
+        },
+        "a": {
+          "gradient_norms": {
+            "actor": 0.0008235835703089833,
+            "critic": 0.00022378411085810512,
+            "entropy": 5.52460624021478e-05
+          },
+          "actor_critic_cosine": -0.03443048149347305,
+          "combined_norm": 0.0008986730244942009
+        },
+        "actor": {
+          "gradient_norms": {
+            "actor": 0.21301738917827606,
+            "critic": 0.0,
+            "entropy": 0.014203986153006554
+          },
+          "actor_critic_cosine": 0.0,
+          "combined_norm": 0.22698615491390228
+        },
+        "critic": {
+          "gradient_norms": {
+            "actor": 0.0,
+            "critic": 0.07717529684305191,
+            "entropy": 0.0
+          },
+          "actor_critic_cosine": 0.0,
+          "combined_norm": 0.07717529684305191
+        }
+      },
+      "global_gradient_norm": 0.24080903399609505,
+      "global_clip_scale": 1,
+      "action_histogram": [
+        27,
+        71,
+        30
+      ]
+    },
+    {
+      "checkpoint": "last.pt",
+      "seed": 7200,
+      "decisions": 128,
+      "completed_episodes": [],
+      "positive_reward_fraction": 0.078125,
+      "replay_error": 2.384185791015625e-07,
+      "raw_advantage_std": 0.05787254497408867,
+      "losses": {
+        "actor": 1.862645149230957e-09,
+        "critic": 0.0008418876677751541,
+        "entropy": -0.010644611902534962
+      },
+      "modules": {
+        "encoder": {
+          "gradient_norms": {
+            "actor": 0.0037516127340495586,
+            "critic": 0.0006542531191371381,
+            "entropy": 0.0006771429907530546
+          },
+          "actor_critic_cosine": -0.7410786747932434,
+          "combined_norm": 0.0029709325172007084
+        },
+        "a": {
+          "gradient_norms": {
+            "actor": 0.0007035682792775333,
+            "critic": 0.0001395508588757366,
+            "entropy": 2.37630374613218e-05
+          },
+          "actor_critic_cosine": -0.08468249440193176,
+          "combined_norm": 0.0006932947435416281
+        },
+        "actor": {
+          "gradient_norms": {
+            "actor": 0.25453296303749084,
+            "critic": 0.0,
+            "entropy": 0.006988509092479944
+          },
+          "actor_critic_cosine": 0.0,
+          "combined_norm": 0.2517457604408264
+        },
+        "critic": {
+          "gradient_norms": {
+            "actor": 0.0,
+            "critic": 0.04461308568716049,
+            "entropy": 0.0
+          },
+          "actor_critic_cosine": 0.0,
+          "combined_norm": 0.04461308568716049
+        }
+      },
+      "global_gradient_norm": 0.25568645332141293,
+      "global_clip_scale": 1,
+      "action_histogram": [
+        40,
+        49,
+        39
+      ]
+    },
+    {
+      "checkpoint": "last.pt",
+      "seed": 7201,
+      "decisions": 128,
+      "completed_episodes": [
+        {
+          "reason": "target_reached",
+          "frames": 231,
+          "progress": 13,
+          "one_lap": false,
+          "reward": 0.6,
+          "jumps": 0,
+          "target_reached": true,
+          "target": 13,
+          "start_id": "f540_left",
+          "start_progress": 8,
+          "advance": 5
+        }
+      ],
+      "positive_reward_fraction": 0.109375,
+      "replay_error": 2.384185791015625e-07,
+      "raw_advantage_std": 0.09349554032087326,
+      "losses": {
+        "actor": 2.60770320892334e-08,
+        "critic": 0.0025457371957600117,
+        "entropy": -0.010656113736331463
+      },
+      "modules": {
+        "encoder": {
+          "gradient_norms": {
+            "actor": 0.004053074400871992,
+            "critic": 0.002118195639923215,
+            "entropy": 0.00065986393019557
+          },
+          "actor_critic_cosine": -0.9804190397262573,
+          "combined_norm": 0.0026581690181046724
+        },
+        "a": {
+          "gradient_norms": {
+            "actor": 0.00024464470334351063,
+            "critic": 0.00013855287397745997,
+            "entropy": 2.2955697204452008e-05
+          },
+          "actor_critic_cosine": -0.05217348039150238,
+          "combined_norm": 0.0002922459098044783
+        },
+        "actor": {
+          "gradient_norms": {
+            "actor": 0.0773095041513443,
+            "critic": 0.0,
+            "entropy": 0.006752548739314079
+          },
+          "actor_critic_cosine": 0.0,
+          "combined_norm": 0.08285682648420334
+        },
+        "critic": {
+          "gradient_norms": {
+            "actor": 0.0,
+            "critic": 0.047760993242263794,
+            "entropy": 0.0
+          },
+          "actor_critic_cosine": 0.0,
+          "combined_norm": 0.047760993242263794
+        }
+      },
+      "global_gradient_norm": 0.09567401653908733,
+      "global_clip_scale": 1,
+      "action_histogram": [
+        34,
+        58,
+        36
+      ]
+    },
+    {
+      "checkpoint": "last.pt",
+      "seed": 7202,
+      "decisions": 128,
+      "completed_episodes": [],
+      "positive_reward_fraction": 0.078125,
+      "replay_error": 2.384185791015625e-07,
+      "raw_advantage_std": 0.056145697832107544,
+      "losses": {
+        "actor": -5.587935447692871e-09,
+        "critic": 0.0007927183178253472,
+        "entropy": -0.010643984191119671
+      },
+      "modules": {
+        "encoder": {
+          "gradient_norms": {
+            "actor": 0.005622193217277527,
+            "critic": 0.0007593421614728868,
+            "entropy": 0.0006743688136339188
+          },
+          "actor_critic_cosine": 0.9156070351600647,
+          "combined_norm": 0.00698471674695611
+        },
+        "a": {
+          "gradient_norms": {
+            "actor": 0.0005046372534707189,
+            "critic": 0.00012933487596455961,
+            "entropy": 2.3802320356480777e-05
+          },
+          "actor_critic_cosine": -0.062432222068309784,
+          "combined_norm": 0.000520845758728683
+        },
+        "actor": {
+          "gradient_norms": {
+            "actor": 0.17392805218696594,
+            "critic": 0.0,
+            "entropy": 0.007001093588769436
+          },
+          "actor_critic_cosine": 0.0,
+          "combined_norm": 0.1757892221212387
+        },
+        "critic": {
+          "gradient_norms": {
+            "actor": 0.0,
+            "critic": 0.041338905692100525,
+            "entropy": 0.0
+          },
+          "actor_critic_cosine": 0.0,
+          "combined_norm": 0.041338905692100525
+        }
+      },
+      "global_gradient_norm": 0.1807202625223585,
+      "global_clip_scale": 1,
+      "action_histogram": [
+        34,
+        60,
+        34
+      ]
+    }
+  ],
+  "config": {
+    "run": "runs/bend_gain_32k_v1",
+    "budget": 32768,
+    "envs": 16,
+    "sequences": 16,
+    "seed": 0,
+    "eval_every": 8192,
+    "resume": null,
+    "task": "bend",
+    "memory": 64,
+    "target": 13,
+    "stall_frames": 600,
+    "time_penalty": 0.0,
+    "repeat": 8,
+    "action_set": "drive",
+    "freeze_gain": false,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "entropy_coef": 0.01,
+    "eval_episodes": 10,
+    "graph_sha256": "dd98812064bc8be1b6889659c196cedf19415fd76e5c63ceaea85a9b53d9667d",
+    "rom_sha256": "2ada8919688087be60a6a48cace8f877add60c45d2e5d09e2442faa55be62a49",
+    "state_sha256": "11d1f45a585984477317171b253e9f45f0e8e528200ba0f4e1d716f8bb29990d",
+    "torch": "2.11.0+cu128",
+    "gpu": "NVIDIA GeForce RTX 5070",
+    "source_hashes": {
+      "train_gain.py": "53e4489022cb4354b4f5b2f478f636ed7fb865a147ce1cb1a5b9e6cd7d7e4802",
+      "__init__.py": "ef7ce5573f02574a62ebea36063be581b808176ef23216e871f418754d96d7f3",
+      "model.py": "a0e84f4083f2c8ec553dcd137761230f052ab9b1d00bea3295295fe464400540",
+      "bend_task.py": "47b8c9aa4e1c2596940a195d68b3e3644a770e2a0b4fff6ab8a30af3caeb8ce4",
+      "task.py": "f639b5f77f3298007421938f83d60ec0f0b4193f59a33b4614e29436e8de3662"
+    },
+    "reward": "frontier/30 +5*target/150 on target -time_penalty/frame",
+    "learning_rate": 0.0001,
+    "clip": 0.2,
+    "epochs": 4,
+    "target_kl": 0.02,
+    "burn_in": 64,
+    "unroll": 32,
+    "state_policy": "zero-rooted context, refreshed every 32 decisions",
+    "bend_actual_limits": {
+      "limit": 1800,
+      "target": 13,
+      "stall_limit": 600,
+      "repeat": 8,
+      "time_penalty": 0
+    },
+    "prefix_sha256": "dff318b2f127bf6fcc91b194b11d90c7e0460fbcd19653106494ccb3a75ee408",
+    "task_config": {
+      "kind": "bend",
+      "start_ids": [
+        "f540_center",
+        "f540_left",
+        "f540_right",
+        "f600_center",
+        "f600_right"
+      ],
+      "perturb_frames": 24,
+      "seed": 0,
+      "action_set": "drive"
+    }
+  },
+  "best_validation.pt": {
+    "max_gain": 1.0008763074874878,
+    "hidden_infinity_norm_lipschitz_bound": 0.9003506781028747,
+    "perturbation_half_life_decisions": 6.603228662427323,
+    "bound_after_32_decisions": 0.03476756473096886,
+    "bound_after_64_decisions": 0.0012087835573221099
+  },
+  "last.pt": {
+    "max_gain": 1.000560998916626,
+    "hidden_infinity_norm_lipschitz_bound": 0.900224554625666,
+    "perturbation_half_life_decisions": 6.5944278521918696,
+    "bound_after_32_decisions": 0.034612052048731946,
+    "bound_after_64_decisions": 0.0011979941470241292
+  },
+  "checkpoint_hashes_unchanged": true
+}
