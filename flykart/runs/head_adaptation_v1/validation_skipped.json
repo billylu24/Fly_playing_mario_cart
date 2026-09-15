@@ -1,0 +1,27 @@
+[
+  {
+    "seed": 0,
+    "start_id": "f570_right_p24",
+    "takeover": 32
+  },
+  {
+    "seed": 1,
+    "start_id": "f570_left_p24",
+    "takeover": 32
+  },
+  {
+    "seed": 2,
+    "start_id": "f510_right_p24",
+    "takeover": 32
+  },
+  {
+    "seed": 2,
+    "start_id": "f570_center_p24",
+    "takeover": 32
+  },
+  {
+    "seed": 2,
+    "start_id": "f570_right_p24",
+    "takeover": 32
+  }
+]

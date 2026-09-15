@@ -1,0 +1,9 @@
+{
+  "state": "completed",
+  "sources_unchanged": true,
+  "trained_heads": 8,
+  "evaluated_policies": 12,
+  "new_test_accepted": 10,
+  "episodes": 1440,
+  "sequential_regressions": 12
+}

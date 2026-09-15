@@ -1,0 +1,6 @@
+{
+  "frozen_features_and_original_heads_unchanged": true,
+  "cache_deployment_logits_match": true,
+  "train_validation_start_ids_disjoint": true,
+  "shared_head_initialization_and_sampling": true
+}

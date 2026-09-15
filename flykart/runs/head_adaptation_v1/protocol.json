@@ -1,0 +1,33 @@
+{
+  "graph_seeds": [
+    0,
+    1,
+    2
+  ],
+  "kinds": [
+    "frozen",
+    "old",
+    "mixed"
+  ],
+  "updates": 512,
+  "hypothesis": "Can the same trainable action head learn recovery labels from frozen graph reconstruction versus frozen direct CNN? No gradient through CNN, graph, gain, interface, decoder, or normalization.",
+  "training": "Existing frozen head weights initialize every arm. Adam lr.001 eps1e-5 clip1, 512 updates, batch128 observations. Old: two groups of64, each loss weight0.5; both groups old in old arm, second group recovery in mixed arm. Unweighted CE only, no MSE or teacher KL. Schedule same across feature sources and arms, RNG15000.",
+  "features": "Graph features are reconstructed64 in original CNN units, computed using actual full observation history and deployment Context; labels -100 discarded only after history replay. Direct CNN64 shares same frames and labels. Frozen normalization buffers of original head preserved.",
+  "recovery_validation": "Original six accepted validation starts only (prefix510/570), all three archived graph policies. At decisions8/32, compare waypoint and CNN; on baseline failures choose successful waypoint else successful CNN, deduplicate full observed sequences plus labels. No validation data in gradients. If no successful failure-recovery examples, stop without training.",
+  "selection": "Every32 updates including0. Minimize 0.5*old-validation CE +0.5*recovery-validation CE among checkpoints with old-validation CE <=1.05*its own step0 CE; ties earlier. Step0 always eligible. Same selection for old and mixed arms.",
+  "controls": "Old-data-only trainable head and unchanged frozen head for each of3 graph feature sources; same old/mixed/frozen arms for one common direct CNN. Graph seeds reflect earlier minibatch schedules, not independent pretrained backbones or head-training schedules.",
+  "new_test": "prefix460/520/580/640 x perturb28 x center/left/right,12 candidates; accept oracle target+jumps0 before training. All12 policies x accepted starts x greedy/sampling8100/8101/8102 x normal/frozen/clock.",
+  "gates": "First: mixed-head recovery-validation CE improves >=10% vs own frozen head while satisfying old-validation CE retention. Closed loop graph mixed must not lose greedy success vs old in any seed and aggregate gain>=10pp; each mixed normal-frozen>=20pp, normal-clock>=10pp; aggregate sampled normal>old. Descriptive, correlated starts. Always report complete CNN controls.",
+  "sources": {
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/head_adaptation.py": "58c0a5ec3c4f2e60591ef6e10f7750444c856e9ed6dee997478dc0f5b112a9b4",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/supervised.py": "61d7e49c81ee2f994615b2bb01ed5731101c51404e0e5521545b8fd5ff730cbd",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/recovery_demonstrations.py": "67c4b2343c6d86d312f8c4cbc8f31d5e176849117608d9c87c00dfebcd50816b",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/recovery_demonstrations_v1/training_manifest.json": "462a3b7e918393bb4d0fc5206dd4890bc6c5f280c74861b30883a8a15a4ed562",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/inhibition_reconstruction_v1/stats.pt": "45ba7cfe61025b8fe92f845cc49e46a6dff5cc3ade1f8f5d87a9f4555ed891bd",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/layer_probes_v1/k2_cnn_mlp32.pt": "5b2e8749110d25c4ad76ecf46b4c73e8ef358b03de81109269c25e6f4e7eeae2",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/distillation_replication_v1/seed0/joint_best.pt": "e74cbdb3012939a6ff3773d3222a6483d99f5c084dda9f45e0b6d925ae90494b",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/distillation_replication_v1/seed1/joint_best.pt": "861a9cfc7499cd7a01f092dbd3082a6f1b2e45bf457f184d2e33c5ff77dbf4d2",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/distillation_replication_v1/seed2/joint_best.pt": "7da3cb9f4a848a1a70eb25c0636906b765359268ea155ebfa7466241b5c073c7"
+  },
+  "cache_amendment": "cache_fix_amendment.json, before any training or policy evaluation; collection retained unchanged"
+}

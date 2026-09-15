@@ -1,0 +1,17 @@
+{
+  "before_any_training": true,
+  "initial_source_hash": "cfd7d6fcb8f2253029a02dcfffc1b77607fb5c9ef596312301273d93e5aa9fa2",
+  "corrected_source_hash": "58c0a5ec3c4f2e60591ef6e10f7750444c856e9ed6dee997478dc0f5b112a9b4",
+  "reason": "Batch CNN feature extraction differs from single-frame deployment: max latent abs difference3.72e-5 amplified by frozen head normalization to logits0.00460. Head-only batched versus sequential difference1.61e-6. Preserve runtime settings and extract cached direct CNN features one image at a time.",
+  "initial_consistency_check_failed": true,
+  "training_had_not_started": true,
+  "collection_reused_unchanged": true,
+  "changed_code": "Direct CNN cache: batched encoder -> concatenate single-image encoder outputs; graph raw-image Context unchanged. Add explicit resume entry after integrity check.",
+  "diagnostic": {
+    "max_latent_difference": 3.7185847759246826e-05,
+    "max_logit_difference_from_encoder": 0.004602193832397461,
+    "max_logit_difference_head_batching": 1.6093254089355469e-06,
+    "cudnn_allow_tf32": true,
+    "matmul_allow_tf32": false
+  }
+}

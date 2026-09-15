@@ -1,0 +1,350 @@
+[
+  {
+    "config": {
+      "start_id": "f460_center_p28",
+      "perturb_frames": 28,
+      "start_specs": [
+        {
+          "id": "f460_center_p28",
+          "prefix_frame": 460,
+          "turn": "center"
+        }
+      ]
+    },
+    "filename": "f460_center_p28.npz",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 214,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6333333333333333,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f460_center_p28",
+      "start_progress": 7,
+      "advance": 6
+    },
+    "sha256": "0ac0b43906c5d57a39f468c290039079699d18bb098436b286fb1319b19d82c1"
+  },
+  {
+    "config": {
+      "start_id": "f460_left_p28",
+      "perturb_frames": 28,
+      "start_specs": [
+        {
+          "id": "f460_left_p28",
+          "prefix_frame": 460,
+          "turn": "left"
+        }
+      ]
+    },
+    "filename": "f460_left_p28.npz",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 422,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6333333333333333,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f460_left_p28",
+      "start_progress": 7,
+      "advance": 6
+    },
+    "sha256": "b36d215c978d65843ed8fc6b60fe17e86c746072f4b9d03419d4d5e7a3e71c62"
+  },
+  {
+    "config": {
+      "start_id": "f460_right_p28",
+      "perturb_frames": 28,
+      "start_specs": [
+        {
+          "id": "f460_right_p28",
+          "prefix_frame": 460,
+          "turn": "right"
+        }
+      ]
+    },
+    "filename": "f460_right_p28.npz",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 195,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6333333333333333,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f460_right_p28",
+      "start_progress": 7,
+      "advance": 6
+    },
+    "sha256": "af4289a53c3e3c2042d90254f9c244f109e03973ffa9942044a8ee2cedc57b95"
+  },
+  {
+    "config": {
+      "start_id": "f520_center_p28",
+      "perturb_frames": 28,
+      "start_specs": [
+        {
+          "id": "f520_center_p28",
+          "prefix_frame": 520,
+          "turn": "center"
+        }
+      ]
+    },
+    "filename": "f520_center_p28.npz",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 246,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6333333333333333,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f520_center_p28",
+      "start_progress": 7,
+      "advance": 6
+    },
+    "sha256": "c9bf467e2f9c6e915c7e0f4034f3cbf8faa653eff2f9561b359916b2ee6a8e9e"
+  },
+  {
+    "config": {
+      "start_id": "f520_left_p28",
+      "perturb_frames": 28,
+      "start_specs": [
+        {
+          "id": "f520_left_p28",
+          "prefix_frame": 520,
+          "turn": "left"
+        }
+      ]
+    },
+    "filename": "f520_left_p28.npz",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 285,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6333333333333333,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f520_left_p28",
+      "start_progress": 7,
+      "advance": 6
+    },
+    "sha256": "487161857ba66ade6c0d51de381768713942f7d0c71a0d0ccc40107c1b20a450"
+  },
+  {
+    "config": {
+      "start_id": "f520_right_p28",
+      "perturb_frames": 28,
+      "start_specs": [
+        {
+          "id": "f520_right_p28",
+          "prefix_frame": 520,
+          "turn": "right"
+        }
+      ]
+    },
+    "filename": "f520_right_p28.npz",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 183,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6333333333333333,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f520_right_p28",
+      "start_progress": 7,
+      "advance": 6
+    },
+    "sha256": "d7dd3afa3fb636b70256897ca4ae6aeb5ac2b2553fce043c78d6c0e2b7bd7a0e"
+  },
+  {
+    "config": {
+      "start_id": "f580_center_p28",
+      "perturb_frames": 28,
+      "start_specs": [
+        {
+          "id": "f580_center_p28",
+          "prefix_frame": 580,
+          "turn": "center"
+        }
+      ]
+    },
+    "filename": "f580_center_p28.npz",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 819,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f580_center_p28",
+      "start_progress": 8,
+      "advance": 5
+    },
+    "sha256": "ea14bb44a4ef74dcd3a6ed70005a33aa1ef279947bf490cfb134ab5474b74cd7"
+  },
+  {
+    "config": {
+      "start_id": "f580_left_p28",
+      "perturb_frames": 28,
+      "start_specs": [
+        {
+          "id": "f580_left_p28",
+          "prefix_frame": 580,
+          "turn": "left"
+        }
+      ]
+    },
+    "filename": "f580_left_p28.npz",
+    "accepted": false,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 638,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6,
+      "jumps": 1,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f580_left_p28",
+      "start_progress": 8,
+      "advance": 5
+    },
+    "sha256": "289c92b6d45a2f8bfe0c4c2dc8fdd29eb01060bb12301393cf3dc12c74c1fc2a"
+  },
+  {
+    "config": {
+      "start_id": "f580_right_p28",
+      "perturb_frames": 28,
+      "start_specs": [
+        {
+          "id": "f580_right_p28",
+          "prefix_frame": 580,
+          "turn": "right"
+        }
+      ]
+    },
+    "filename": "f580_right_p28.npz",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 663,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.6,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f580_right_p28",
+      "start_progress": 8,
+      "advance": 5
+    },
+    "sha256": "0a45109e5fecd346f7c4f78f1b31f8a4ceee73a18411488b7f3d2cb81b8effb8"
+  },
+  {
+    "config": {
+      "start_id": "f640_center_p28",
+      "perturb_frames": 28,
+      "start_specs": [
+        {
+          "id": "f640_center_p28",
+          "prefix_frame": 640,
+          "turn": "center"
+        }
+      ]
+    },
+    "filename": "f640_center_p28.npz",
+    "accepted": false,
+    "episode": {
+      "reason": "no_progress",
+      "frames": 657,
+      "progress": 12,
+      "one_lap": false,
+      "reward": 0.06666666666666667,
+      "jumps": 0,
+      "target_reached": false,
+      "target": 13,
+      "start_id": "f640_center_p28",
+      "start_progress": 10,
+      "advance": 2
+    },
+    "sha256": "1d7ac2b83b545cbe6248d35eba61f15b9279b0a184611ad1017b2c2c2126f861"
+  },
+  {
+    "config": {
+      "start_id": "f640_left_p28",
+      "perturb_frames": 28,
+      "start_specs": [
+        {
+          "id": "f640_left_p28",
+          "prefix_frame": 640,
+          "turn": "left"
+        }
+      ]
+    },
+    "filename": "f640_left_p28.npz",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 89,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.5333333333333333,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f640_left_p28",
+      "start_progress": 10,
+      "advance": 3
+    },
+    "sha256": "7b280eb3dcd87a45f2acd4887aa982d1054eadfc3d6a74bb98a965c0dbf2edad"
+  },
+  {
+    "config": {
+      "start_id": "f640_right_p28",
+      "perturb_frames": 28,
+      "start_specs": [
+        {
+          "id": "f640_right_p28",
+          "prefix_frame": 640,
+          "turn": "right"
+        }
+      ]
+    },
+    "filename": "f640_right_p28.npz",
+    "accepted": true,
+    "episode": {
+      "reason": "target_reached",
+      "frames": 493,
+      "progress": 13,
+      "one_lap": false,
+      "reward": 0.5333333333333333,
+      "jumps": 0,
+      "target_reached": true,
+      "target": 13,
+      "start_id": "f640_right_p28",
+      "start_progress": 10,
+      "advance": 3
+    },
+    "sha256": "eb926850fa53a7e1598abaebba2dc5f685e75c391b732b5d9513d1eb983561f0"
+  }
+]

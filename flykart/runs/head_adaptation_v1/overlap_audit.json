@@ -1,0 +1,15 @@
+{
+  "exact_frame_overlaps": {
+    "recovery_validation_vs_training": 0,
+    "test_vs_training": 0,
+    "test_vs_validation": 0
+  },
+  "distinct_frames": {
+    "old_train": 1908,
+    "recovery_train": 4684,
+    "old_validation": 251,
+    "recovery_validation": 387,
+    "new_test": 455
+  },
+  "caveat": "Exact pixel comparison only. Same track and adjacent starts remain correlated."
+}

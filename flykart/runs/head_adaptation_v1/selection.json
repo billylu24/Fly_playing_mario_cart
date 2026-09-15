@@ -1,0 +1,13 @@
+{
+  "models": {
+    "cnn_old": 352,
+    "cnn_mixed": 512,
+    "graph0_old": 448,
+    "graph0_mixed": 448,
+    "graph1_old": 448,
+    "graph1_mixed": 448,
+    "graph2_old": 480,
+    "graph2_mixed": 448
+  },
+  "all_selected_before_new_test_evaluation": true
+}
