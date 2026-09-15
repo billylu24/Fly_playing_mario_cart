@@ -1,0 +1,17 @@
+{
+  "delays": [
+    8,
+    32
+  ],
+  "intervention": "Student until first disagreement + 8 or +32 decisions, then frozen direct CNN to end. Same actual observation history, no RAM input or state edits.",
+  "scope": "Follow-up after first-disagreement study. Same two selected failure cases; diagnostic teacher-assisted control, not autonomous graph success.",
+  "sources": {
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/delayed_recovery_diagnosis.py": "2a3b142c9626e0f192564e0fed2508d08731ec7de4bbb3477bc98373a6cdd2f5",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/divergence_diagnosis.py": "c4a1f147b7b7cd8a4dbca02a2cefd9d1e7b68392cb3183daa298e4b8eadf16e3",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/divergence_diagnosis_v1/summary.json": "b1f0d9f90ced1f048f56d199e8a204b0e53850ba791a3afadc30b8412711f4ee",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/inhibition_reconstruction_v1/stats.pt": "45ba7cfe61025b8fe92f845cc49e46a6dff5cc3ade1f8f5d87a9f4555ed891bd",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/distillation_replication_v1/seed0/joint_best.pt": "e74cbdb3012939a6ff3773d3222a6483d99f5c084dda9f45e0b6d925ae90494b",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/distillation_replication_v1/seed1/joint_best.pt": "861a9cfc7499cd7a01f092dbd3082a6f1b2e45bf457f184d2e33c5ff77dbf4d2",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/distillation_replication_v1/seed2/joint_best.pt": "7da3cb9f4a848a1a70eb25c0636906b765359268ea155ebfa7466241b5c073c7"
+  }
+}

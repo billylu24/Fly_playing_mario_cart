@@ -1,0 +1,49 @@
+"""Generate a numerical-only report from the two completed diagnostic studies."""
+import json
+from pathlib import Path
+ROOT = Path(__file__).resolve().parents[1]
+A = ROOT/'runs/divergence_diagnosis_v1'
+B = ROOT/'runs/delayed_recovery_diagnosis_v1'
+
+def run():
+    assert json.loads((A/'status.json').read_text())['state']=='completed'
+    assert json.loads((B/'status.json').read_text())['state']=='completed'
+    cases=json.loads((A/'summary.json').read_text())
+    delayed=json.loads((B/'summary.json').read_text())
+    lines=['# 共同失败起点：动作分歧与恢复诊断', '',
+    '完成 30 局首次分歧干预 + 12 局延迟接管。没有训练、改动 checkpoint 或 RAM；不保存游戏画面。', '',
+    '两个起点来自已观察到的共同失败集合，因此本实验用于解释失败，不是新的无偏成功率估计。三个 seed 只改变先前训练的 minibatch 顺序，共用 CNN、教师与预训练起点。', '',
+    '## 首次分歧处的干预', '',
+    '每次决策最多执行 8 个游戏帧。表中分歧编号从 0 起；接管期间使用当前实际画面的 CNN 动作，fly 状态仍按实际输入更新，接管结束后恢复 fly 控制。', '',
+    '| 起点 | seed | 首次分歧 | fly 自行 | CNN 自行 | 接管 1 次后恢复 | 接管 4 次后恢复 | 从分歧处持续 CNN |',
+    '|---|---:|---:|---|---|---|---|---|']
+    names=['student','teacher','correct_1','correct_4','correct_225']
+    for c in cases:
+        marks=['成功' if c['outcomes'][n]['target_reached'] else '失败' for n in names]
+        lines.append(f"| {c['start']} | {c['seed']} | {c['first_disagreement']} | "+' | '.join(marks)+' |')
+    lines += ['', '持续接管 6/6 成功与 CNN 自行轨迹完全一致，因为接管前双方动作尚未分歧；这是实现校验，不是从偏离状态恢复的证据。短暂接管 1 次成功 1/6，4 次成功 2/6。', '',
+    '`f505_left_p14` 三个种子在第 0 次决策都选左转，CNN 选直行加速；CNN 的直行概率为 0.663，fly 左转概率约 0.507～0.667。`f455_left_p38` 的 seed0/2 在第 3 次决策选左转而 CNN 选右转；seed1 第 0 次决策已经分歧。', '',
+    '这证明本批失败含有非常早的动作选择失配；它们不能全用长时递归后的记忆衰减解释。但它不能排除瞬时图传播/解码误差、训练覆盖或优化问题，更没有直接检验反向梯度质量。', '',
+    '## 偏离后再持续接管', '',
+    '让 fly 在首次分歧后继续驾驶 8 或 32 次决策，再让 CNN 控制到结束。接管前动作逐项核对原失败轨迹；不重置模型历史或模拟器状态。', '',
+    '| 起点 | seed | 延迟 8 次 | 延迟 32 次 |', '|---|---:|---|---|']
+    for c in cases:
+        row=[next(r for r in delayed if r['seed']==c['seed'] and r['start']==c['start'] and r['delay']==d) for d in [8,32]]
+        lines.append(f"| {c['start']} | {c['seed']} | "+' | '.join('成功' if r['target_reached'] else '失败' for r in row)+' |')
+    assert sum(r['target_reached'] for r in delayed)==4
+    lines += ['', 'CNN 延迟接管仅成功 4/12，两个延迟条件各 2/6。失败只说明该教师在此任务剩余时间和停滞限制下未恢复，不证明状态不可挽救。seed0 的 f455 延迟 8 次失败、32 次反而成功，也说明纠错窗口并非简单单调。', '',
+    '## 结论与下一步', '',
+    '目前证据优先支持“关键动作误差 → 闭环轨迹偏离 → 恢复覆盖不足”的工作假设。平均重建 MSE 或教师一致率不足以描述成败：例如 seed0/f455，成功的教师轨迹上 fly 影子重建 MSE 为 0.253，失败的 fly 轨迹上反而为 0.182。两条轨迹状态分布不同，不能把该比较解释为降低重建误差有害。', '',
+    '不应立即追加抑制机制或盲目延长现有 RL。当前实验没有比较新的 E/I 动力学，也没有证明图拓扑有优势。先前 GABA 对照未显示明确收益，这一结论保持不变。', '',
+    '下一轮固定方案：', '',
+    '1. 只在原训练起点采集三个 fly 种子实际访问的状态；保留完整前缀和动作，避免随机帧训练破坏部署历史。上述两个诊断起点以及既有测试轨迹不进入训练。',
+    '2. 在训练状态上先比较 CNN 接管和现有 waypoint 控制器的恢复结果。只对实际完成目标且无 checkpoint 跳跃的分支构造恢复示范，并公开接受/拒绝数量。CNN 预测是蒸馏目标，不自动视为正确动作；不得无筛选地用失败教师回标。',
+    '3. 恢复示范足够后，比较同一 warm-start 的旧数据继续训练与混入恢复数据训练。匹配更新数、学习率、BPTT/重建历史和采样种子，保持 CNN、拓扑、动作头和抑制设置不变；硬动作恢复示范采用动作 CE，原数据保持 MSE+教师 KL，并在方案中预先固定权重。',
+    '4. 只用训练/验证数据确定配置，在训练前预留并锁定新的合法起点。复验三个采样种子，正常/冻结画面/时间控制以及直接 CNN 全部保留；报告自主 fly 成功率，不能把教师接管成功算作 fly 学会。', '',
+    '## 校验与产物', '',
+    '12 个无干预回放（6 fly + 6 CNN）与归档动作、终止原因、帧数、进度及跳跃数逐项一致；6 个首次分歧前缀和 12 个延迟接管前缀校验通过；6 个持续接管轨迹匹配 CNN；所有记录的来源哈希保持不变。', '',
+    '脚本：`training/divergence_diagnosis.py`、`training/delayed_recovery_diagnosis.py`。完整概率、动作、数值轨迹和预先写入的方案位于 `runs/divergence_diagnosis_v1/` 与 `runs/delayed_recovery_diagnosis_v1/`。', '']
+    (ROOT/'divergence_diagnosis_results.md').write_text('\n'.join(lines))
+
+if __name__=='__main__':
+    run()

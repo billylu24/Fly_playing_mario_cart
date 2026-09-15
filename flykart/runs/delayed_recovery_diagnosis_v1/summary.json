@@ -1,0 +1,122 @@
+[
+  {
+    "seed": 0,
+    "start": "f455_left_p38",
+    "delay": 8,
+    "takeover": 11,
+    "target_reached": false,
+    "reason": "no_progress",
+    "frames": 600,
+    "progress": 7
+  },
+  {
+    "seed": 0,
+    "start": "f455_left_p38",
+    "delay": 32,
+    "takeover": 35,
+    "target_reached": true,
+    "reason": "target_reached",
+    "frames": 693,
+    "progress": 13
+  },
+  {
+    "seed": 0,
+    "start": "f505_left_p14",
+    "delay": 8,
+    "takeover": 8,
+    "target_reached": true,
+    "reason": "target_reached",
+    "frames": 570,
+    "progress": 13
+  },
+  {
+    "seed": 0,
+    "start": "f505_left_p14",
+    "delay": 32,
+    "takeover": 32,
+    "target_reached": false,
+    "reason": "no_progress",
+    "frames": 629,
+    "progress": 8
+  },
+  {
+    "seed": 1,
+    "start": "f455_left_p38",
+    "delay": 8,
+    "takeover": 8,
+    "target_reached": false,
+    "reason": "no_progress",
+    "frames": 682,
+    "progress": 8
+  },
+  {
+    "seed": 1,
+    "start": "f455_left_p38",
+    "delay": 32,
+    "takeover": 32,
+    "target_reached": false,
+    "reason": "no_progress",
+    "frames": 682,
+    "progress": 8
+  },
+  {
+    "seed": 1,
+    "start": "f505_left_p14",
+    "delay": 8,
+    "takeover": 8,
+    "target_reached": false,
+    "reason": "no_progress",
+    "frames": 629,
+    "progress": 8
+  },
+  {
+    "seed": 1,
+    "start": "f505_left_p14",
+    "delay": 32,
+    "takeover": 32,
+    "target_reached": false,
+    "reason": "no_progress",
+    "frames": 629,
+    "progress": 8
+  },
+  {
+    "seed": 2,
+    "start": "f455_left_p38",
+    "delay": 8,
+    "takeover": 11,
+    "target_reached": false,
+    "reason": "no_progress",
+    "frames": 600,
+    "progress": 7
+  },
+  {
+    "seed": 2,
+    "start": "f455_left_p38",
+    "delay": 32,
+    "takeover": 35,
+    "target_reached": false,
+    "reason": "no_progress",
+    "frames": 854,
+    "progress": 8
+  },
+  {
+    "seed": 2,
+    "start": "f505_left_p14",
+    "delay": 8,
+    "takeover": 8,
+    "target_reached": true,
+    "reason": "target_reached",
+    "frames": 570,
+    "progress": 13
+  },
+  {
+    "seed": 2,
+    "start": "f505_left_p14",
+    "delay": 32,
+    "takeover": 32,
+    "target_reached": true,
+    "reason": "target_reached",
+    "frames": 575,
+    "progress": 13
+  }
+]

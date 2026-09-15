@@ -1,0 +1,2074 @@
+{
+  "driver": "student",
+  "intervention": 4,
+  "first_disagreement": 0,
+  "actions": [
+    0,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    0,
+    2,
+    2,
+    2,
+    0,
+    0,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "steps": [
+    {
+      "t": 0,
+      "student_action": 1,
+      "teacher_action": 0,
+      "action": 0,
+      "student_prob": [
+        0.10239619016647339,
+        0.5073291659355164,
+        0.39027461409568787
+      ],
+      "teacher_prob": [
+        0.6632702946662903,
+        0.30355381965637207,
+        0.03317591920495033
+      ],
+      "teacher_used": true,
+      "normalized_mse": 0.45428118109703064,
+      "teacher_kl": 1.001524806022644,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 592,
+        "surface": 64
+      }
+    },
+    {
+      "t": 1,
+      "student_action": 1,
+      "teacher_action": 1,
+      "action": 1,
+      "student_prob": [
+        0.08828027546405792,
+        0.5264478921890259,
+        0.3852718472480774
+      ],
+      "teacher_prob": [
+        0.06185954436659813,
+        0.6982821226119995,
+        0.23985828459262848
+      ],
+      "teacher_used": true,
+      "normalized_mse": 0.5416512489318848,
+      "teacher_kl": 0.06157490611076355,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 624,
+        "surface": 64
+      }
+    },
+    {
+      "t": 2,
+      "student_action": 1,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.05707887187600136,
+        0.49053868651390076,
+        0.452382355928421
+      ],
+      "teacher_prob": [
+        0.18786762654781342,
+        0.1835021674633026,
+        0.6286301612854004
+      ],
+      "teacher_used": true,
+      "normalized_mse": 0.2617008686065674,
+      "teacher_kl": 0.2502027750015259,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 648,
+        "surface": 64
+      }
+    },
+    {
+      "t": 3,
+      "student_action": 1,
+      "teacher_action": 1,
+      "action": 1,
+      "student_prob": [
+        0.07305482774972916,
+        0.6834275126457214,
+        0.2435176521539688
+      ],
+      "teacher_prob": [
+        0.061955418437719345,
+        0.7543877959251404,
+        0.18365676701068878
+      ],
+      "teacher_used": true,
+      "normalized_mse": 0.19876153767108917,
+      "teacher_kl": 0.012499570846557617,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 596,
+        "surface": 84
+      }
+    },
+    {
+      "t": 4,
+      "student_action": 1,
+      "teacher_action": 1,
+      "action": 1,
+      "student_prob": [
+        0.10106345266103745,
+        0.777766764163971,
+        0.12116973102092743
+      ],
+      "teacher_prob": [
+        0.11568118631839752,
+        0.8224917054176331,
+        0.06182708591222763
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.187639981508255,
+      "teacher_kl": 0.02001379244029522,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 588,
+        "surface": 84
+      }
+    },
+    {
+      "t": 5,
+      "student_action": 1,
+      "teacher_action": 0,
+      "action": 1,
+      "student_prob": [
+        0.18329641222953796,
+        0.6417860388755798,
+        0.1749175637960434
+      ],
+      "teacher_prob": [
+        0.8654994964599609,
+        0.07164105772972107,
+        0.062859445810318
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.22083041071891785,
+      "teacher_kl": 1.12201988697052,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 580,
+        "surface": 84
+      }
+    },
+    {
+      "t": 6,
+      "student_action": 1,
+      "teacher_action": 0,
+      "action": 1,
+      "student_prob": [
+        0.3079056441783905,
+        0.48126402497291565,
+        0.21083037555217743
+      ],
+      "teacher_prob": [
+        0.9858741760253906,
+        0.010872134938836098,
+        0.003253689967095852
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.1239040344953537,
+      "teacher_kl": 1.0925170183181763,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 592,
+        "surface": 84
+      }
+    },
+    {
+      "t": 7,
+      "student_action": 1,
+      "teacher_action": 0,
+      "action": 1,
+      "student_prob": [
+        0.20354731380939484,
+        0.5569025278091431,
+        0.2395501434803009
+      ],
+      "teacher_prob": [
+        0.4688856899738312,
+        0.39940696954727173,
+        0.1317073255777359
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.21204575896263123,
+      "teacher_kl": 0.17971518635749817,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 405,
+        "surface": 84
+      }
+    },
+    {
+      "t": 8,
+      "student_action": 1,
+      "teacher_action": 1,
+      "action": 1,
+      "student_prob": [
+        0.04938448220491409,
+        0.5188481211662292,
+        0.43176743388175964
+      ],
+      "teacher_prob": [
+        0.05507165193557739,
+        0.6403564214706421,
+        0.30457186698913574
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.1987130343914032,
+      "teacher_kl": 0.034453049302101135,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 241,
+        "surface": 84
+      }
+    },
+    {
+      "t": 9,
+      "student_action": 2,
+      "teacher_action": 1,
+      "action": 2,
+      "student_prob": [
+        0.022833295166492462,
+        0.41123074293136597,
+        0.5659360289573669
+      ],
+      "teacher_prob": [
+        0.1494351476430893,
+        0.6151828169822693,
+        0.23538202047348022
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.20088301599025726,
+      "teacher_kl": 0.3220154643058777,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 233,
+        "surface": 84
+      }
+    },
+    {
+      "t": 10,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.014726727269589901,
+        0.3775798976421356,
+        0.6076933741569519
+      ],
+      "teacher_prob": [
+        0.41200706362724304,
+        0.11639798432588577,
+        0.4715948700904846
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.20218120515346527,
+      "teacher_kl": 1.116004467010498,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 317,
+        "surface": 84
+      }
+    },
+    {
+      "t": 11,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.016998648643493652,
+        0.28726887702941895,
+        0.6957324743270874
+      ],
+      "teacher_prob": [
+        0.038715120404958725,
+        0.22071385383605957,
+        0.7405710816383362
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.15539629757404327,
+      "teacher_kl": 0.019950177520513535,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 413,
+        "surface": 84
+      }
+    },
+    {
+      "t": 12,
+      "student_action": 2,
+      "teacher_action": 1,
+      "action": 2,
+      "student_prob": [
+        0.015624986961483955,
+        0.29952389001846313,
+        0.6848511695861816
+      ],
+      "teacher_prob": [
+        0.019003741443157196,
+        0.7544152736663818,
+        0.22658100724220276
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.14232391119003296,
+      "teacher_kl": 0.44998958706855774,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 489,
+        "surface": 84
+      }
+    },
+    {
+      "t": 13,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.01828896626830101,
+        0.41531381011009216,
+        0.5663972496986389
+      ],
+      "teacher_prob": [
+        0.21026992797851562,
+        0.07011401653289795,
+        0.7196161150932312
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.1392180323600769,
+      "teacher_kl": 0.5610643625259399,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 553,
+        "surface": 84
+      }
+    },
+    {
+      "t": 14,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.02115747332572937,
+        0.4261493980884552,
+        0.5526931285858154
+      ],
+      "teacher_prob": [
+        0.12686555087566376,
+        0.217513307929039,
+        0.6556211113929749
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.1139313280582428,
+      "teacher_kl": 0.192916139960289,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 577,
+        "surface": 84
+      }
+    },
+    {
+      "t": 15,
+      "student_action": 1,
+      "teacher_action": 2,
+      "action": 1,
+      "student_prob": [
+        0.05582613870501518,
+        0.49270638823509216,
+        0.4514675438404083
+      ],
+      "teacher_prob": [
+        0.06349920481443405,
+        0.08188401907682419,
+        0.8546167612075806
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.18203440308570862,
+      "teacher_kl": 0.4066013693809509,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 589,
+        "surface": 84
+      }
+    },
+    {
+      "t": 16,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.18929480016231537,
+        0.37454813718795776,
+        0.43615707755088806
+      ],
+      "teacher_prob": [
+        0.24171093106269836,
+        0.035620205104351044,
+        0.7226688861846924
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.0891270712018013,
+      "teacher_kl": 0.34018635749816895,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 482,
+        "surface": 84
+      }
+    },
+    {
+      "t": 17,
+      "student_action": 1,
+      "teacher_action": 2,
+      "action": 1,
+      "student_prob": [
+        0.25019603967666626,
+        0.4973173141479492,
+        0.2524866759777069
+      ],
+      "teacher_prob": [
+        0.056787118315696716,
+        0.017669321969151497,
+        0.925543487071991
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.2415301352739334,
+      "teacher_kl": 1.0591208934783936,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 190,
+        "surface": 84
+      }
+    },
+    {
+      "t": 18,
+      "student_action": 1,
+      "teacher_action": 0,
+      "action": 1,
+      "student_prob": [
+        0.09539579600095749,
+        0.6262264847755432,
+        0.2783777415752411
+      ],
+      "teacher_prob": [
+        0.8666577339172363,
+        0.020567484200000763,
+        0.11277476698160172
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.19492065906524658,
+      "teacher_kl": 1.7402150630950928,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 250,
+        "surface": 84
+      }
+    },
+    {
+      "t": 19,
+      "student_action": 1,
+      "teacher_action": 2,
+      "action": 1,
+      "student_prob": [
+        0.03159571811556816,
+        0.6224806904792786,
+        0.34592360258102417
+      ],
+      "teacher_prob": [
+        0.0029065182898193598,
+        0.3123767077922821,
+        0.6847168207168579
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.1886441856622696,
+      "teacher_kl": 0.24519619345664978,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 244,
+        "surface": 84
+      }
+    },
+    {
+      "t": 20,
+      "student_action": 1,
+      "teacher_action": 2,
+      "action": 1,
+      "student_prob": [
+        0.04021425172686577,
+        0.4842810034751892,
+        0.47550472617149353
+      ],
+      "teacher_prob": [
+        0.010750619694590569,
+        0.13053156435489655,
+        0.8587177991867065
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.17920836806297302,
+      "teacher_kl": 0.3222404718399048,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 256,
+        "surface": 84
+      }
+    },
+    {
+      "t": 21,
+      "student_action": 2,
+      "teacher_action": 1,
+      "action": 2,
+      "student_prob": [
+        0.06856551021337509,
+        0.33012858033180237,
+        0.6013059616088867
+      ],
+      "teacher_prob": [
+        0.035908717662096024,
+        0.5442631244659424,
+        0.4198282063007355
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.14603233337402344,
+      "teacher_kl": 0.09805181622505188,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 168,
+        "surface": 84
+      }
+    },
+    {
+      "t": 22,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.06663665175437927,
+        0.24437692761421204,
+        0.6889864206314087
+      ],
+      "teacher_prob": [
+        0.01369628868997097,
+        0.4554045796394348,
+        0.5308991074562073
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.15583859384059906,
+      "teacher_kl": 0.1234298050403595,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 208,
+        "surface": 84
+      }
+    },
+    {
+      "t": 23,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.07674150168895721,
+        0.18463821709156036,
+        0.7386202812194824
+      ],
+      "teacher_prob": [
+        0.025388630107045174,
+        0.30662378668785095,
+        0.667987585067749
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.12827828526496887,
+      "teacher_kl": 0.060300976037979126,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 199,
+        "surface": 84
+      }
+    },
+    {
+      "t": 24,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.0819840058684349,
+        0.16648872196674347,
+        0.7515273094177246
+      ],
+      "teacher_prob": [
+        0.0011407405836507678,
+        0.03573622182011604,
+        0.9631230235099792
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.17749366164207458,
+      "teacher_kl": 0.17905934154987335,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 179,
+        "surface": 84
+      }
+    },
+    {
+      "t": 25,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.0914556160569191,
+        0.18840888142585754,
+        0.7201354503631592
+      ],
+      "teacher_prob": [
+        0.002243746304884553,
+        0.25911375880241394,
+        0.7386424541473389
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.14085844159126282,
+      "teacher_kl": 0.09299089014530182,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 362,
+        "surface": 84
+      }
+    },
+    {
+      "t": 26,
+      "student_action": 1,
+      "teacher_action": 1,
+      "action": 1,
+      "student_prob": [
+        0.3022918403148651,
+        0.36804449558258057,
+        0.32966363430023193
+      ],
+      "teacher_prob": [
+        0.02940608747303486,
+        0.5627760887145996,
+        0.4078177809715271
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.3409997224807739,
+      "teacher_kl": 0.25723904371261597,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 200,
+        "surface": 84
+      }
+    },
+    {
+      "t": 27,
+      "student_action": 1,
+      "teacher_action": 2,
+      "action": 1,
+      "student_prob": [
+        0.46282055974006653,
+        0.481689989566803,
+        0.05548940226435661
+      ],
+      "teacher_prob": [
+        0.046695150434970856,
+        0.25255170464515686,
+        0.7007531523704529
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.16062292456626892,
+      "teacher_kl": 1.5069111585617065,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 362,
+        "surface": 84
+      }
+    },
+    {
+      "t": 28,
+      "student_action": 0,
+      "teacher_action": 2,
+      "action": 0,
+      "student_prob": [
+        0.5165750980377197,
+        0.4081689119338989,
+        0.07525607198476791
+      ],
+      "teacher_prob": [
+        0.01476824190467596,
+        0.1483089029788971,
+        0.8369228839874268
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.18235284090042114,
+      "teacher_kl": 1.8133667707443237,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 131,
+        "surface": 84
+      }
+    },
+    {
+      "t": 29,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.2159072756767273,
+        0.36325547099113464,
+        0.42083725333213806
+      ],
+      "teacher_prob": [
+        0.11235644668340683,
+        0.13433337211608887,
+        0.7533101439476013
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.23480036854743958,
+      "teacher_kl": 0.23157979547977448,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 163,
+        "surface": 84
+      }
+    },
+    {
+      "t": 30,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.11341448128223419,
+        0.20961399376392365,
+        0.6769714951515198
+      ],
+      "teacher_prob": [
+        0.006617920473217964,
+        0.2529070973396301,
+        0.7404749989509583
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.297167032957077,
+      "teacher_kl": 0.09507420659065247,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 195,
+        "surface": 84
+      }
+    },
+    {
+      "t": 31,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.25268831849098206,
+        0.1286909580230713,
+        0.6186206936836243
+      ],
+      "teacher_prob": [
+        0.0005298766191117465,
+        0.008959307335317135,
+        0.9905107617378235
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.3402749300003052,
+      "teacher_kl": 0.4391196370124817,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 259,
+        "surface": 84
+      }
+    },
+    {
+      "t": 32,
+      "student_action": 0,
+      "teacher_action": 1,
+      "action": 0,
+      "student_prob": [
+        0.5851914286613464,
+        0.12012550979852676,
+        0.294683039188385
+      ],
+      "teacher_prob": [
+        0.005345083307474852,
+        0.6574699878692627,
+        0.3371849060058594
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.3613644540309906,
+      "teacher_kl": 1.1379382610321045,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 146,
+        "surface": 84
+      }
+    },
+    {
+      "t": 33,
+      "student_action": 0,
+      "teacher_action": 2,
+      "action": 0,
+      "student_prob": [
+        0.5211127400398254,
+        0.24492719769477844,
+        0.2339600920677185
+      ],
+      "teacher_prob": [
+        0.03305431827902794,
+        0.13378863036632538,
+        0.8331570029258728
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.44371497631073,
+      "teacher_kl": 0.886109471321106,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 170,
+        "surface": 84
+      }
+    },
+    {
+      "t": 34,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.16275127232074738,
+        0.18905360996723175,
+        0.6481950879096985
+      ],
+      "teacher_prob": [
+        0.08127439022064209,
+        0.00270284665748477,
+        0.9160227179527283
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.5906225442886353,
+      "teacher_kl": 0.24888871610164642,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 210,
+        "surface": 84
+      }
+    },
+    {
+      "t": 35,
+      "student_action": 2,
+      "teacher_action": 0,
+      "action": 2,
+      "student_prob": [
+        0.18906539678573608,
+        0.09002053737640381,
+        0.7209140062332153
+      ],
+      "teacher_prob": [
+        0.6041538715362549,
+        0.01841020956635475,
+        0.3774358332157135
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.41623711585998535,
+      "teacher_kl": 0.4284018278121948,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 362,
+        "surface": 84
+      }
+    },
+    {
+      "t": 36,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.31242939829826355,
+        0.08656778186559677,
+        0.6010027527809143
+      ],
+      "teacher_prob": [
+        0.006858102977275848,
+        0.006198761519044638,
+        0.9869431257247925
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.3728327751159668,
+      "teacher_kl": 0.44700226187705994,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 133,
+        "surface": 84
+      }
+    },
+    {
+      "t": 37,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.27933913469314575,
+        0.10452090948820114,
+        0.6161399483680725
+      ],
+      "teacher_prob": [
+        0.1184956431388855,
+        0.09706056863069534,
+        0.7844437956809998
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.22120922803878784,
+      "teacher_kl": 0.08064025640487671,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 165,
+        "surface": 84
+      }
+    },
+    {
+      "t": 38,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.18431900441646576,
+        0.13297325372695923,
+        0.6827077269554138
+      ],
+      "teacher_prob": [
+        0.011476321145892143,
+        0.010057265870273113,
+        0.9784664511680603
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.2057296186685562,
+      "teacher_kl": 0.2943402826786041,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 201,
+        "surface": 84
+      }
+    },
+    {
+      "t": 39,
+      "student_action": 2,
+      "teacher_action": 0,
+      "action": 2,
+      "student_prob": [
+        0.1020166203379631,
+        0.15465940535068512,
+        0.7433240413665771
+      ],
+      "teacher_prob": [
+        0.5091515779495239,
+        0.020247256383299828,
+        0.4706011712551117
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.1327003538608551,
+      "teacher_kl": 0.5622285604476929,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 269,
+        "surface": 84
+      }
+    },
+    {
+      "t": 40,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.07842612266540527,
+        0.1757977157831192,
+        0.7457760572433472
+      ],
+      "teacher_prob": [
+        0.008131961338222027,
+        0.37950947880744934,
+        0.6123586297035217
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.13165277242660522,
+      "teacher_kl": 0.15291957557201385,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 365,
+        "surface": 84
+      }
+    },
+    {
+      "t": 41,
+      "student_action": 2,
+      "teacher_action": 1,
+      "action": 2,
+      "student_prob": [
+        0.048036713153123856,
+        0.18952542543411255,
+        0.7624378204345703
+      ],
+      "teacher_prob": [
+        0.006527345161885023,
+        0.5435943603515625,
+        0.4498782455921173
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.1591036021709442,
+      "teacher_kl": 0.32241564989089966,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 457,
+        "surface": 84
+      }
+    },
+    {
+      "t": 42,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.041291408240795135,
+        0.1499088704586029,
+        0.8087997436523438
+      ],
+      "teacher_prob": [
+        0.0027317998465150595,
+        0.009905129671096802,
+        0.9873630404472351
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.14642228186130524,
+      "teacher_kl": 0.16263484954833984,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 521,
+        "surface": 84
+      }
+    },
+    {
+      "t": 43,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.050104688853025436,
+        0.05176491662859917,
+        0.8981304168701172
+      ],
+      "teacher_prob": [
+        0.0006719924276694655,
+        0.0028602962847799063,
+        0.9964677095413208
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.1999829113483429,
+      "teacher_kl": 0.09235427528619766,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 581,
+        "surface": 84
+      }
+    },
+    {
+      "t": 44,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.06715739518404007,
+        0.03865835443139076,
+        0.8941843509674072
+      ],
+      "teacher_prob": [
+        0.17171552777290344,
+        0.006831116043031216,
+        0.8214532732963562
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.1284332126379013,
+      "teacher_kl": 0.07967685163021088,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 593,
+        "surface": 84
+      }
+    },
+    {
+      "t": 45,
+      "student_action": 2,
+      "teacher_action": 0,
+      "action": 2,
+      "student_prob": [
+        0.05183752253651619,
+        0.05102104693651199,
+        0.8971414566040039
+      ],
+      "teacher_prob": [
+        0.7112533450126648,
+        0.057150088250637054,
+        0.23159654438495636
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.3047395944595337,
+      "teacher_kl": 1.555562973022461,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 585,
+        "surface": 84
+      }
+    },
+    {
+      "t": 46,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.04614623263478279,
+        0.0749954879283905,
+        0.8788582682609558
+      ],
+      "teacher_prob": [
+        0.00727057084441185,
+        0.07761776447296143,
+        0.9151116609573364
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.1044752299785614,
+      "teacher_kl": 0.026222793385386467,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 577,
+        "surface": 84
+      }
+    },
+    {
+      "t": 47,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.04994224011898041,
+        0.07842612266540527,
+        0.8716316223144531
+      ],
+      "teacher_prob": [
+        0.08999402076005936,
+        0.19290541112422943,
+        0.7171005606651306
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.0932684987783432,
+      "teacher_kl": 0.08667576313018799,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 589,
+        "surface": 84
+      }
+    },
+    {
+      "t": 48,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.09925997257232666,
+        0.05811643227934837,
+        0.8426235914230347
+      ],
+      "teacher_prob": [
+        0.010467339307069778,
+        0.04297871142625809,
+        0.9465539455413818
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.1308954954147339,
+      "teacher_kl": 0.07357674092054367,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 581,
+        "surface": 84
+      }
+    },
+    {
+      "t": 49,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.08046849817037582,
+        0.06811272352933884,
+        0.8514187932014465
+      ],
+      "teacher_prob": [
+        0.006196839269250631,
+        0.14262287318706512,
+        0.8511802554130554
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.15091559290885925,
+      "teacher_kl": 0.08927788585424423,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 593,
+        "surface": 84
+      }
+    },
+    {
+      "t": 50,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.022862453013658524,
+        0.08219026774168015,
+        0.8949472308158875
+      ],
+      "teacher_prob": [
+        0.0008185182814486325,
+        0.02069935016334057,
+        0.978482186794281
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.09958131611347198,
+      "teacher_kl": 0.056049101054668427,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 585,
+        "surface": 84
+      }
+    },
+    {
+      "t": 51,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.010252295061945915,
+        0.08877003937959671,
+        0.900977611541748
+      ],
+      "teacher_prob": [
+        0.0034713824279606342,
+        0.013566059060394764,
+        0.9829624891281128
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.21838591992855072,
+      "teacher_kl": 0.05636388063430786,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 577,
+        "surface": 84
+      }
+    },
+    {
+      "t": 52,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.021312778815627098,
+        0.11666996777057648,
+        0.8620171546936035
+      ],
+      "teacher_prob": [
+        0.09857658296823502,
+        0.018619071692228317,
+        0.8828043341636658
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.8055548667907715,
+      "teacher_kl": 0.13783949613571167,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 589,
+        "surface": 84
+      }
+    },
+    {
+      "t": 53,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.109529048204422,
+        0.13808149099349976,
+        0.7523894309997559
+      ],
+      "teacher_prob": [
+        0.04149637743830681,
+        0.088750921189785,
+        0.8697527050971985
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.08211783319711685,
+      "teacher_kl": 0.046570323407649994,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 581,
+        "surface": 84
+      }
+    },
+    {
+      "t": 54,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.3245735466480255,
+        0.097960464656353,
+        0.5774659514427185
+      ],
+      "teacher_prob": [
+        0.11626526713371277,
+        0.06288601458072662,
+        0.8208487629890442
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.25038784742355347,
+      "teacher_kl": 0.14144787192344666,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 593,
+        "surface": 84
+      }
+    },
+    {
+      "t": 55,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.06116698309779167,
+        0.20473064482212067,
+        0.7341023683547974
+      ],
+      "teacher_prob": [
+        0.009477568790316582,
+        0.10861290246248245,
+        0.8819095492362976
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.3658979833126068,
+      "teacher_kl": 0.07525548338890076,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 585,
+        "surface": 84
+      }
+    },
+    {
+      "t": 56,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.06458936631679535,
+        0.3811631202697754,
+        0.5542475581169128
+      ],
+      "teacher_prob": [
+        0.06727752834558487,
+        0.3833028972148895,
+        0.5494195222854614
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.10470496118068695,
+      "teacher_kl": 8.216570131480694e-05,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 359,
+        "surface": 84
+      }
+    },
+    {
+      "t": 57,
+      "student_action": 2,
+      "teacher_action": 0,
+      "action": 2,
+      "student_prob": [
+        0.1022031232714653,
+        0.36420556902885437,
+        0.5335912704467773
+      ],
+      "teacher_prob": [
+        0.7336847186088562,
+        0.04331206530332565,
+        0.22300322353839874
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.3657229542732239,
+      "teacher_kl": 1.159397006034851,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 193,
+        "surface": 84
+      }
+    },
+    {
+      "t": 58,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.12317443639039993,
+        0.4099879860877991,
+        0.466837614774704
+      ],
+      "teacher_prob": [
+        0.009373832494020462,
+        0.023377804085612297,
+        0.9672483205795288
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.293149471282959,
+      "teacher_kl": 0.6135090589523315,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 144,
+        "surface": 84
+      }
+    },
+    {
+      "t": 59,
+      "student_action": 1,
+      "teacher_action": 2,
+      "action": 1,
+      "student_prob": [
+        0.07210807502269745,
+        0.5159502625465393,
+        0.4119417071342468
+      ],
+      "teacher_prob": [
+        0.0001950394653249532,
+        0.01775306835770607,
+        0.9820519089698792
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.2657610774040222,
+      "teacher_kl": 0.7921984195709229,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 176,
+        "surface": 84
+      }
+    },
+    {
+      "t": 60,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.04199901223182678,
+        0.4321487545967102,
+        0.5258522629737854
+      ],
+      "teacher_prob": [
+        0.07442748546600342,
+        0.009365491569042206,
+        0.9162070155143738
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.26606485247612,
+      "teacher_kl": 0.5153980255126953,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 224,
+        "surface": 84
+      }
+    },
+    {
+      "t": 61,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.04271208122372627,
+        0.2822412848472595,
+        0.6750466227531433
+      ],
+      "teacher_prob": [
+        0.006966060027480125,
+        0.00446674507111311,
+        0.9885672330856323
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.15836115181446075,
+      "teacher_kl": 0.3459615409374237,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 292,
+        "surface": 128
+      }
+    },
+    {
+      "t": 62,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.0493406280875206,
+        0.1793968230485916,
+        0.7712624669075012
+      ],
+      "teacher_prob": [
+        0.004676776006817818,
+        0.007009921595454216,
+        0.9883132576942444
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.16355404257774353,
+      "teacher_kl": 0.21132570505142212,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 239,
+        "surface": 84
+      }
+    },
+    {
+      "t": 63,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.06435526907444,
+        0.12932097911834717,
+        0.8063237071037292
+      ],
+      "teacher_prob": [
+        0.004554239101707935,
+        0.016248119994997978,
+        0.97919762134552
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.16069655120372772,
+      "teacher_kl": 0.1444423347711563,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 203,
+        "surface": 84
+      }
+    },
+    {
+      "t": 64,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.07467136532068253,
+        0.11395560204982758,
+        0.8113729953765869
+      ],
+      "teacher_prob": [
+        0.02097495272755623,
+        0.2528684437274933,
+        0.7261565923690796
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.16395220160484314,
+      "teacher_kl": 0.0943421721458435,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 271,
+        "surface": 84
+      }
+    },
+    {
+      "t": 65,
+      "student_action": 2,
+      "teacher_action": 0,
+      "action": 2,
+      "student_prob": [
+        0.049090418964624405,
+        0.08019942790269852,
+        0.8707100749015808
+      ],
+      "teacher_prob": [
+        0.5714768171310425,
+        0.2666567862033844,
+        0.16186635196208954
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.15174400806427002,
+      "teacher_kl": 1.450751781463623,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 367,
+        "surface": 84
+      }
+    },
+    {
+      "t": 66,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.02876776084303856,
+        0.034653548151254654,
+        0.936578631401062
+      ],
+      "teacher_prob": [
+        0.002684971084818244,
+        0.006992856040596962,
+        0.9903221726417542
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.1610315442085266,
+      "teacher_kl": 0.03769703954458237,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 459,
+        "surface": 84
+      }
+    },
+    {
+      "t": 67,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.027697330340743065,
+        0.012393930926918983,
+        0.9599087238311768
+      ],
+      "teacher_prob": [
+        0.0025623731780797243,
+        0.010022766888141632,
+        0.9874147772789001
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.0883714109659195,
+      "teacher_kl": 0.01966862566769123,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 523,
+        "surface": 84
+      }
+    },
+    {
+      "t": 68,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.020487522706389427,
+        0.010572012513875961,
+        0.9689404964447021
+      ],
+      "teacher_prob": [
+        0.02140866592526436,
+        0.010251890867948532,
+        0.9683393836021423
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.13238047063350677,
+      "teacher_kl": 2.5427929358556867e-05,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 583,
+        "surface": 84
+      }
+    },
+    {
+      "t": 69,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.030105024576187134,
+        0.028041770681738853,
+        0.9418532252311707
+      ],
+      "teacher_prob": [
+        0.009009415283799171,
+        0.027189219370484352,
+        0.963801383972168
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.0696491152048111,
+      "teacher_kl": 0.010493308305740356,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 595,
+        "surface": 84
+      }
+    },
+    {
+      "t": 70,
+      "student_action": 2,
+      "teacher_action": 1,
+      "action": 2,
+      "student_prob": [
+        0.07584718614816666,
+        0.09657794237136841,
+        0.8275749087333679
+      ],
+      "teacher_prob": [
+        0.016536951065063477,
+        0.6480149030685425,
+        0.33544817566871643
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.0712493509054184,
+      "teacher_kl": 0.9054291248321533,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 587,
+        "surface": 84
+      }
+    },
+    {
+      "t": 71,
+      "student_action": 2,
+      "teacher_action": 1,
+      "action": 2,
+      "student_prob": [
+        0.17145030200481415,
+        0.18730393052101135,
+        0.6412457823753357
+      ],
+      "teacher_prob": [
+        0.0003474894620012492,
+        0.892307698726654,
+        0.10734477639198303
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.07147400081157684,
+      "teacher_kl": 1.1989428997039795,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 579,
+        "surface": 84
+      }
+    },
+    {
+      "t": 72,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.1094147190451622,
+        0.14855845272541046,
+        0.7420267462730408
+      ],
+      "teacher_prob": [
+        0.00108892354182899,
+        0.2610875368118286,
+        0.7378236055374146
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.08492201566696167,
+      "teacher_kl": 0.1380101889371872,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 591,
+        "surface": 84
+      }
+    },
+    {
+      "t": 73,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.10976506024599075,
+        0.0970085859298706,
+        0.7932263016700745
+      ],
+      "teacher_prob": [
+        0.01213486585766077,
+        0.045468345284461975,
+        0.9423967599868774
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.2285376787185669,
+      "teacher_kl": 0.10121242702007294,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 583,
+        "surface": 84
+      }
+    },
+    {
+      "t": 74,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.23297981917858124,
+        0.08115524798631668,
+        0.6858649253845215
+      ],
+      "teacher_prob": [
+        0.17154626548290253,
+        0.17311309278011322,
+        0.6553406715393066
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.06497012078762054,
+      "teacher_kl": 0.04880237579345703,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 595,
+        "surface": 84
+      }
+    },
+    {
+      "t": 75,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.24634121358394623,
+        0.07666882127523422,
+        0.6769899725914001
+      ],
+      "teacher_prob": [
+        0.019434858113527298,
+        0.019063130021095276,
+        0.9615020155906677
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.09219004213809967,
+      "teacher_kl": 0.26144489645957947,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 8,
+        "kart1_speed": 587,
+        "surface": 84
+      }
+    },
+    {
+      "t": 76,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.08124041557312012,
+        0.060964155942201614,
+        0.8577953577041626
+      ],
+      "teacher_prob": [
+        0.025721952319145203,
+        0.06622953712940216,
+        0.9080484509468079
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.2730408310890198,
+      "teacher_kl": 0.02760169468820095,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 579,
+        "surface": 84
+      }
+    },
+    {
+      "t": 77,
+      "student_action": 2,
+      "teacher_action": 2,
+      "action": 2,
+      "student_prob": [
+        0.05468025058507919,
+        0.13567696511745453,
+        0.8096427917480469
+      ],
+      "teacher_prob": [
+        0.19855459034442902,
+        0.032258447259664536,
+        0.7691869139671326
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.30398669838905334,
+      "teacher_kl": 0.1702813059091568,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 591,
+        "surface": 84
+      }
+    },
+    {
+      "t": 78,
+      "student_action": 2,
+      "teacher_action": 0,
+      "action": 2,
+      "student_prob": [
+        0.09489746391773224,
+        0.26536986231803894,
+        0.6397326588630676
+      ],
+      "teacher_prob": [
+        0.6672853827476501,
+        0.043502263724803925,
+        0.28921231627464294
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.08978074789047241,
+      "teacher_kl": 0.9932191371917725,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 591,
+        "surface": 84
+      }
+    }
+  ],
+  "reason": "no_progress",
+  "frames": 629,
+  "progress": 8,
+  "one_lap": false,
+  "reward": 0.03333333333333333,
+  "jumps": 0,
+  "target_reached": false,
+  "target": 13,
+  "start_id": "f505_left_p14",
+  "start_progress": 7,
+  "advance": 1
+}

@@ -1,0 +1,23 @@
+{
+  "starts": [
+    "f455_left_p38",
+    "f505_left_p14"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "selection": "Two reused diagnostic starts where all joint seeds fail and CNN succeeds; not an unbiased success estimate.",
+  "interventions": "At first student/teacher greedy disagreement: teacher for 1 decision, 4 decisions, or remaining episode (225 upper bound). Then student resumes; all observations and histories follow actual executed actions.",
+  "controls": "Unmodified student and teacher trajectories; exact archived action/reason/frames/progress/jumps regression for all six pairs. Teacher is frozen direct CNN head.",
+  "steps": "One decision repeats at most 8 game frames. No training or checkpoint selection.",
+  "sources": {
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/training/divergence_diagnosis.py": "c4a1f147b7b7cd8a4dbca02a2cefd9d1e7b68392cb3183daa298e4b8eadf16e3",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/inhibition_reconstruction_v1/stats.pt": "45ba7cfe61025b8fe92f845cc49e46a6dff5cc3ade1f8f5d87a9f4555ed891bd",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/layer_probes_v1/k2_cnn_mlp32.pt": "5b2e8749110d25c4ad76ecf46b4c73e8ef358b03de81109269c25e6f4e7eeae2",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/distillation_replication_v1/seed0/joint_best.pt": "e74cbdb3012939a6ff3773d3222a6483d99f5c084dda9f45e0b6d925ae90494b",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/distillation_replication_v1/seed1/joint_best.pt": "861a9cfc7499cd7a01f092dbd3082a6f1b2e45bf457f184d2e33c5ff77dbf4d2",
+    "/home/giaok/PycharmProjects/Fly_playing_mario_cart/flykart/runs/distillation_replication_v1/seed2/joint_best.pt": "7da3cb9f4a848a1a70eb25c0636906b765359268ea155ebfa7466241b5c073c7"
+  }
+}

@@ -1,0 +1,566 @@
+[
+  {
+    "seed": 0,
+    "start": "f455_left_p38",
+    "first_disagreement": 3,
+    "first_step": {
+      "t": 3,
+      "student_action": 1,
+      "teacher_action": 2,
+      "action": 1,
+      "student_prob": [
+        0.02149752713739872,
+        0.699726939201355,
+        0.27877551317214966
+      ],
+      "teacher_prob": [
+        0.0071619064547121525,
+        0.18129077553749084,
+        0.8115473389625549
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.24273887276649475,
+      "teacher_kl": 0.6144461631774902,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 586,
+        "surface": 84
+      }
+    },
+    "outcomes": {
+      "student": {
+        "target_reached": false,
+        "frames": 933,
+        "progress": 8,
+        "reason": "no_progress"
+      },
+      "teacher": {
+        "target_reached": true,
+        "frames": 516,
+        "progress": 13,
+        "reason": "target_reached"
+      },
+      "correct_1": {
+        "target_reached": true,
+        "frames": 443,
+        "progress": 13,
+        "reason": "target_reached"
+      },
+      "correct_4": {
+        "target_reached": true,
+        "frames": 443,
+        "progress": 13,
+        "reason": "target_reached"
+      },
+      "correct_225": {
+        "target_reached": true,
+        "frames": 516,
+        "progress": 13,
+        "reason": "target_reached"
+      }
+    },
+    "trajectory_metrics": {
+      "student": {
+        "decisions": 117,
+        "disagreement_rate": 0.4444444444444444,
+        "mean_mse": 0.18174836478936365,
+        "mean_kl": 0.42636955158215845
+      },
+      "teacher": {
+        "decisions": 65,
+        "disagreement_rate": 0.4307692307692308,
+        "mean_mse": 0.2528547601057933,
+        "mean_kl": 0.6307627963188749
+      },
+      "correct_1": {
+        "decisions": 56,
+        "disagreement_rate": 0.39285714285714285,
+        "mean_mse": 0.20955056737044028,
+        "mean_kl": 0.3772537649409579
+      },
+      "correct_4": {
+        "decisions": 56,
+        "disagreement_rate": 0.39285714285714285,
+        "mean_mse": 0.20955056876742414,
+        "mean_kl": 0.37725376296189744
+      },
+      "correct_225": {
+        "decisions": 65,
+        "disagreement_rate": 0.4307692307692308,
+        "mean_mse": 0.25285476457614164,
+        "mean_kl": 0.6307627497240901
+      }
+    }
+  },
+  {
+    "seed": 0,
+    "start": "f505_left_p14",
+    "first_disagreement": 0,
+    "first_step": {
+      "t": 0,
+      "student_action": 1,
+      "teacher_action": 0,
+      "action": 1,
+      "student_prob": [
+        0.031592950224876404,
+        0.6626718640327454,
+        0.30573514103889465
+      ],
+      "teacher_prob": [
+        0.6632702946662903,
+        0.30355381965637207,
+        0.03317591920495033
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.2894369661808014,
+      "teacher_kl": 1.7084884643554688,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 592,
+        "surface": 64
+      }
+    },
+    "outcomes": {
+      "student": {
+        "target_reached": false,
+        "frames": 629,
+        "progress": 8,
+        "reason": "no_progress"
+      },
+      "teacher": {
+        "target_reached": true,
+        "frames": 601,
+        "progress": 13,
+        "reason": "target_reached"
+      },
+      "correct_1": {
+        "target_reached": false,
+        "frames": 629,
+        "progress": 8,
+        "reason": "no_progress"
+      },
+      "correct_4": {
+        "target_reached": false,
+        "frames": 629,
+        "progress": 8,
+        "reason": "no_progress"
+      },
+      "correct_225": {
+        "target_reached": true,
+        "frames": 601,
+        "progress": 13,
+        "reason": "target_reached"
+      }
+    },
+    "trajectory_metrics": {
+      "student": {
+        "decisions": 79,
+        "disagreement_rate": 0.5063291139240507,
+        "mean_mse": 0.18759269408787352,
+        "mean_kl": 0.5288117001469754
+      },
+      "teacher": {
+        "decisions": 76,
+        "disagreement_rate": 0.3815789473684211,
+        "mean_mse": 0.23592060922007813,
+        "mean_kl": 0.5452739181254354
+      },
+      "correct_1": {
+        "decisions": 79,
+        "disagreement_rate": 0.4177215189873418,
+        "mean_mse": 0.25677213091639023,
+        "mean_kl": 0.38468953339925294
+      },
+      "correct_4": {
+        "decisions": 79,
+        "disagreement_rate": 0.5569620253164557,
+        "mean_mse": 0.22812980639783642,
+        "mean_kl": 0.6591626761268966
+      },
+      "correct_225": {
+        "decisions": 76,
+        "disagreement_rate": 0.3815789473684211,
+        "mean_mse": 0.23592060892597624,
+        "mean_kl": 0.5452739168448668
+      }
+    }
+  },
+  {
+    "seed": 1,
+    "start": "f455_left_p38",
+    "first_disagreement": 0,
+    "first_step": {
+      "t": 0,
+      "student_action": 2,
+      "teacher_action": 1,
+      "action": 2,
+      "student_prob": [
+        0.06532761454582214,
+        0.37525901198387146,
+        0.5594133734703064
+      ],
+      "teacher_prob": [
+        0.01847613789141178,
+        0.5898680090904236,
+        0.3916558623313904
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.5125600099563599,
+      "teacher_kl": 0.1038254052400589,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 590,
+        "surface": 84
+      }
+    },
+    "outcomes": {
+      "student": {
+        "target_reached": false,
+        "frames": 682,
+        "progress": 8,
+        "reason": "no_progress"
+      },
+      "teacher": {
+        "target_reached": true,
+        "frames": 516,
+        "progress": 13,
+        "reason": "target_reached"
+      },
+      "correct_1": {
+        "target_reached": false,
+        "frames": 751,
+        "progress": 8,
+        "reason": "no_progress"
+      },
+      "correct_4": {
+        "target_reached": true,
+        "frames": 1059,
+        "progress": 13,
+        "reason": "target_reached"
+      },
+      "correct_225": {
+        "target_reached": true,
+        "frames": 516,
+        "progress": 13,
+        "reason": "target_reached"
+      }
+    },
+    "trajectory_metrics": {
+      "student": {
+        "decisions": 86,
+        "disagreement_rate": 0.20930232558139536,
+        "mean_mse": 0.19854124800063844,
+        "mean_kl": 0.3346269384113162
+      },
+      "teacher": {
+        "decisions": 65,
+        "disagreement_rate": 0.4461538461538462,
+        "mean_mse": 0.2688797395962935,
+        "mean_kl": 0.5428369004279375
+      },
+      "correct_1": {
+        "decisions": 94,
+        "disagreement_rate": 0.1702127659574468,
+        "mean_mse": 0.195922500434074,
+        "mean_kl": 0.2544308442107223
+      },
+      "correct_4": {
+        "decisions": 133,
+        "disagreement_rate": 0.3684210526315789,
+        "mean_mse": 0.17995313832298257,
+        "mean_kl": 0.42508510547984196
+      },
+      "correct_225": {
+        "decisions": 65,
+        "disagreement_rate": 0.4461538461538462,
+        "mean_mse": 0.2688797401694151,
+        "mean_kl": 0.5428369172777121
+      }
+    }
+  },
+  {
+    "seed": 1,
+    "start": "f505_left_p14",
+    "first_disagreement": 0,
+    "first_step": {
+      "t": 0,
+      "student_action": 1,
+      "teacher_action": 0,
+      "action": 1,
+      "student_prob": [
+        0.10239619016647339,
+        0.5073291659355164,
+        0.39027461409568787
+      ],
+      "teacher_prob": [
+        0.6632702946662903,
+        0.30355381965637207,
+        0.03317591920495033
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.45428118109703064,
+      "teacher_kl": 1.001524806022644,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 592,
+        "surface": 64
+      }
+    },
+    "outcomes": {
+      "student": {
+        "target_reached": false,
+        "frames": 629,
+        "progress": 8,
+        "reason": "no_progress"
+      },
+      "teacher": {
+        "target_reached": true,
+        "frames": 601,
+        "progress": 13,
+        "reason": "target_reached"
+      },
+      "correct_1": {
+        "target_reached": false,
+        "frames": 629,
+        "progress": 8,
+        "reason": "no_progress"
+      },
+      "correct_4": {
+        "target_reached": false,
+        "frames": 629,
+        "progress": 8,
+        "reason": "no_progress"
+      },
+      "correct_225": {
+        "target_reached": true,
+        "frames": 601,
+        "progress": 13,
+        "reason": "target_reached"
+      }
+    },
+    "trajectory_metrics": {
+      "student": {
+        "decisions": 79,
+        "disagreement_rate": 0.31645569620253167,
+        "mean_mse": 0.1750796729156488,
+        "mean_kl": 0.3210091172611412
+      },
+      "teacher": {
+        "decisions": 76,
+        "disagreement_rate": 0.39473684210526316,
+        "mean_mse": 0.25880588983234604,
+        "mean_kl": 0.5043193744924409
+      },
+      "correct_1": {
+        "decisions": 79,
+        "disagreement_rate": 0.759493670886076,
+        "mean_mse": 0.474815117596071,
+        "mean_kl": 1.5608454067260027
+      },
+      "correct_4": {
+        "decisions": 79,
+        "disagreement_rate": 0.34177215189873417,
+        "mean_mse": 0.2110780649170091,
+        "mean_kl": 0.4041490480277976
+      },
+      "correct_225": {
+        "decisions": 76,
+        "disagreement_rate": 0.39473684210526316,
+        "mean_mse": 0.25880589120482145,
+        "mean_kl": 0.5043193709019473
+      }
+    }
+  },
+  {
+    "seed": 2,
+    "start": "f455_left_p38",
+    "first_disagreement": 3,
+    "first_step": {
+      "t": 3,
+      "student_action": 1,
+      "teacher_action": 2,
+      "action": 1,
+      "student_prob": [
+        0.0993301048874855,
+        0.7572587728500366,
+        0.14341111481189728
+      ],
+      "teacher_prob": [
+        0.0071619064547121525,
+        0.18129077553749084,
+        0.8115473389625549
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.177301287651062,
+      "teacher_kl": 1.1285886764526367,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 586,
+        "surface": 84
+      }
+    },
+    "outcomes": {
+      "student": {
+        "target_reached": false,
+        "frames": 854,
+        "progress": 8,
+        "reason": "no_progress"
+      },
+      "teacher": {
+        "target_reached": true,
+        "frames": 516,
+        "progress": 13,
+        "reason": "target_reached"
+      },
+      "correct_1": {
+        "target_reached": false,
+        "frames": 790,
+        "progress": 8,
+        "reason": "no_progress"
+      },
+      "correct_4": {
+        "target_reached": false,
+        "frames": 759,
+        "progress": 8,
+        "reason": "no_progress"
+      },
+      "correct_225": {
+        "target_reached": true,
+        "frames": 516,
+        "progress": 13,
+        "reason": "target_reached"
+      }
+    },
+    "trajectory_metrics": {
+      "student": {
+        "decisions": 107,
+        "disagreement_rate": 0.4672897196261682,
+        "mean_mse": 0.16075991073222917,
+        "mean_kl": 0.4908964566747162
+      },
+      "teacher": {
+        "decisions": 65,
+        "disagreement_rate": 0.4307692307692308,
+        "mean_mse": 0.2583998550589268,
+        "mean_kl": 0.47805403840656463
+      },
+      "correct_1": {
+        "decisions": 99,
+        "disagreement_rate": 0.45454545454545453,
+        "mean_mse": 0.18829334963752767,
+        "mean_kl": 0.5475371423450233
+      },
+      "correct_4": {
+        "decisions": 95,
+        "disagreement_rate": 0.4105263157894737,
+        "mean_mse": 0.1734755684670649,
+        "mean_kl": 0.5214198188954278
+      },
+      "correct_225": {
+        "decisions": 65,
+        "disagreement_rate": 0.4307692307692308,
+        "mean_mse": 0.25839985792453474,
+        "mean_kl": 0.47805400450642294
+      }
+    }
+  },
+  {
+    "seed": 2,
+    "start": "f505_left_p14",
+    "first_disagreement": 0,
+    "first_step": {
+      "t": 0,
+      "student_action": 1,
+      "teacher_action": 0,
+      "action": 1,
+      "student_prob": [
+        0.11499562114477158,
+        0.6667460203170776,
+        0.2182583212852478
+      ],
+      "teacher_prob": [
+        0.6632702946662903,
+        0.30355381965637207,
+        0.03317591920495033
+      ],
+      "teacher_used": false,
+      "normalized_mse": 0.3968910574913025,
+      "teacher_kl": 0.8608909845352173,
+      "after": {
+        "lap": 128,
+        "current_checkpoint": 7,
+        "kart1_speed": 592,
+        "surface": 64
+      }
+    },
+    "outcomes": {
+      "student": {
+        "target_reached": false,
+        "frames": 629,
+        "progress": 8,
+        "reason": "no_progress"
+      },
+      "teacher": {
+        "target_reached": true,
+        "frames": 601,
+        "progress": 13,
+        "reason": "target_reached"
+      },
+      "correct_1": {
+        "target_reached": false,
+        "frames": 629,
+        "progress": 8,
+        "reason": "no_progress"
+      },
+      "correct_4": {
+        "target_reached": false,
+        "frames": 629,
+        "progress": 8,
+        "reason": "no_progress"
+      },
+      "correct_225": {
+        "target_reached": true,
+        "frames": 601,
+        "progress": 13,
+        "reason": "target_reached"
+      }
+    },
+    "trajectory_metrics": {
+      "student": {
+        "decisions": 79,
+        "disagreement_rate": 0.4177215189873418,
+        "mean_mse": 0.1757363833581345,
+        "mean_kl": 0.5466191745657898
+      },
+      "teacher": {
+        "decisions": 76,
+        "disagreement_rate": 0.32894736842105265,
+        "mean_mse": 0.2607309666315192,
+        "mean_kl": 0.41787928859948326
+      },
+      "correct_1": {
+        "decisions": 79,
+        "disagreement_rate": 0.6455696202531646,
+        "mean_mse": 0.20422943747496303,
+        "mean_kl": 0.7953515080027754
+      },
+      "correct_4": {
+        "decisions": 79,
+        "disagreement_rate": 0.4430379746835443,
+        "mean_mse": 0.1766612250593644,
+        "mean_kl": 0.6204398761067209
+      },
+      "correct_225": {
+        "decisions": 76,
+        "disagreement_rate": 0.32894736842105265,
+        "mean_mse": 0.260730969278436,
+        "mean_kl": 0.4178793140025319
+      }
+    }
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "state": "completed",
+  "episodes": 30,
+  "archive_regressions": 12,
+  "branch_prefix_checks": true,
+  "permanent_switch_matches_teacher": true,
+  "sources_unchanged": true
+}
