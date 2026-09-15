@@ -1,0 +1,38 @@
+{
+  "all_eligible_branches": {
+    "cnn_8": {
+      "success": 96,
+      "total": 129
+    },
+    "cnn_32": {
+      "success": 70,
+      "total": 107
+    },
+    "waypoint_8": {
+      "success": 118,
+      "total": 129
+    },
+    "waypoint_32": {
+      "success": 95,
+      "total": 107
+    }
+  },
+  "baseline_failures": {
+    "cnn_8": {
+      "success": 29,
+      "total": 43
+    },
+    "cnn_32": {
+      "success": 19,
+      "total": 43
+    },
+    "waypoint_8": {
+      "success": 43,
+      "total": 43
+    },
+    "waypoint_32": {
+      "success": 37,
+      "total": 43
+    }
+  }
+}

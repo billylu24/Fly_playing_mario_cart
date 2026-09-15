@@ -1,0 +1,134 @@
+[
+  {
+    "seed": 0,
+    "start_id": "f450_right_p36",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 0,
+    "start_id": "f480_center_p12",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 0,
+    "start_id": "f480_left_p12",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 0,
+    "start_id": "f480_center_p24",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 0,
+    "start_id": "f480_center_p36",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 0,
+    "start_id": "f600_center_p12",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 0,
+    "start_id": "f600_right_p12",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 0,
+    "start_id": "f600_center_p24",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 0,
+    "start_id": "f600_center_p48",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 1,
+    "start_id": "f480_center_p48",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 1,
+    "start_id": "f540_right_p12",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 1,
+    "start_id": "f540_center_p48",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 1,
+    "start_id": "f540_left_p48",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 1,
+    "start_id": "f600_center_p12",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 1,
+    "start_id": "f600_right_p12",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 1,
+    "start_id": "f600_center_p24",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 2,
+    "start_id": "f540_right_p24",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 2,
+    "start_id": "f540_center_p48",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 2,
+    "start_id": "f540_left_p48",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 2,
+    "start_id": "f600_center_p12",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 2,
+    "start_id": "f600_right_p12",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  },
+  {
+    "seed": 2,
+    "start_id": "f600_center_p24",
+    "takeover": 32,
+    "reason": "baseline_already_terminal"
+  }
+]

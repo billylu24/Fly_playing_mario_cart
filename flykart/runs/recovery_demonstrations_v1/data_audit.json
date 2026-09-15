@@ -1,0 +1,18 @@
+{
+  "train_only": true,
+  "all_prefixes_match": true,
+  "all_selected_frame_hashes_and_masks_match": true,
+  "matched_failure_branch_pairs": {
+    "both": 47,
+    "waypoint_only": 33,
+    "cnn_only": 1,
+    "neither": 5
+  },
+  "unique_full_selected_trajectories": 74,
+  "exact_duplicate_selected_trajectories": 7,
+  "supervised_action_counts": [
+    486,
+    2263,
+    1416
+  ]
+}

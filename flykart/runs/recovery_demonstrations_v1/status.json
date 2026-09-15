@@ -1,0 +1,8 @@
+{
+  "state": "completed",
+  "baseline_episodes": 129,
+  "branch_episodes": 472,
+  "skipped_branch_pairs": 22,
+  "sources_unchanged": true,
+  "quality_gate_passed": true
+}

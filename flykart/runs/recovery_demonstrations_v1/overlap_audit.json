@@ -1,0 +1,43 @@
+{
+  "supervised_distinct_frames": 3758,
+  "prefix_distinct_frames": 1096,
+  "comparisons": {
+    "validation": {
+      "files": 6,
+      "distinct_frames": 251,
+      "supervised_overlap": 0,
+      "prefix_overlap": 0
+    },
+    "test": {
+      "files": 17,
+      "distinct_frames": 795,
+      "supervised_overlap": 0,
+      "prefix_overlap": 0
+    },
+    "action_distillation_v1": {
+      "files": 18,
+      "distinct_frames": 1025,
+      "supervised_overlap": 0,
+      "prefix_overlap": 0
+    },
+    "architecture_mechanisms_v1": {
+      "files": 18,
+      "distinct_frames": 1051,
+      "supervised_overlap": 0,
+      "prefix_overlap": 0
+    },
+    "distillation_replication_v1": {
+      "files": 24,
+      "distinct_frames": 1268,
+      "supervised_overlap": 0,
+      "prefix_overlap": 0
+    },
+    "inhibition_reconstruction_v1": {
+      "files": 18,
+      "distinct_frames": 817,
+      "supervised_overlap": 0,
+      "prefix_overlap": 0
+    }
+  },
+  "interpretation": "Exact pixel equality only. Zero overlap does not imply independent scenes or tracks. Audit does not inspect held-out action labels."
+}
